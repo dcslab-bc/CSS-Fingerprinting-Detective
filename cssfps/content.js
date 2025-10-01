@@ -8,7 +8,6 @@ if (window.__cssLoggerInjected) {
   // 수집 한도를 정해 DevTools/메모리 과부하 방지
   const MAX_RULES_PER_SHEET = 800;  // 스타일시트 1개당 최대 수집할 규칙 수
   const URL_SNIPPET_LEN     = 800;  // 규칙의 cssText를 저장할 때 잘라낼 최대 길이
-
   // 보조 함수들
   // CSSRule.type(숫자) → 읽기 쉬운 이름으로 변환
   function getRuleTypeNameByNumber(t) {
@@ -63,6 +62,7 @@ if (window.__cssLoggerInjected) {
   // 휴리스틱: Source / Sink 후보 판별
   //  - Source: 환경/렌더링 차이를 드러내는 신호(폰트, @media, @supports, @container, 특정 UI요소 등)
   //  - Sink  : 네트워크 요청이나 외부 리소스 로드 등 관찰 가능한 행동(url, @import, 숨김 로딩 패턴 등)
+  
   function isLikelySource(typeName, cssText, selector) {
     const text = (cssText || "").toLowerCase();
     const sel  = (selector || "").toLowerCase();
@@ -101,6 +101,7 @@ if (window.__cssLoggerInjected) {
   }
 
   // 결과를 담을 컨테이너(dump)
+  
   const dump = {
     page: location.href,      // 현재 페이지 URL
     timestamp: Date.now(),    // 수집 시각
@@ -150,7 +151,8 @@ if (window.__cssLoggerInjected) {
       }
       if (isLikelySink(type, cssText, selector)) {
         entry.sinks.push({ reason: "heuristic_sink", urls: entry.urls.slice() });
-      
+      }
+
       outList.push(entry);
 
       // @media/@supports/@container 내부에 중첩된 하위 규칙이 있으면 재귀 순회
@@ -166,9 +168,11 @@ if (window.__cssLoggerInjected) {
     return outList;
   }
 
+
   // 문서 내 모든 스타일시트(document.styleSheets) 순회
   //  - 접근 가능한 경우 cssRules를 읽어 walkRulesToList로 수집
   //  - 크로스 오리진 등으로 접근 불가하면 목록에 기록
+  
   for (var s = 0; s < document.styleSheets.length; s++) {
     var sheet    = document.styleSheets[s];
     var sheetRec = { href: sheet.href || "(inline <style>)", rules: 0, rulesList: [] };
@@ -197,6 +201,7 @@ if (window.__cssLoggerInjected) {
   // Source ↔ Sink 연관(association) 만들기
   //  - 같은 규칙 / 같은 선택자 / 같은 그룹(@media/@supports/@container) 기준으로 연결
   //  - 목적: “이 소스 조건이 켜지면 이 URL이 로드된다”의 단서를 찾기 위함
+  
   dump.associations = [];
   for (var si = 0; si < dump.sheets.length; si++) {
     var sheetRec  = dump.sheets[si];

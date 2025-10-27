@@ -1,29 +1,38 @@
-// 이미 주입된 적이 있는지 확인하여, 중복 실행을 막음
+// ====================================================================
+// content.js  — CSS 핑거프린팅
+// - 소스: @media, @container, @supports, @font-face, @import
+// - 수정: 실제 URL(@import/url())이 있는 경우에만 규칙을 sink로 간주
+// - 수정: 미디어 기능은 선언부가 아니라 @media 조건에서만 읽음
+// - 연결 정보에는 사이트가 핑거프린팅하려는 대상으로 보이는 항목(의미적 라벨)을 포함
+// - 위험 점수(risk scoring)와 전체 위험 수준(riskLevel)을 추가
+// ====================================================================
+
 if (window.__cssLoggerInjected) {
-  console.log("Already injected");
+  // 이미 주입됨
 } else {
-  // 주입 플래그 설정
   window.__cssLoggerInjected = true;
 
-  // 수집 한도를 정해 DevTools/메모리 과부하 방지
-  const MAX_RULES_PER_SHEET = 800;  // 스타일시트 1개당 최대 수집할 규칙 수
-  const URL_SNIPPET_LEN     = 800;  // 규칙의 cssText를 저장할 때 잘라낼 최대 길이
-  // 보조 함수들
-  // CSSRule.type(숫자) → 읽기 쉬운 이름으로 변환
+  const MAX_RULES_PER_SHEET = 1500;
+  const URL_SNIPPET_LEN     = 1200;
+
+  // ---------- 헬퍼 ----------
+  const short = (s, n = 220) => (s && s.length > n ? s.slice(0, n) + "..." : (s || ""));
+  const lower = (s) => (s || "").toLowerCase();
+
   function getRuleTypeNameByNumber(t) {
     const map = {};
     if (typeof CSSRule !== "undefined") {
-      map[CSSRule.STYLE_RULE]     = "CSSStyleRule";     // 일반 선택자 규칙
-      map[CSSRule.IMPORT_RULE]    = "CSSImportRule";    // @import
-      map[CSSRule.MEDIA_RULE]     = "CSSMediaRule";     // @media
-      map[CSSRule.FONT_FACE_RULE] = "CSSFontFaceRule";  // @font-face
-      map[CSSRule.SUPPORTS_RULE]  = "CSSSupportsRule";  // @supports
-      // @container는 표준 상수가 없는 브라우저가 있어서 아래 constructor.name로 식별
+      map[CSSRule.STYLE_RULE]       = "CSSStyleRule";
+      map[CSSRule.IMPORT_RULE]      = "CSSImportRule";
+      map[CSSRule.MEDIA_RULE]       = "CSSMediaRule";
+      map[CSSRule.FONT_FACE_RULE]   = "CSSFontFaceRule";
+      map[CSSRule.SUPPORTS_RULE]    = "CSSSupportsRule";
+      map[CSSRule.PAGE_RULE]        = "CSSPageRule";
+      map[CSSRule.KEYFRAMES_RULE]   = "CSSKeyframesRule";  // 소스로는 사용되지 않음
+      // CSSContainerRule 열거형은 표준화되어 있지 않으므로 생성자 이름에도 의존
     }
     return map[t] || "CSSRule";
   }
-
-  // 규칙 객체에서 타입 이름을 안전하게 얻음(숫자 타입 우선, 없으면 constructor.name)
   function ruleTypeName(rule) {
     try {
       if (typeof rule.type === "number") {
@@ -31,264 +40,563 @@ if (window.__cssLoggerInjected) {
         if (name !== "CSSRule") return name;
       }
       return (rule.constructor && rule.constructor.name) || "CSSRule";
-    } catch (e) {
-      return "CSSRule";
-    }
+    } catch { return "CSSRule"; }
+  }
+  function getConditionText(rule) {
+    try {
+      if (rule.conditionText) return rule.conditionText;                 // 일반적으로 @media / @supports
+      if (rule.media && rule.media.mediaText) return rule.media.mediaText; // CSSImportRule은 .media를 가짐
+    } catch {}
+    return "";
   }
 
-  // 긴 문자열을 콘솔/저장에 적당한 길이로 축약
-  function short(s, n) {
-    if (!s) return "";
-    n = n || 200;
-    return s.length > n ? s.slice(0, n) + "..." : s;
-  }
-
-  // cssText 안에서 url(...) / @import 경로를 뽑아냄 → 네트워크로 나가는 후보(=sink) 탐지에 사용
-  function extractUrlsFromText(text) {
+  function extractUrlStrings(text) {
     const urls = [];
     if (!text) return urls;
-
-    // background-image: url("...") 등
     const urlRegex    = /url\(\s*['"]?([^'")]+)['"]?\s*\)/ig;
-    // @import url("...") 또는 @import "..."
-    const importRegex = /@import\s+url\(\s*['"]?([^'")]+)['"]?\s*\)|@import\s+['"]([^'"]+)['"]/ig;
-
     let m;
-    while ((m = urlRegex.exec(text))    !== null) urls.push(m[1]);
+    while ((m = urlRegex.exec(text)) !== null) urls.push(m[1]);
+    return urls;
+  }
+  function extractImportUrls(text) {
+    const urls = [];
+    if (!text) return urls;
+    const importRegex = /@import\s+(?:url\(\s*['"]?([^'")]+)['"]?\s*\)|['"]([^'"]+)['"])/ig;
+    let m;
     while ((m = importRegex.exec(text)) !== null) urls.push(m[1] || m[2]);
     return urls;
   }
 
-  // 휴리스틱: Source / Sink 후보 판별
-  //  - Source: 환경/렌더링 차이를 드러내는 신호(폰트, @media, @supports, @container, 특정 UI요소 등)
-  //  - Sink  : 네트워크 요청이나 외부 리소스 로드 등 관찰 가능한 행동(url, @import, 숨김 로딩 패턴 등)
-  
-  function isLikelySource(typeName, cssText, selector) {
-    const text = (cssText || "").toLowerCase();
-    const sel  = (selector || "").toLowerCase();
+  // ---------- 소스 사전(가능한 포괄적) ----------
+  // 각 항목: { key, group, claim }
+  const MEDIA_SOURCES = [
+    // 사용자 선호 / 접근성
+    { key: "prefers-color-scheme",   group: "user preference", claim: "color scheme (light/dark)" },
+    { key: "prefers-reduced-motion", group: "user preference", claim: "reduced motion preference" },
+    { key: "prefers-contrast",       group: "user preference", claim: "contrast preference" },
+    { key: "prefers-reduced-data",   group: "user preference", claim: "reduced data preference" },
+    { key: "forced-colors",          group: "user preference", claim: "forced colors (OS high contrast)" },
 
-    // 폰트는 플랫폼/설치 상태에 따라 달라져 지문 신호가 됨
-    if (typeName === "CSSFontFaceRule") return true;
-    if (text.indexOf("font-family") !== -1) return true;
+    // 입력 능력
+    { key: "hover",        group: "input capability", claim: "hover capability" },
+    { key: "any-hover",    group: "input capability", claim: "any-hover capability" },
+    { key: "pointer",      group: "input capability", claim: "pointer accuracy" },
+    { key: "any-pointer",  group: "input capability", claim: "any-pointer accuracy" },
 
-    // 그룹 규칙은 환경(화면/지원 기능/컨테이너 크기)에 의존 → 지문 조건으로 쓰일 수 있음
-    if (typeName === "CSSMediaRule" || typeName === "CSSSupportsRule") return true;
-    if (typeName.indexOf("Container") !== -1) return true; // CSSContainerRule 대응
+    // 디스플레이 능력
+    { key: "color-gamut",   group: "display capability", claim: "color gamut (sRGB/P3/etc.)" },
+    { key: "dynamic-range", group: "display capability", claim: "HDR dynamic range" },
+    { key: "monochrome",    group: "display capability", claim: "monochrome bit depth" },
+    { key: "resolution",    group: "display capability", claim: "pixel density (dpi/dppx)" },
+    { key: "scan",          group: "display capability", claim: "display scan type" },
+    { key: "color",         group: "display capability", claim: "device color depth" },     // legacy
+    { key: "color-index",   group: "display capability", claim: "color LUT size" },         // legacy
 
-    // 입력/버튼 등 렌더링 차이가 큰 요소를 직접 타겟팅하는 규칙
-    if (/(^|[^a-z])(textarea|input|select|button)([^a-z]|$)/.test(sel)) return true;
+    // 기하 / 방향
+    { key: "width",              group: "geometry", claim: "viewport/container width" },
+    { key: "height",             group: "geometry", claim: "viewport/container height" },
+    { key: "aspect-ratio",       group: "geometry", claim: "viewport aspect ratio" },
+    { key: "orientation",        group: "geometry", claim: "screen orientation" },
+    { key: "device-width",       group: "geometry", claim: "device width (deprecated)" },
+    { key: "device-height",      group: "geometry", claim: "device height (deprecated)" },
+    { key: "device-aspect-ratio",group: "geometry", claim: "device aspect ratio (deprecated)" },
 
-    return false;
+    // 앱 / 환경
+    { key: "display-mode",         group: "app environment", claim: "PWA display mode" },
+    { key: "environment-blending", group: "app environment", claim: "environment blending mode" },
+
+    // UA 동작
+    { key: "scripting",       group: "ua behavior", claim: "scripting support" },
+    { key: "update",          group: "ua behavior", claim: "update frequency" },
+    { key: "overflow-block",  group: "ua behavior", claim: "block overflow behavior" },
+    { key: "overflow-inline", group: "ua behavior", claim: "inline overflow behavior" },
+
+    // 미디어 타입
+    { key: "screen", group: "media type", claim: "screen media" },
+    { key: "print",  group: "media type", claim: "print media" },
+    { key: "speech", group: "media type", claim: "speech media" }
+  ];
+
+  const SUPPORTS_SOURCES = [
+    // 레이아웃 / 최신 CSS
+    { key: "container-type",        group: "layout capability", claim: "container queries support (type)" },
+    { key: "container-name",        group: "layout capability", claim: "container queries support (name)" },
+    { key: "content-visibility",    group: "layout capability", claim: "content-visibility support" },
+    { key: "contain",               group: "layout capability", claim: "CSS contain support" },
+    { key: "aspect-ratio",          group: "layout capability", claim: "aspect-ratio property support" },
+    { key: "text-wrap",             group: "layout capability", claim: "text-wrap support" },
+    { key: "text-box",              group: "layout capability", claim: "text-box properties support" },
+    { key: "anchor-name",           group: "layout capability", claim: "anchor positioning support" },
+
+    // 선택자 기능
+    { key: "selector(:has",         group: "selector capability", claim: ":has() selector support" },
+
+    // 그래픽 / 시각 효과
+    { key: "backdrop-filter",       group: "graphics pipeline", claim: "backdrop-filter support" },
+    { key: "clip-path",             group: "graphics pipeline", claim: "clip-path support" },
+    { key: "mask-image",            group: "graphics pipeline", claim: "mask-image support" },
+    { key: "mask-border",           group: "graphics pipeline", claim: "mask-border support" },
+    { key: "shape-outside",         group: "graphics pipeline", claim: "shape-outside support" },
+    { key: "filter",                group: "graphics pipeline", claim: "CSS filter support" },
+
+    // 타임라인(소스 전용)
+    { key: "animation-timeline",    group: "timeline capability", claim: "animation timeline support" },
+    { key: "view-timeline",         group: "timeline capability", claim: "view timeline support" },
+    { key: "timeline-scope",        group: "timeline capability", claim: "timeline scope support" },
+
+    // 폰트 / 색상
+    { key: "font-variation-settings", group: "font capability",  claim: "variable font support" },
+    { key: "font-format(",            group: "font capability",  claim: "font format query support" },
+    { key: "font-tech(",              group: "font capability",  claim: "font tech query support" },
+    { key: "color(display-p3",        group: "color capability", claim: "display-p3 color function support" },
+    { key: "accent-color",            group: "form styling",     claim: "accent-color support" },
+
+    // 스크롤바
+    { key: "scrollbar-gutter",      group: "engine feature", claim: "scrollbar-gutter support" },
+    { key: "scrollbar-width",       group: "engine feature", claim: "scrollbar-width support" },
+    { key: "scrollbar-color",       group: "engine feature", claim: "scrollbar-color support" },
+
+    // 엔진 힌트
+    { key: "-webkit-appearance",    group: "engine hint",    claim: "WebKit-specific appearance" },
+    { key: "-moz-appearance",       group: "engine hint",    claim: "Gecko-specific appearance" }
+  ];
+
+  const CONTAINER_SOURCES = [
+    { key: "@container",     group: "container query", claim: "container query present" },
+    { key: "container-type", group: "container query", claim: "container-type used" },
+    { key: "container-name", group: "container query", claim: "container-name used" },
+    { key: "inline-size",    group: "container query", claim: "inline-size query" },
+    { key: "block-size",     group: "container query", claim: "block-size query" },
+    { key: "style(",         group: "container query", claim: "style() query" }
+  ];
+
+  // @font-face를 소스로 간주(로컬 탐지 + 포맷 지원)
+  const FONTFACE_SOURCES = [
+    { key: "local(",             group: "fonts", claim: "local font presence probe" },
+    { key: "format('woff2')",    group: "fonts", claim: "font format support (woff2)" },
+    { key: "format(\"woff2\")",  group: "fonts", claim: "font format support (woff2)" },
+    { key: "format('woff')",     group: "fonts", claim: "font format support (woff)" },
+    { key: "format(\"woff\")",   group: "fonts", claim: "font format support (woff)" },
+    { key: "format('opentype')", group: "fonts", claim: "font format support (opentype)" },
+    { key: "format(\"opentype\")", group: "fonts", claim: "font format support (opentype)" },
+    { key: "format('truetype')", group: "fonts", claim: "font format support (truetype)" },
+    { key: "format(\"truetype\")", group: "fonts", claim: "font format support (truetype)" },
+    { key: "format('embedded-opentype')", group: "fonts", claim: "font format support (eot)" },
+    { key: "format(\"embedded-opentype\")", group: "fonts", claim: "font format support (eot)" },
+    { key: "format('svg')",      group: "fonts", claim: "font format support (svg)" },
+    { key: "format(\"svg\")",    group: "fonts", claim: "font format support (svg)" }
+  ];
+
+  // @import는 미디어 조건이 있을 때 소스로 계산
+  const IMPORT_MEDIA_KEYS = MEDIA_SOURCES.map(m => m.key);
+
+  // ---------- 위험 점수 ----------
+  function riskFor(semanticGroup, keyword, claim) {
+    switch (semanticGroup) {
+      case "fonts":              return /local\(/.test(keyword || "") ? 4 : 3; // local() > format
+      case "user preference":    return 3;
+      case "font capability":    return 3;
+      case "display capability": return 2;
+      case "input capability":   return 2;
+      case "layout capability":  return 2;
+      case "selector capability":return 2;
+      case "graphics pipeline":  return 2;
+      case "timeline capability":return 2;
+      case "container query":    return 2;
+      case "import condition":   return 2;
+      case "engine feature":     return 1;
+      case "engine hint":        return 1;
+      case "app environment":    return 1;
+      case "ua behavior":        return 1;
+      case "media type":         return 1;
+      case "geometry":           return 1;
+      case "color capability":   return 2;
+      case "form styling":       return 1;
+      default:                   return 1;
+    }
+  }
+  function explanationFor(semanticGroup, keyword, claim) {
+    // 각 그룹별 설명 문자열 생성(동작 설명용)
+    switch (semanticGroup) {
+      case "fonts":
+        if (/local\(/.test(keyword || "")) return "Indicates whether a specific system font is installed.";
+        return "Indicates which downloadable font formats the engine supports.";
+      case "user preference":
+        if (keyword === "forced-colors") return "Reveals OS high-contrast accessibility mode.";
+        if (keyword === "prefers-color-scheme") return "Reveals light vs dark theme preference.";
+        if (keyword === "prefers-reduced-motion") return "Reveals motion sensitivity preference.";
+        return "Reveals OS/user accessibility or UI preferences.";
+      case "display capability":
+        return "Reveals screen/output characteristics like color space or pixel density.";
+      case "geometry":
+        return "Reveals viewport/device size buckets.";
+      case "input capability":
+        return "Reveals touch vs mouse and pointer precision.";
+      case "layout capability":
+        return "Reveals support for modern layout features; implies engine/version.";
+      case "selector capability":
+        return "Reveals support for newer selectors; implies engine/version.";
+      case "graphics pipeline":
+        return "Reveals graphics effects support; implies engine/version.";
+      case "timeline capability":
+        return "Reveals scroll/animation timeline support; implies engine/version.";
+      case "container query":
+        return "Uses container size/style to branch; layout-dependent signal.";
+      case "import condition":
+        return "Conditionally loads a stylesheet only when the media condition matches.";
+      default:
+        return `Reveals ${claim || keyword || semanticGroup}`;
+    }
   }
 
-  function isLikelySink(typeName, cssText, selector) {
-    const text = (cssText || "").toLowerCase();
-    const sel  = (selector || "").toLowerCase();
-
-    // @import는 외부 CSS를 불러옴 → 네트워크 요청
-    if (typeName === "CSSImportRule") return true;
-
-    // url(...) 사용은 대체로 외부 리소스 요청(이미지, 폰트 등)
-    if (text.indexOf("url(") !== -1 || text.indexOf("@import") !== -1) return true;
-
-    // 배경 크기를 0 또는 투명도로 만들어 "보이지 않게 로딩"하는 패턴
-    if (text.indexOf("background-size: 0") !== -1 || text.indexOf("opacity: 0") !== -1) return true;
-
-    // 방문 상태/호버 등 의사 클래스 기반 신호(행동/상태를 엿볼 수 있는 경우)
-    if (/:(?:visited|hover|active)|::selection/.test(sel)) return true;
-
-    return false;
+  // ---------- sinks ----------
+  // 실제 URL을 추출할 수 있을 때만 sink로 간주
+  function collectSinkUrls(cssText, typeName) {
+    const urls = [];
+    const text = lower(cssText || "");
+    urls.push(...extractUrlStrings(text));
+    urls.push(...extractImportUrls(text));
+    // 파싱된 URL 문자열이 없어도 CSSImportRule이면 sink 표시를 남김
+    if (typeName === "CSSImportRule" && urls.length === 0) urls.push("(import)");
+    return urls;
   }
 
-  // 결과를 담을 컨테이너(dump)
-  
-  const dump = {
-    page: location.href,      // 현재 페이지 URL
-    timestamp: Date.now(),    // 수집 시각
-    sheets: [],               // 스타일시트별 수집 결과
-    inaccessible: []          // CORS 등으로 접근 불가한 스타일시트 목록
-  };
-
-  // @media/@supports/@container 등의 조건 텍스트를 안전하게 얻음
-  function getConditionText(rule) {
+  // ---------- 규칙 내 소스 식별 ----------
+  // 반환: { category, keyword, semanticGroup, claim, excerpt } 배열
+  function identifySourceKeywords(rule) {
+    const out = [];
     try {
-      if (rule.conditionText) return rule.conditionText;
-      if (rule.media && rule.media.mediaText) return rule.media.mediaText;
-    } catch (e) {}
-    return "";
+      const type    = ruleTypeName(rule);
+      const cssText = lower(rule.cssText || "");
+      const cond    = lower(getConditionText(rule) || "");
+
+      // @media — 선언부가 아닌 @media 조건 텍스트만 검사
+      if (type === "CSSMediaRule" || /@media\b/i.test(cssText)) {
+        for (const m of MEDIA_SOURCES) {
+          if (cond.includes(m.key)) {
+            out.push({ category: "@media", keyword: m.key, semanticGroup: m.group, claim: m.claim, excerpt: short(cond, 200) });
+          }
+        }
+      }
+
+      // @container — 생성자 이름 또는 토큰으로 감지; cond가 있으면 우선 사용
+      const isContainer =
+        (type.toLowerCase().includes("container") || cssText.includes("@container"));
+      if (isContainer) {
+        const hay = cond || cssText;
+        for (const c of CONTAINER_SOURCES) {
+          if (hay.includes(c.key)) {
+            out.push({ category: "@container", keyword: c.key, semanticGroup: c.group, claim: c.claim, excerpt: short(hay, 200) });
+          }
+        }
+      }
+
+      // @supports — cond가 있으면 우선 사용
+      if (type === "CSSSupportsRule" || /@supports\b/i.test(cssText)) {
+        const hay = cond || cssText;
+        for (const s of SUPPORTS_SOURCES) {
+          if (hay.includes(s.key)) {
+            out.push({ category: "@supports", keyword: s.key, semanticGroup: s.group, claim: s.claim, excerpt: short(hay, 200) });
+          }
+        }
+      }
+
+      // @font-face
+      if (type === "CSSFontFaceRule" || /@font-face\b/i.test(cssText)) {
+        for (const f of FONTFACE_SOURCES) {
+          if (cssText.includes(f.key)) {
+            out.push({ category: "@font-face", keyword: f.key, semanticGroup: f.group, claim: f.claim, excerpt: short(cssText, 200) });
+          }
+        }
+      }
+
+      // @import — 미디어 조건이 있을 때만 소스로 계산(mediaText가 소스)
+      if (type === "CSSImportRule" || /@import\b/i.test(cssText)) {
+        let mediaTxt = "";
+        try { if (rule.media && rule.media.mediaText) mediaTxt = lower(rule.media.mediaText || ""); } catch {}
+        const hay = mediaTxt || "";
+        for (const key of IMPORT_MEDIA_KEYS) {
+          if (hay.includes(key)) {
+            out.push({ category: "@import", keyword: key, semanticGroup: "import condition", claim: `conditional import via ${key}`, excerpt: short(hay, 200) });
+          }
+        }
+      }
+
+    } catch {}
+    // category+keyword 기준으로 중복 제거
+    const seen = new Set();
+    return out.filter(x => {
+      const id = x.category + "::" + x.keyword;
+      if (seen.has(id)) return false;
+      seen.add(id);
+      return true;
+    });
   }
 
-  // 규칙 목록을 재귀적으로 순회하며 직렬화된 형태로 outList에 누적
+  // ---------- 규칙 순회 ----------
   function walkRulesToList(rules, sheetHref, groupContext, outList) {
     if (!rules) return;
-    groupContext = groupContext || "";
-    outList      = outList || [];
-
-    for (var idx = 0; idx < rules.length; idx++) {
-      // 너무 많은 규칙을 수집하는 것을 방지
+    outList = outList || [];
+    for (let i = 0; i < rules.length; i++) {
       if (outList.length >= MAX_RULES_PER_SHEET) break;
 
-      var rule      = rules[idx];
-      var type      = ruleTypeName(rule);                                         // 규칙 타입명(안전)
-      var selector  = ("selectorText" in rule && rule.selectorText) ? rule.selectorText : ""; // 선택자(없을 수 있음)
-      var cssText   = rule.cssText || "";                                         // 규칙 전체 텍스트
-      var thisGroup = getConditionText(rule);                                     // 현재 규칙의 그룹 조건(@media 등)
+      const rule      = rules[i];
+      const type      = ruleTypeName(rule);
+      const selector  = ("selectorText" in rule && rule.selectorText) ? rule.selectorText : "";
+      const cssText   = rule.cssText || "";
+      const groupCond = getConditionText(rule);
 
-      // 규칙을 직렬화하여 보관
-      var entry = {
-        type: type,
-        selector: selector,
+      const entry = {
+        type,
+        selector,
         cssText: short(cssText, URL_SNIPPET_LEN),
-        urls: extractUrlsFromText(cssText),               // url(...) 등에서 추출된 경로
-        group: groupContext || thisGroup || "",           // 상위 그룹과 현재 그룹을 병합
-        sources: [],                                      // Source 후보 설명
-        sinks: []                                         // Sink 후보 설명
+        urls: [],            // sink 수집 후 설정
+        group: groupContext || groupCond || "",
+        sources: [],
+        sinks: []
       };
 
-      // Source/Sink 휴리스틱 적용
-      if (isLikelySource(type, cssText, selector)) {
-        entry.sources.push({ reason: "heuristic_source", excerpt: short(cssText, 200) });
+      // 소스
+      const srcs = identifySourceKeywords(rule);
+      if (srcs.length) {
+        entry.sources = srcs.map(s => ({
+          reason: "keyword_match",
+          category: s.category,
+          keyword: s.keyword,
+          semanticGroup: s.semanticGroup,
+          claim: s.claim,
+          excerpt: s.excerpt
+        }));
       }
-      if (isLikelySink(type, cssText, selector)) {
-        entry.sinks.push({ reason: "heuristic_sink", urls: entry.urls.slice() });
+
+      // sinks(실제 URL이 있을 때만)
+      const sinkUrls = collectSinkUrls(cssText, type);
+      if (sinkUrls.length > 0) {
+        entry.urls = sinkUrls.slice();
+        entry.sinks.push({ reason: "url_sink", urls: sinkUrls.slice() });
       }
 
       outList.push(entry);
 
-      // @media/@supports/@container 내부에 중첩된 하위 규칙이 있으면 재귀 순회
+      // 중첩 규칙
       try {
         if (rule.cssRules && rule.cssRules.length) {
-          var nestedGroup = thisGroup || entry.group || "";
-          walkRulesToList(rule.cssRules, sheetHref, nestedGroup, outList);
+          walkRulesToList(rule.cssRules, sheetHref, groupCond || groupContext || "", outList);
         }
-      } catch (e) {
-        // 일부 브라우저/정책에서 그룹 내부 접근이 막힐 수 있음 → 무시하고 계속
+      } catch {
+        // 교차 출처/접근 불가 중첩 규칙
       }
     }
     return outList;
   }
 
+  // ---------- 메인 ----------
+  (function run() {
+    const dump = {
+      page: location.href,
+      timestamp: Date.now(),
+      sheets: [],
+      inaccessible: []
+    };
 
-  // 문서 내 모든 스타일시트(document.styleSheets) 순회
-  //  - 접근 가능한 경우 cssRules를 읽어 walkRulesToList로 수집
-  //  - 크로스 오리진 등으로 접근 불가하면 목록에 기록
-  
-  for (var s = 0; s < document.styleSheets.length; s++) {
-    var sheet    = document.styleSheets[s];
-    var sheetRec = { href: sheet.href || "(inline <style>)", rules: 0, rulesList: [] };
+    for (let s = 0; s < document.styleSheets.length; s++) {
+      const sheet = document.styleSheets[s];
+      const rec = { href: sheet.href || "(inline <style>)", rules: 0, rulesList: [] };
+      try {
+        if (sheet.cssRules) {
+          rec.rulesList = walkRulesToList(sheet.cssRules, rec.href, "", []);
+          rec.rules = rec.rulesList.length;
+        } else {
+          rec.rules = 0;
+        }
+      } catch (e) {
+        rec.rules = "inaccessible";
+        dump.inaccessible.push(sheet.href || "(inline)");
+      }
+      dump.sheets.push(rec);
+    }
 
+    dump.styleTags        = document.querySelectorAll("style").length;
+    dump.inlineStyleCount = document.querySelectorAll("[style]").length;
+
+    // 연결 정보와 주장(claims) 구성
+    dump.associations = [];
+    const claimSet = new Set();
+    const claimDetailsMap = new Map(); // key -> 상세 객체
+
+    for (const sheetRec of dump.sheets) {
+      const list = sheetRec.rulesList || [];
+      for (let i = 0; i < list.length; i++) {
+        const r = list[i];
+        if (!r.sinks || !r.sinks.length) continue;
+
+        const sinkUrls = (r.sinks[0].urls && r.sinks[0].urls.length)
+          ? r.sinks[0].urls
+          : [];
+
+        for (const url of sinkUrls) {
+          const assoc = { sheet: sheetRec.href, sinkRuleIndex: i, sinkUrl: url, matchedSources: [] };
+
+          // 동일 규칙에 소스가 있으면 첨부
+          if (r.sources && r.sources.length) {
+            for (const s of r.sources) {
+              assoc.matchedSources.push({
+                ruleIndex: i,
+                reason: "same-rule",
+                category: s.category,
+                keyword: s.keyword,
+                claim: s.claim,
+                semanticGroup: s.semanticGroup,
+                excerpt: s.excerpt
+              });
+              const key = `${s.semanticGroup}|${s.claim}|${s.keyword}`;
+              if (!claimDetailsMap.has(key)) {
+                claimDetailsMap.set(key, {
+                  category: s.category,
+                  semanticGroup: s.semanticGroup,
+                  keyword: s.keyword,
+                  claim: s.claim,
+                  risk: riskFor(s.semanticGroup, s.keyword, s.claim),
+                  explanation: explanationFor(s.semanticGroup, s.keyword, s.claim)
+                });
+              }
+              claimSet.add(`${s.semanticGroup}: ${s.claim}`);
+            }
+          }
+
+          // 동일 선택자에 소스가 있는 다른 규칙을 탐색
+          if (!assoc.matchedSources.length && r.selector) {
+            for (let j = 0; j < list.length; j++) {
+              if (j === i) continue;
+              const r2 = list[j];
+              if (r2.selector && r2.selector === r.selector && r2.sources && r2.sources.length) {
+                for (const s2 of r2.sources) {
+                  assoc.matchedSources.push({
+                    ruleIndex: j,
+                    reason: "same-selector",
+                    category: s2.category,
+                    keyword: s2.keyword,
+                    claim: s2.claim,
+                    semanticGroup: s2.semanticGroup,
+                    excerpt: s2.excerpt
+                  });
+                  const key = `${s2.semanticGroup}|${s2.claim}|${s2.keyword}`;
+                  if (!claimDetailsMap.has(key)) {
+                    claimDetailsMap.set(key, {
+                      category: s2.category,
+                      semanticGroup: s2.semanticGroup,
+                      keyword: s2.keyword,
+                      claim: s2.claim,
+                      risk: riskFor(s2.semanticGroup, s2.keyword, s2.claim),
+                      explanation: explanationFor(s2.semanticGroup, s2.keyword, s2.claim)
+                    });
+                  }
+                  claimSet.add(`${s2.semanticGroup}: ${s2.claim}`);
+                }
+              }
+            }
+          }
+
+          // 동일 그룹 텍스트(@media/@supports/@container/@import)가 있는 다른 규칙을 탐색
+          if (!assoc.matchedSources.length && r.group) {
+            for (let j = 0; j < list.length; j++) {
+              if (j === i) continue;
+              const r3 = list[j];
+              if (r3.group && r3.group === r.group && r3.sources && r3.sources.length) {
+                for (const s3 of r3.sources) {
+                  assoc.matchedSources.push({
+                    ruleIndex: j,
+                    reason: "same-group",
+                    category: s3.category,
+                    keyword: s3.keyword,
+                    claim: s3.claim,
+                    semanticGroup: s3.semanticGroup,
+                    excerpt: s3.excerpt
+                  });
+                  const key = `${s3.semanticGroup}|${s3.claim}|${s3.keyword}`;
+                  if (!claimDetailsMap.has(key)) {
+                    claimDetailsMap.set(key, {
+                      category: s3.category,
+                      semanticGroup: s3.semanticGroup,
+                      keyword: s3.keyword,
+                      claim: s3.claim,
+                      risk: riskFor(s3.semanticGroup, s3.keyword, s3.claim),
+                      explanation: explanationFor(s3.semanticGroup, s3.keyword, s3.claim)
+                    });
+                  }
+                  claimSet.add(`${s3.semanticGroup}: ${s3.claim}`);
+                }
+              }
+            }
+          }
+
+          dump.associations.push(assoc);
+        }
+      }
+    }
+
+    // 요약 + 판정 + 위험
+    dump.summary = {
+      sheetsAccessible: dump.sheets.filter(s => s.rules !== "inaccessible").length,
+      sheetsInaccessible: dump.inaccessible.length,
+      totalRulesScanned: dump.sheets.reduce((acc, s) => acc + (Array.isArray(s.rulesList) ? s.rulesList.length : 0), 0),
+      totalSinks: dump.sheets.reduce((acc, s) => acc + (Array.isArray(s.rulesList)
+        ? s.rulesList.reduce((a, r) => a + (r.sinks ? r.sinks.length : 0), 0) : 0), 0),
+      totalSources: dump.sheets.reduce((acc, s) => acc + (Array.isArray(s.rulesList)
+        ? s.rulesList.reduce((a, r) => a + (r.sources ? r.sources.length : 0), 0) : 0), 0),
+      totalAssociations: dump.associations.length
+    };
+
+    const hasLinked = dump.associations.some(a => a.matchedSources && a.matchedSources.length);
+    dump.likelyFingerprinting = !!hasLinked;
+    dump.verdict = hasLinked ? "likely fingerprinting" : "likely not fingerprinting";
+
+    // 문자열 기반 claims(하위 호환용)
+    dump.claims = Array.from(new Set(
+      Array.from((function*(){
+        for (const a of dump.associations) {
+          if (!a.matchedSources) continue;
+          for (const s of a.matchedSources) yield `${s.semanticGroup}: ${s.claim}`;
+        }
+      })())
+    )).sort();
+
+    // 상세 claims(위험 + 설명 포함)
+    dump.claimDetails = (function(){
+      const map = new Map();
+      for (const a of dump.associations) {
+        if (!a.matchedSources) continue;
+        for (const s of a.matchedSources) {
+          const key = `${s.semanticGroup}|${s.claim}|${s.keyword}`;
+          if (!map.has(key)) {
+            map.set(key, {
+              category: s.category,
+              semanticGroup: s.semanticGroup,
+              keyword: s.keyword,
+              claim: s.claim,
+              risk: riskFor(s.semanticGroup, s.keyword, s.claim),
+              explanation: explanationFor(s.semanticGroup, s.keyword, s.claim)
+            });
+          }
+        }
+      }
+      return Array.from(map.values()).sort((a, b) => b.risk - a.risk || (a.claim || "").localeCompare(b.claim || ""));
+    })();
+
+    // 전체 위험 수준
+    const totalRisk = dump.claimDetails.reduce((acc, c) => acc + (c.risk || 0), 0);
+    dump.riskScore = totalRisk;
+    dump.riskLevel = !hasLinked ? "none"
+                     : totalRisk >= 7 ? "high"
+                     : totalRisk >= 3 ? "medium" : "low";
+
+    // 저장 + 전송
+    window.__lastCssDump = dump;
     try {
-      var rules = sheet.cssRules; // CORS로 막히면 여기서 예외 발생
-      if (rules) {
-        var list = walkRulesToList(rules, sheetRec.href, "", []);
-        sheetRec.rules     = list.length;
-        sheetRec.rulesList = list;
-      } else {
-        sheetRec.rules = 0;
-      }
+      chrome.runtime.sendMessage({ type: "cssDump", payload: dump }, function () {});
     } catch (e) {
-      sheetRec.rules     = "inaccessible";
-      sheetRec.rulesList = [];
-      dump.inaccessible.push(sheet.href || "(inline)");
+      console.warn("chrome.runtime.sendMessage failed:", e);
+      console.log("dump:", dump);
     }
-    dump.sheets.push(sheetRec);
-  }
-
-  // 간단한 통계: <style> 태그 갯수, 인라인 style 속성 갯수
-  dump.styleTags        = document.querySelectorAll("style").length;
-  dump.inlineStyleCount = document.querySelectorAll("[style]").length;
-
-  // Source ↔ Sink 연관(association) 만들기
-  //  - 같은 규칙 / 같은 선택자 / 같은 그룹(@media/@supports/@container) 기준으로 연결
-  //  - 목적: “이 소스 조건이 켜지면 이 URL이 로드된다”의 단서를 찾기 위함
-  
-  dump.associations = [];
-  for (var si = 0; si < dump.sheets.length; si++) {
-    var sheetRec  = dump.sheets[si];
-    var rulesList = sheetRec.rulesList || [];
-
-    for (var i = 0; i < rulesList.length; i++) {
-      var r = rulesList[i];
-      if (!r.sinks || !r.sinks.length) continue;
-
-      // sink URL 후보: 규칙 자체 url 목록 → sink 객체의 urls 순으로 우선
-      var sinkUrls = (r.sinks[0].urls && r.sinks[0].urls.length)
-        ? r.sinks[0].urls
-        : (r.urls && r.urls.length ? r.urls : []);
-
-      for (var u = 0; u < sinkUrls.length; u++) {
-        var url   = sinkUrls[u];
-        var assoc = { sheet: sheetRec.href, sinkRuleIndex: i, sinkUrl: url, matchedSources: [] };
-
-        // 1) 같은 규칙 안에 source가 있는 경우
-        if (r.sources && r.sources.length) {
-          for (var k = 0; k < r.sources.length; k++) {
-            assoc.matchedSources.push({ ruleIndex: i, reason: r.sources[k].reason || "same-rule", matchType: "same-rule" });
-          }
-        }
-
-        // 2) 같은 선택자(selector)가 다른 규칙에 존재하는 경우
-        if (!assoc.matchedSources.length && r.selector) {
-          for (var j = 0; j < rulesList.length; j++) {
-            if (j === i) continue;
-            var r2 = rulesList[j];
-            if (r2.selector && r2.selector === r.selector && r2.sources && r2.sources.length) {
-              for (var k2 = 0; k2 < r2.sources.length; k2++) {
-                assoc.matchedSources.push({ ruleIndex: j, reason: r2.sources[k2].reason || "same-selector", matchType: "same-selector" });
-              }
-            }
-          }
-        }
-
-        // 3) 같은 그룹(@media/@supports/@container)에 속한 경우
-        if (!assoc.matchedSources.length && r.group) {
-          for (var j2 = 0; j2 < rulesList.length; j2++) {
-            if (j2 === i) continue;
-            var r3 = rulesList[j2];
-            if (r3.group && r3.group === r.group && r3.sources && r3.sources.length) {
-              for (var k3 = 0; k3 < r3.sources.length; k3++) {
-                assoc.matchedSources.push({ ruleIndex: j2, reason: r3.sources[k3].reason || "same-group", matchType: "same-group" });
-              }
-            }
-          }
-        }
-
-        dump.associations.push(assoc);
-      }
-    }
-  }
-
-  // 최종 요약 통계(콘솔에서 빠르게 확인하려고 계산함)
-  dump.summary = {
-    sheetsAccessible: dump.sheets.filter(s => s.rules !== "inaccessible").length,
-    sheetsInaccessible: dump.inaccessible.length,
-    totalRulesScanned: dump.sheets.reduce(function (acc, s) {
-      return acc + (Array.isArray(s.rulesList) ? s.rulesList.length : 0);
-    }, 0),
-    totalSinks: dump.sheets.reduce(function (acc, s) {
-      return acc + (Array.isArray(s.rulesList)
-        ? s.rulesList.reduce((a, r) => a + (r.sinks ? r.sinks.length : 0), 0)
-        : 0);
-    }, 0),
-    totalSources: dump.sheets.reduce(function (acc, s) {
-      return acc + (Array.isArray(s.rulesList)
-        ? s.rulesList.reduce((a, r) => a + (r.sources ? r.sources.length : 0), 0)
-        : 0);
-    }, 0),
-    totalAssociations: dump.associations.length
-  };
-
-  // 요약/접근불가 목록을 콘솔에 출력
-  console.log("CSS dump summary:", dump.summary);
-  console.table(dump.sheets.map(function (s) { return { href: s.href, rules: s.rules }; }));
-  if (dump.inaccessible.length) console.warn("Inaccessible stylesheets:", dump.inaccessible);
-
-  // background 서비스워커로 결과 전송(백그라운드에서 파일 저장/서버 전송 등 처리)
-  try {
-    chrome.runtime.sendMessage({ type: "cssDump", payload: dump }, function (resp) {});
-  } catch (e) {
-    // 확장 환경이 아니거나 메시지 채널 이슈시 콘솔에 직접 남김
-    console.warn("chrome.runtime.sendMessage 실패:", e);
-    console.log("dump:", dump);
-  }
+  })();
 }

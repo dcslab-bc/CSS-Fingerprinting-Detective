@@ -3,6 +3,7 @@
 // - 소스: @media, @container, @supports, @font-face, @import
 // - 수정: 실제 URL(@import/url())이 있는 경우에만 규칙을 sink로 간주
 // - 수정: 미디어 기능은 선언부가 아니라 @media 조건에서만 읽음
+// - 수정: @supports / @container도 선언부가 아닌 조건 텍스트에서만 키워드 검색
 // - 연결 정보에는 사이트가 핑거프린팅하려는 대상으로 보이는 항목(의미적 라벨)을 포함
 // - 위험 점수(risk scoring)와 전체 위험 수준(riskLevel)을 추가
 // ====================================================================
@@ -279,29 +280,33 @@ if (window.__cssLoggerInjected) {
         }
       }
 
-      // @container — 생성자 이름 또는 토큰으로 감지; cond가 있으면 우선 사용
+      // @container — 조건 텍스트만 검사 (선언부는 검사하지 않음)
       const isContainer =
         (type.toLowerCase().includes("container") || cssText.includes("@container"));
       if (isContainer) {
-        const hay = cond || cssText;
-        for (const c of CONTAINER_SOURCES) {
-          if (hay.includes(c.key)) {
-            out.push({ category: "@container", keyword: c.key, semanticGroup: c.group, claim: c.claim, excerpt: short(hay, 200) });
+        const hay = cond; // 조건 텍스트만 사용
+        if (hay) {
+          for (const c of CONTAINER_SOURCES) {
+            if (hay.includes(c.key)) {
+              out.push({ category: "@container", keyword: c.key, semanticGroup: c.group, claim: c.claim, excerpt: short(hay, 200) });
+            }
           }
         }
       }
 
-      // @supports — cond가 있으면 우선 사용
+      // @supports — 조건 텍스트만 검사 (선언부는 검사하지 않음)
       if (type === "CSSSupportsRule" || /@supports\b/i.test(cssText)) {
-        const hay = cond || cssText;
-        for (const s of SUPPORTS_SOURCES) {
-          if (hay.includes(s.key)) {
-            out.push({ category: "@supports", keyword: s.key, semanticGroup: s.group, claim: s.claim, excerpt: short(hay, 200) });
+        const hay = cond; // 조건 텍스트만 사용
+        if (hay) {
+          for (const s of SUPPORTS_SOURCES) {
+            if (hay.includes(s.key)) {
+              out.push({ category: "@supports", keyword: s.key, semanticGroup: s.group, claim: s.claim, excerpt: short(hay, 200) });
+            }
           }
         }
       }
 
-      // @font-face
+      // @font-face (선언부 검사)
       if (type === "CSSFontFaceRule" || /@font-face\b/i.test(cssText)) {
         for (const f of FONTFACE_SOURCES) {
           if (cssText.includes(f.key)) {

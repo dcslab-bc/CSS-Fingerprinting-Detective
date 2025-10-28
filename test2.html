@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Simple Site</title>
+<style>
+  /* --- Base look (normal page) --- */
+  :root { --bg: #ffffff; --fg: #222; --muted: #666; --brand: #2b6cb0; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--fg);
+    line-height: 1.55;
+  }
+  header {
+    border-bottom: 1px solid #e5e7eb;
+    padding: 16px;
+  }
+  header h1 { margin: 0; font-size: 20px; }
+  nav {
+    display: flex; gap: 16px; padding: 12px 16px; border-bottom: 1px solid #e5e7eb;
+  }
+  nav a { color: var(--brand); text-decoration: none; font-weight: 600; }
+  main {
+    max-width: 1000px; margin: 24px auto; padding: 0 16px;
+    display: grid; grid-template-columns: 1fr; gap: 24px;
+  }
+  article, aside {
+    background: #f8fafc; border: 1px solid #e5e7eb; border-radius: 10px; padding: 16px;
+  }
+  article h2 { margin-top: 0; }
+  .cta {
+    display: inline-block; padding: 10px 14px; border-radius: 8px;
+    background: var(--brand); color: #fff; text-decoration: none; font-weight: 600;
+  }
+  footer {
+    border-top: 1px solid #e5e7eb; color: var(--muted);
+    padding: 16px; text-align: center; font-size: 14px;
+  }
+
+  /* -----------------------------------------------------------
+     1) Dark mode preference: echoes value tokens into URL
+        - Your detector should associate the sink with @media
+  ----------------------------------------------------------- */
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0b0f14; --fg: #e5eef7; --muted: #9fb2c6; --brand: #63b3ed; }
+    /* Invisible tiny request that echoes tokens: pcs=dark & prefers-color-scheme=dark */
+    body::after {
+      content: "";
+      position: fixed; inset: -9999px;
+      background-image: url("https://example.com/pixel?pcs=dark&prefers-color-scheme=dark");
+    }
+  }
+
+  /* -----------------------------------------------------------
+     2) Touch-only devices (no hover, coarse pointer)
+        - Echoes hover=none & pointer=coarse
+  ----------------------------------------------------------- */
+  @media (hover: none) and (pointer: coarse) {
+    .cta {
+      /* Harmless background request; echoes capability values */
+      background-image: url("https://example.com/pixel?hover=none&pointer=coarse");
+      background-repeat: no-repeat; /* ensure it still looks like a normal button */
+      background-position: -9999px -9999px; /* keep it invisible */
+    }
+  }
+
+  /* -----------------------------------------------------------
+     3) Simple geometry: min-width 900px
+        - Echoes '900px' so your geometry echo check triggers
+  ----------------------------------------------------------- */
+  @media (min-width: 900px) {
+    main { grid-template-columns: 2fr 1fr; }
+    /* Invisible echo of 900px to link geometry → sink */
+    main::before {
+      content: "";
+      position: absolute;
+      width: 0; height: 0;
+      background-image: url("https://example.com/pixel?mw=900px");
+    }
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>CSSFPP TEST PAGE</h1>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Docs</a>
+    <a href="#">About</a>
+  </nav>
+
+  <main>
+    <article>
+      <h2>Welcome</h2>
+      <p>This is a small, normal-looking page made to sanity-check your CSS fingerprinting detector. It includes a dark-mode media query, a touch-capability media query, and a simple width-based query. Each condition has a tiny background image URL that echoes the detected value(s).</p>
+      <p><a class="cta" href="#">Get Started</a></p>
+    </article>
+
+    <aside>
+      <h3>Tips</h3>
+      <ul>
+        <li>Toggle OS dark mode to trigger the dark rule.</li>
+        <li>Simulate a touch device (no hover, coarse pointer) to trigger the capability rule.</li>
+        <li>Resize the window beyond 900px to trigger the layout rule.</li>
+      </ul>
+    </aside>
+  </main>
+
+  <footer>
+    <p>© 2025 CSSFPP Co.</p>
+  </footer>
+</body>
+</html>

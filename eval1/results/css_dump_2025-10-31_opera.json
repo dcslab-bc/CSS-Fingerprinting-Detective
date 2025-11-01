@@ -1,0 +1,92 @@
+{
+  "page": "https://www.opera.com/",
+  "timestamp": 1761884936239,
+  "sheets": [
+    {
+      "href": "https://cdn-production-opera-website.operacdn.com/staticfiles/latinext.d7788e6fd132.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://cdn-production-opera-website.operacdn.com/staticfiles/main.000a70e6688b.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://cdn-production-opera-website.operacdn.com/staticfiles/main-320.7f746f3896e8.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://cdn-production-opera-website.operacdn.com/staticfiles/main-640.e99d21350531.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://cdn-production-opera-website.operacdn.com/staticfiles/main-768.0ec27db2504e.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://cdn-production-opera-website.operacdn.com/staticfiles/main-1024.a2b44ad56dea.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://cdn-production-opera-website.operacdn.com/staticfiles/main-1224.b5aeb0e5570f.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://cdn-production-opera-website.operacdn.com/staticfiles/main-1824.b6240ca8263f.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://cdn-production-opera-website.operacdn.com/staticfiles/main-1924.c05162b848f5.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://cdn-production-opera-website.operacdn.com/staticfiles/bannerAir.7a8e4100efaa.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://cdn-production-opera-website.operacdn.com/staticfiles/surveyMonkey.9c9945a25fc3.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    }
+  ],
+  "inaccessible": [
+    "https://cdn-production-opera-website.operacdn.com/staticfiles/latinext.d7788e6fd132.css",
+    "https://cdn-production-opera-website.operacdn.com/staticfiles/main.000a70e6688b.css",
+    "https://cdn-production-opera-website.operacdn.com/staticfiles/main-320.7f746f3896e8.css",
+    "https://cdn-production-opera-website.operacdn.com/staticfiles/main-640.e99d21350531.css",
+    "https://cdn-production-opera-website.operacdn.com/staticfiles/main-768.0ec27db2504e.css",
+    "https://cdn-production-opera-website.operacdn.com/staticfiles/main-1024.a2b44ad56dea.css",
+    "https://cdn-production-opera-website.operacdn.com/staticfiles/main-1224.b5aeb0e5570f.css",
+    "https://cdn-production-opera-website.operacdn.com/staticfiles/main-1824.b6240ca8263f.css",
+    "https://cdn-production-opera-website.operacdn.com/staticfiles/main-1924.c05162b848f5.css",
+    "https://cdn-production-opera-website.operacdn.com/staticfiles/bannerAir.7a8e4100efaa.css",
+    "https://cdn-production-opera-website.operacdn.com/staticfiles/surveyMonkey.9c9945a25fc3.css"
+  ],
+  "styleTags": 0,
+  "inlineStyleCount": 29,
+  "associations": [],
+  "summary": {
+    "sheetsAccessible": 0,
+    "sheetsInaccessible": 11,
+    "totalRulesScanned": 0,
+    "totalSinks": 0,
+    "totalSources": 0,
+    "totalAssociations": 0,
+    "totalCapped": false
+  },
+  "likelyFingerprinting": false,
+  "verdict": "likely not fingerprinting",
+  "claims": [],
+  "claimDetails": [],
+  "riskScore": 0,
+  "riskLevel": "none"
+}

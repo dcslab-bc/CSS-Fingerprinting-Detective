@@ -1,0 +1,3217 @@
+{
+  "page": "https://vk.com/",
+  "timestamp": 1761885350955,
+  "sheets": [
+    {
+      "href": "(inline <style>)",
+      "rules": 40,
+      "rulesList": [
+        {
+          "type": "CSSFontFaceRule",
+          "selector": "",
+          "cssText": "@font-face { font-family: \"Noto Sans Armenian\"; src: local(\"NotoSansArmenian\"), local(\"Noto Sans Armenian\"), url(\"/fonts/NotoSansArmenian-Regular.woff\") format(\"woff\"); unicode-range: U+531-556, U+559-55F, U+561-587, U+589-58A, U+58F, U+FB13-FB17; }",
+          "urls": [
+            "/fonts/notosansarmenian-regular.woff"
+          ],
+          "group": "",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "local(",
+              "semanticGroup": "fonts",
+              "claim": "local font presence probe (notosansarmenian)",
+              "excerpt": "@font-face { font-family: \"noto sans armenian\"; src: local(\"notosansarmenian\"), local(\"noto sans armenian\"), url(\"/fonts/notosansarmenian-regular.woff\") format(\"woff\"); unicode-range: u+531-556, u+559-55f, u+561-587, u+5...",
+              "requiresEcho": true,
+              "echoTokens": [
+                "notosansarmenian"
+              ]
+            },
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "local(",
+              "semanticGroup": "fonts",
+              "claim": "local font presence probe (noto sans armenian)",
+              "excerpt": "@font-face { font-family: \"noto sans armenian\"; src: local(\"notosansarmenian\"), local(\"noto sans armenian\"), url(\"/fonts/notosansarmenian-regular.woff\") format(\"woff\"); unicode-range: u+531-556, u+559-55f, u+561-587, u+5...",
+              "requiresEcho": true,
+              "echoTokens": [
+                "noto sans armenian"
+              ]
+            },
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "unicode-range",
+              "semanticGroup": "font coverage",
+              "claim": "unicode-range + local() may reveal local font coverage",
+              "excerpt": "@font-face { font-family: \"noto sans armenian\"; src: local(\"notosansarmenian\"), local(\"noto sans armenian\"), url(\"/fonts/notosansarmenian-regular.woff\") format(\"woff\"); unicode-range: u+531-556, u+559-55f, u+561-587, u+5...",
+              "requiresEcho": true,
+              "echoTokens": [
+                "u+531-556",
+                "u+559-55f",
+                "u+561-587",
+                "u+589-58a",
+                "u+58f",
+                "u+fb13-fb17"
+              ]
+            }
+          ],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "/fonts/notosansarmenian-regular.woff"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSFontFaceRule",
+          "selector": "",
+          "cssText": "@font-face { font-family: \"Noto Sans Bengali\"; src: local(\"NotoSansBengali\"), local(\"Noto Sans Bengali\"), url(\"/fonts/NotoSansBengali-Regular.woff\") format(\"woff\"); unicode-range: U+AD, U+D7, U+F7, U+964-965, U+981-983, U+985-98C, U+98F-990, U+993-9A8, U+9AA-9B0, U+9B2, U+9B6-9B9, U+9BC-9C4, U+9C7-9C8, U+9CB-9CE, U+9D7, U+9DC-9DD, U+9DF-9E3, U+9E6-9FB, U+200B-200D, U+2013-2014, U+2018-2019, U+201C-201D, U+2026, U+20B9, U+2212, U+25CC; }",
+          "urls": [
+            "/fonts/notosansbengali-regular.woff"
+          ],
+          "group": "",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "local(",
+              "semanticGroup": "fonts",
+              "claim": "local font presence probe (notosansbengali)",
+              "excerpt": "@font-face { font-family: \"noto sans bengali\"; src: local(\"notosansbengali\"), local(\"noto sans bengali\"), url(\"/fonts/notosansbengali-regular.woff\") format(\"woff\"); unicode-range: u+ad, u+d7, u+f7, u+964-965, u+981-983, ...",
+              "requiresEcho": true,
+              "echoTokens": [
+                "notosansbengali"
+              ]
+            },
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "local(",
+              "semanticGroup": "fonts",
+              "claim": "local font presence probe (noto sans bengali)",
+              "excerpt": "@font-face { font-family: \"noto sans bengali\"; src: local(\"notosansbengali\"), local(\"noto sans bengali\"), url(\"/fonts/notosansbengali-regular.woff\") format(\"woff\"); unicode-range: u+ad, u+d7, u+f7, u+964-965, u+981-983, ...",
+              "requiresEcho": true,
+              "echoTokens": [
+                "noto sans bengali"
+              ]
+            },
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "unicode-range",
+              "semanticGroup": "font coverage",
+              "claim": "unicode-range + local() may reveal local font coverage",
+              "excerpt": "@font-face { font-family: \"noto sans bengali\"; src: local(\"notosansbengali\"), local(\"noto sans bengali\"), url(\"/fonts/notosansbengali-regular.woff\") format(\"woff\"); unicode-range: u+ad, u+d7, u+f7, u+964-965, u+981-983, ...",
+              "requiresEcho": true,
+              "echoTokens": [
+                "u+ad",
+                "u+d7",
+                "u+f7",
+                "u+964-965",
+                "u+981-983",
+                "u+985-98c",
+                "u+98f-990",
+                "u+993-9a8",
+                "u+9aa-9b0",
+                "u+9b2",
+                "u+9b6-9b9",
+                "u+9bc-9c4",
+                "u+9c7-9c8",
+                "u+9cb-9ce",
+                "u+9d7",
+                "u+9dc-9dd",
+                "u+9df-9e3",
+                "u+9e6-9fb",
+                "u+200b-200d",
+                "u+2013-2014",
+                "u+2018-2019",
+                "u+201c-201d",
+                "u+2026",
+                "u+20b9",
+                "u+2212",
+                "u+25cc"
+              ]
+            }
+          ],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "/fonts/notosansbengali-regular.woff"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSFontFaceRule",
+          "selector": "",
+          "cssText": "@font-face { font-family: \"Noto Sans Cherokee\"; src: local(\"NotoSansCherokee\"), local(\"Noto Sans Cherokee\"), url(\"/fonts/NotoSansCherokee-Regular.woff\") format(\"woff\"); unicode-range: U+13A0-13F4; }",
+          "urls": [
+            "/fonts/notosanscherokee-regular.woff"
+          ],
+          "group": "",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "local(",
+              "semanticGroup": "fonts",
+              "claim": "local font presence probe (notosanscherokee)",
+              "excerpt": "@font-face { font-family: \"noto sans cherokee\"; src: local(\"notosanscherokee\"), local(\"noto sans cherokee\"), url(\"/fonts/notosanscherokee-regular.woff\") format(\"woff\"); unicode-range: u+13a0-13f4; }",
+              "requiresEcho": true,
+              "echoTokens": [
+                "notosanscherokee"
+              ]
+            },
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "local(",
+              "semanticGroup": "fonts",
+              "claim": "local font presence probe (noto sans cherokee)",
+              "excerpt": "@font-face { font-family: \"noto sans cherokee\"; src: local(\"notosanscherokee\"), local(\"noto sans cherokee\"), url(\"/fonts/notosanscherokee-regular.woff\") format(\"woff\"); unicode-range: u+13a0-13f4; }",
+              "requiresEcho": true,
+              "echoTokens": [
+                "noto sans cherokee"
+              ]
+            },
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "unicode-range",
+              "semanticGroup": "font coverage",
+              "claim": "unicode-range + local() may reveal local font coverage",
+              "excerpt": "@font-face { font-family: \"noto sans cherokee\"; src: local(\"notosanscherokee\"), local(\"noto sans cherokee\"), url(\"/fonts/notosanscherokee-regular.woff\") format(\"woff\"); unicode-range: u+13a0-13f4; }",
+              "requiresEcho": true,
+              "echoTokens": [
+                "u+13a0-13f4"
+              ]
+            }
+          ],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "/fonts/notosanscherokee-regular.woff"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSFontFaceRule",
+          "selector": "",
+          "cssText": "@font-face { font-family: \"Noto Sans Devanagari\"; src: local(\"NotoSansDevanagari\"), local(\"Noto Sans Devanagari\"), url(\"/fonts/NotoSansDevanagari-Regular.woff\") format(\"woff\"); unicode-range: U+AF, U+D7, U+F7, U+2BC, U+901-939, U+93C-94D, U+950-954, U+958-972, U+97B-97F, U+200B-200D, U+2013-2014, U+2018-2019, U+201C-201D, U+2026, U+20B9, U+2212, U+25CC; }",
+          "urls": [
+            "/fonts/notosansdevanagari-regular.woff"
+          ],
+          "group": "",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "local(",
+              "semanticGroup": "fonts",
+              "claim": "local font presence probe (notosansdevanagari)",
+              "excerpt": "@font-face { font-family: \"noto sans devanagari\"; src: local(\"notosansdevanagari\"), local(\"noto sans devanagari\"), url(\"/fonts/notosansdevanagari-regular.woff\") format(\"woff\"); unicode-range: u+af, u+d7, u+f7, u+2bc, u+9...",
+              "requiresEcho": true,
+              "echoTokens": [
+                "notosansdevanagari"
+              ]
+            },
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "local(",
+              "semanticGroup": "fonts",
+              "claim": "local font presence probe (noto sans devanagari)",
+              "excerpt": "@font-face { font-family: \"noto sans devanagari\"; src: local(\"notosansdevanagari\"), local(\"noto sans devanagari\"), url(\"/fonts/notosansdevanagari-regular.woff\") format(\"woff\"); unicode-range: u+af, u+d7, u+f7, u+2bc, u+9...",
+              "requiresEcho": true,
+              "echoTokens": [
+                "noto sans devanagari"
+              ]
+            },
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "unicode-range",
+              "semanticGroup": "font coverage",
+              "claim": "unicode-range + local() may reveal local font coverage",
+              "excerpt": "@font-face { font-family: \"noto sans devanagari\"; src: local(\"notosansdevanagari\"), local(\"noto sans devanagari\"), url(\"/fonts/notosansdevanagari-regular.woff\") format(\"woff\"); unicode-range: u+af, u+d7, u+f7, u+2bc, u+9...",
+              "requiresEcho": true,
+              "echoTokens": [
+                "u+af",
+                "u+d7",
+                "u+f7",
+                "u+2bc",
+                "u+901-939",
+                "u+93c-94d",
+                "u+950-954",
+                "u+958-972",
+                "u+97b-97f",
+                "u+200b-200d",
+                "u+2013-2014",
+                "u+2018-2019",
+                "u+201c-201d",
+                "u+2026",
+                "u+20b9",
+                "u+2212",
+                "u+25cc"
+              ]
+            }
+          ],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "/fonts/notosansdevanagari-regular.woff"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSFontFaceRule",
+          "selector": "",
+          "cssText": "@font-face { font-family: \"Noto Sans Ethiopic\"; src: local(\"NotoSansEthiopic\"), local(\"Noto Sans Ethiopic\"), url(\"/fonts/NotoSansEthiopic-Regular.woff\") format(\"woff\"); unicode-range: U+1200-1248, U+124A-124D, U+1250-1256, U+1258, U+125A-125D, U+1260-1288, U+128A-128D, U+1290-12B0, U+12B2-12B5, U+12B8-12BE, U+12C0, U+12C2-12C5, U+12C8-12D6, U+12D8-1310, U+1312-1315, U+1318-135A, U+135D-137C, U+1380-1399, U+2D80-2D96, U+2DA0-2DA6, U+2DA8-2DAE, U+2DB0-2DB6, U+2DB8-2DBE, U+2DC0-2DC6, U+2DC8-2DCE, U+2DD0-2DD6, U+2DD8-2DDE, U+AB01-AB06, U+AB09-AB0E, U+AB11-AB16, U+AB20-AB26, U+AB28-AB2E; }",
+          "urls": [
+            "/fonts/notosansethiopic-regular.woff"
+          ],
+          "group": "",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "local(",
+              "semanticGroup": "fonts",
+              "claim": "local font presence probe (notosansethiopic)",
+              "excerpt": "@font-face { font-family: \"noto sans ethiopic\"; src: local(\"notosansethiopic\"), local(\"noto sans ethiopic\"), url(\"/fonts/notosansethiopic-regular.woff\") format(\"woff\"); unicode-range: u+1200-1248, u+124a-124d, u+1250-125...",
+              "requiresEcho": true,
+              "echoTokens": [
+                "notosansethiopic"
+              ]
+            },
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "local(",
+              "semanticGroup": "fonts",
+              "claim": "local font presence probe (noto sans ethiopic)",
+              "excerpt": "@font-face { font-family: \"noto sans ethiopic\"; src: local(\"notosansethiopic\"), local(\"noto sans ethiopic\"), url(\"/fonts/notosansethiopic-regular.woff\") format(\"woff\"); unicode-range: u+1200-1248, u+124a-124d, u+1250-125...",
+              "requiresEcho": true,
+              "echoTokens": [
+                "noto sans ethiopic"
+              ]
+            },
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "unicode-range",
+              "semanticGroup": "font coverage",
+              "claim": "unicode-range + local() may reveal local font coverage",
+              "excerpt": "@font-face { font-family: \"noto sans ethiopic\"; src: local(\"notosansethiopic\"), local(\"noto sans ethiopic\"), url(\"/fonts/notosansethiopic-regular.woff\") format(\"woff\"); unicode-range: u+1200-1248, u+124a-124d, u+1250-125...",
+              "requiresEcho": true,
+              "echoTokens": [
+                "u+1200-1248",
+                "u+124a-124d",
+                "u+1250-1256",
+                "u+1258",
+                "u+125a-125d",
+                "u+1260-1288",
+                "u+128a-128d",
+                "u+1290-12b0",
+                "u+12b2-12b5",
+                "u+12b8-12be",
+                "u+12c0",
+                "u+12c2-12c5",
+                "u+12c8-12d6",
+                "u+12d8-1310",
+                "u+1312-1315",
+                "u+1318-135a",
+                "u+135d-137c",
+                "u+1380-1399",
+                "u+2d80-2d96",
+                "u+2da0-2da6",
+                "u+2da8-2dae",
+                "u+2db0-2db6",
+                "u+2db8-2dbe",
+                "u+2dc0-2dc6",
+                "u+2dc8-2dce",
+                "u+2dd0-2dd6",
+                "u+2dd8-2dde",
+                "u+ab01-ab06",
+                "u+ab09-ab0e",
+                "u+ab11-ab16",
+                "u+ab20-ab26",
+                "u+ab28-ab2e"
+              ]
+            }
+          ],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "/fonts/notosansethiopic-regular.woff"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSFontFaceRule",
+          "selector": "",
+          "cssText": "@font-face { font-family: \"Noto Sans Georgian\"; src: local(\"NotoSansGeorgian\"), local(\"Noto Sans Georgian\"), url(\"/fonts/NotoSansGeorgian-Regular.woff\") format(\"woff\"); unicode-range: U+10A0-10C5, U+10D0-10FC, U+2D00-2D25; }",
+          "urls": [
+            "/fonts/notosansgeorgian-regular.woff"
+          ],
+          "group": "",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "local(",
+              "semanticGroup": "fonts",
+              "claim": "local font presence probe (notosansgeorgian)",
+              "excerpt": "@font-face { font-family: \"noto sans georgian\"; src: local(\"notosansgeorgian\"), local(\"noto sans georgian\"), url(\"/fonts/notosansgeorgian-regular.woff\") format(\"woff\"); unicode-range: u+10a0-10c5, u+10d0-10fc, u+2d00-2d2...",
+              "requiresEcho": true,
+              "echoTokens": [
+                "notosansgeorgian"
+              ]
+            },
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "local(",
+              "semanticGroup": "fonts",
+              "claim": "local font presence probe (noto sans georgian)",
+              "excerpt": "@font-face { font-family: \"noto sans georgian\"; src: local(\"notosansgeorgian\"), local(\"noto sans georgian\"), url(\"/fonts/notosansgeorgian-regular.woff\") format(\"woff\"); unicode-range: u+10a0-10c5, u+10d0-10fc, u+2d00-2d2...",
+              "requiresEcho": true,
+              "echoTokens": [
+                "noto sans georgian"
+              ]
+            },
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "unicode-range",
+              "semanticGroup": "font coverage",
+              "claim": "unicode-range + local() may reveal local font coverage",
+              "excerpt": "@font-face { font-family: \"noto sans georgian\"; src: local(\"notosansgeorgian\"), local(\"noto sans georgian\"), url(\"/fonts/notosansgeorgian-regular.woff\") format(\"woff\"); unicode-range: u+10a0-10c5, u+10d0-10fc, u+2d00-2d2...",
+              "requiresEcho": true,
+              "echoTokens": [
+                "u+10a0-10c5",
+                "u+10d0-10fc",
+                "u+2d00-2d25"
+              ]
+            }
+          ],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "/fonts/notosansgeorgian-regular.woff"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSFontFaceRule",
+          "selector": "",
+          "cssText": "@font-face { font-family: \"Noto Sans Hebrew\"; src: local(\"NotoSansHebrew\"), local(\"Noto Sans Hebrew\"), url(\"/fonts/NotoSansHebrew-Regular.woff\") format(\"woff\"); unicode-range: U+591-5C7, U+5D0-5EA, U+5F0-5F4, U+20AA, U+25CC, U+FB1D-FB36, U+FB38-FB3C, U+FB3E, U+FB40-FB41, U+FB43-FB44, U+FB46-FB4F; }",
+          "urls": [
+            "/fonts/notosanshebrew-regular.woff"
+          ],
+          "group": "",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "local(",
+              "semanticGroup": "fonts",
+              "claim": "local font presence probe (notosanshebrew)",
+              "excerpt": "@font-face { font-family: \"noto sans hebrew\"; src: local(\"notosanshebrew\"), local(\"noto sans hebrew\"), url(\"/fonts/notosanshebrew-regular.woff\") format(\"woff\"); unicode-range: u+591-5c7, u+5d0-5ea, u+5f0-5f4, u+20aa, u+2...",
+              "requiresEcho": true,
+              "echoTokens": [
+                "notosanshebrew"
+              ]
+            },
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "local(",
+              "semanticGroup": "fonts",
+              "claim": "local font presence probe (noto sans hebrew)",
+              "excerpt": "@font-face { font-family: \"noto sans hebrew\"; src: local(\"notosanshebrew\"), local(\"noto sans hebrew\"), url(\"/fonts/notosanshebrew-regular.woff\") format(\"woff\"); unicode-range: u+591-5c7, u+5d0-5ea, u+5f0-5f4, u+20aa, u+2...",
+              "requiresEcho": true,
+              "echoTokens": [
+                "noto sans hebrew"
+              ]
+            },
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "unicode-range",
+              "semanticGroup": "font coverage",
+              "claim": "unicode-range + local() may reveal local font coverage",
+              "excerpt": "@font-face { font-family: \"noto sans hebrew\"; src: local(\"notosanshebrew\"), local(\"noto sans hebrew\"), url(\"/fonts/notosanshebrew-regular.woff\") format(\"woff\"); unicode-range: u+591-5c7, u+5d0-5ea, u+5f0-5f4, u+20aa, u+2...",
+              "requiresEcho": true,
+              "echoTokens": [
+                "u+591-5c7",
+                "u+5d0-5ea",
+                "u+5f0-5f4",
+                "u+20aa",
+                "u+25cc",
+                "u+fb1d-fb36",
+                "u+fb38-fb3c",
+                "u+fb3e",
+                "u+fb40-fb41",
+                "u+fb43-fb44",
+                "u+fb46-fb4f"
+              ]
+            }
+          ],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "/fonts/notosanshebrew-regular.woff"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSFontFaceRule",
+          "selector": "",
+          "cssText": "@font-face { font-family: \"Noto Sans Kannada\"; src: local(\"NotoSansKannada\"), local(\"Noto Sans Kannada\"), url(\"/fonts/NotoSansKannada-Regular.woff\") format(\"woff\"); unicode-range: U+AD, U+D7, U+F7, U+964-965, U+C82-C83, U+C85-C8C, U+C8E-C90, U+C92-CA8, U+CAA-CB3, U+CB5-CB9, U+CBC-CC4, U+CC6-CC8, U+CCA-CCD, U+CD5-CD6, U+CDE, U+CE0-CE3, U+CE6-CEF, U+CF1-CF2, U+200B-200D, U+2013-2014, U+2018-2019, U+201C-201D, U+2026, U+20B9, U+2212, U+25CC; }",
+          "urls": [
+            "/fonts/notosanskannada-regular.woff"
+          ],
+          "group": "",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "local(",
+              "semanticGroup": "fonts",
+              "claim": "local font presence probe (notosanskannada)",
+              "excerpt": "@font-face { font-family: \"noto sans kannada\"; src: local(\"notosanskannada\"), local(\"noto sans kannada\"), url(\"/fonts/notosanskannada-regular.woff\") format(\"woff\"); unicode-range: u+ad, u+d7, u+f7, u+964-965, u+c82-c83, ...",
+              "requiresEcho": true,
+              "echoTokens": [
+                "notosanskannada"
+              ]
+            },
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "local(",
+              "semanticGroup": "fonts",
+              "claim": "local font presence probe (noto sans kannada)",
+              "excerpt": "@font-face { font-family: \"noto sans kannada\"; src: local(\"notosanskannada\"), local(\"noto sans kannada\"), url(\"/fonts/notosanskannada-regular.woff\") format(\"woff\"); unicode-range: u+ad, u+d7, u+f7, u+964-965, u+c82-c83, ...",
+              "requiresEcho": true,
+              "echoTokens": [
+                "noto sans kannada"
+              ]
+            },
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "unicode-range",
+              "semanticGroup": "font coverage",
+              "claim": "unicode-range + local() may reveal local font coverage",
+              "excerpt": "@font-face { font-family: \"noto sans kannada\"; src: local(\"notosanskannada\"), local(\"noto sans kannada\"), url(\"/fonts/notosanskannada-regular.woff\") format(\"woff\"); unicode-range: u+ad, u+d7, u+f7, u+964-965, u+c82-c83, ...",
+              "requiresEcho": true,
+              "echoTokens": [
+                "u+ad",
+                "u+d7",
+                "u+f7",
+                "u+964-965",
+                "u+c82-c83",
+                "u+c85-c8c",
+                "u+c8e-c90",
+                "u+c92-ca8",
+                "u+caa-cb3",
+                "u+cb5-cb9",
+                "u+cbc-cc4",
+                "u+cc6-cc8",
+                "u+cca-ccd",
+                "u+cd5-cd6",
+                "u+cde",
+                "u+ce0-ce3",
+                "u+ce6-cef",
+                "u+cf1-cf2",
+                "u+200b-200d",
+                "u+2013-2014",
+                "u+2018-2019",
+                "u+201c-201d",
+                "u+2026",
+                "u+20b9",
+                "u+2212",
+                "u+25cc"
+              ]
+            }
+          ],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "/fonts/notosanskannada-regular.woff"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSFontFaceRule",
+          "selector": "",
+          "cssText": "@font-face { font-family: \"Noto Sans Khmer\"; src: local(\"NotoSansKhmer\"), local(\"Noto Sans Khmer\"), url(\"/fonts/NotoSansKhmer-Regular.woff\") format(\"woff\"); unicode-range: U+AB, U+AD, U+BB, U+1780-17DD, U+17E0-17E9, U+17F0-17F9, U+19E0-19FF, U+200B; }",
+          "urls": [
+            "/fonts/notosanskhmer-regular.woff"
+          ],
+          "group": "",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "local(",
+              "semanticGroup": "fonts",
+              "claim": "local font presence probe (notosanskhmer)",
+              "excerpt": "@font-face { font-family: \"noto sans khmer\"; src: local(\"notosanskhmer\"), local(\"noto sans khmer\"), url(\"/fonts/notosanskhmer-regular.woff\") format(\"woff\"); unicode-range: u+ab, u+ad, u+bb, u+1780-17dd, u+17e0-17e9, u+17...",
+              "requiresEcho": true,
+              "echoTokens": [
+                "notosanskhmer"
+              ]
+            },
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "local(",
+              "semanticGroup": "fonts",
+              "claim": "local font presence probe (noto sans khmer)",
+              "excerpt": "@font-face { font-family: \"noto sans khmer\"; src: local(\"notosanskhmer\"), local(\"noto sans khmer\"), url(\"/fonts/notosanskhmer-regular.woff\") format(\"woff\"); unicode-range: u+ab, u+ad, u+bb, u+1780-17dd, u+17e0-17e9, u+17...",
+              "requiresEcho": true,
+              "echoTokens": [
+                "noto sans khmer"
+              ]
+            },
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "unicode-range",
+              "semanticGroup": "font coverage",
+              "claim": "unicode-range + local() may reveal local font coverage",
+              "excerpt": "@font-face { font-family: \"noto sans khmer\"; src: local(\"notosanskhmer\"), local(\"noto sans khmer\"), url(\"/fonts/notosanskhmer-regular.woff\") format(\"woff\"); unicode-range: u+ab, u+ad, u+bb, u+1780-17dd, u+17e0-17e9, u+17...",
+              "requiresEcho": true,
+              "echoTokens": [
+                "u+ab",
+                "u+ad",
+                "u+bb",
+                "u+1780-17dd",
+                "u+17e0-17e9",
+                "u+17f0-17f9",
+                "u+19e0-19ff",
+                "u+200b"
+              ]
+            }
+          ],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "/fonts/notosanskhmer-regular.woff"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSFontFaceRule",
+          "selector": "",
+          "cssText": "@font-face { font-family: \"Noto Sans Lao\"; src: local(\"NotoSansLao\"), local(\"Noto Sans Lao\"), url(\"/fonts/NotoSansLao-Regular.woff\") format(\"woff\"); unicode-range: U+AD, U+37E, U+E81-E82, U+E84, U+E87-E88, U+E8A, U+E8D, U+E94-E97, U+E99-E9F, U+EA1-EA3, U+EA5, U+EA7, U+EAA-EAB, U+EAD-EB9, U+EBB-EBD, U+EC0-EC4, U+EC6, U+EC8-ECD, U+ED0-ED9, U+EDC-EDF; }",
+          "urls": [
+            "/fonts/notosanslao-regular.woff"
+          ],
+          "group": "",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "local(",
+              "semanticGroup": "fonts",
+              "claim": "local font presence probe (notosanslao)",
+              "excerpt": "@font-face { font-family: \"noto sans lao\"; src: local(\"notosanslao\"), local(\"noto sans lao\"), url(\"/fonts/notosanslao-regular.woff\") format(\"woff\"); unicode-range: u+ad, u+37e, u+e81-e82, u+e84, u+e87-e88, u+e8a, u+e8d, ...",
+              "requiresEcho": true,
+              "echoTokens": [
+                "notosanslao"
+              ]
+            },
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "local(",
+              "semanticGroup": "fonts",
+              "claim": "local font presence probe (noto sans lao)",
+              "excerpt": "@font-face { font-family: \"noto sans lao\"; src: local(\"notosanslao\"), local(\"noto sans lao\"), url(\"/fonts/notosanslao-regular.woff\") format(\"woff\"); unicode-range: u+ad, u+37e, u+e81-e82, u+e84, u+e87-e88, u+e8a, u+e8d, ...",
+              "requiresEcho": true,
+              "echoTokens": [
+                "noto sans lao"
+              ]
+            },
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "unicode-range",
+              "semanticGroup": "font coverage",
+              "claim": "unicode-range + local() may reveal local font coverage",
+              "excerpt": "@font-face { font-family: \"noto sans lao\"; src: local(\"notosanslao\"), local(\"noto sans lao\"), url(\"/fonts/notosanslao-regular.woff\") format(\"woff\"); unicode-range: u+ad, u+37e, u+e81-e82, u+e84, u+e87-e88, u+e8a, u+e8d, ...",
+              "requiresEcho": true,
+              "echoTokens": [
+                "u+ad",
+                "u+37e",
+                "u+e81-e82",
+                "u+e84",
+                "u+e87-e88",
+                "u+e8a",
+                "u+e8d",
+                "u+e94-e97",
+                "u+e99-e9f",
+                "u+ea1-ea3",
+                "u+ea5",
+                "u+ea7",
+                "u+eaa-eab",
+                "u+ead-eb9",
+                "u+ebb-ebd",
+                "u+ec0-ec4",
+                "u+ec6",
+                "u+ec8-ecd",
+                "u+ed0-ed9",
+                "u+edc-edf"
+              ]
+            }
+          ],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "/fonts/notosanslao-regular.woff"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSFontFaceRule",
+          "selector": "",
+          "cssText": "@font-face { font-family: \"Noto Sans Osmanya\"; src: local(\"NotoSansOsmanya\"), local(\"Noto Sans Osmanya\"), url(\"/fonts/NotoSansOsmanya-Regular.woff\") format(\"woff\"); unicode-range: U+10480-1049D, U+104A0-104A9; }",
+          "urls": [
+            "/fonts/notosansosmanya-regular.woff"
+          ],
+          "group": "",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "local(",
+              "semanticGroup": "fonts",
+              "claim": "local font presence probe (notosansosmanya)",
+              "excerpt": "@font-face { font-family: \"noto sans osmanya\"; src: local(\"notosansosmanya\"), local(\"noto sans osmanya\"), url(\"/fonts/notosansosmanya-regular.woff\") format(\"woff\"); unicode-range: u+10480-1049d, u+104a0-104a9; }",
+              "requiresEcho": true,
+              "echoTokens": [
+                "notosansosmanya"
+              ]
+            },
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "local(",
+              "semanticGroup": "fonts",
+              "claim": "local font presence probe (noto sans osmanya)",
+              "excerpt": "@font-face { font-family: \"noto sans osmanya\"; src: local(\"notosansosmanya\"), local(\"noto sans osmanya\"), url(\"/fonts/notosansosmanya-regular.woff\") format(\"woff\"); unicode-range: u+10480-1049d, u+104a0-104a9; }",
+              "requiresEcho": true,
+              "echoTokens": [
+                "noto sans osmanya"
+              ]
+            },
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "unicode-range",
+              "semanticGroup": "font coverage",
+              "claim": "unicode-range + local() may reveal local font coverage",
+              "excerpt": "@font-face { font-family: \"noto sans osmanya\"; src: local(\"notosansosmanya\"), local(\"noto sans osmanya\"), url(\"/fonts/notosansosmanya-regular.woff\") format(\"woff\"); unicode-range: u+10480-1049d, u+104a0-104a9; }",
+              "requiresEcho": true,
+              "echoTokens": [
+                "u+10480-1049d",
+                "u+104a0-104a9"
+              ]
+            }
+          ],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "/fonts/notosansosmanya-regular.woff"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSFontFaceRule",
+          "selector": "",
+          "cssText": "@font-face { font-family: \"Noto Sans Tamil\"; src: local(\"NotoSansTamil\"), local(\"Noto Sans Tamil\"), url(\"/fonts/NotoSansTamil-Regular.woff\") format(\"woff\"); unicode-range: U+AD, U+D7, U+F7, U+964-965, U+B82-B83, U+B85-B8A, U+B8E-B90, U+B92-B95, U+B99-B9A, U+B9C, U+B9E-B9F, U+BA3-BA4, U+BA8-BAA, U+BAE-BB9, U+BBE-BC2, U+BC6-BC8, U+BCA-BCD, U+BD0, U+BD7, U+BE6-BFA, U+200B-200D, U+2013-2014, U+2018-2019, U+201C-201D, U+2026, U+20B9, U+2212, U+25CC; }",
+          "urls": [
+            "/fonts/notosanstamil-regular.woff"
+          ],
+          "group": "",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "local(",
+              "semanticGroup": "fonts",
+              "claim": "local font presence probe (notosanstamil)",
+              "excerpt": "@font-face { font-family: \"noto sans tamil\"; src: local(\"notosanstamil\"), local(\"noto sans tamil\"), url(\"/fonts/notosanstamil-regular.woff\") format(\"woff\"); unicode-range: u+ad, u+d7, u+f7, u+964-965, u+b82-b83, u+b85-b8...",
+              "requiresEcho": true,
+              "echoTokens": [
+                "notosanstamil"
+              ]
+            },
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "local(",
+              "semanticGroup": "fonts",
+              "claim": "local font presence probe (noto sans tamil)",
+              "excerpt": "@font-face { font-family: \"noto sans tamil\"; src: local(\"notosanstamil\"), local(\"noto sans tamil\"), url(\"/fonts/notosanstamil-regular.woff\") format(\"woff\"); unicode-range: u+ad, u+d7, u+f7, u+964-965, u+b82-b83, u+b85-b8...",
+              "requiresEcho": true,
+              "echoTokens": [
+                "noto sans tamil"
+              ]
+            },
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "unicode-range",
+              "semanticGroup": "font coverage",
+              "claim": "unicode-range + local() may reveal local font coverage",
+              "excerpt": "@font-face { font-family: \"noto sans tamil\"; src: local(\"notosanstamil\"), local(\"noto sans tamil\"), url(\"/fonts/notosanstamil-regular.woff\") format(\"woff\"); unicode-range: u+ad, u+d7, u+f7, u+964-965, u+b82-b83, u+b85-b8...",
+              "requiresEcho": true,
+              "echoTokens": [
+                "u+ad",
+                "u+d7",
+                "u+f7",
+                "u+964-965",
+                "u+b82-b83",
+                "u+b85-b8a",
+                "u+b8e-b90",
+                "u+b92-b95",
+                "u+b99-b9a",
+                "u+b9c",
+                "u+b9e-b9f",
+                "u+ba3-ba4",
+                "u+ba8-baa",
+                "u+bae-bb9",
+                "u+bbe-bc2",
+                "u+bc6-bc8",
+                "u+bca-bcd",
+                "u+bd0",
+                "u+bd7",
+                "u+be6-bfa",
+                "u+200b-200d",
+                "u+2013-2014",
+                "u+2018-2019",
+                "u+201c-201d",
+                "u+2026",
+                "u+20b9",
+                "u+2212",
+                "u+25cc"
+              ]
+            }
+          ],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "/fonts/notosanstamil-regular.woff"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSFontFaceRule",
+          "selector": "",
+          "cssText": "@font-face { font-family: \"Noto Sans Telugu\"; src: local(\"NotoSansTelugu\"), local(\"Noto Sans Telugu\"), url(\"/fonts/NotoSansTelugu-Regular.woff\") format(\"woff\"); unicode-range: U+AD, U+D7, U+F7, U+964-965, U+C01-C03, U+C05-C0C, U+C0E-C10, U+C12-C28, U+C2A-C33, U+C35-C39, U+C3D-C44, U+C46-C48, U+C4A-C4D, U+C55-C56, U+C58-C59, U+C60-C63, U+C66-C6F, U+C78-C7F, U+200B-200D, U+2013-2014, U+2018-2019, U+201C-201D, U+2026, U+20B9, U+2212, U+25CC; }",
+          "urls": [
+            "/fonts/notosanstelugu-regular.woff"
+          ],
+          "group": "",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "local(",
+              "semanticGroup": "fonts",
+              "claim": "local font presence probe (notosanstelugu)",
+              "excerpt": "@font-face { font-family: \"noto sans telugu\"; src: local(\"notosanstelugu\"), local(\"noto sans telugu\"), url(\"/fonts/notosanstelugu-regular.woff\") format(\"woff\"); unicode-range: u+ad, u+d7, u+f7, u+964-965, u+c01-c03, u+c0...",
+              "requiresEcho": true,
+              "echoTokens": [
+                "notosanstelugu"
+              ]
+            },
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "local(",
+              "semanticGroup": "fonts",
+              "claim": "local font presence probe (noto sans telugu)",
+              "excerpt": "@font-face { font-family: \"noto sans telugu\"; src: local(\"notosanstelugu\"), local(\"noto sans telugu\"), url(\"/fonts/notosanstelugu-regular.woff\") format(\"woff\"); unicode-range: u+ad, u+d7, u+f7, u+964-965, u+c01-c03, u+c0...",
+              "requiresEcho": true,
+              "echoTokens": [
+                "noto sans telugu"
+              ]
+            },
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "unicode-range",
+              "semanticGroup": "font coverage",
+              "claim": "unicode-range + local() may reveal local font coverage",
+              "excerpt": "@font-face { font-family: \"noto sans telugu\"; src: local(\"notosanstelugu\"), local(\"noto sans telugu\"), url(\"/fonts/notosanstelugu-regular.woff\") format(\"woff\"); unicode-range: u+ad, u+d7, u+f7, u+964-965, u+c01-c03, u+c0...",
+              "requiresEcho": true,
+              "echoTokens": [
+                "u+ad",
+                "u+d7",
+                "u+f7",
+                "u+964-965",
+                "u+c01-c03",
+                "u+c05-c0c",
+                "u+c0e-c10",
+                "u+c12-c28",
+                "u+c2a-c33",
+                "u+c35-c39",
+                "u+c3d-c44",
+                "u+c46-c48",
+                "u+c4a-c4d",
+                "u+c55-c56",
+                "u+c58-c59",
+                "u+c60-c63",
+                "u+c66-c6f",
+                "u+c78-c7f",
+                "u+200b-200d",
+                "u+2013-2014",
+                "u+2018-2019",
+                "u+201c-201d",
+                "u+2026",
+                "u+20b9",
+                "u+2212",
+                "u+25cc"
+              ]
+            }
+          ],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "/fonts/notosanstelugu-regular.woff"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSFontFaceRule",
+          "selector": "",
+          "cssText": "@font-face { font-family: \"Noto Sans Thai\"; src: local(\"NotoSansThai\"), local(\"Noto Sans Thai\"), url(\"/fonts/NotoSansThai-Regular.woff\") format(\"woff\"); unicode-range: U+E01-E3A, U+E3F-E5B, U+200B-200D, U+25CC; }",
+          "urls": [
+            "/fonts/notosansthai-regular.woff"
+          ],
+          "group": "",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "local(",
+              "semanticGroup": "fonts",
+              "claim": "local font presence probe (notosansthai)",
+              "excerpt": "@font-face { font-family: \"noto sans thai\"; src: local(\"notosansthai\"), local(\"noto sans thai\"), url(\"/fonts/notosansthai-regular.woff\") format(\"woff\"); unicode-range: u+e01-e3a, u+e3f-e5b, u+200b-200d, u+25cc; }",
+              "requiresEcho": true,
+              "echoTokens": [
+                "notosansthai"
+              ]
+            },
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "local(",
+              "semanticGroup": "fonts",
+              "claim": "local font presence probe (noto sans thai)",
+              "excerpt": "@font-face { font-family: \"noto sans thai\"; src: local(\"notosansthai\"), local(\"noto sans thai\"), url(\"/fonts/notosansthai-regular.woff\") format(\"woff\"); unicode-range: u+e01-e3a, u+e3f-e5b, u+200b-200d, u+25cc; }",
+              "requiresEcho": true,
+              "echoTokens": [
+                "noto sans thai"
+              ]
+            },
+            {
+              "reason": "keyword_match",
+              "category": "@font-face",
+              "keyword": "unicode-range",
+              "semanticGroup": "font coverage",
+              "claim": "unicode-range + local() may reveal local font coverage",
+              "excerpt": "@font-face { font-family: \"noto sans thai\"; src: local(\"notosansthai\"), local(\"noto sans thai\"), url(\"/fonts/notosansthai-regular.woff\") format(\"woff\"); unicode-range: u+e01-e3a, u+e3f-e5b, u+200b-200d, u+25cc; }",
+              "requiresEcho": true,
+              "echoTokens": [
+                "u+e01-e3a",
+                "u+e3f-e5b",
+                "u+200b-200d",
+                "u+25cc"
+              ]
+            }
+          ],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "/fonts/notosansthai-regular.woff"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSFontFaceRule",
+          "selector": "",
+          "cssText": "@font-face { font-family: Roboto; font-style: normal; font-weight: 400; font-display: swap; src: url(\"/fonts/roboto400.woff\") format(\"woff\"); }",
+          "urls": [
+            "/fonts/roboto400.woff"
+          ],
+          "group": "",
+          "sources": [],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "/fonts/roboto400.woff"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSFontFaceRule",
+          "selector": "",
+          "cssText": "@font-face { font-family: Roboto; font-style: normal; font-weight: 300; font-display: swap; src: url(\"/fonts/roboto300.woff\") format(\"woff\"); }",
+          "urls": [
+            "/fonts/roboto300.woff"
+          ],
+          "group": "",
+          "sources": [],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "/fonts/roboto300.woff"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSFontFaceRule",
+          "selector": "",
+          "cssText": "@font-face { font-family: Roboto; font-style: normal; font-weight: 500; font-display: swap; src: url(\"/fonts/roboto500.woff\") format(\"woff\"); }",
+          "urls": [
+            "/fonts/roboto500.woff"
+          ],
+          "group": "",
+          "sources": [],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "/fonts/roboto500.woff"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSFontFaceRule",
+          "selector": "",
+          "cssText": "@font-face { font-family: Roboto; font-style: normal; font-weight: 700; font-display: swap; src: url(\"/fonts/roboto700.woff\") format(\"woff\"); }",
+          "urls": [
+            "/fonts/roboto700.woff"
+          ],
+          "group": "",
+          "sources": [],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "/fonts/roboto700.woff"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSFontFaceRule",
+          "selector": "",
+          "cssText": "@font-face { font-family: \"VK Sans Display Faux\"; font-weight: 600; font-display: swap; src: url(\"/css/fonts/VKSansDisplayDemiBoldFaux.v100.woff2\") format(\"woff2\"); unicode-range: U+0, U+A, U+D, U+20-5A, U+61-7A, U+401, U+404, U+406, U+407, U+40E, U+410-44F, U+451, U+454, U+456, U+457, U+45E, U+490, U+491; }",
+          "urls": [
+            "/css/fonts/vksansdisplaydemiboldfaux.v100.woff2"
+          ],
+          "group": "",
+          "sources": [],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "/css/fonts/vksansdisplaydemiboldfaux.v100.woff2"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSFontFaceRule",
+          "selector": "",
+          "cssText": "@font-face { font-family: \"VK Sans Display\"; font-weight: 300; font-display: swap; src: url(\"/css/fonts/VKSansDisplayLightLatin.v320.woff2\") format(\"woff2\"), url(\"/css/fonts/VKSansDisplayLightLatin.v320.woff\") format(\"woff\"); unicode-range: U+0, U+A, U+D, U+20-5F, U+61-7E, U+A0, U+A2-A5, U+A7, U+A9, U+AB, U+AD, U+AE, U+B0, U+B1, U+B6, U+B7, U+BB, U+D7, U+F7, U+131, U+237, U+2013, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026, U+2039, U+203A, U+20AC, U+20B4, U+20B8, U+20BD, U+20BF, U+2122, U+2191, U+2193, U+2212; }",
+          "urls": [
+            "/css/fonts/vksansdisplaylightlatin.v320.woff2",
+            "/css/fonts/vksansdisplaylightlatin.v320.woff"
+          ],
+          "group": "",
+          "sources": [],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "/css/fonts/vksansdisplaylightlatin.v320.woff2",
+                "/css/fonts/vksansdisplaylightlatin.v320.woff"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSFontFaceRule",
+          "selector": "",
+          "cssText": "@font-face { font-family: \"VK Sans Display\"; font-weight: 300; font-display: swap; src: url(\"/css/fonts/VKSansDisplayLightCyrillic.v320.woff2\") format(\"woff2\"), url(\"/css/fonts/VKSansDisplayLightCyrillic.v320.woff\") format(\"woff\"); unicode-range: U+401, U+404, U+406, U+407, U+40E, U+410-44F, U+451, U+454, U+456, U+457, U+45E, U+490, U+491, U+20B4, U+2116; }",
+          "urls": [
+            "/css/fonts/vksansdisplaylightcyrillic.v320.woff2",
+            "/css/fonts/vksansdisplaylightcyrillic.v320.woff"
+          ],
+          "group": "",
+          "sources": [],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "/css/fonts/vksansdisplaylightcyrillic.v320.woff2",
+                "/css/fonts/vksansdisplaylightcyrillic.v320.woff"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSFontFaceRule",
+          "selector": "",
+          "cssText": "@font-face { font-family: \"VK Sans Display\"; font-weight: 300; font-display: swap; src: url(\"/css/fonts/VKSansDisplayLightRest.v320.woff2\") format(\"woff2\"), url(\"/css/fonts/VKSansDisplayLightRest.v320.woff\") format(\"woff\"); unicode-range: U+307, U+308, U+2190, U+2192, U+2194-2199, U+2248, U+2260, U+2264, U+2265; }",
+          "urls": [
+            "/css/fonts/vksansdisplaylightrest.v320.woff2",
+            "/css/fonts/vksansdisplaylightrest.v320.woff"
+          ],
+          "group": "",
+          "sources": [],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "/css/fonts/vksansdisplaylightrest.v320.woff2",
+                "/css/fonts/vksansdisplaylightrest.v320.woff"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSFontFaceRule",
+          "selector": "",
+          "cssText": "@font-face { font-family: \"VK Sans Display\"; font-weight: 400; font-display: swap; src: url(\"/css/fonts/VKSansDisplayRegularLatin.v320.woff2\") format(\"woff2\"), url(\"/css/fonts/VKSansDisplayRegularLatin.v320.woff\") format(\"woff\"); unicode-range: U+0, U+A, U+D, U+20-5F, U+61-7E, U+A0, U+A2-A5, U+A7, U+A9, U+AB, U+AD, U+AE, U+B0, U+B1, U+B6, U+B7, U+BB, U+D7, U+F7, U+131, U+237, U+2013, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026, U+2039, U+203A, U+20AC, U+20B4, U+20B8, U+20BD, U+20BF, U+2122, U+2191, U+2193, U+2212; }",
+          "urls": [
+            "/css/fonts/vksansdisplayregularlatin.v320.woff2",
+            "/css/fonts/vksansdisplayregularlatin.v320.woff"
+          ],
+          "group": "",
+          "sources": [],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "/css/fonts/vksansdisplayregularlatin.v320.woff2",
+                "/css/fonts/vksansdisplayregularlatin.v320.woff"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSFontFaceRule",
+          "selector": "",
+          "cssText": "@font-face { font-family: \"VK Sans Display\"; font-weight: 400; font-display: swap; src: url(\"/css/fonts/VKSansDisplayRegularCyrillic.v320.woff2\") format(\"woff2\"), url(\"/css/fonts/VKSansDisplayRegularCyrillic.v320.woff\") format(\"woff\"); unicode-range: U+401, U+404, U+406, U+407, U+40E, U+410-44F, U+451, U+454, U+456, U+457, U+45E, U+490, U+491, U+20B4, U+2116; }",
+          "urls": [
+            "/css/fonts/vksansdisplayregularcyrillic.v320.woff2",
+            "/css/fonts/vksansdisplayregularcyrillic.v320.woff"
+          ],
+          "group": "",
+          "sources": [],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "/css/fonts/vksansdisplayregularcyrillic.v320.woff2",
+                "/css/fonts/vksansdisplayregularcyrillic.v320.woff"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSFontFaceRule",
+          "selector": "",
+          "cssText": "@font-face { font-family: \"VK Sans Display\"; font-weight: 400; font-display: swap; src: url(\"/css/fonts/VKSansDisplayRegularRest.v320.woff2\") format(\"woff2\"), url(\"/css/fonts/VKSansDisplayRegularRest.v320.woff\") format(\"woff\"); unicode-range: U+307, U+308, U+2190, U+2192, U+2194-2199, U+2248, U+2260, U+2264, U+2265; }",
+          "urls": [
+            "/css/fonts/vksansdisplayregularrest.v320.woff2",
+            "/css/fonts/vksansdisplayregularrest.v320.woff"
+          ],
+          "group": "",
+          "sources": [],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "/css/fonts/vksansdisplayregularrest.v320.woff2",
+                "/css/fonts/vksansdisplayregularrest.v320.woff"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSFontFaceRule",
+          "selector": "",
+          "cssText": "@font-face { font-family: \"VK Sans Display\"; font-weight: 500; font-display: swap; src: url(\"/css/fonts/VKSansDisplayMediumLatin.v320.woff2\") format(\"woff2\"), url(\"/css/fonts/VKSansDisplayMediumLatin.v320.woff\") format(\"woff\"); unicode-range: U+0, U+A, U+D, U+20-5F, U+61-7E, U+A0, U+A2-A5, U+A7, U+A9, U+AB, U+AD, U+AE, U+B0, U+B1, U+B6, U+B7, U+BB, U+D7, U+F7, U+131, U+237, U+2013, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026, U+2039, U+203A, U+20AC, U+20B4, U+20B8, U+20BD, U+20BF, U+2122, U+2191, U+2193, U+2212; }",
+          "urls": [
+            "/css/fonts/vksansdisplaymediumlatin.v320.woff2",
+            "/css/fonts/vksansdisplaymediumlatin.v320.woff"
+          ],
+          "group": "",
+          "sources": [],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "/css/fonts/vksansdisplaymediumlatin.v320.woff2",
+                "/css/fonts/vksansdisplaymediumlatin.v320.woff"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSFontFaceRule",
+          "selector": "",
+          "cssText": "@font-face { font-family: \"VK Sans Display\"; font-weight: 500; font-display: swap; src: url(\"/css/fonts/VKSansDisplayMediumCyrillic.v320.woff2\") format(\"woff2\"), url(\"/css/fonts/VKSansDisplayMediumCyrillic.v320.woff\") format(\"woff\"); unicode-range: U+401, U+404, U+406, U+407, U+40E, U+410-44F, U+451, U+454, U+456, U+457, U+45E, U+490, U+491, U+20B4, U+2116; }",
+          "urls": [
+            "/css/fonts/vksansdisplaymediumcyrillic.v320.woff2",
+            "/css/fonts/vksansdisplaymediumcyrillic.v320.woff"
+          ],
+          "group": "",
+          "sources": [],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "/css/fonts/vksansdisplaymediumcyrillic.v320.woff2",
+                "/css/fonts/vksansdisplaymediumcyrillic.v320.woff"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSFontFaceRule",
+          "selector": "",
+          "cssText": "@font-face { font-family: \"VK Sans Display\"; font-weight: 500; font-display: swap; src: url(\"/css/fonts/VKSansDisplayMediumRest.v320.woff2\") format(\"woff2\"), url(\"/css/fonts/VKSansDisplayMediumRest.v320.woff\") format(\"woff\"); unicode-range: U+307, U+308, U+2190, U+2192, U+2194-2199, U+2248, U+2260, U+2264, U+2265; }",
+          "urls": [
+            "/css/fonts/vksansdisplaymediumrest.v320.woff2",
+            "/css/fonts/vksansdisplaymediumrest.v320.woff"
+          ],
+          "group": "",
+          "sources": [],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "/css/fonts/vksansdisplaymediumrest.v320.woff2",
+                "/css/fonts/vksansdisplaymediumrest.v320.woff"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSFontFaceRule",
+          "selector": "",
+          "cssText": "@font-face { font-family: \"VK Sans Display\"; font-weight: 600; font-display: swap; src: url(\"/css/fonts/VKSansDisplayDemiBoldLatin.v320.woff2\") format(\"woff2\"), url(\"/css/fonts/VKSansDisplayDemiBoldLatin.v320.woff\") format(\"woff\"); unicode-range: U+0, U+A, U+D, U+20-5F, U+61-7E, U+A0, U+A2-A5, U+A7, U+A9, U+AB, U+AD, U+AE, U+B0, U+B1, U+B6, U+B7, U+BB, U+D7, U+F7, U+131, U+237, U+2013, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026, U+2039, U+203A, U+20AC, U+20B4, U+20B8, U+20BD, U+20BF, U+2122, U+2191, U+2193, U+2212; }",
+          "urls": [
+            "/css/fonts/vksansdisplaydemiboldlatin.v320.woff2",
+            "/css/fonts/vksansdisplaydemiboldlatin.v320.woff"
+          ],
+          "group": "",
+          "sources": [],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "/css/fonts/vksansdisplaydemiboldlatin.v320.woff2",
+                "/css/fonts/vksansdisplaydemiboldlatin.v320.woff"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSFontFaceRule",
+          "selector": "",
+          "cssText": "@font-face { font-family: \"VK Sans Display\"; font-weight: 600; font-display: swap; src: url(\"/css/fonts/VKSansDisplayDemiBoldCyrillic.v320.woff2\") format(\"woff2\"), url(\"/css/fonts/VKSansDisplayDemiBoldCyrillic.v320.woff\") format(\"woff\"); unicode-range: U+401, U+404, U+406, U+407, U+40E, U+410-44F, U+451, U+454, U+456, U+457, U+45E, U+490, U+491, U+20B4, U+2116; }",
+          "urls": [
+            "/css/fonts/vksansdisplaydemiboldcyrillic.v320.woff2",
+            "/css/fonts/vksansdisplaydemiboldcyrillic.v320.woff"
+          ],
+          "group": "",
+          "sources": [],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "/css/fonts/vksansdisplaydemiboldcyrillic.v320.woff2",
+                "/css/fonts/vksansdisplaydemiboldcyrillic.v320.woff"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSFontFaceRule",
+          "selector": "",
+          "cssText": "@font-face { font-family: \"VK Sans Display\"; font-weight: 600; font-display: swap; src: url(\"/css/fonts/VKSansDisplayDemiBoldRest.v320.woff2\") format(\"woff2\"), url(\"/css/fonts/VKSansDisplayDemiBoldRest.v320.woff\") format(\"woff\"); unicode-range: U+307, U+308, U+2190, U+2192, U+2194-2199, U+2248, U+2260, U+2264, U+2265; }",
+          "urls": [
+            "/css/fonts/vksansdisplaydemiboldrest.v320.woff2",
+            "/css/fonts/vksansdisplaydemiboldrest.v320.woff"
+          ],
+          "group": "",
+          "sources": [],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "/css/fonts/vksansdisplaydemiboldrest.v320.woff2",
+                "/css/fonts/vksansdisplaydemiboldrest.v320.woff"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSFontFaceRule",
+          "selector": "",
+          "cssText": "@font-face { font-family: \"VK Sans Display\"; font-weight: 700; font-display: swap; src: url(\"/css/fonts/VKSansDisplayBoldLatin.v320.woff2\") format(\"woff2\"), url(\"/css/fonts/VKSansDisplayBoldLatin.v320.woff\") format(\"woff\"); unicode-range: U+0, U+A, U+D, U+20-5F, U+61-7E, U+A0, U+A2-A5, U+A7, U+A9, U+AB, U+AD, U+AE, U+B0, U+B1, U+B6, U+B7, U+BB, U+D7, U+F7, U+131, U+237, U+2013, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026, U+2039, U+203A, U+20AC, U+20B4, U+20B8, U+20BD, U+20BF, U+2122, U+2191, U+2193, U+2212; }",
+          "urls": [
+            "/css/fonts/vksansdisplayboldlatin.v320.woff2",
+            "/css/fonts/vksansdisplayboldlatin.v320.woff"
+          ],
+          "group": "",
+          "sources": [],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "/css/fonts/vksansdisplayboldlatin.v320.woff2",
+                "/css/fonts/vksansdisplayboldlatin.v320.woff"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSFontFaceRule",
+          "selector": "",
+          "cssText": "@font-face { font-family: \"VK Sans Display\"; font-weight: 700; font-display: swap; src: url(\"/css/fonts/VKSansDisplayBoldCyrillic.v320.woff2\") format(\"woff2\"), url(\"/css/fonts/VKSansDisplayBoldCyrillic.v320.woff\") format(\"woff\"); unicode-range: U+401, U+404, U+406, U+407, U+40E, U+410-44F, U+451, U+454, U+456, U+457, U+45E, U+490, U+491, U+20B4, U+2116; }",
+          "urls": [
+            "/css/fonts/vksansdisplayboldcyrillic.v320.woff2",
+            "/css/fonts/vksansdisplayboldcyrillic.v320.woff"
+          ],
+          "group": "",
+          "sources": [],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "/css/fonts/vksansdisplayboldcyrillic.v320.woff2",
+                "/css/fonts/vksansdisplayboldcyrillic.v320.woff"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSFontFaceRule",
+          "selector": "",
+          "cssText": "@font-face { font-family: \"VK Sans Display\"; font-weight: 700; font-display: swap; src: url(\"/css/fonts/VKSansDisplayBoldRest.v320.woff2\") format(\"woff2\"), url(\"/css/fonts/VKSansDisplayBoldRest.v320.woff\") format(\"woff\"); unicode-range: U+307, U+308, U+2190, U+2192, U+2194-2199, U+2248, U+2260, U+2264, U+2265; }",
+          "urls": [
+            "/css/fonts/vksansdisplayboldrest.v320.woff2",
+            "/css/fonts/vksansdisplayboldrest.v320.woff"
+          ],
+          "group": "",
+          "sources": [],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "/css/fonts/vksansdisplayboldrest.v320.woff2",
+                "/css/fonts/vksansdisplayboldrest.v320.woff"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "body",
+          "cssText": "body { background: var(--vkui--color_background); color: var(--vkui--color_text_primary); margin: 0px; padding: 0px; direction: ltr; font-size: var(--vkui--font_text--font_size--compact); font-family: var(--vkui--font_family_base,-apple-system,BlinkMacSystemFont,'Roboto','Helvetica Neue',Geneva,\"Noto Sans Armenian\",\"Noto Sans Bengali\",\"Noto Sans Cherokee\",\"Noto Sans Devanagari\",\"Noto Sans Ethiopic\",\"Noto Sans Georgian\",\"Noto Sans Hebrew\",\"Noto Sans Kannada\",\"Noto Sans Khmer\",\"Noto Sans Lao\",\"Noto Sans Osmanya\",\"Noto Sans Tamil\",\"Noto Sans Telugu\",\"Noto Sans Thai\",arial,Tahoma,verdana,sans-serif); line-height: 1.154; font-weight: 400; -webkit-font-smoothing: subpixel-antialiased; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "div#utils",
+          "cssText": "div#utils { top: -30px; position: absolute; height: 20px; overflow: hidden; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ":root, [scheme=\"vkcom_light\"]",
+          "cssText": ":root, [scheme=\"vkcom_light\"] { --vkui--font_family_base: -apple-system, BlinkMacSystemFont, \"Roboto\", \"Helvetica Neue\", Geneva, \"Noto Sans Armenian\", \"Noto Sans Bengali\", \"Noto Sans Cherokee\", \"Noto Sans Devanagari\", \"Noto Sans Ethiopic\", \"Noto Sans Georgian\", \"Noto Sans Hebrew\", \"Noto Sans Kannada\", \"Noto Sans Khmer\", \"Noto Sans Lao\", \"Noto Sans Osmanya\", \"Noto Sans Tamil\", \"Noto Sans Telugu\", \"Noto Sans Thai\", arial, Tahoma, verdana, sans-serif; --vkui--font_text--font_size--compact: 13px; --vkui--color_background: #edeef0; --vkui--color_text_primary: #000000; --vkui--color_text_contrast: #ffffff; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "[scheme=\"vkcom_dark\"]",
+          "cssText": "[scheme=\"vkcom_dark\"] { --vkui--color_background: #141414; --vkui--color_text_primary: #e1e3e6; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ":root, [scheme=\"vkcom_dark\"], [scheme=\"vkcom_light\"]",
+          "cssText": ":root, [scheme=\"vkcom_dark\"], [scheme=\"vkcom_light\"] { --vkui--font_text--font_size--compact: 13px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".index_page #content",
+          "cssText": ".index_page #content { padding: 18px 20px 36px; position: relative; max-width: 1000px; margin-left: auto; margin-right: auto; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "https://st6-22.vk.com/css/al/common.6061a32f.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://st6-22.vk.com/css/al/base.ce5ac853.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://st6-22.vk.com/css/al/vkui.d1afb50b.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://st6-22.vk.com/css/al/fonts_utf.7fa94ada.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://st6-22.vk.com/css/al/fonts_cnt_async.4881739c.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://st6-22.vk.com/dist/web/chunks/vkcom-kit.d321f3b0.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://st6-22.vk.com/dist/web/chunks/audioplayer-lib.32aa7a37.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://st6-22.vk.com/dist/web/chunks/core_spa.c0b2ae16.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://st6-22.vk.com/dist/web/common_web.e365f07f.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://st6-22.vk.com/css/al/index.b4934277.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://st6-22.vk.com/dist/web/index.49041bdf.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://st6-22.vk.com/css/al/login.7cb8dac1.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://st6-22.vk.com/css/al/join.c48430fa.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://st6-22.vk.com/css/ui_controls.c6337407.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://st6-22.vk.com/dist/web/search_top_anonymous.75da2385.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://st6-22.vk.com/css/al/search.d15a9272.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://st6-22.vk.com/dist/web/site_layout.e86ff571.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://st6-22.vk.com/css/al/vk_sans_display_faux.7d208ecb.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://st6-22.vk.com/css/al/vk_sans_display.fc9bdb17.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://st6-22.vk.com/css/al/ui_common.47cdce79.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 17,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".SplashScreen-module_container__U6MpQ",
+          "cssText": ".SplashScreen-module_container__U6MpQ { height: 100%; position: relative; width: 100%; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".SplashScreen-module_splashScreen__MaFmq",
+          "cssText": ".SplashScreen-module_splashScreen__MaFmq { --platform-icon-height: 20px; --platform-icon-padding: 24px; --splash-screen-icons-color: var(--vkui--color_icon_secondary_alpha); inset: 0px; display: flex; position: absolute; -webkit-box-orient: vertical; -webkit-box-direction: normal; flex-direction: column; -webkit-box-align: center; align-items: center; background-color: var(--splash-screen-background,var(--vkui--color_background_content)); color: var(--vkui--color_overlay_primary); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".SplashScreen-module_splashScreenHidden__PhPwE",
+          "cssText": ".SplashScreen-module_splashScreenHidden__PhPwE { animation-duration: 0.24s; animation-fill-mode: forwards; animation-name: a; animation-timing-function: cubic-bezier(0.65, 0, 0.35, 1); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".SplashScreen-module_splashScreen__MaFmq.SplashScreen-module_isMobile__Oulbd",
+          "cssText": ".SplashScreen-module_splashScreen__MaFmq.SplashScreen-module_isMobile__Oulbd { --platform-icon-padding: 32px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".SplashScreen-module_contentHolder__KneTf",
+          "cssText": ".SplashScreen-module_contentHolder__KneTf { -webkit-box-flex: 1; display: flex; flex: 1 1 0%; width: 100%; -webkit-box-pack: center; justify-content: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; flex-direction: column; -webkit-box-align: center; align-items: center; gap: 96px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".SplashScreen-module_spinner__XFwa4",
+          "cssText": ".SplashScreen-module_spinner__XFwa4 { color: var(--splash-screen-icons-color); height: auto; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".SplashScreen-module_splashScreen__MaFmq.SplashScreen-module_isMobile__Oulbd .SplashScreen-module_spinner__XFwa4",
+          "cssText": ".SplashScreen-module_splashScreen__MaFmq.SplashScreen-module_isMobile__Oulbd .SplashScreen-module_spinner__XFwa4 { bottom: calc(var(--platform-icon-height) + var(--platform-icon-padding) + 32px); position: absolute; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".SplashScreen-module_splashScreen__MaFmq.SplashScreen-module_isSkeleton__KSs-H .SplashScreen-module_spinner__XFwa4",
+          "cssText": ".SplashScreen-module_splashScreen__MaFmq.SplashScreen-module_isSkeleton__KSs-H .SplashScreen-module_spinner__XFwa4 { visibility: hidden; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".SplashScreen-module_platformIcon__-lytd",
+          "cssText": ".SplashScreen-module_platformIcon__-lytd { bottom: var(--platform-icon-padding); color: var(--splash-screen-icons-color); position: absolute; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSKeyframesRule",
+          "selector": "",
+          "cssText": "@-webkit-keyframes a { \n  0% { opacity: 1; }\n  99% { transform: scale(1); }\n  100% { opacity: 0; transform: scale(0); }\n}",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSKeyframeRule",
+          "selector": "",
+          "cssText": "0% { opacity: 1; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSKeyframeRule",
+          "selector": "",
+          "cssText": "99% { transform: scale(1); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSKeyframeRule",
+          "selector": "",
+          "cssText": "100% { opacity: 0; transform: scale(0); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSKeyframesRule",
+          "selector": "",
+          "cssText": "@keyframes a { \n  0% { opacity: 1; }\n  99% { transform: scale(1); }\n  100% { opacity: 0; transform: scale(0); }\n}",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSKeyframeRule",
+          "selector": "",
+          "cssText": "0% { opacity: 1; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSKeyframeRule",
+          "selector": "",
+          "cssText": "99% { transform: scale(1); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSKeyframeRule",
+          "selector": "",
+          "cssText": "100% { opacity: 0; transform: scale(0); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 24,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".EcosystemMultiAccounts-module_wrapper__hHkV-",
+          "cssText": ".EcosystemMultiAccounts-module_wrapper__hHkV- { --macc_switcher--width: 300px; --macc_backdrop_background: var(--vkui--color_background_content); --macc_cell_background--hover: var(--vkui--color_background_secondary); width: var(--macc_switcher--width); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".EcosystemMultiAccounts-module_wrapper__hHkV-[data-is-ecoplate=\"true\"] .EcosystemMultiAccounts-module_userCell__zsmJu",
+          "cssText": ".EcosystemMultiAccounts-module_wrapper__hHkV-[data-is-ecoplate=\"true\"] .EcosystemMultiAccounts-module_userCell__zsmJu { padding: 0 var(--vkui--size_base_padding_horizontal--regular); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".EcosystemMultiAccounts-module_userCell__zsmJu",
+          "cssText": ".EcosystemMultiAccounts-module_userCell__zsmJu { padding: 0px 16px; font-size: 15px; line-height: 20px; border-radius: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".EcosystemMultiAccounts-module_userCell__zsmJu:hover",
+          "cssText": ".EcosystemMultiAccounts-module_userCell__zsmJu:hover { background-color: var(--macc_cell_background--hover); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".EcosystemMultiAccounts-module_userCell__zsmJu .vkuiSimpleCell__subtitle",
+          "cssText": ".EcosystemMultiAccounts-module_userCell__zsmJu .vkuiSimpleCell__subtitle { white-space: normal; color: var(--vkui--color_text_secondary); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".EcosystemMultiAccounts-module_notifyNotOkWrapper__RJqtT",
+          "cssText": ".EcosystemMultiAccounts-module_notifyNotOkWrapper__RJqtT { display: flex; min-width: 24px; min-height: 24px; justify-content: center; align-items: center; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".EcosystemMultiAccounts-module_notifyNotOk__WujlU",
+          "cssText": ".EcosystemMultiAccounts-module_notifyNotOk__WujlU { display: none; padding: 12px; color: var(--vkui--color_icon_tertiary); cursor: pointer; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".EcosystemMultiAccounts-module_notifyNotOk__WujlU.EcosystemMultiAccounts-module_inaccessible__ddgT-",
+          "cssText": ".EcosystemMultiAccounts-module_notifyNotOk__WujlU.EcosystemMultiAccounts-module_inaccessible__ddgT- { display: block; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".EcosystemMultiAccounts-module_notifyNotOk__WujlU:hover",
+          "cssText": ".EcosystemMultiAccounts-module_notifyNotOk__WujlU:hover { color: var(--vkui--color_icon_medium); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".EcosystemMultiAccounts-module_addCell__q1vxU",
+          "cssText": ".EcosystemMultiAccounts-module_addCell__q1vxU { min-height: 56px; color: var(--vkui--color_text_accent); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".EcosystemMultiAccounts-module_hasAccountStyling__Zo4XS.EcosystemMultiAccounts-module_addCell__q1vxU",
+          "cssText": ".EcosystemMultiAccounts-module_hasAccountStyling__Zo4XS.EcosystemMultiAccounts-module_addCell__q1vxU { min-height: revert; color: var(--vkui--color_text_primary); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".EcosystemMultiAccounts-module_avatarIcon__5Yneu",
+          "cssText": ".EcosystemMultiAccounts-module_avatarIcon__5Yneu { color: var(--vkui--color_icon_accent); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".EcosystemMultiAccounts-module_addAvatar__b-a-y",
+          "cssText": ".EcosystemMultiAccounts-module_addAvatar__b-a-y { background: var(--vkui--color_background_secondary); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".EcosystemMultiAccounts-module_userCell__zsmJu:hover .EcosystemMultiAccounts-module_addAvatar__b-a-y",
+          "cssText": ".EcosystemMultiAccounts-module_userCell__zsmJu:hover .EcosystemMultiAccounts-module_addAvatar__b-a-y { background: var(--macc_backdrop_background); color: var(--vkui--color_background_content); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".EcosystemMultiAccounts-module_userAvatarBadge__DO-om",
+          "cssText": ".EcosystemMultiAccounts-module_userAvatarBadge__DO-om { background: var(--macc_backdrop_background); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".EcosystemMultiAccounts-module_userCell__zsmJu:hover .EcosystemMultiAccounts-module_notifyNotOk__WujlU",
+          "cssText": ".EcosystemMultiAccounts-module_userCell__zsmJu:hover .EcosystemMultiAccounts-module_notifyNotOk__WujlU { display: block; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".EcosystemMultiAccounts-module_userAvatarBadgeEverBlocked__ABhHy",
+          "cssText": ".EcosystemMultiAccounts-module_userAvatarBadgeEverBlocked__ABhHy { color: var(--vkui--color_background_negative); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".EcosystemMultiAccounts-module_userAvatarBadgeUnauth__O3UAA",
+          "cssText": ".EcosystemMultiAccounts-module_userAvatarBadgeUnauth__O3UAA { color: var(--vkui--color_accent_orange); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".EcosystemMultiAccounts-module_userAvatarBadgeBlocked__gRfjW",
+          "cssText": ".EcosystemMultiAccounts-module_userAvatarBadgeBlocked__gRfjW { color: var(--vkui--color_background_negative); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".EcosystemMultiAccounts-module_loadingAvatar__DZOYz",
+          "cssText": ".EcosystemMultiAccounts-module_loadingAvatar__DZOYz { width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; margin-right: 12px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".EcosystemMultiAccounts-module_loadingAvatarSpinner__AyWrb",
+          "cssText": ".EcosystemMultiAccounts-module_loadingAvatarSpinner__AyWrb { color: var(--vkui--color_icon_accent); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".EcosystemMultiAccounts-module_newLogo__oT3bA",
+          "cssText": ".EcosystemMultiAccounts-module_newLogo__oT3bA { display: flex; flex-direction: column; justify-content: center; align-items: center; border-radius: 12px; background: var(--vkui--color_background_accent, #2688eb); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".EcosystemMultiAccounts-module_newLogoText__-3Drq",
+          "cssText": ".EcosystemMultiAccounts-module_newLogoText__-3Drq { color: var(--vkui--color_text_contrast); font-size: 14px; font-style: normal; font-weight: 500; line-height: 18px; padding: 2px 6px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".EcosystemMultiAccounts-module_reload__ynxvc",
+          "cssText": ".EcosystemMultiAccounts-module_reload__ynxvc { border-radius: 0px; min-height: 56px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 14,
+      "rulesList": [
+        {
+          "type": "CSSKeyframesRule",
+          "selector": "",
+          "cssText": "@keyframes EcosystemMultiAccountSkeleton-module_skeleton-blink__dkdW7 { \n  0% { transform: translateX(-100%); }\n  60% { transform: translateX(-100%); }\n  100% { transform: translateX(100%); }\n}",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSKeyframeRule",
+          "selector": "",
+          "cssText": "0% { transform: translateX(-100%); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSKeyframeRule",
+          "selector": "",
+          "cssText": "60% { transform: translateX(-100%); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSKeyframeRule",
+          "selector": "",
+          "cssText": "100% { transform: translateX(100%); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".EcosystemMultiAccountSkeleton-module_skeletonCell__5Wld8",
+          "cssText": ".EcosystemMultiAccountSkeleton-module_skeletonCell__5Wld8 { position: relative; overflow: hidden; display: flex; padding: 0 var(--vkui--size_base_padding_horizontal--regular, 16px); height: 56px; align-items: center; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".EcosystemMultiAccountSkeleton-module_skeletonCell__5Wld8.EcosystemMultiAccountSkeleton-module_skeletonSection__YNVzp",
+          "cssText": ".EcosystemMultiAccountSkeleton-module_skeletonCell__5Wld8.EcosystemMultiAccountSkeleton-module_skeletonSection__YNVzp { height: 36px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".EcosystemMultiAccountSkeleton-module_skeleton__Lcgv-",
+          "cssText": ".EcosystemMultiAccountSkeleton-module_skeleton__Lcgv- { inset: 0px; position: absolute; background: linear-gradient(90deg, transparent, var(--vkui--color_background_content), transparent); animation: 2s cubic-bezier(0.4, 0, 0.2, 1) 0s infinite normal none running EcosystemMultiAccountSkeleton-module_skeleton-blink__dkdW7; opacity: 0.7; z-index: 1; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".EcosystemMultiAccountSkeleton-module_skeletonAvatar__sGegV",
+          "cssText": ".EcosystemMultiAccountSkeleton-module_skeletonAvatar__sGegV { aspect-ratio: 1 / 1; width: 40px; height: 40px; margin-right: 12px; border-radius: 50%; background-color: var(--vkui--color_background_secondary); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".EcosystemMultiAccountSkeleton-module_skeletonContent__gtJNY",
+          "cssText": ".EcosystemMultiAccountSkeleton-module_skeletonContent__gtJNY { display: flex; flex-direction: column; padding: 13px 0px; margin-right: 12px; flex-grow: 1; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".EcosystemMultiAccountSkeleton-module_skeletonSection__YNVzp.EcosystemMultiAccountSkeleton-module_skeletonUserName__YRY5b",
+          "cssText": ".EcosystemMultiAccountSkeleton-module_skeletonSection__YNVzp.EcosystemMultiAccountSkeleton-module_skeletonUserName__YRY5b { margin-bottom: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".EcosystemMultiAccountSkeleton-module_skeletonUserName__YRY5b",
+          "cssText": ".EcosystemMultiAccountSkeleton-module_skeletonUserName__YRY5b { width: 140px; height: 12px; margin-bottom: 10px; border-radius: 4px; background-color: var(--vkui--color_background_secondary); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".EcosystemMultiAccountSkeleton-module_skeletonDescription__p0GzJ",
+          "cssText": ".EcosystemMultiAccountSkeleton-module_skeletonDescription__p0GzJ { width: 100px; height: 8px; background-color: var(--vkui--color_background_secondary); border-radius: 3px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".EcosystemMultiAccountSkeleton-module_skeletonNotify__wJkL0",
+          "cssText": ".EcosystemMultiAccountSkeleton-module_skeletonNotify__wJkL0 { aspect-ratio: 1 / 1; width: 20px; height: 20px; border-radius: 50%; background-color: var(--vkui--color_background_secondary); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".EcosystemMultiAccountSkeleton-module_skeletonCell__5Wld8[data-is-ecoplate=\"true\"] .EcosystemMultiAccountSkeleton-module_skeletonNotify__wJkL0",
+          "cssText": ".EcosystemMultiAccountSkeleton-module_skeletonCell__5Wld8[data-is-ecoplate=\"true\"] .EcosystemMultiAccountSkeleton-module_skeletonNotify__wJkL0 { display: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "https://vk.com/dist/web/chunks/83a662dc.css",
+      "rules": 3,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".Lottie__root--jcPrp",
+          "cssText": ".Lottie__root--jcPrp { overflow: hidden; position: relative; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".Lottie__canvas--9a1Uk",
+          "cssText": ".Lottie__canvas--9a1Uk { top: 0px; left: 0px; position: absolute; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "[dir=\"rtl\"] .Lottie__canvas--9a1Uk",
+          "cssText": "[dir=\"rtl\"] .Lottie__canvas--9a1Uk { left: auto; right: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "https://st6-22.vk.com/dist/web/chunks/0f0e56ef.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 35,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".CountryList-module_countryList__RFuA8",
+          "cssText": ".CountryList-module_countryList__RFuA8 { }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".CountryList-module_countryList--compact__V5bDi.CountryList-module_countryList__RFuA8",
+          "cssText": ".CountryList-module_countryList--compact__V5bDi.CountryList-module_countryList__RFuA8 { position: absolute; top: 42px; width: 100%; background-color: var(--vkui--color_background_modal); z-index: 3; border-radius: 8px; border: 0.5px solid var(--vkui--color_separator_primary); box-shadow: 0 4px 8px var(--vkui--color_background_tertiary_alpha),\n    0 0 4px 0 var(--vkui--color_separator_primary); animation: 150ms ease-in-out 0s 1 normal none running CountryList-module_countries__axi-0; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".CountryList-module_countryList--compact__V5bDi .CountryList-module_countryList__search__Ym8Rf",
+          "cssText": ".CountryList-module_countryList--compact__V5bDi .CountryList-module_countryList__search__Ym8Rf { padding: 8px 12px; position: relative; background: var(--vkui--color_background_modal); margin-top: 2px; border-radius: 8px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".CountryList-module_countryList--compact__V5bDi .CountryList-module_countryList__searchIcon__z2IDx",
+          "cssText": ".CountryList-module_countryList--compact__V5bDi .CountryList-module_countryList__searchIcon__z2IDx { position: absolute; top: 50%; left: 30px; transform: translate(-50%, -50%); pointer-events: none; color: var(--vkui--color_icon_medium); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".CountryList-module_cancelPopupBtn__m-tmp",
+          "cssText": ".CountryList-module_cancelPopupBtn__m-tmp { padding-left: 16px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".CountryList-module_popupHeader__vG9U1",
+          "cssText": ".CountryList-module_popupHeader__vG9U1 { background: var(--vkui--color_background_modal); position: sticky; display: block; top: 0px; z-index: 1; animation: 0.01s ease 0s 1 normal none running CountryList-module_showSearch__MhqoH; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".CountryList-module_countryList--compact__V5bDi .CountryList-module_countryList__searchInput__78KEC",
+          "cssText": ".CountryList-module_countryList--compact__V5bDi .CountryList-module_countryList__searchInput__78KEC { font-size: 15px; font-weight: 400; line-height: 20px; width: 100%; outline: none; border: 0px; height: 32px; background-color: var(--vkui--color_search_field_background); color: var(--vkui--color_text_primary); padding: 6px 25px 6px 30px; border-radius: 8px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".CountryList-module_countryList--compact__V5bDi .CountryList-module_countryList__searchInput__78KEC::placeholder",
+          "cssText": ".CountryList-module_countryList--compact__V5bDi .CountryList-module_countryList__searchInput__78KEC::placeholder { font-size: 15px; font-weight: 400; line-height: 20px; color: var(--vkui--color_text_secondary); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".CountryList-module_countryList--compact__V5bDi .CountryList-module_countryList__searchInput__78KEC::-webkit-search-cancel-button",
+          "cssText": ".CountryList-module_countryList--compact__V5bDi .CountryList-module_countryList__searchInput__78KEC::-webkit-search-cancel-button { display: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".CountryList-module_countryList--compact__V5bDi .CountryList-module_countryList__searchClear__1r5Tg",
+          "cssText": ".CountryList-module_countryList--compact__V5bDi .CountryList-module_countryList__searchClear__1r5Tg { position: absolute; top: 50%; left: calc(100% - 27px); transform: translate(-50%, -50%); color: var(--vkui--color_icon_secondary); cursor: pointer; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".CountryList-module_countryList--compact__V5bDi .CountryList-module_countryList__list__mL0uC",
+          "cssText": ".CountryList-module_countryList--compact__V5bDi .CountryList-module_countryList__list__mL0uC { overflow: auto; max-height: 202px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".CountryList-module_countryList--compact__V5bDi .CountryList-module_countryList__listItem__bflkV",
+          "cssText": ".CountryList-module_countryList--compact__V5bDi .CountryList-module_countryList__listItem__bflkV { color: var(--vkui--color_text_primary); font-size: 15px; font-weight: 400; line-height: 20px; display: grid; grid-template-columns: 30px 1fr auto; align-items: center; padding: 6px 16px 6px 12px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".CountryList-module_countryList--compact__V5bDi .CountryList-module_countryList__listItem__bflkV:hover",
+          "cssText": ".CountryList-module_countryList--compact__V5bDi .CountryList-module_countryList__listItem__bflkV:hover { background-color: var(--vkui--color_background_secondary--hover); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".CountryList-module_countryList--compact__V5bDi .CountryList-module_countryList__listItemIcon__4X6Z7",
+          "cssText": ".CountryList-module_countryList--compact__V5bDi .CountryList-module_countryList__listItemIcon__4X6Z7 { height: 24px; width: 24px; display: flex; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".CountryList-module_countryList--compact__V5bDi .CountryList-module_countryList__listItemCode__LzHon",
+          "cssText": ".CountryList-module_countryList--compact__V5bDi .CountryList-module_countryList__listItemCode__LzHon { font-size: 15px; font-weight: 400; line-height: 20px; color: var(--vkui--color_text_secondary); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".CountryList-module_countryList--compact__V5bDi .CountryList-module_countryList__subhead__TPwB8",
+          "cssText": ".CountryList-module_countryList--compact__V5bDi .CountryList-module_countryList__subhead__TPwB8 { color: var(--vkui--color_text_tertiary); text-align: center; padding-top: 10px; padding-bottom: 20px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".CountryList-module_countryList--regular__ykrNT.CountryList-module_countryList__RFuA8",
+          "cssText": ".CountryList-module_countryList--regular__ykrNT.CountryList-module_countryList__RFuA8 { }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".CountryList-module_countryList--regular__ykrNT .CountryList-module_countryList__search__Ym8Rf",
+          "cssText": ".CountryList-module_countryList--regular__ykrNT .CountryList-module_countryList__search__Ym8Rf { padding: 10px 16px; background: var(--vkui--color_background_modal); position: sticky; display: block; top: 0px; z-index: 1; animation: 0.01s ease 0s 1 normal none running CountryList-module_showSearch__MhqoH; flex-grow: 1; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".CountryList-module_popupHeader--with_close_btn__eb732",
+          "cssText": ".CountryList-module_popupHeader--with_close_btn__eb732 { background: var(--vkui--color_background_modal); position: sticky; top: 0px; z-index: 1; animation: 0.01s ease 0s 1 normal none running CountryList-module_showSearch__MhqoH; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".CountryList-module_countryList--regular__ykrNT .CountryList-module_countryList__searchIcon__z2IDx",
+          "cssText": ".CountryList-module_countryList--regular__ykrNT .CountryList-module_countryList__searchIcon__z2IDx { position: absolute; top: 50%; left: 35px; transform: translate(-50%, -50%); pointer-events: none; color: var(--vkui--color_icon_medium); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".CountryList-module_countryList--regular__ykrNT .CountryList-module_countryList__searchInput__78KEC",
+          "cssText": ".CountryList-module_countryList--regular__ykrNT .CountryList-module_countryList__searchInput__78KEC { font-size: 16px; font-weight: 400; line-height: 20px; width: 100%; outline: none; border: 0px; height: 32px; background-color: var(--vkui--color_search_field_background); color: var(--vkui--color_text_primary); padding: 6px 30px 6px 35px; border-radius: 8px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".CountryList-module_countryList--regular__ykrNT .CountryList-module_countryList__searchInput__78KEC::placeholder",
+          "cssText": ".CountryList-module_countryList--regular__ykrNT .CountryList-module_countryList__searchInput__78KEC::placeholder { font-size: 16px; font-weight: 400; line-height: 20px; color: var(--vkui--color_text_secondary); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".CountryList-module_countryList--regular__ykrNT .CountryList-module_countryList__searchInput__78KEC::-webkit-search-cancel-button",
+          "cssText": ".CountryList-module_countryList--regular__ykrNT .CountryList-module_countryList__searchInput__78KEC::-webkit-search-cancel-button { display: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".CountryList-module_countryList--regular__ykrNT .CountryList-module_countryList__searchClear__1r5Tg",
+          "cssText": ".CountryList-module_countryList--regular__ykrNT .CountryList-module_countryList__searchClear__1r5Tg { position: absolute; top: 50%; left: calc(100% - 35px); transform: translate(-50%, -50%); color: var(--vkui--color_icon_secondary); cursor: pointer; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".CountryList-module_countryList--regular__ykrNT .CountryList-module_countryList__list__mL0uC",
+          "cssText": ".CountryList-module_countryList--regular__ykrNT .CountryList-module_countryList__list__mL0uC { overflow: auto; background-color: var(--vkui--color_background_modal); color: var(--vkui--color_text_primary); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".CountryList-module_countryList--regular__ykrNT .CountryList-module_countryList__listItem__bflkV",
+          "cssText": ".CountryList-module_countryList--regular__ykrNT .CountryList-module_countryList__listItem__bflkV { display: grid; grid-template-columns: 31px 1fr auto; padding: 6px 16px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".CountryList-module_countryList--regular__ykrNT .CountryList-module_countryList__listItemIcon__4X6Z7",
+          "cssText": ".CountryList-module_countryList--regular__ykrNT .CountryList-module_countryList__listItemIcon__4X6Z7 { width: 24px; height: 24px; display: flex; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".CountryList-module_countryList--regular__ykrNT .CountryList-module_countryList__listItemCode__LzHon",
+          "cssText": ".CountryList-module_countryList--regular__ykrNT .CountryList-module_countryList__listItemCode__LzHon { font-size: 15px; font-weight: 400; line-height: 20px; color: var(--vkui--color_text_secondary); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".CountryList-module_countryList--regular__ykrNT .CountryList-module_countryList__subhead__TPwB8",
+          "cssText": ".CountryList-module_countryList--regular__ykrNT .CountryList-module_countryList__subhead__TPwB8 { color: var(--vkui--color_text_tertiary); position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSKeyframesRule",
+          "selector": "",
+          "cssText": "@keyframes CountryList-module_countries__axi-0 { \n  0% { opacity: 0; }\n  100% { opacity: 1; }\n}",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSKeyframeRule",
+          "selector": "",
+          "cssText": "0% { opacity: 0; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSKeyframeRule",
+          "selector": "",
+          "cssText": "100% { opacity: 1; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSKeyframesRule",
+          "selector": "",
+          "cssText": "@keyframes CountryList-module_showSearch__MhqoH { \n  0% { transform: translate(0px, -100px); }\n  100% { transform: translate(0px, 0px); }\n}",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSKeyframeRule",
+          "selector": "",
+          "cssText": "0% { transform: translate(0px, -100px); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSKeyframeRule",
+          "selector": "",
+          "cssText": "100% { transform: translate(0px, 0px); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 7,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".PhoneInput-module_phoneInput__vDptE",
+          "cssText": ".PhoneInput-module_phoneInput__vDptE { position: relative; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".PhoneInput-module_phoneInput_numberIconOuter__9A2hk",
+          "cssText": ".PhoneInput-module_phoneInput_numberIconOuter__9A2hk { overflow: hidden; position: relative; left: 4px; height: 28px; aspect-ratio: 1 / 1; margin-right: 11px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".PhoneInput-module_phoneInput_numberIconInner__saRYB",
+          "cssText": ".PhoneInput-module_phoneInput_numberIconInner__saRYB { height: 100%; position: relative; background-color: var(--vkui--color_background_secondary_alpha); border-radius: 6px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".PhoneInput-module_phoneInput_numberIcon__Y3v9d",
+          "cssText": ".PhoneInput-module_phoneInput_numberIcon__Y3v9d { width: 24px; height: 24px; display: flex; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".PhoneInput-module_phoneInput_numberIconInput__ycWiU",
+          "cssText": ".PhoneInput-module_phoneInput_numberIconInput__ycWiU { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (max-width: 767px), (max-height: 500px) {\n  .PhoneInput-module_phoneInput_numberIconOuter__9A2hk { left: 8px; height: 28px; padding-right: 17px; margin-right: 0px; }\n}",
+          "urls": [],
+          "group": "(max-width: 767px), (max-height: 500px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 767px), (max-height: 500px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "767px",
+                "max-height",
+                "500px",
+                "767",
+                "500",
+                "width",
+                "height"
+              ]
+            },
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "height",
+              "semanticGroup": "geometry",
+              "claim": "viewport height",
+              "excerpt": "(max-width: 767px), (max-height: 500px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "767px",
+                "max-height",
+                "500px",
+                "767",
+                "500",
+                "width",
+                "height"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".PhoneInput-module_phoneInput_numberIconOuter__9A2hk",
+          "cssText": ".PhoneInput-module_phoneInput_numberIconOuter__9A2hk { left: 8px; height: 28px; padding-right: 17px; margin-right: 0px; }",
+          "urls": [],
+          "group": "(max-width: 767px), (max-height: 500px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 767px), (max-height: 500px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "767px",
+                "max-height",
+                "500px",
+                "767",
+                "500",
+                "width",
+                "height"
+              ]
+            },
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "height",
+              "semanticGroup": "geometry",
+              "claim": "viewport height",
+              "excerpt": "(max-width: 767px), (max-height: 500px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "767px",
+                "max-height",
+                "500px",
+                "767",
+                "500",
+                "width",
+                "height"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 6,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".PhoneMaskBuilder-module_phoneMaskBuilder__input__cX4z7",
+          "cssText": ".PhoneMaskBuilder-module_phoneMaskBuilder__input__cX4z7 { z-index: 0; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".PhoneMaskBuilder-module_phoneMaskBuilder__input__cX4z7 input:-webkit-autofill, .PhoneMaskBuilder-module_phoneMaskBuilder__input__cX4z7 input:-webkit-autofill:hover, .PhoneMaskBuilder-module_phoneMaskBuilder__input__cX4z7 input:-webkit-autofill:active:not(input:-webkit-autofill:focus)",
+          "cssText": ".PhoneMaskBuilder-module_phoneMaskBuilder__input__cX4z7 input:-webkit-autofill, .PhoneMaskBuilder-module_phoneMaskBuilder__input__cX4z7 input:-webkit-autofill:hover, .PhoneMaskBuilder-module_phoneMaskBuilder__input__cX4z7 input:-webkit-autofill:active:not(input:-webkit-autofill:focus) { border: 0.5px solid var(--vkui--color_field_border_alpha); box-sizing: border-box; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".PhoneMaskBuilder-module_phoneMaskBuilder__input__cX4z7 input:-webkit-autofill:focus",
+          "cssText": ".PhoneMaskBuilder-module_phoneMaskBuilder__input__cX4z7 input:-webkit-autofill:focus { border: 0.5px solid var(--vkui--color_stroke_accent); box-sizing: border-box; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".PhoneMaskBuilder-module_phoneMaskBuilder__input__cX4z7 input",
+          "cssText": ".PhoneMaskBuilder-module_phoneMaskBuilder__input__cX4z7 input { position: absolute; top: 0px; height: 100%; border-radius: var(--vkui--size_border_radius--regular, 8px); box-sizing: border-box; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".PhoneMaskBuilder-module_supportAfterContent__lvzBZ",
+          "cssText": ".PhoneMaskBuilder-module_supportAfterContent__lvzBZ { justify-content: flex-end; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".PhoneMaskBuilder-module_phoneMaskBuilder__Xhp8T",
+          "cssText": ".PhoneMaskBuilder-module_phoneMaskBuilder__Xhp8T { display: flex; flex-direction: column; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 5,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".EnterPhoneOrMailForm-module_helpIcon__o6fW3",
+          "cssText": ".EnterPhoneOrMailForm-module_helpIcon__o6fW3 { color: var(--vkui--color_icon_tertiary); cursor: pointer; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".EnterPhoneOrMailForm-module_input__zMdi3",
+          "cssText": ".EnterPhoneOrMailForm-module_input__zMdi3 { background: var(--vkui--color_search_field_background); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".EnterPhoneOrMailForm-module_separatorDescription__2zKD2",
+          "cssText": ".EnterPhoneOrMailForm-module_separatorDescription__2zKD2 { position: absolute; top: 0px; left: 50%; bottom: 0px; display: flex; align-items: center; justify-content: center; height: 16px; transform: translate(-50%, -50%); background: var(--vkui--color_background_content); width: auto; padding: 0px 20px; color: var(--vkui--color_text_secondary); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".EnterPhoneOrMailForm-module_separatorContainer__OULfn",
+          "cssText": ".EnterPhoneOrMailForm-module_separatorContainer__OULfn { position: relative; margin: 9px 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".EnterPhoneOrMailForm-module_checkboxRowContainer__L96Y-",
+          "cssText": ".EnterPhoneOrMailForm-module_checkboxRowContainer__L96Y- { margin-left: -16px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "https://st6-22.vk.com/dist/web/chunks/8d78121f.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    }
+  ],
+  "inaccessible": [
+    "https://st6-22.vk.com/css/al/common.6061a32f.css",
+    "https://st6-22.vk.com/css/al/base.ce5ac853.css",
+    "https://st6-22.vk.com/css/al/vkui.d1afb50b.css",
+    "https://st6-22.vk.com/css/al/fonts_utf.7fa94ada.css",
+    "https://st6-22.vk.com/css/al/fonts_cnt_async.4881739c.css",
+    "https://st6-22.vk.com/dist/web/chunks/vkcom-kit.d321f3b0.css",
+    "https://st6-22.vk.com/dist/web/chunks/audioplayer-lib.32aa7a37.css",
+    "https://st6-22.vk.com/dist/web/chunks/core_spa.c0b2ae16.css",
+    "https://st6-22.vk.com/dist/web/common_web.e365f07f.css",
+    "https://st6-22.vk.com/css/al/index.b4934277.css",
+    "https://st6-22.vk.com/dist/web/index.49041bdf.css",
+    "https://st6-22.vk.com/css/al/login.7cb8dac1.css",
+    "https://st6-22.vk.com/css/al/join.c48430fa.css",
+    "https://st6-22.vk.com/css/ui_controls.c6337407.css",
+    "https://st6-22.vk.com/dist/web/search_top_anonymous.75da2385.css",
+    "https://st6-22.vk.com/css/al/search.d15a9272.css",
+    "https://st6-22.vk.com/dist/web/site_layout.e86ff571.css",
+    "https://st6-22.vk.com/css/al/vk_sans_display_faux.7d208ecb.css",
+    "https://st6-22.vk.com/css/al/vk_sans_display.fc9bdb17.css",
+    "https://st6-22.vk.com/css/al/ui_common.47cdce79.css",
+    "https://st6-22.vk.com/dist/web/chunks/0f0e56ef.css",
+    "https://st6-22.vk.com/dist/web/chunks/8d78121f.css"
+  ],
+  "styleTags": 8,
+  "inlineStyleCount": 25,
+  "associations": [
+    {
+      "sheet": "(inline <style>)",
+      "sinkRuleIndex": 0,
+      "sinkUrl": "/fonts/notosansarmenian-regular.woff",
+      "matchedSources": [
+        {
+          "ruleIndex": 0,
+          "reason": "same-rule",
+          "category": "@font-face",
+          "keyword": "local(",
+          "claim": "local font presence probe (notosansarmenian)",
+          "semanticGroup": "fonts",
+          "excerpt": "@font-face { font-family: \"noto sans armenian\"; src: local(\"notosansarmenian\"), local(\"noto sans armenian\"), url(\"/fonts/notosansarmenian-regular.woff\") format(\"woff\"); unicode-range: u+531-556, u+559-55f, u+561-587, u+5...",
+          "echoConfirmed": true
+        }
+      ]
+    },
+    {
+      "sheet": "(inline <style>)",
+      "sinkRuleIndex": 1,
+      "sinkUrl": "/fonts/notosansbengali-regular.woff",
+      "matchedSources": [
+        {
+          "ruleIndex": 1,
+          "reason": "same-rule",
+          "category": "@font-face",
+          "keyword": "local(",
+          "claim": "local font presence probe (notosansbengali)",
+          "semanticGroup": "fonts",
+          "excerpt": "@font-face { font-family: \"noto sans bengali\"; src: local(\"notosansbengali\"), local(\"noto sans bengali\"), url(\"/fonts/notosansbengali-regular.woff\") format(\"woff\"); unicode-range: u+ad, u+d7, u+f7, u+964-965, u+981-983, ...",
+          "echoConfirmed": true
+        }
+      ]
+    },
+    {
+      "sheet": "(inline <style>)",
+      "sinkRuleIndex": 2,
+      "sinkUrl": "/fonts/notosanscherokee-regular.woff",
+      "matchedSources": [
+        {
+          "ruleIndex": 2,
+          "reason": "same-rule",
+          "category": "@font-face",
+          "keyword": "local(",
+          "claim": "local font presence probe (notosanscherokee)",
+          "semanticGroup": "fonts",
+          "excerpt": "@font-face { font-family: \"noto sans cherokee\"; src: local(\"notosanscherokee\"), local(\"noto sans cherokee\"), url(\"/fonts/notosanscherokee-regular.woff\") format(\"woff\"); unicode-range: u+13a0-13f4; }",
+          "echoConfirmed": true
+        }
+      ]
+    },
+    {
+      "sheet": "(inline <style>)",
+      "sinkRuleIndex": 3,
+      "sinkUrl": "/fonts/notosansdevanagari-regular.woff",
+      "matchedSources": [
+        {
+          "ruleIndex": 3,
+          "reason": "same-rule",
+          "category": "@font-face",
+          "keyword": "local(",
+          "claim": "local font presence probe (notosansdevanagari)",
+          "semanticGroup": "fonts",
+          "excerpt": "@font-face { font-family: \"noto sans devanagari\"; src: local(\"notosansdevanagari\"), local(\"noto sans devanagari\"), url(\"/fonts/notosansdevanagari-regular.woff\") format(\"woff\"); unicode-range: u+af, u+d7, u+f7, u+2bc, u+9...",
+          "echoConfirmed": true
+        }
+      ]
+    },
+    {
+      "sheet": "(inline <style>)",
+      "sinkRuleIndex": 4,
+      "sinkUrl": "/fonts/notosansethiopic-regular.woff",
+      "matchedSources": [
+        {
+          "ruleIndex": 4,
+          "reason": "same-rule",
+          "category": "@font-face",
+          "keyword": "local(",
+          "claim": "local font presence probe (notosansethiopic)",
+          "semanticGroup": "fonts",
+          "excerpt": "@font-face { font-family: \"noto sans ethiopic\"; src: local(\"notosansethiopic\"), local(\"noto sans ethiopic\"), url(\"/fonts/notosansethiopic-regular.woff\") format(\"woff\"); unicode-range: u+1200-1248, u+124a-124d, u+1250-125...",
+          "echoConfirmed": true
+        }
+      ]
+    },
+    {
+      "sheet": "(inline <style>)",
+      "sinkRuleIndex": 5,
+      "sinkUrl": "/fonts/notosansgeorgian-regular.woff",
+      "matchedSources": [
+        {
+          "ruleIndex": 5,
+          "reason": "same-rule",
+          "category": "@font-face",
+          "keyword": "local(",
+          "claim": "local font presence probe (notosansgeorgian)",
+          "semanticGroup": "fonts",
+          "excerpt": "@font-face { font-family: \"noto sans georgian\"; src: local(\"notosansgeorgian\"), local(\"noto sans georgian\"), url(\"/fonts/notosansgeorgian-regular.woff\") format(\"woff\"); unicode-range: u+10a0-10c5, u+10d0-10fc, u+2d00-2d2...",
+          "echoConfirmed": true
+        }
+      ]
+    },
+    {
+      "sheet": "(inline <style>)",
+      "sinkRuleIndex": 6,
+      "sinkUrl": "/fonts/notosanshebrew-regular.woff",
+      "matchedSources": [
+        {
+          "ruleIndex": 6,
+          "reason": "same-rule",
+          "category": "@font-face",
+          "keyword": "local(",
+          "claim": "local font presence probe (notosanshebrew)",
+          "semanticGroup": "fonts",
+          "excerpt": "@font-face { font-family: \"noto sans hebrew\"; src: local(\"notosanshebrew\"), local(\"noto sans hebrew\"), url(\"/fonts/notosanshebrew-regular.woff\") format(\"woff\"); unicode-range: u+591-5c7, u+5d0-5ea, u+5f0-5f4, u+20aa, u+2...",
+          "echoConfirmed": true
+        }
+      ]
+    },
+    {
+      "sheet": "(inline <style>)",
+      "sinkRuleIndex": 7,
+      "sinkUrl": "/fonts/notosanskannada-regular.woff",
+      "matchedSources": [
+        {
+          "ruleIndex": 7,
+          "reason": "same-rule",
+          "category": "@font-face",
+          "keyword": "local(",
+          "claim": "local font presence probe (notosanskannada)",
+          "semanticGroup": "fonts",
+          "excerpt": "@font-face { font-family: \"noto sans kannada\"; src: local(\"notosanskannada\"), local(\"noto sans kannada\"), url(\"/fonts/notosanskannada-regular.woff\") format(\"woff\"); unicode-range: u+ad, u+d7, u+f7, u+964-965, u+c82-c83, ...",
+          "echoConfirmed": true
+        }
+      ]
+    },
+    {
+      "sheet": "(inline <style>)",
+      "sinkRuleIndex": 8,
+      "sinkUrl": "/fonts/notosanskhmer-regular.woff",
+      "matchedSources": [
+        {
+          "ruleIndex": 8,
+          "reason": "same-rule",
+          "category": "@font-face",
+          "keyword": "local(",
+          "claim": "local font presence probe (notosanskhmer)",
+          "semanticGroup": "fonts",
+          "excerpt": "@font-face { font-family: \"noto sans khmer\"; src: local(\"notosanskhmer\"), local(\"noto sans khmer\"), url(\"/fonts/notosanskhmer-regular.woff\") format(\"woff\"); unicode-range: u+ab, u+ad, u+bb, u+1780-17dd, u+17e0-17e9, u+17...",
+          "echoConfirmed": true
+        }
+      ]
+    },
+    {
+      "sheet": "(inline <style>)",
+      "sinkRuleIndex": 9,
+      "sinkUrl": "/fonts/notosanslao-regular.woff",
+      "matchedSources": [
+        {
+          "ruleIndex": 9,
+          "reason": "same-rule",
+          "category": "@font-face",
+          "keyword": "local(",
+          "claim": "local font presence probe (notosanslao)",
+          "semanticGroup": "fonts",
+          "excerpt": "@font-face { font-family: \"noto sans lao\"; src: local(\"notosanslao\"), local(\"noto sans lao\"), url(\"/fonts/notosanslao-regular.woff\") format(\"woff\"); unicode-range: u+ad, u+37e, u+e81-e82, u+e84, u+e87-e88, u+e8a, u+e8d, ...",
+          "echoConfirmed": true
+        }
+      ]
+    },
+    {
+      "sheet": "(inline <style>)",
+      "sinkRuleIndex": 10,
+      "sinkUrl": "/fonts/notosansosmanya-regular.woff",
+      "matchedSources": [
+        {
+          "ruleIndex": 10,
+          "reason": "same-rule",
+          "category": "@font-face",
+          "keyword": "local(",
+          "claim": "local font presence probe (notosansosmanya)",
+          "semanticGroup": "fonts",
+          "excerpt": "@font-face { font-family: \"noto sans osmanya\"; src: local(\"notosansosmanya\"), local(\"noto sans osmanya\"), url(\"/fonts/notosansosmanya-regular.woff\") format(\"woff\"); unicode-range: u+10480-1049d, u+104a0-104a9; }",
+          "echoConfirmed": true
+        }
+      ]
+    },
+    {
+      "sheet": "(inline <style>)",
+      "sinkRuleIndex": 11,
+      "sinkUrl": "/fonts/notosanstamil-regular.woff",
+      "matchedSources": [
+        {
+          "ruleIndex": 11,
+          "reason": "same-rule",
+          "category": "@font-face",
+          "keyword": "local(",
+          "claim": "local font presence probe (notosanstamil)",
+          "semanticGroup": "fonts",
+          "excerpt": "@font-face { font-family: \"noto sans tamil\"; src: local(\"notosanstamil\"), local(\"noto sans tamil\"), url(\"/fonts/notosanstamil-regular.woff\") format(\"woff\"); unicode-range: u+ad, u+d7, u+f7, u+964-965, u+b82-b83, u+b85-b8...",
+          "echoConfirmed": true
+        }
+      ]
+    },
+    {
+      "sheet": "(inline <style>)",
+      "sinkRuleIndex": 12,
+      "sinkUrl": "/fonts/notosanstelugu-regular.woff",
+      "matchedSources": [
+        {
+          "ruleIndex": 12,
+          "reason": "same-rule",
+          "category": "@font-face",
+          "keyword": "local(",
+          "claim": "local font presence probe (notosanstelugu)",
+          "semanticGroup": "fonts",
+          "excerpt": "@font-face { font-family: \"noto sans telugu\"; src: local(\"notosanstelugu\"), local(\"noto sans telugu\"), url(\"/fonts/notosanstelugu-regular.woff\") format(\"woff\"); unicode-range: u+ad, u+d7, u+f7, u+964-965, u+c01-c03, u+c0...",
+          "echoConfirmed": true
+        }
+      ]
+    },
+    {
+      "sheet": "(inline <style>)",
+      "sinkRuleIndex": 13,
+      "sinkUrl": "/fonts/notosansthai-regular.woff",
+      "matchedSources": [
+        {
+          "ruleIndex": 13,
+          "reason": "same-rule",
+          "category": "@font-face",
+          "keyword": "local(",
+          "claim": "local font presence probe (notosansthai)",
+          "semanticGroup": "fonts",
+          "excerpt": "@font-face { font-family: \"noto sans thai\"; src: local(\"notosansthai\"), local(\"noto sans thai\"), url(\"/fonts/notosansthai-regular.woff\") format(\"woff\"); unicode-range: u+e01-e3a, u+e3f-e5b, u+200b-200d, u+25cc; }",
+          "echoConfirmed": true
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "sheetsAccessible": 9,
+    "sheetsInaccessible": 22,
+    "totalRulesScanned": 151,
+    "totalSinks": 34,
+    "totalSources": 44,
+    "totalAssociations": 14,
+    "totalCapped": false
+  },
+  "likelyFingerprinting": true,
+  "verdict": "likely fingerprinting",
+  "claims": [
+    "fonts: local font presence probe (notosansarmenian)",
+    "fonts: local font presence probe (notosansbengali)",
+    "fonts: local font presence probe (notosanscherokee)",
+    "fonts: local font presence probe (notosansdevanagari)",
+    "fonts: local font presence probe (notosansethiopic)",
+    "fonts: local font presence probe (notosansgeorgian)",
+    "fonts: local font presence probe (notosanshebrew)",
+    "fonts: local font presence probe (notosanskannada)",
+    "fonts: local font presence probe (notosanskhmer)",
+    "fonts: local font presence probe (notosanslao)",
+    "fonts: local font presence probe (notosansosmanya)",
+    "fonts: local font presence probe (notosanstamil)",
+    "fonts: local font presence probe (notosanstelugu)",
+    "fonts: local font presence probe (notosansthai)"
+  ],
+  "claimDetails": [
+    {
+      "category": "@font-face",
+      "semanticGroup": "fonts",
+      "keyword": "local(",
+      "claim": "local font presence probe (notosansarmenian)",
+      "risk": 4,
+      "explanation": "Local font presence reveals installed fonts and can strongly identify a device."
+    },
+    {
+      "category": "@font-face",
+      "semanticGroup": "fonts",
+      "keyword": "local(",
+      "claim": "local font presence probe (notosansbengali)",
+      "risk": 4,
+      "explanation": "Local font presence reveals installed fonts and can strongly identify a device."
+    },
+    {
+      "category": "@font-face",
+      "semanticGroup": "fonts",
+      "keyword": "local(",
+      "claim": "local font presence probe (notosanscherokee)",
+      "risk": 4,
+      "explanation": "Local font presence reveals installed fonts and can strongly identify a device."
+    },
+    {
+      "category": "@font-face",
+      "semanticGroup": "fonts",
+      "keyword": "local(",
+      "claim": "local font presence probe (notosansdevanagari)",
+      "risk": 4,
+      "explanation": "Local font presence reveals installed fonts and can strongly identify a device."
+    },
+    {
+      "category": "@font-face",
+      "semanticGroup": "fonts",
+      "keyword": "local(",
+      "claim": "local font presence probe (notosansethiopic)",
+      "risk": 4,
+      "explanation": "Local font presence reveals installed fonts and can strongly identify a device."
+    },
+    {
+      "category": "@font-face",
+      "semanticGroup": "fonts",
+      "keyword": "local(",
+      "claim": "local font presence probe (notosansgeorgian)",
+      "risk": 4,
+      "explanation": "Local font presence reveals installed fonts and can strongly identify a device."
+    },
+    {
+      "category": "@font-face",
+      "semanticGroup": "fonts",
+      "keyword": "local(",
+      "claim": "local font presence probe (notosanshebrew)",
+      "risk": 4,
+      "explanation": "Local font presence reveals installed fonts and can strongly identify a device."
+    },
+    {
+      "category": "@font-face",
+      "semanticGroup": "fonts",
+      "keyword": "local(",
+      "claim": "local font presence probe (notosanskannada)",
+      "risk": 4,
+      "explanation": "Local font presence reveals installed fonts and can strongly identify a device."
+    },
+    {
+      "category": "@font-face",
+      "semanticGroup": "fonts",
+      "keyword": "local(",
+      "claim": "local font presence probe (notosanskhmer)",
+      "risk": 4,
+      "explanation": "Local font presence reveals installed fonts and can strongly identify a device."
+    },
+    {
+      "category": "@font-face",
+      "semanticGroup": "fonts",
+      "keyword": "local(",
+      "claim": "local font presence probe (notosanslao)",
+      "risk": 4,
+      "explanation": "Local font presence reveals installed fonts and can strongly identify a device."
+    },
+    {
+      "category": "@font-face",
+      "semanticGroup": "fonts",
+      "keyword": "local(",
+      "claim": "local font presence probe (notosansosmanya)",
+      "risk": 4,
+      "explanation": "Local font presence reveals installed fonts and can strongly identify a device."
+    },
+    {
+      "category": "@font-face",
+      "semanticGroup": "fonts",
+      "keyword": "local(",
+      "claim": "local font presence probe (notosanstamil)",
+      "risk": 4,
+      "explanation": "Local font presence reveals installed fonts and can strongly identify a device."
+    },
+    {
+      "category": "@font-face",
+      "semanticGroup": "fonts",
+      "keyword": "local(",
+      "claim": "local font presence probe (notosanstelugu)",
+      "risk": 4,
+      "explanation": "Local font presence reveals installed fonts and can strongly identify a device."
+    },
+    {
+      "category": "@font-face",
+      "semanticGroup": "fonts",
+      "keyword": "local(",
+      "claim": "local font presence probe (notosansthai)",
+      "risk": 4,
+      "explanation": "Local font presence reveals installed fonts and can strongly identify a device."
+    }
+  ],
+  "riskScore": 56,
+  "riskLevel": "high"
+}

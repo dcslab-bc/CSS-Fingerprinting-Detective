@@ -1,0 +1,71 @@
+{
+  "page": "https://example.com/",
+  "timestamp": 1761886693337,
+  "sheets": [
+    {
+      "href": "(inline <style>)",
+      "rules": 4,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": "body",
+          "cssText": "body { background: rgb(238, 238, 238); width: 60vw; margin: 15vh auto; font-family: system-ui, sans-serif; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "h1",
+          "cssText": "h1 { font-size: 1.5em; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "div",
+          "cssText": "div { opacity: 0.8; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "a:link, a:visited",
+          "cssText": "a:link, a:visited { color: rgb(51, 68, 136); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    }
+  ],
+  "inaccessible": [],
+  "styleTags": 1,
+  "inlineStyleCount": 0,
+  "associations": [],
+  "summary": {
+    "sheetsAccessible": 1,
+    "sheetsInaccessible": 0,
+    "totalRulesScanned": 4,
+    "totalSinks": 0,
+    "totalSources": 0,
+    "totalAssociations": 0,
+    "totalCapped": false
+  },
+  "likelyFingerprinting": false,
+  "verdict": "likely not fingerprinting",
+  "claims": [],
+  "claimDetails": [],
+  "riskScore": 0,
+  "riskLevel": "none"
+}

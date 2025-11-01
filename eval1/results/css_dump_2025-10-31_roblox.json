@@ -1,0 +1,2208 @@
+{
+  "page": "https://www.roblox.com/",
+  "timestamp": 1761884588133,
+  "sheets": [
+    {
+      "href": "(inline <style>)",
+      "rules": 4,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": "[ng\\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak, .ng-hide:not(.ng-hide-animate)",
+          "cssText": "[ng\\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak, .ng-hide:not(.ng-hide-animate) { display: none !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "ng\\:form",
+          "cssText": "ng\\:form { display: block; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ng-animate-shim",
+          "cssText": ".ng-animate-shim { visibility: hidden; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ng-anchor",
+          "cssText": ".ng-anchor { position: absolute; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 4,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": "[ng\\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak, .ng-hide:not(.ng-hide-animate)",
+          "cssText": "[ng\\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak, .ng-hide:not(.ng-hide-animate) { display: none !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "ng\\:form",
+          "cssText": "ng\\:form { display: block; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ng-animate-shim",
+          "cssText": ".ng-animate-shim { visibility: hidden; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ng-anchor",
+          "cssText": ".ng-anchor { position: absolute; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "https://css.rbxcdn.com/56f6868ec13cefb471ad86176c7b9642571d05082c86ac6300ddfeb028617d4e.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://css.rbxcdn.com/775b823f59a8320ea56172866de0ce918df6fc9cbd9db2ceffaa64ac5b771597.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://css.rbxcdn.com/ce113720f4c1602bb4db7e35d0a4fd637f223e8936fe5779650bda23074663f2.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://css.rbxcdn.com/d7d4183c8033d692e0ca8ad5222b943fe27879f9a771c9bd98165ccc4e270d7b.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://css.rbxcdn.com/b8f8f15a57a66e73469ae72eea7d8905346afa78b9f2397627cd099f7dcc779a.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://css.rbxcdn.com/66b2fd496e668938e3b0e2d9a0c12f9f88c3a1a4974608f69059d8061fc0141f.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://css.rbxcdn.com/7efdd6e108c97b0303d8eb08afa31ed9c9b8e90a6e0a37a63f8c00456912fb5b.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://css.rbxcdn.com/f77e16b9fa5823882aaa0cdabade9706b9ba2b7e050d23d2831da138a58e5f7f.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://css.rbxcdn.com/b2cff71de0c286e8f85b1a26a8b87a8cd7f77422c592849ad5114ac5d929c575.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://css.rbxcdn.com/49fff8dad77e5262087267ee2e8fda1607525506c4a1ca20af60f9757684e980.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://css.rbxcdn.com/9bfc48ea40a698035ea8cbe3d3e94bd06d3aac48969bedceb6d8ba5ff17ff84d.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://css.rbxcdn.com/60cfeb2f8467bbbf0ca06d8c31e3302be1b43f1f195fa69e6e9f526e4f78dce4.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://css.rbxcdn.com/c90944b058581834a314e6f2d3f5257ea75ecabcebdc250750944c8b3561e720.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://css.rbxcdn.com/7e348738266e9ea2bae9314a2d26b33618c6f4cf3c527b11023620d973c6e7fc.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://css.rbxcdn.com/06d8b6a295d7cd70a73ad91b19a7fe4226369d70749b74cc701d8d5c08c3de1f.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://css.rbxcdn.com/f57ee051f13e54a366404a2df3512eb4b6d125a3c7c7c9c6b59482c0a8b2bed0.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://css.rbxcdn.com/c13baf7db7e9dfc908a4fb90d39faad6f533df883abc388f85e990d4564aa59c.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://css.rbxcdn.com/bc981bafa6b0a52c86d071d1f81b24168a8dd92e72b8ac52d37cb46bf8bd8c42.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://css.rbxcdn.com/7dfc7837b5da6850e13413c630b37da7e88aeb610ca2c7d4e8b71b02cbdc6ba6.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://css.rbxcdn.com/3c4bd9b17b9020d9ebc87d4542a68a949a9de6150a55a92f0e65514520ee777e.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://css.rbxcdn.com/95a756316bbf688273d0aae66884901f56b2b42314831ba2bf3546bbbefd0b8c.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://css.rbxcdn.com/3bca47a98d58fdf98a7063c4f3b390671e5326ed559813887f3945876c997da6.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://css.rbxcdn.com/d45e200658a1343116bbf4a88c367d093758085e7d001918d641c85b2143468f.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://css.rbxcdn.com/f9d2f895b2831ce29f0c3801ecc38444860855013c5701e3bce5867cddd859fd.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://css.rbxcdn.com/d5a3728b78be729b693aadf79a1f45f0fa49c15fe863a0d7dd631b75f9e82207.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 6,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-dialog-overlay",
+          "cssText": ".foundation-web-dialog-overlay { inset: 0px; display: grid; overflow-y: auto; place-items: center; position: fixed; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-dialog-close-container",
+          "cssText": ".foundation-web-dialog-close-container { right: var(--size-300); top: var(--size-300); z-index: 1; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-dialog-hero-media",
+          "cssText": ".foundation-web-dialog-hero-media { border-top-left-radius: var(--radius-large); border-top-right-radius: var(--radius-large); margin-left: calc(var(--stroke-standard)*-1); margin-right: calc(var(--stroke-standard)*-1); margin-top: calc(var(--stroke-standard)*-1); overflow: clip; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-dialog-content[data-size=\"Small\"]",
+          "cssText": ".foundation-web-dialog-content[data-size=\"Small\"] { max-width: calc(var(--size-100)*80); min-width: calc(var(--size-100)*75); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-dialog-content[data-size=\"Medium\"]",
+          "cssText": ".foundation-web-dialog-content[data-size=\"Medium\"] { max-width: calc(var(--size-100)*120); min-width: calc(var(--size-100)*94); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-dialog-content[data-size=\"Large\"]",
+          "cssText": ".foundation-web-dialog-content[data-size=\"Large\"] { max-width: calc(var(--size-100)*160); min-width: calc(var(--size-100)*94); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 4,
+      "rulesList": [
+        {
+          "type": "CSSKeyframesRule",
+          "selector": "",
+          "cssText": "@keyframes rotation { \n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(359deg); }\n}",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSKeyframeRule",
+          "selector": "",
+          "cssText": "0% { transform: rotate(0deg); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSKeyframeRule",
+          "selector": "",
+          "cssText": "100% { transform: rotate(359deg); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-loading-spinner",
+          "cssText": ".foundation-web-loading-spinner { animation: 1s linear 0s infinite normal none running rotation; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 6,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-interactable",
+          "cssText": ".foundation-web-interactable { outline-width: 0px; overflow: hidden; position: relative; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-interactable::before",
+          "cssText": ".foundation-web-interactable::before { inset: 0px; content: \"\"; position: absolute; transition: background-color var(--time-100) var(--ease-linear); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-interactable:focus-visible",
+          "cssText": ".foundation-web-interactable:focus-visible { outline: var(--stroke-thicker) solid var(--color-selection-start); outline-offset: 3px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (hover: hover) {\n  .foundation-web-interactable:not(:disabled):hover::before { background-color: var(--color-state-hover); }\n}",
+          "urls": [],
+          "group": "(hover: hover)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "hover",
+              "semanticGroup": "input capability",
+              "claim": "hover capability",
+              "excerpt": "(hover: hover)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "hover"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-interactable:not(:disabled):hover::before",
+          "cssText": ".foundation-web-interactable:not(:disabled):hover::before { background-color: var(--color-state-hover); }",
+          "urls": [],
+          "group": "(hover: hover)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "hover",
+              "semanticGroup": "input capability",
+              "claim": "hover capability",
+              "excerpt": "(hover: hover)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "hover"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-interactable:not(:disabled):active::before",
+          "cssText": ".foundation-web-interactable:not(:disabled):active::before { background-color: var(--color-state-press); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 5,
+      "rulesList": [
+        {
+          "type": "CSSKeyframesRule",
+          "selector": "",
+          "cssText": "@keyframes rotation { \n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(359deg); }\n}",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSKeyframeRule",
+          "selector": "",
+          "cssText": "0% { transform: rotate(0deg); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSKeyframeRule",
+          "selector": "",
+          "cssText": "100% { transform: rotate(359deg); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-loading-spinner",
+          "cssText": ".foundation-web-loading-spinner { animation: 1s linear 0s infinite normal none running rotation; display: flex; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-loading-spinner svg path",
+          "cssText": ".foundation-web-loading-spinner svg path { fill: var(--color-action-standard-foreground); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 3,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-button",
+          "cssText": ".foundation-web-button { user-select: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-button[disabled]",
+          "cssText": ".foundation-web-button[disabled] { opacity: 0.5; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-button .foundation-web-loading-spinner svg path",
+          "cssText": ".foundation-web-button .foundation-web-loading-spinner svg path { fill: currentcolor; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 1,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-icon-button[disabled]",
+          "cssText": ".foundation-web-icon-button[disabled] { opacity: 0.5; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 2,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-checkbox.foundation-web-checkbox-disabled",
+          "cssText": ".foundation-web-checkbox.foundation-web-checkbox-disabled { opacity: 0.5; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-checkbox .foundation-web-interactable",
+          "cssText": ".foundation-web-checkbox .foundation-web-interactable { outline-offset: 3px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 6,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-dropdown.foundation-web-dropdown-disabled",
+          "cssText": ".foundation-web-dropdown.foundation-web-dropdown-disabled { opacity: 0.5; pointer-events: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-dropdown-trigger",
+          "cssText": ".foundation-web-dropdown-trigger { border-width: 1px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-dropdown-trigger.foundation-web-interactable:focus-visible",
+          "cssText": ".foundation-web-dropdown-trigger.foundation-web-interactable:focus-visible { outline-offset: 4px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-menu-item.foundation-web-interactable:focus-visible",
+          "cssText": ".foundation-web-menu-item.foundation-web-interactable:focus-visible { outline-offset: -1px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-menu-item.foundation-web-interactable:focus-visible:hover",
+          "cssText": ".foundation-web-menu-item.foundation-web-interactable:focus-visible:hover { outline-width: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-menu-item[data-disabled] span",
+          "cssText": ".foundation-web-menu-item[data-disabled] span { opacity: 0.5; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 7,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".disabled",
+          "cssText": ".disabled { opacity: 0.5; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-radio-indicator::after",
+          "cssText": ".foundation-web-radio-indicator::after { background-color: var(--color-action-sub-emphasis-foreground); border-radius: 100%; content: \"\"; display: block; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-radio-indicator-xsmall::after",
+          "cssText": ".foundation-web-radio-indicator-xsmall::after { height: var(--size-150); width: var(--size-150); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-radio-indicator-small::after",
+          "cssText": ".foundation-web-radio-indicator-small::after { height: var(--size-200); width: var(--size-200); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-radio-indicator-large::after, .foundation-web-radio-indicator-medium::after",
+          "cssText": ".foundation-web-radio-indicator-large::after, .foundation-web-radio-indicator-medium::after { height: var(--size-250); width: var(--size-250); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-radio",
+          "cssText": ".foundation-web-radio { align-items: center; border-top-style: ; border-top-width: ; border-right-style: ; border-right-width: ; border-bottom-style: ; border-bottom-width: ; border-left-style: ; border-left-width: ; border-image-source: ; border-image-slice: ; border-image-width: ; border-image-outset: ; border-image-repeat: ; border-color: var(--color-stroke-emphasis); border-radius: 100%; display: flex; flex: 0 0 auto; flex-direction: column; justify-content: center; outline-offset: 3px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-radio[data-state=\"checked\"]",
+          "cssText": ".foundation-web-radio[data-state=\"checked\"] { background-color: var(--color-action-sub-emphasis-background); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 1,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-toggle.disabled",
+          "cssText": ".foundation-web-toggle.disabled { opacity: 0.5; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 22,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".bg-common-backdrop",
+          "cssText": ".bg-common-backdrop { background-color: var(--color-common-backdrop); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ":root",
+          "cssText": ":root { --alpha-color-shadow-subtle: rgba(0,0,0,.08); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".shadow-transient-high",
+          "cssText": ".shadow-transient-high { box-shadow: var(--size-0) var(--size-50) var(--size-100) -.5px var(--alpha-color-shadow-subtle),var(--size-0) var(--size-250) var(--size-500) -.75px var(--alpha-color-shadow-subtle),var(--size-0) var(--size-400) var(--size-800) -1px var(--alpha-color-shadow-subtle),var(--size-0) var(--size-1200) var(--size-1400) -1.5px var(--alpha-color-shadow-subtle); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".shadow-transient-low",
+          "cssText": ".shadow-transient-low { box-shadow: var(--size-0) var(--size-50) var(--size-100) -.5px var(--alpha-color-shadow-subtle),var(--size-0) var(--size-250) var(--size-500) -.75px var(--alpha-color-shadow-subtle); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (prefers-color-scheme: dark) {\n  :root { --alpha-color-shadow-subtle: rgba(4,4,8,.25); }\n}",
+          "urls": [],
+          "group": "(prefers-color-scheme: dark)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-color-scheme",
+              "semanticGroup": "user preference",
+              "claim": "color scheme (light/dark)",
+              "excerpt": "(prefers-color-scheme: dark)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-color-scheme",
+                "dark"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ":root",
+          "cssText": ":root { --alpha-color-shadow-subtle: rgba(4,4,8,.25); }",
+          "urls": [],
+          "group": "(prefers-color-scheme: dark)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-color-scheme",
+              "semanticGroup": "user preference",
+              "claim": "color scheme (light/dark)",
+              "excerpt": "(prefers-color-scheme: dark)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-color-scheme",
+                "dark"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".light-theme",
+          "cssText": ".light-theme { --alpha-color-shadow-subtle: rgba(0,0,0,.08); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dark-theme",
+          "cssText": ".dark-theme { --alpha-color-shadow-subtle: rgba(4,4,8,.25); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".system-theme",
+          "cssText": ".system-theme { --alpha-color-shadow-subtle: rgba(0,0,0,.08); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (prefers-color-scheme: dark) {\n  .system-theme { --alpha-color-shadow-subtle: rgba(4,4,8,.25); }\n}",
+          "urls": [],
+          "group": "(prefers-color-scheme: dark)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-color-scheme",
+              "semanticGroup": "user preference",
+              "claim": "color scheme (light/dark)",
+              "excerpt": "(prefers-color-scheme: dark)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-color-scheme",
+                "dark"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".system-theme",
+          "cssText": ".system-theme { --alpha-color-shadow-subtle: rgba(4,4,8,.25); }",
+          "urls": [],
+          "group": "(prefers-color-scheme: dark)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-color-scheme",
+              "semanticGroup": "user preference",
+              "claim": "color scheme (light/dark)",
+              "excerpt": "(prefers-color-scheme: dark)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-color-scheme",
+                "dark"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".light-theme .stroke-contrast-alpha",
+          "cssText": ".light-theme .stroke-contrast-alpha { border-color: rgba(27, 37, 75, 0.5); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dark-theme .stroke-contrast-alpha",
+          "cssText": ".dark-theme .stroke-contrast-alpha { border-color: rgba(208, 217, 251, 0.4); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".system-theme .stroke-contrast-alpha",
+          "cssText": ".system-theme .stroke-contrast-alpha { border-color: rgba(27, 37, 75, 0.5); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (prefers-color-scheme: dark) {\n  .system-theme .stroke-contrast-alpha { border-color: rgba(208, 217, 251, 0.4); }\n}",
+          "urls": [],
+          "group": "(prefers-color-scheme: dark)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-color-scheme",
+              "semanticGroup": "user preference",
+              "claim": "color scheme (light/dark)",
+              "excerpt": "(prefers-color-scheme: dark)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-color-scheme",
+                "dark"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".system-theme .stroke-contrast-alpha",
+          "cssText": ".system-theme .stroke-contrast-alpha { border-color: rgba(208, 217, 251, 0.4); }",
+          "urls": [],
+          "group": "(prefers-color-scheme: dark)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-color-scheme",
+              "semanticGroup": "user preference",
+              "claim": "color scheme (light/dark)",
+              "excerpt": "(prefers-color-scheme: dark)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-color-scheme",
+                "dark"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-portal-zindex",
+          "cssText": ".foundation-web-portal-zindex { z-index: 1050; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".light-theme, :root",
+          "cssText": ".light-theme, :root { --fui-future-alpha-color-shadow-subtle: rgba(0,0,0,.08); --fui-future-alpha-color-system-progress: var(--light-mode-system-emphasis); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (prefers-color-scheme: dark) {\n  :root { --fui-future-alpha-color-shadow-subtle: rgba(4,4,8,.25); --fui-future-alpha-color-system-progress: var(--dark-mode-system-contrast); }\n}",
+          "urls": [],
+          "group": "(prefers-color-scheme: dark)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-color-scheme",
+              "semanticGroup": "user preference",
+              "claim": "color scheme (light/dark)",
+              "excerpt": "(prefers-color-scheme: dark)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-color-scheme",
+                "dark"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ":root",
+          "cssText": ":root { --fui-future-alpha-color-shadow-subtle: rgba(4,4,8,.25); --fui-future-alpha-color-system-progress: var(--dark-mode-system-contrast); }",
+          "urls": [],
+          "group": "(prefers-color-scheme: dark)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-color-scheme",
+              "semanticGroup": "user preference",
+              "claim": "color scheme (light/dark)",
+              "excerpt": "(prefers-color-scheme: dark)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-color-scheme",
+                "dark"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dark-theme",
+          "cssText": ".dark-theme { --fui-future-alpha-color-shadow-subtle: rgba(4,4,8,.25); --fui-future-alpha-color-system-progress: var(--dark-mode-system-contrast); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".fui-future-shadow-affixed-low",
+          "cssText": ".fui-future-shadow-affixed-low { box-shadow: 0 0 var(--size-100) 0 var(--fui-future-alpha-color-shadow-subtle),0 0 var(--size-500) 0 var(--fui-future-alpha-color-shadow-subtle); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 6,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-dialog-overlay",
+          "cssText": ".foundation-web-dialog-overlay { inset: 0px; display: grid; overflow-y: auto; place-items: center; position: fixed; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-dialog-close-container",
+          "cssText": ".foundation-web-dialog-close-container { right: var(--size-300); top: var(--size-300); z-index: 1; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-dialog-hero-media",
+          "cssText": ".foundation-web-dialog-hero-media { border-top-left-radius: var(--radius-large); border-top-right-radius: var(--radius-large); margin-left: calc(var(--stroke-standard)*-1); margin-right: calc(var(--stroke-standard)*-1); margin-top: calc(var(--stroke-standard)*-1); overflow: clip; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-dialog-content[data-size=\"Small\"]",
+          "cssText": ".foundation-web-dialog-content[data-size=\"Small\"] { max-width: calc(var(--size-100)*80); min-width: calc(var(--size-100)*75); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-dialog-content[data-size=\"Medium\"]",
+          "cssText": ".foundation-web-dialog-content[data-size=\"Medium\"] { max-width: calc(var(--size-100)*120); min-width: calc(var(--size-100)*94); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-dialog-content[data-size=\"Large\"]",
+          "cssText": ".foundation-web-dialog-content[data-size=\"Large\"] { max-width: calc(var(--size-100)*160); min-width: calc(var(--size-100)*94); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 4,
+      "rulesList": [
+        {
+          "type": "CSSKeyframesRule",
+          "selector": "",
+          "cssText": "@keyframes rotation { \n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(359deg); }\n}",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSKeyframeRule",
+          "selector": "",
+          "cssText": "0% { transform: rotate(0deg); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSKeyframeRule",
+          "selector": "",
+          "cssText": "100% { transform: rotate(359deg); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-loading-spinner",
+          "cssText": ".foundation-web-loading-spinner { animation: 1s linear 0s infinite normal none running rotation; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 22,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".bg-common-backdrop",
+          "cssText": ".bg-common-backdrop { background-color: var(--color-common-backdrop); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ":root",
+          "cssText": ":root { --alpha-color-shadow-subtle: rgba(0,0,0,.08); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".shadow-transient-high",
+          "cssText": ".shadow-transient-high { box-shadow: var(--size-0) var(--size-50) var(--size-100) -.5px var(--alpha-color-shadow-subtle),var(--size-0) var(--size-250) var(--size-500) -.75px var(--alpha-color-shadow-subtle),var(--size-0) var(--size-400) var(--size-800) -1px var(--alpha-color-shadow-subtle),var(--size-0) var(--size-1200) var(--size-1400) -1.5px var(--alpha-color-shadow-subtle); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".shadow-transient-low",
+          "cssText": ".shadow-transient-low { box-shadow: var(--size-0) var(--size-50) var(--size-100) -.5px var(--alpha-color-shadow-subtle),var(--size-0) var(--size-250) var(--size-500) -.75px var(--alpha-color-shadow-subtle); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (prefers-color-scheme: dark) {\n  :root { --alpha-color-shadow-subtle: rgba(4,4,8,.25); }\n}",
+          "urls": [],
+          "group": "(prefers-color-scheme: dark)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-color-scheme",
+              "semanticGroup": "user preference",
+              "claim": "color scheme (light/dark)",
+              "excerpt": "(prefers-color-scheme: dark)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-color-scheme",
+                "dark"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ":root",
+          "cssText": ":root { --alpha-color-shadow-subtle: rgba(4,4,8,.25); }",
+          "urls": [],
+          "group": "(prefers-color-scheme: dark)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-color-scheme",
+              "semanticGroup": "user preference",
+              "claim": "color scheme (light/dark)",
+              "excerpt": "(prefers-color-scheme: dark)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-color-scheme",
+                "dark"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".light-theme",
+          "cssText": ".light-theme { --alpha-color-shadow-subtle: rgba(0,0,0,.08); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dark-theme",
+          "cssText": ".dark-theme { --alpha-color-shadow-subtle: rgba(4,4,8,.25); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".system-theme",
+          "cssText": ".system-theme { --alpha-color-shadow-subtle: rgba(0,0,0,.08); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (prefers-color-scheme: dark) {\n  .system-theme { --alpha-color-shadow-subtle: rgba(4,4,8,.25); }\n}",
+          "urls": [],
+          "group": "(prefers-color-scheme: dark)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-color-scheme",
+              "semanticGroup": "user preference",
+              "claim": "color scheme (light/dark)",
+              "excerpt": "(prefers-color-scheme: dark)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-color-scheme",
+                "dark"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".system-theme",
+          "cssText": ".system-theme { --alpha-color-shadow-subtle: rgba(4,4,8,.25); }",
+          "urls": [],
+          "group": "(prefers-color-scheme: dark)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-color-scheme",
+              "semanticGroup": "user preference",
+              "claim": "color scheme (light/dark)",
+              "excerpt": "(prefers-color-scheme: dark)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-color-scheme",
+                "dark"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".light-theme .stroke-contrast-alpha",
+          "cssText": ".light-theme .stroke-contrast-alpha { border-color: rgba(27, 37, 75, 0.5); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dark-theme .stroke-contrast-alpha",
+          "cssText": ".dark-theme .stroke-contrast-alpha { border-color: rgba(208, 217, 251, 0.4); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".system-theme .stroke-contrast-alpha",
+          "cssText": ".system-theme .stroke-contrast-alpha { border-color: rgba(27, 37, 75, 0.5); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (prefers-color-scheme: dark) {\n  .system-theme .stroke-contrast-alpha { border-color: rgba(208, 217, 251, 0.4); }\n}",
+          "urls": [],
+          "group": "(prefers-color-scheme: dark)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-color-scheme",
+              "semanticGroup": "user preference",
+              "claim": "color scheme (light/dark)",
+              "excerpt": "(prefers-color-scheme: dark)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-color-scheme",
+                "dark"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".system-theme .stroke-contrast-alpha",
+          "cssText": ".system-theme .stroke-contrast-alpha { border-color: rgba(208, 217, 251, 0.4); }",
+          "urls": [],
+          "group": "(prefers-color-scheme: dark)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-color-scheme",
+              "semanticGroup": "user preference",
+              "claim": "color scheme (light/dark)",
+              "excerpt": "(prefers-color-scheme: dark)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-color-scheme",
+                "dark"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-portal-zindex",
+          "cssText": ".foundation-web-portal-zindex { z-index: 1050; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".light-theme, :root",
+          "cssText": ".light-theme, :root { --fui-future-alpha-color-shadow-subtle: rgba(0,0,0,.08); --fui-future-alpha-color-system-progress: var(--light-mode-system-emphasis); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (prefers-color-scheme: dark) {\n  :root { --fui-future-alpha-color-shadow-subtle: rgba(4,4,8,.25); --fui-future-alpha-color-system-progress: var(--dark-mode-system-contrast); }\n}",
+          "urls": [],
+          "group": "(prefers-color-scheme: dark)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-color-scheme",
+              "semanticGroup": "user preference",
+              "claim": "color scheme (light/dark)",
+              "excerpt": "(prefers-color-scheme: dark)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-color-scheme",
+                "dark"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ":root",
+          "cssText": ":root { --fui-future-alpha-color-shadow-subtle: rgba(4,4,8,.25); --fui-future-alpha-color-system-progress: var(--dark-mode-system-contrast); }",
+          "urls": [],
+          "group": "(prefers-color-scheme: dark)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-color-scheme",
+              "semanticGroup": "user preference",
+              "claim": "color scheme (light/dark)",
+              "excerpt": "(prefers-color-scheme: dark)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-color-scheme",
+                "dark"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dark-theme",
+          "cssText": ".dark-theme { --fui-future-alpha-color-shadow-subtle: rgba(4,4,8,.25); --fui-future-alpha-color-system-progress: var(--dark-mode-system-contrast); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".fui-future-shadow-affixed-low",
+          "cssText": ".fui-future-shadow-affixed-low { box-shadow: 0 0 var(--size-100) 0 var(--fui-future-alpha-color-shadow-subtle),0 0 var(--size-500) 0 var(--fui-future-alpha-color-shadow-subtle); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 1,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-menu-separator",
+          "cssText": ".foundation-web-menu-separator { border-top: 1px solid var(--color-stroke-default); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 4,
+      "rulesList": [
+        {
+          "type": "CSSKeyframesRule",
+          "selector": "",
+          "cssText": "@keyframes rotation { \n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(359deg); }\n}",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSKeyframeRule",
+          "selector": "",
+          "cssText": "0% { transform: rotate(0deg); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSKeyframeRule",
+          "selector": "",
+          "cssText": "100% { transform: rotate(359deg); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-loading-spinner",
+          "cssText": ".foundation-web-loading-spinner { animation: 1s linear 0s infinite normal none running rotation; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 10,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".bg-common-backdrop",
+          "cssText": ".bg-common-backdrop { background-color: var(--color-common-backdrop); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".shadow-transient-high",
+          "cssText": ".shadow-transient-high { --alpha-color-shadow-subtle: rgba(0,0,0,.08); box-shadow: var(--size-0) var(--size-50) var(--size-100) -.5px var(--alpha-color-shadow-subtle),var(--size-0) var(--size-250) var(--size-500) -.75px var(--alpha-color-shadow-subtle),var(--size-0) var(--size-400) var(--size-800) -1px var(--alpha-color-shadow-subtle),var(--size-0) var(--size-1200) var(--size-1400) -1.5px var(--alpha-color-shadow-subtle); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (prefers-color-scheme: dark) {\n  .shadow-transient-high { --alpha-color-shadow-subtle: rgba(4,4,8,.25); }\n}",
+          "urls": [],
+          "group": "(prefers-color-scheme: dark)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-color-scheme",
+              "semanticGroup": "user preference",
+              "claim": "color scheme (light/dark)",
+              "excerpt": "(prefers-color-scheme: dark)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-color-scheme",
+                "dark"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".shadow-transient-high",
+          "cssText": ".shadow-transient-high { --alpha-color-shadow-subtle: rgba(4,4,8,.25); }",
+          "urls": [],
+          "group": "(prefers-color-scheme: dark)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-color-scheme",
+              "semanticGroup": "user preference",
+              "claim": "color scheme (light/dark)",
+              "excerpt": "(prefers-color-scheme: dark)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-color-scheme",
+                "dark"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".light-theme .shadow-transient-high",
+          "cssText": ".light-theme .shadow-transient-high { --alpha-color-shadow-subtle: rgba(0,0,0,.08); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dark-theme .shadow-transient-high",
+          "cssText": ".dark-theme .shadow-transient-high { --alpha-color-shadow-subtle: rgba(4,4,8,.25); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".system-theme .shadow-transient-high",
+          "cssText": ".system-theme .shadow-transient-high { --alpha-color-shadow-subtle: rgba(0,0,0,.08); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (prefers-color-scheme: dark) {\n  .system-theme .shadow-transient-high { --alpha-color-shadow-subtle: rgba(4,4,8,.25); }\n}",
+          "urls": [],
+          "group": "(prefers-color-scheme: dark)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-color-scheme",
+              "semanticGroup": "user preference",
+              "claim": "color scheme (light/dark)",
+              "excerpt": "(prefers-color-scheme: dark)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-color-scheme",
+                "dark"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".system-theme .shadow-transient-high",
+          "cssText": ".system-theme .shadow-transient-high { --alpha-color-shadow-subtle: rgba(4,4,8,.25); }",
+          "urls": [],
+          "group": "(prefers-color-scheme: dark)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-color-scheme",
+              "semanticGroup": "user preference",
+              "claim": "color scheme (light/dark)",
+              "excerpt": "(prefers-color-scheme: dark)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-color-scheme",
+                "dark"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-portal-zindex",
+          "cssText": ".foundation-web-portal-zindex { z-index: 2000; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 6,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-dialog-overlay",
+          "cssText": ".foundation-web-dialog-overlay { inset: 0px; display: grid; overflow-y: auto; place-items: center; position: fixed; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-dialog-close-container",
+          "cssText": ".foundation-web-dialog-close-container { right: var(--size-300); top: var(--size-300); z-index: 1; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-dialog-hero-media",
+          "cssText": ".foundation-web-dialog-hero-media { border-top-left-radius: var(--radius-large); border-top-right-radius: var(--radius-large); margin-left: calc(var(--stroke-standard)*-1); margin-right: calc(var(--stroke-standard)*-1); margin-top: calc(var(--stroke-standard)*-1); overflow: clip; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-dialog-content[data-size=\"Small\"]",
+          "cssText": ".foundation-web-dialog-content[data-size=\"Small\"] { max-width: calc(var(--size-100)*80); min-width: calc(var(--size-100)*75); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-dialog-content[data-size=\"Medium\"]",
+          "cssText": ".foundation-web-dialog-content[data-size=\"Medium\"] { max-width: calc(var(--size-100)*120); min-width: calc(var(--size-100)*94); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-dialog-content[data-size=\"Large\"]",
+          "cssText": ".foundation-web-dialog-content[data-size=\"Large\"] { max-width: calc(var(--size-100)*160); min-width: calc(var(--size-100)*94); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 4,
+      "rulesList": [
+        {
+          "type": "CSSKeyframesRule",
+          "selector": "",
+          "cssText": "@keyframes rotation { \n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(359deg); }\n}",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSKeyframeRule",
+          "selector": "",
+          "cssText": "0% { transform: rotate(0deg); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSKeyframeRule",
+          "selector": "",
+          "cssText": "100% { transform: rotate(359deg); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-loading-spinner",
+          "cssText": ".foundation-web-loading-spinner { animation: 1s linear 0s infinite normal none running rotation; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 10,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".bg-common-backdrop",
+          "cssText": ".bg-common-backdrop { background-color: var(--color-common-backdrop); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".shadow-transient-high",
+          "cssText": ".shadow-transient-high { --alpha-color-shadow-subtle: rgba(0,0,0,.08); box-shadow: var(--size-0) var(--size-50) var(--size-100) -.5px var(--alpha-color-shadow-subtle),var(--size-0) var(--size-250) var(--size-500) -.75px var(--alpha-color-shadow-subtle),var(--size-0) var(--size-400) var(--size-800) -1px var(--alpha-color-shadow-subtle),var(--size-0) var(--size-1200) var(--size-1400) -1.5px var(--alpha-color-shadow-subtle); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (prefers-color-scheme: dark) {\n  .shadow-transient-high { --alpha-color-shadow-subtle: rgba(4,4,8,.25); }\n}",
+          "urls": [],
+          "group": "(prefers-color-scheme: dark)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-color-scheme",
+              "semanticGroup": "user preference",
+              "claim": "color scheme (light/dark)",
+              "excerpt": "(prefers-color-scheme: dark)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-color-scheme",
+                "dark"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".shadow-transient-high",
+          "cssText": ".shadow-transient-high { --alpha-color-shadow-subtle: rgba(4,4,8,.25); }",
+          "urls": [],
+          "group": "(prefers-color-scheme: dark)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-color-scheme",
+              "semanticGroup": "user preference",
+              "claim": "color scheme (light/dark)",
+              "excerpt": "(prefers-color-scheme: dark)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-color-scheme",
+                "dark"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".light-theme .shadow-transient-high",
+          "cssText": ".light-theme .shadow-transient-high { --alpha-color-shadow-subtle: rgba(0,0,0,.08); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dark-theme .shadow-transient-high",
+          "cssText": ".dark-theme .shadow-transient-high { --alpha-color-shadow-subtle: rgba(4,4,8,.25); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".system-theme .shadow-transient-high",
+          "cssText": ".system-theme .shadow-transient-high { --alpha-color-shadow-subtle: rgba(0,0,0,.08); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (prefers-color-scheme: dark) {\n  .system-theme .shadow-transient-high { --alpha-color-shadow-subtle: rgba(4,4,8,.25); }\n}",
+          "urls": [],
+          "group": "(prefers-color-scheme: dark)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-color-scheme",
+              "semanticGroup": "user preference",
+              "claim": "color scheme (light/dark)",
+              "excerpt": "(prefers-color-scheme: dark)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-color-scheme",
+                "dark"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".system-theme .shadow-transient-high",
+          "cssText": ".system-theme .shadow-transient-high { --alpha-color-shadow-subtle: rgba(4,4,8,.25); }",
+          "urls": [],
+          "group": "(prefers-color-scheme: dark)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-color-scheme",
+              "semanticGroup": "user preference",
+              "claim": "color scheme (light/dark)",
+              "excerpt": "(prefers-color-scheme: dark)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-color-scheme",
+                "dark"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-portal-zindex",
+          "cssText": ".foundation-web-portal-zindex { z-index: 2000; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 6,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-dialog-overlay",
+          "cssText": ".foundation-web-dialog-overlay { inset: 0px; display: grid; overflow-y: auto; place-items: center; position: fixed; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-dialog-close-container",
+          "cssText": ".foundation-web-dialog-close-container { right: var(--size-300); top: var(--size-300); z-index: 1; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-dialog-hero-media",
+          "cssText": ".foundation-web-dialog-hero-media { border-top-left-radius: var(--radius-large); border-top-right-radius: var(--radius-large); margin-left: calc(var(--stroke-standard)*-1); margin-right: calc(var(--stroke-standard)*-1); margin-top: calc(var(--stroke-standard)*-1); overflow: clip; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-dialog-content[data-size=\"Small\"]",
+          "cssText": ".foundation-web-dialog-content[data-size=\"Small\"] { max-width: calc(var(--size-100)*80); min-width: calc(var(--size-100)*75); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-dialog-content[data-size=\"Medium\"]",
+          "cssText": ".foundation-web-dialog-content[data-size=\"Medium\"] { max-width: calc(var(--size-100)*120); min-width: calc(var(--size-100)*94); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-dialog-content[data-size=\"Large\"]",
+          "cssText": ".foundation-web-dialog-content[data-size=\"Large\"] { max-width: calc(var(--size-100)*160); min-width: calc(var(--size-100)*94); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 4,
+      "rulesList": [
+        {
+          "type": "CSSKeyframesRule",
+          "selector": "",
+          "cssText": "@keyframes rotation { \n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(359deg); }\n}",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSKeyframeRule",
+          "selector": "",
+          "cssText": "0% { transform: rotate(0deg); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSKeyframeRule",
+          "selector": "",
+          "cssText": "100% { transform: rotate(359deg); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-loading-spinner",
+          "cssText": ".foundation-web-loading-spinner { animation: 1s linear 0s infinite normal none running rotation; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 4,
+      "rulesList": [
+        {
+          "type": "CSSKeyframesRule",
+          "selector": "",
+          "cssText": "@keyframes rotation { \n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(359deg); }\n}",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSKeyframeRule",
+          "selector": "",
+          "cssText": "0% { transform: rotate(0deg); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSKeyframeRule",
+          "selector": "",
+          "cssText": "100% { transform: rotate(359deg); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".foundation-web-loading-spinner",
+          "cssText": ".foundation-web-loading-spinner { animation: 1s linear 0s infinite normal none running rotation; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    }
+  ],
+  "inaccessible": [
+    "https://css.rbxcdn.com/56f6868ec13cefb471ad86176c7b9642571d05082c86ac6300ddfeb028617d4e.css",
+    "https://css.rbxcdn.com/775b823f59a8320ea56172866de0ce918df6fc9cbd9db2ceffaa64ac5b771597.css",
+    "https://css.rbxcdn.com/ce113720f4c1602bb4db7e35d0a4fd637f223e8936fe5779650bda23074663f2.css",
+    "https://css.rbxcdn.com/d7d4183c8033d692e0ca8ad5222b943fe27879f9a771c9bd98165ccc4e270d7b.css",
+    "https://css.rbxcdn.com/b8f8f15a57a66e73469ae72eea7d8905346afa78b9f2397627cd099f7dcc779a.css",
+    "https://css.rbxcdn.com/66b2fd496e668938e3b0e2d9a0c12f9f88c3a1a4974608f69059d8061fc0141f.css",
+    "https://css.rbxcdn.com/7efdd6e108c97b0303d8eb08afa31ed9c9b8e90a6e0a37a63f8c00456912fb5b.css",
+    "https://css.rbxcdn.com/f77e16b9fa5823882aaa0cdabade9706b9ba2b7e050d23d2831da138a58e5f7f.css",
+    "https://css.rbxcdn.com/b2cff71de0c286e8f85b1a26a8b87a8cd7f77422c592849ad5114ac5d929c575.css",
+    "https://css.rbxcdn.com/49fff8dad77e5262087267ee2e8fda1607525506c4a1ca20af60f9757684e980.css",
+    "https://css.rbxcdn.com/9bfc48ea40a698035ea8cbe3d3e94bd06d3aac48969bedceb6d8ba5ff17ff84d.css",
+    "https://css.rbxcdn.com/60cfeb2f8467bbbf0ca06d8c31e3302be1b43f1f195fa69e6e9f526e4f78dce4.css",
+    "https://css.rbxcdn.com/c90944b058581834a314e6f2d3f5257ea75ecabcebdc250750944c8b3561e720.css",
+    "https://css.rbxcdn.com/7e348738266e9ea2bae9314a2d26b33618c6f4cf3c527b11023620d973c6e7fc.css",
+    "https://css.rbxcdn.com/06d8b6a295d7cd70a73ad91b19a7fe4226369d70749b74cc701d8d5c08c3de1f.css",
+    "https://css.rbxcdn.com/f57ee051f13e54a366404a2df3512eb4b6d125a3c7c7c9c6b59482c0a8b2bed0.css",
+    "https://css.rbxcdn.com/c13baf7db7e9dfc908a4fb90d39faad6f533df883abc388f85e990d4564aa59c.css",
+    "https://css.rbxcdn.com/bc981bafa6b0a52c86d071d1f81b24168a8dd92e72b8ac52d37cb46bf8bd8c42.css",
+    "https://css.rbxcdn.com/7dfc7837b5da6850e13413c630b37da7e88aeb610ca2c7d4e8b71b02cbdc6ba6.css",
+    "https://css.rbxcdn.com/3c4bd9b17b9020d9ebc87d4542a68a949a9de6150a55a92f0e65514520ee777e.css",
+    "https://css.rbxcdn.com/95a756316bbf688273d0aae66884901f56b2b42314831ba2bf3546bbbefd0b8c.css",
+    "https://css.rbxcdn.com/3bca47a98d58fdf98a7063c4f3b390671e5326ed559813887f3945876c997da6.css",
+    "https://css.rbxcdn.com/d45e200658a1343116bbf4a88c367d093758085e7d001918d641c85b2143468f.css",
+    "https://css.rbxcdn.com/f9d2f895b2831ce29f0c3801ecc38444860855013c5701e3bce5867cddd859fd.css",
+    "https://css.rbxcdn.com/d5a3728b78be729b693aadf79a1f45f0fa49c15fe863a0d7dd631b75f9e82207.css"
+  ],
+  "styleTags": 25,
+  "inlineStyleCount": 0,
+  "associations": [],
+  "summary": {
+    "sheetsAccessible": 25,
+    "sheetsInaccessible": 25,
+    "totalRulesScanned": 152,
+    "totalSinks": 0,
+    "totalSources": 13,
+    "totalAssociations": 0,
+    "totalCapped": false
+  },
+  "likelyFingerprinting": false,
+  "verdict": "likely not fingerprinting",
+  "claims": [],
+  "claimDetails": [],
+  "riskScore": 0,
+  "riskLevel": "none"
+}

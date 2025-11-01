@@ -1,0 +1,32 @@
+{
+  "page": "https://www.linkedin.com/",
+  "timestamp": 1761801007385,
+  "sheets": [
+    {
+      "href": "https://static.licdn.com/aero-v1/sc/h/4fm1gcfeyfk6f461crhkp7huj",
+      "rules": "inaccessible",
+      "rulesList": []
+    }
+  ],
+  "inaccessible": [
+    "https://static.licdn.com/aero-v1/sc/h/4fm1gcfeyfk6f461crhkp7huj"
+  ],
+  "styleTags": 0,
+  "inlineStyleCount": 11,
+  "associations": [],
+  "summary": {
+    "sheetsAccessible": 0,
+    "sheetsInaccessible": 1,
+    "totalRulesScanned": 0,
+    "totalSinks": 0,
+    "totalSources": 0,
+    "totalAssociations": 0,
+    "totalCapped": false
+  },
+  "likelyFingerprinting": false,
+  "verdict": "likely not fingerprinting",
+  "claims": [],
+  "claimDetails": [],
+  "riskScore": 0,
+  "riskLevel": "none"
+}

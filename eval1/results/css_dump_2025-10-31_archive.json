@@ -1,0 +1,183 @@
+{
+  "page": "https://archive.org/",
+  "timestamp": 1761885955927,
+  "sheets": [
+    {
+      "href": "https://archive.org/offshoot_assets/index.css",
+      "rules": 8,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": "html",
+          "cssText": "html { font-size: var(--ia-theme-base-font-size, 10px); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ":root",
+          "cssText": ":root { --app-page-max-width: 135rem; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "body",
+          "cssText": "body { font-family: var(\n    --ia-theme-base-font-family,\n    'Helvetica Neue',\n    Helvetica,\n    Arial,\n    sans-serif\n  ); color: var(--ia-theme-primary-text-color, #333); background-color: var(--ia-theme-primary-background-color, #fbfbfd); margin: 0px; padding: 0px; line-height: 1.42857; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".no-js-redirect-container",
+          "cssText": ".no-js-redirect-container { margin: 1rem; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "style",
+          "cssText": "style { display: none !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#paypal-upsell-button",
+          "cssText": "#paypal-upsell-button { opacity: 0.01; padding-bottom: 0.6rem; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "div[data-owner=\"donationBannerHandler\"]",
+          "cssText": "div[data-owner=\"donationBannerHandler\"] { z-index: 3; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#beta-access-message",
+          "cssText": "#beta-access-message { font-size: 14px; margin: 16px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 2,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ":root",
+          "cssText": ":root { --ia-theme-primary-background-color: #fbfbfd; --ia-theme-secondary-background-color: #fff; --ia-theme-primary-text-color: #2c2c2c; --ia-theme-secondary-text-color: #666; --ia-theme-link-color: #4b64ff; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ":root",
+          "cssText": ":root { --ia-theme-base-font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 4,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".js-ia-donation-iframe-wrapper",
+          "cssText": ".js-ia-donation-iframe-wrapper { position: relative; height: 0px; transition: height 0.5s; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "body.overflow-hidden",
+          "cssText": "body.overflow-hidden { position: relative !important; height: auto !important; overflow: hidden !important; margin: 0px !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#donato .open-modal",
+          "cssText": "#donato .open-modal { inset: 0px; position: fixed !important; z-index: 1000000 !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#donato .keep-above-all-dom",
+          "cssText": "#donato .keep-above-all-dom { z-index: 10000000 !important; position: absolute; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    }
+  ],
+  "inaccessible": [],
+  "styleTags": 2,
+  "inlineStyleCount": 2,
+  "associations": [],
+  "summary": {
+    "sheetsAccessible": 3,
+    "sheetsInaccessible": 0,
+    "totalRulesScanned": 14,
+    "totalSinks": 0,
+    "totalSources": 0,
+    "totalAssociations": 0,
+    "totalCapped": false
+  },
+  "likelyFingerprinting": false,
+  "verdict": "likely not fingerprinting",
+  "claims": [],
+  "claimDetails": [],
+  "riskScore": 0,
+  "riskLevel": "none"
+}

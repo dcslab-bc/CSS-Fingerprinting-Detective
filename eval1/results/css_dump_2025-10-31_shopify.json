@@ -1,0 +1,32 @@
+{
+  "page": "https://www.shopify.com/kr",
+  "timestamp": 1761886233013,
+  "sheets": [
+    {
+      "href": "https://cdn.shopify.com/shopifycloud/world/brochure/production-homepage/assets/home.v4-BBDbDit_.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    }
+  ],
+  "inaccessible": [
+    "https://cdn.shopify.com/shopifycloud/world/brochure/production-homepage/assets/home.v4-BBDbDit_.css"
+  ],
+  "styleTags": 0,
+  "inlineStyleCount": 79,
+  "associations": [],
+  "summary": {
+    "sheetsAccessible": 0,
+    "sheetsInaccessible": 1,
+    "totalRulesScanned": 0,
+    "totalSinks": 0,
+    "totalSources": 0,
+    "totalAssociations": 0,
+    "totalCapped": false
+  },
+  "likelyFingerprinting": false,
+  "verdict": "likely not fingerprinting",
+  "claims": [],
+  "claimDetails": [],
+  "riskScore": 0,
+  "riskLevel": "none"
+}

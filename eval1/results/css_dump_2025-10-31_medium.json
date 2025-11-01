@@ -1,0 +1,3082 @@
+{
+  "page": "https://medium.com/",
+  "timestamp": 1761886293297,
+  "sheets": [
+    {
+      "href": "https://glyph.medium.com/css/unbound.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 33,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": "html",
+          "cssText": "html { box-sizing: border-box; text-size-adjust: 100%; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "*, ::before, ::after",
+          "cssText": "*, ::before, ::after { box-sizing: inherit; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "body",
+          "cssText": "body { margin: 0px; padding: 0px; text-rendering: optimizelegibility; -webkit-font-smoothing: antialiased; color: rgba(0, 0, 0, 0.8); position: relative; min-height: 100vh; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "h1, h2, h3, h4, h5, h6, dl, dd, ol, ul, menu, figure, blockquote, p, pre, form",
+          "cssText": "h1, h2, h3, h4, h5, h6, dl, dd, ol, ul, menu, figure, blockquote, p, pre, form { margin: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "menu, ol, ul",
+          "cssText": "menu, ol, ul { padding: 0px; list-style: none none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "main",
+          "cssText": "main { display: block; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "a",
+          "cssText": "a { color: inherit; text-decoration: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "a, button, input",
+          "cssText": "a, button, input { -webkit-tap-highlight-color: transparent; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "img, svg",
+          "cssText": "img, svg { vertical-align: middle; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "button",
+          "cssText": "button { background: transparent; overflow: visible; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "button, input, optgroup, select, textarea",
+          "cssText": "button, input, optgroup, select, textarea { margin: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ":root",
+          "cssText": ":root { --reach-tabs: 1; --reach-menu-button: 1; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#speechify-root",
+          "cssText": "#speechify-root { font-family: Sohne, sans-serif; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "div[data-popper-reference-hidden=\"true\"]",
+          "cssText": "div[data-popper-reference-hidden=\"true\"] { visibility: hidden; pointer-events: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".grecaptcha-badge",
+          "cssText": ".grecaptcha-badge { visibility: hidden; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".hljs",
+          "cssText": ".hljs { background: rgb(255, 255, 255); color: black; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".xml .hljs-meta",
+          "cssText": ".xml .hljs-meta { color: rgb(192, 192, 192); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".hljs-comment, .hljs-quote",
+          "cssText": ".hljs-comment, .hljs-quote { color: rgb(0, 116, 0); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".hljs-tag, .hljs-attribute, .hljs-keyword, .hljs-selector-tag, .hljs-literal, .hljs-name",
+          "cssText": ".hljs-tag, .hljs-attribute, .hljs-keyword, .hljs-selector-tag, .hljs-literal, .hljs-name { color: rgb(170, 13, 145); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".hljs-variable, .hljs-template-variable",
+          "cssText": ".hljs-variable, .hljs-template-variable { color: rgb(63, 110, 116); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".hljs-code, .hljs-string, .hljs-meta .hljs-string",
+          "cssText": ".hljs-code, .hljs-string, .hljs-meta .hljs-string { color: rgb(196, 26, 22); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".hljs-regexp, .hljs-link",
+          "cssText": ".hljs-regexp, .hljs-link { color: rgb(14, 14, 255); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".hljs-title, .hljs-symbol, .hljs-bullet, .hljs-number",
+          "cssText": ".hljs-title, .hljs-symbol, .hljs-bullet, .hljs-number { color: rgb(28, 0, 207); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".hljs-section, .hljs-meta",
+          "cssText": ".hljs-section, .hljs-meta { color: rgb(100, 56, 32); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".hljs-title.class_, .hljs-class .hljs-title, .hljs-type, .hljs-built_in, .hljs-params",
+          "cssText": ".hljs-title.class_, .hljs-class .hljs-title, .hljs-type, .hljs-built_in, .hljs-params { color: rgb(92, 38, 153); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".hljs-attr",
+          "cssText": ".hljs-attr { color: rgb(131, 108, 40); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".hljs-subst",
+          "cssText": ".hljs-subst { color: rgb(0, 0, 0); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".hljs-formula",
+          "cssText": ".hljs-formula { background-color: rgb(238, 238, 238); font-style: italic; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".hljs-addition",
+          "cssText": ".hljs-addition { background-color: rgb(186, 238, 186); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".hljs-deletion",
+          "cssText": ".hljs-deletion { background-color: rgb(255, 200, 189); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".hljs-selector-id, .hljs-selector-class",
+          "cssText": ".hljs-selector-id, .hljs-selector-class { color: rgb(155, 112, 63); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".hljs-doctag, .hljs-strong",
+          "cssText": ".hljs-doctag, .hljs-strong { font-weight: bold; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".hljs-emphasis",
+          "cssText": ".hljs-emphasis { font-style: italic; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 6,
+      "rulesList": [
+        {
+          "type": "CSSKeyframesRule",
+          "selector": "",
+          "cssText": "@-webkit-keyframes k1 { \n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(360deg); }\n}",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSKeyframeRule",
+          "selector": "",
+          "cssText": "0% { transform: rotate(0deg); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSKeyframeRule",
+          "selector": "",
+          "cssText": "100% { transform: rotate(360deg); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSKeyframesRule",
+          "selector": "",
+          "cssText": "@keyframes k1 { \n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(360deg); }\n}",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSKeyframeRule",
+          "selector": "",
+          "cssText": "0% { transform: rotate(0deg); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSKeyframeRule",
+          "selector": "",
+          "cssText": "100% { transform: rotate(360deg); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 125,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".a",
+          "cssText": ".a { font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".b",
+          "cssText": ".b { font-weight: 400; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".c",
+          "cssText": ".c { background-color: rgb(255, 255, 255); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".d",
+          "cssText": ".d { display: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".m",
+          "cssText": ".m { height: 100vh; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".n",
+          "cssText": ".n { width: 100%; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".o",
+          "cssText": ".o { display: flex; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".p",
+          "cssText": ".p { align-items: center; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".q",
+          "cssText": ".q { justify-content: center; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".r",
+          "cssText": ".r { width: 40px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".s",
+          "cssText": ".s { height: 40px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".t",
+          "cssText": ".t { border-radius: 50%; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".u",
+          "cssText": ".u { border-width: 2px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".v",
+          "cssText": ".v { border-style: solid; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".w",
+          "cssText": ".w { border-color: rgb(36, 36, 36) transparent rgb(36, 36, 36) rgb(36, 36, 36); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".x",
+          "cssText": ".x { animation: 2s linear 0s infinite normal none running k1; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".y",
+          "cssText": ".y { flex-direction: column; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".z",
+          "cssText": ".z { position: absolute; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ab",
+          "cssText": ".ab { top: 54%; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ac",
+          "cssText": ".ac { transform: translateY(-50%); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ae",
+          "cssText": ".ae { left: 782px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ah h2",
+          "cssText": ".ah h2 { color: rgb(36, 36, 36); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".au button",
+          "cssText": ".au button { font-size: 20px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".av button",
+          "cssText": ".av button { line-height: 28px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".aw",
+          "cssText": ".aw { background-color: rgb(247, 244, 237); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ax",
+          "cssText": ".ax { min-height: 560px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ay",
+          "cssText": ".ay { overflow: hidden; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".az",
+          "cssText": ".az { flex: 1 0 auto; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ba",
+          "cssText": ".ba { position: relative; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".bb",
+          "cssText": ".bb { background: rgb(247, 244, 237); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".bc",
+          "cssText": ".bc { z-index: 10; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".bd",
+          "cssText": ".bd { border-bottom: 1px solid rgb(36, 36, 36); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".be",
+          "cssText": ".be { position: fixed; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".bf",
+          "cssText": ".bf { top: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".bg",
+          "cssText": ".bg { left: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".bh",
+          "cssText": ".bh { right: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".bp",
+          "cssText": ".bp { max-width: 1192px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".bq",
+          "cssText": ".bq { min-width: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".br",
+          "cssText": ".br { padding: 25px 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".bs",
+          "cssText": ".bs { height: 75px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".bt",
+          "cssText": ".bt { flex-direction: row; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".bu",
+          "cssText": ".bu { display: block; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".bv",
+          "cssText": ".bv { color: inherit; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".bw",
+          "cssText": ".bw { fill: inherit; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".bx",
+          "cssText": ".bx { font-size: inherit; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".by",
+          "cssText": ".by { border: inherit; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".bz",
+          "cssText": ".bz { font-family: inherit; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ca",
+          "cssText": ".ca { letter-spacing: inherit; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".cb",
+          "cssText": ".cb { font-weight: inherit; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".cc",
+          "cssText": ".cc { padding: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".cd",
+          "cssText": ".cd { margin: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ce",
+          "cssText": ".ce { cursor: pointer; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".cf:disabled",
+          "cssText": ".cf:disabled { cursor: not-allowed; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".cg:disabled",
+          "cssText": ".cg:disabled { color: rgb(107, 107, 107); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ch:disabled",
+          "cssText": ".ch:disabled { fill: rgb(107, 107, 107); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ck",
+          "cssText": ".ck { width: auto; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".cl path",
+          "cssText": ".cl path { fill: rgb(36, 36, 36); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".cm",
+          "cssText": ".cm { height: 25px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".cq",
+          "cssText": ".cq { margin-right: 25px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".cr",
+          "cssText": ".cr { font-family: sohne, \"Helvetica Neue\", Helvetica, Arial, sans-serif; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".cs",
+          "cssText": ".cs { font-size: 14px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ct",
+          "cssText": ".ct { line-height: 20px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".cu",
+          "cssText": ".cu { color: rgb(36, 36, 36); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".cw",
+          "cssText": ".cw { color: rgb(255, 255, 255); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".cx",
+          "cssText": ".cx { padding: 8px 16px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".cy",
+          "cssText": ".cy { fill: rgb(255, 255, 255); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".cz",
+          "cssText": ".cz { background: rgb(25, 25, 25); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".da",
+          "cssText": ".da { border-color: rgb(25, 25, 25); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".de:disabled",
+          "cssText": ".de:disabled { cursor: inherit !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".df:disabled",
+          "cssText": ".df:disabled { opacity: 0.1; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dg:disabled:hover",
+          "cssText": ".dg:disabled:hover { background: rgb(25, 25, 25); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dh:disabled:hover",
+          "cssText": ".dh:disabled:hover { border-color: rgb(25, 25, 25); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".di",
+          "cssText": ".di { border-radius: 99em; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dj",
+          "cssText": ".dj { border-width: 1px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dk",
+          "cssText": ".dk { box-sizing: border-box; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dl",
+          "cssText": ".dl { display: inline-block; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dm",
+          "cssText": ".dm { text-decoration: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dn",
+          "cssText": ".dn { text-align: center; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".do",
+          "cssText": ".do { height: 100%; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dz",
+          "cssText": ".dz { max-width: 720px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ea",
+          "cssText": ".ea { font-family: gt-super, Georgia, Cambria, \"Times New Roman\", Times, serif; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eb",
+          "cssText": ".eb { font-size: 70px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ec",
+          "cssText": ".ec { line-height: 74px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ed",
+          "cssText": ".ed { letter-spacing: -0.05em; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ee",
+          "cssText": ".ee { font-feature-settings: \"pnum\", \"lnum\"; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ef",
+          "cssText": ".ef { color: rgb(0, 0, 0); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eg",
+          "cssText": ".eg { margin-bottom: 48px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eh",
+          "cssText": ".eh { font-size: 22px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ei",
+          "cssText": ".ei { line-height: 28px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ej",
+          "cssText": ".ej { font-size: 16px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ek",
+          "cssText": ".ek { line-height: 24px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".el",
+          "cssText": ".el { color: rgb(255, 255, 255); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".em",
+          "cssText": ".em { padding: 8px 20px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eo",
+          "cssText": ".eo { fill: rgb(255, 255, 255); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ep",
+          "cssText": ".ep { background: rgb(26, 137, 23); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eq",
+          "cssText": ".eq { border-color: rgb(26, 137, 23); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".et:disabled",
+          "cssText": ".et:disabled { opacity: 0.3; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eu:disabled:hover",
+          "cssText": ".eu:disabled:hover { background: rgb(26, 137, 23); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ev:disabled:hover",
+          "cssText": ".ev:disabled:hover { border-color: rgb(26, 137, 23); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ew",
+          "cssText": ".ew { width: 196px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ex",
+          "cssText": ".ex { height: 72px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ey",
+          "cssText": ".ey { min-width: 100vw; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ez",
+          "cssText": ".ez { position: static; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".fa",
+          "cssText": ".fa { bottom: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".fb",
+          "cssText": ".fb { background-color: rgb(0, 0, 0); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".fc",
+          "cssText": ".fc { font-size: 13px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".fd",
+          "cssText": ".fd { color: rgba(255, 255, 255, 0.95); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".fe:disabled",
+          "cssText": ".fe:disabled { color: rgba(255, 255, 255, 0.6); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ff:disabled",
+          "cssText": ".ff:disabled { fill: rgba(255, 255, 255, 0.6); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".fh",
+          "cssText": ".fh { margin-right: 20px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".fi",
+          "cssText": ".fi { height: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".fj",
+          "cssText": ".fj { margin: 0px 24px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".fn",
+          "cssText": ".fn { padding: 24px 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".fo",
+          "cssText": ".fo { flex-wrap: wrap; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".fp",
+          "cssText": ".fp { margin-bottom: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".fq",
+          "cssText": ".fq { margin-right: 16px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".fr",
+          "cssText": ".fr { color: rgb(107, 107, 107); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ci:hover:not(:disabled)",
+          "cssText": ".ci:hover:not(:disabled) { color: rgb(25, 25, 25); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".cj:hover:not(:disabled)",
+          "cssText": ".cj:hover:not(:disabled) { fill: rgb(25, 25, 25); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".db:hover",
+          "cssText": ".db:hover { background: rgb(0, 0, 0); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dc:hover",
+          "cssText": ".dc:hover { border-color: rgb(36, 36, 36); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dd:hover",
+          "cssText": ".dd:hover { cursor: pointer; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".er:hover",
+          "cssText": ".er:hover { background: rgb(21, 109, 18); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".es:hover",
+          "cssText": ".es:hover { border-color: rgb(21, 109, 18); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".fg:hover",
+          "cssText": ".fg:hover { text-decoration: underline; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 6,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".e",
+          "cssText": ".e { display: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".bo",
+          "cssText": ".bo { margin: 0px 64px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".cp",
+          "cssText": ".cp { display: inline-block; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dt",
+          "cssText": ".dt { margin: 75px 64px 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dy",
+          "cssText": ".dy { margin-bottom: 48px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".fm",
+          "cssText": ".fm { max-width: 680px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 1,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".f",
+          "cssText": ".f { display: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 1,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".g",
+          "cssText": ".g { display: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 1,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".h",
+          "cssText": ".h { display: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 4,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".i",
+          "cssText": ".i { display: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".bk",
+          "cssText": ".bk { margin: 0px 24px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dp",
+          "cssText": ".dp { margin: 75px 24px 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".du",
+          "cssText": ".du { margin-bottom: 32px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 6,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".j",
+          "cssText": ".j { display: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".bn",
+          "cssText": ".bn { margin: 0px 64px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".co",
+          "cssText": ".co { display: inline-block; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ds",
+          "cssText": ".ds { margin: 75px 64px 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dx",
+          "cssText": ".dx { margin-bottom: 48px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".fl",
+          "cssText": ".fl { max-width: 680px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 6,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".k",
+          "cssText": ".k { display: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".bm",
+          "cssText": ".bm { margin: 0px 48px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".cn",
+          "cssText": ".cn { display: inline-block; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dr",
+          "cssText": ".dr { margin: 75px 48px 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dw",
+          "cssText": ".dw { margin-bottom: 48px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".fk",
+          "cssText": ".fk { max-width: 680px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 5,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".l",
+          "cssText": ".l { display: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".bl",
+          "cssText": ".bl { margin: 0px 24px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".cv",
+          "cssText": ".cv { display: inline-block; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dq",
+          "cssText": ".dq { margin: 75px 24px 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dv",
+          "cssText": ".dv { margin-bottom: 32px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 2,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".af",
+          "cssText": ".af { left: unset; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ag",
+          "cssText": ".ag { right: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 3,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ai",
+          "cssText": ".ai { display: flex; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".aj",
+          "cssText": ".aj { width: 253px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ak",
+          "cssText": ".ak { word-break: break-word; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 3,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".al h2",
+          "cssText": ".al h2 { font-size: 80px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".am h2",
+          "cssText": ".am h2 { line-height: 72px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".an h2",
+          "cssText": ".an h2 { letter-spacing: -0.055em; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 3,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ao h2",
+          "cssText": ".ao h2 { font-size: 106px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ap h2",
+          "cssText": ".ap h2 { line-height: 95px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".aq h2",
+          "cssText": ".aq h2 { letter-spacing: -0.055em; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 3,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ar h2",
+          "cssText": ".ar h2 { font-size: 120px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".as h2",
+          "cssText": ".as h2 { line-height: 100px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".at h2",
+          "cssText": ".at h2 { letter-spacing: -0.055em; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 2,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".bi",
+          "cssText": ".bi { transition: background-color 300ms linear; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".bj button",
+          "cssText": ".bj button { transition: background-color 300ms linear, color 300ms linear; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 78,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".qJTHM",
+          "cssText": ".qJTHM { user-select: none; color: rgb(32, 33, 36); direction: ltr; font-family: Roboto-Regular, arial, sans-serif; -webkit-font-smoothing: antialiased; font-weight: 400; margin: 0px; overflow: hidden; text-size-adjust: 100%; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ynRLnc",
+          "cssText": ".ynRLnc { left: -9999px; position: absolute; top: -9999px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".L6cTce",
+          "cssText": ".L6cTce { display: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".bltWBb",
+          "cssText": ".bltWBb { overflow-wrap: break-word; word-break: break-word; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".hSRGPd",
+          "cssText": ".hSRGPd { color: rgb(26, 115, 232); cursor: pointer; font-weight: 500; text-decoration: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".Bz112c-W3lGp",
+          "cssText": ".Bz112c-W3lGp { height: 16px; width: 16px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".Bz112c-E3DyYd",
+          "cssText": ".Bz112c-E3DyYd { height: 20px; width: 20px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".Bz112c-r9oPif",
+          "cssText": ".Bz112c-r9oPif { height: 24px; width: 24px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".Bz112c-u2z5K",
+          "cssText": ".Bz112c-u2z5K { height: 36px; width: 36px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".Bz112c-uaxL4e",
+          "cssText": ".Bz112c-uaxL4e { border-radius: 10px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".LgbsSe-Bz112c",
+          "cssText": ".LgbsSe-Bz112c { display: block; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".S9gUrf-YoZ4jf",
+          "cssText": ".S9gUrf-YoZ4jf { border: none; margin: 0px; padding: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".S9gUrf-YoZ4jf *",
+          "cssText": ".S9gUrf-YoZ4jf * { border: none; margin: 0px; padding: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".fFW7wc-ibnC6b > .aZ2wEe > div",
+          "cssText": ".fFW7wc-ibnC6b > .aZ2wEe > div { border-color: rgb(66, 133, 244); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".P1ekSe-ZMv3u",
+          "cssText": ".P1ekSe-ZMv3u { transition: height 0.2s linear; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".P1ekSe-ZMv3u > div:nth-child(1)",
+          "cssText": ".P1ekSe-ZMv3u > div:nth-child(1) { transition: width 0.3s linear; background-color: rgb(26, 115, 232) !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".P1ekSe-ZMv3u > div:nth-child(2)",
+          "cssText": ".P1ekSe-ZMv3u > div:nth-child(2) { background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), linear-gradient(to right, rgb(26, 115, 232), rgb(26, 115, 232)) !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".P1ekSe-ZMv3u > div:nth-child(3)",
+          "cssText": ".P1ekSe-ZMv3u > div:nth-child(3) { background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), linear-gradient(to right, rgb(26, 115, 232), rgb(26, 115, 232)) !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".haAclf",
+          "cssText": ".haAclf { display: inline-block; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe { border-radius: 4px; box-sizing: border-box; transition: background-color 0.218s, border-color 0.218s; user-select: none; appearance: none; background-color: rgb(255, 255, 255); background-image: none; border: 1px solid rgb(218, 220, 224); color: rgb(60, 64, 67); cursor: pointer; font-family: \"Google Sans\", arial, sans-serif; font-size: 14px; height: 40px; letter-spacing: 0.25px; outline: none; overflow: hidden; padding: 0px 12px; position: relative; text-align: center; vertical-align: middle; white-space: nowrap; width: auto; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media screen and (-ms-high-contrast:active) {\n  .nsm7Bb-HzV7m-LgbsSe { border: 2px solid windowtext; color: windowtext; }\n}",
+          "urls": [],
+          "group": "screen and (-ms-high-contrast:active)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe { border: 2px solid windowtext; color: windowtext; }",
+          "urls": [],
+          "group": "screen and (-ms-high-contrast:active)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media screen and (preferes-contrast:more) {\n  .nsm7Bb-HzV7m-LgbsSe { color: rgb(0, 0, 0); }\n}",
+          "urls": [],
+          "group": "screen and (preferes-contrast:more)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe { color: rgb(0, 0, 0); }",
+          "urls": [],
+          "group": "screen and (preferes-contrast:more)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe { font-size: 14px; height: 32px; letter-spacing: 0.25px; padding: 0px 10px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe { font-size: 11px; height: 20px; letter-spacing: 0.3px; padding: 0px 8px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe { padding: 0px; width: 40px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.pSzOP-SxQuSe",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.pSzOP-SxQuSe { width: 32px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.purZT-SxQuSe",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.purZT-SxQuSe { width: 20px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK { border-radius: 20px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK.pSzOP-SxQuSe",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK.pSzOP-SxQuSe { border-radius: 16px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK.purZT-SxQuSe",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK.purZT-SxQuSe { border-radius: 10px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc { border: none; color: rgb(255, 255, 255); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe.MFS4be-v3pZbf-Ia7Qfc",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe.MFS4be-v3pZbf-Ia7Qfc { background-color: rgb(26, 115, 232); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe.MFS4be-JaPV2b-Ia7Qfc",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe.MFS4be-JaPV2b-Ia7Qfc { background-color: rgb(32, 33, 36); color: rgb(232, 234, 237); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media screen and (prefers-contrast: more) {\n  .nsm7Bb-HzV7m-LgbsSe.MFS4be-JaPV2b-Ia7Qfc { color: rgb(255, 255, 255); }\n}",
+          "urls": [],
+          "group": "screen and (prefers-contrast: more)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-contrast",
+              "semanticGroup": "user preference",
+              "claim": "contrast preference",
+              "excerpt": "screen and (prefers-contrast: more)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-contrast",
+                "more"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe.MFS4be-JaPV2b-Ia7Qfc",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe.MFS4be-JaPV2b-Ia7Qfc { color: rgb(255, 255, 255); }",
+          "urls": [],
+          "group": "screen and (prefers-contrast: more)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-contrast",
+              "semanticGroup": "user preference",
+              "claim": "contrast preference",
+              "excerpt": "screen and (prefers-contrast: more)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-contrast",
+                "more"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c { height: 18px; margin-right: 8px; min-width: 18px; width: 18px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c { height: 14px; min-width: 14px; width: 14px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c { height: 10px; min-width: 10px; width: 10px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-Bz112c",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-Bz112c { margin-left: 8px; margin-right: -4px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c { margin: 0px; padding: 10px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.pSzOP-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.pSzOP-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c { padding: 8px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c { padding: 4px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf { border-top-left-radius: 3px; border-bottom-left-radius: 3px; display: flex; -webkit-box-pack: center; justify-content: center; -webkit-box-align: center; align-items: center; background-color: rgb(255, 255, 255); height: 36px; margin-left: -10px; margin-right: 12px; min-width: 36px; width: 36px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf .nsm7Bb-HzV7m-LgbsSe-Bz112c, .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf .nsm7Bb-HzV7m-LgbsSe-Bz112c",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf .nsm7Bb-HzV7m-LgbsSe-Bz112c, .nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf .nsm7Bb-HzV7m-LgbsSe-Bz112c { margin: 0px; padding: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf { height: 28px; margin-left: -8px; margin-right: 10px; min-width: 28px; width: 28px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf { height: 16px; margin-left: -6px; margin-right: 8px; min-width: 16px; width: 16px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe.Bz112c-LgbsSe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf { border-radius: 3px; margin-left: 2px; margin-right: 0px; padding: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe.JGcpL-RbRzK .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf { border-radius: 18px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe.JGcpL-RbRzK .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe.pSzOP-SxQuSe.JGcpL-RbRzK .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf { border-radius: 14px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe.JGcpL-RbRzK .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe.JGcpL-RbRzK .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf { border-radius: 8px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-bN97Pc-sM5MNb",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-bN97Pc-sM5MNb { display: flex; -webkit-box-align: center; align-items: center; -webkit-box-orient: horizontal; -webkit-box-direction: normal; flex-flow: row; -webkit-box-pack: justify; justify-content: space-between; height: 100%; position: relative; width: 100%; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe .oXtfBe-l4eHX",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe .oXtfBe-l4eHX { -webkit-box-pack: center; justify-content: center; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-BPrWId",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-BPrWId { -webkit-box-flex: 1; flex-grow: 1; font-family: \"Google Sans\", arial, sans-serif; font-weight: 500; overflow: hidden; text-overflow: ellipsis; vertical-align: top; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-BPrWId",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe.purZT-SxQuSe .nsm7Bb-HzV7m-LgbsSe-BPrWId { font-weight: 300; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe .oXtfBe-l4eHX .nsm7Bb-HzV7m-LgbsSe-BPrWId",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe .oXtfBe-l4eHX .nsm7Bb-HzV7m-LgbsSe-BPrWId { -webkit-box-flex: 0; flex-grow: 0; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-MJoBVe",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe .nsm7Bb-HzV7m-LgbsSe-MJoBVe { transition: background-color 0.218s; inset: 0px; position: absolute; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe:hover, .nsm7Bb-HzV7m-LgbsSe:focus",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe:hover, .nsm7Bb-HzV7m-LgbsSe:focus { box-shadow: none; border-color: rgb(210, 227, 252); outline: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe:focus-within",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe:focus-within { outline: rgb(0, 99, 155) solid 2px; border-color: transparent; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe:hover .nsm7Bb-HzV7m-LgbsSe-MJoBVe",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe:hover .nsm7Bb-HzV7m-LgbsSe-MJoBVe { background: rgba(66, 133, 244, 0.08); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe:active .nsm7Bb-HzV7m-LgbsSe-MJoBVe, .nsm7Bb-HzV7m-LgbsSe:focus .nsm7Bb-HzV7m-LgbsSe-MJoBVe",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe:active .nsm7Bb-HzV7m-LgbsSe-MJoBVe, .nsm7Bb-HzV7m-LgbsSe:focus .nsm7Bb-HzV7m-LgbsSe-MJoBVe { background: rgba(66, 133, 244, 0.1); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc:hover .nsm7Bb-HzV7m-LgbsSe-MJoBVe",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc:hover .nsm7Bb-HzV7m-LgbsSe-MJoBVe { background: rgba(255, 255, 255, 0.24); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc:active .nsm7Bb-HzV7m-LgbsSe-MJoBVe, .nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc:focus .nsm7Bb-HzV7m-LgbsSe-MJoBVe",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc:active .nsm7Bb-HzV7m-LgbsSe-MJoBVe, .nsm7Bb-HzV7m-LgbsSe.MFS4be-Ia7Qfc:focus .nsm7Bb-HzV7m-LgbsSe-MJoBVe { background: rgba(255, 255, 255, 0.32); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe .n1UuX-DkfjY",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe .n1UuX-DkfjY { border-radius: 50%; display: flex; height: 20px; margin-left: -4px; margin-right: 8px; min-width: 20px; width: 20px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId { font-family: Roboto; font-size: 12px; text-align: left; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .ssJRIf, .nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff .fmcmS",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .ssJRIf, .nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff .fmcmS { overflow: hidden; text-overflow: ellipsis; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff { display: flex; -webkit-box-align: center; align-items: center; color: rgb(95, 99, 104); fill: rgb(95, 99, 104); font-size: 11px; font-weight: 400; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe.jVeSEe.MFS4be-Ia7Qfc .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe.jVeSEe.MFS4be-Ia7Qfc .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff { color: rgb(232, 234, 237); fill: rgb(232, 234, 237); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media screen and (prefers-contrast: more) {\n  .nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff, .nsm7Bb-HzV7m-LgbsSe.jVeSEe.MFS4be-Ia7Qfc .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff { color: rgb(0, 0, 0); fill: rgb(0, 0, 0); }\n}",
+          "urls": [],
+          "group": "screen and (prefers-contrast: more)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-contrast",
+              "semanticGroup": "user preference",
+              "claim": "contrast preference",
+              "excerpt": "screen and (prefers-contrast: more)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-contrast",
+                "more"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff, .nsm7Bb-HzV7m-LgbsSe.jVeSEe.MFS4be-Ia7Qfc .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff, .nsm7Bb-HzV7m-LgbsSe.jVeSEe.MFS4be-Ia7Qfc .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff { color: rgb(0, 0, 0); fill: rgb(0, 0, 0); }",
+          "urls": [],
+          "group": "screen and (prefers-contrast: more)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-contrast",
+              "semanticGroup": "user preference",
+              "claim": "contrast preference",
+              "excerpt": "screen and (prefers-contrast: more)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-contrast",
+                "more"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff .Bz112c",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-BPrWId .K4efff .Bz112c { height: 18px; margin: -3px -3px -3px 2px; min-width: 18px; width: 18px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe.jVeSEe .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf { border-radius: 0px 3px 3px 0px; margin-left: 12px; margin-right: -10px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nsm7Bb-HzV7m-LgbsSe.jVeSEe.JGcpL-RbRzK .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf",
+          "cssText": ".nsm7Bb-HzV7m-LgbsSe.jVeSEe.JGcpL-RbRzK .nsm7Bb-HzV7m-LgbsSe-Bz112c-haAclf { border-radius: 18px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".L5Fo6c-sM5MNb",
+          "cssText": ".L5Fo6c-sM5MNb { border: 0px; display: block; left: 0px; position: relative; top: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".L5Fo6c-bF1uUb",
+          "cssText": ".L5Fo6c-bF1uUb { border-radius: 4px; inset: 0px; cursor: pointer; position: absolute; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".L5Fo6c-bF1uUb:focus",
+          "cssText": ".L5Fo6c-bF1uUb:focus { border: none; outline: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "sentinel",
+          "cssText": "sentinel { }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "https://accounts.google.com/gsi/style",
+      "rules": "inaccessible",
+      "rulesList": []
+    }
+  ],
+  "inaccessible": [
+    "https://glyph.medium.com/css/unbound.css",
+    "https://accounts.google.com/gsi/style"
+  ],
+  "styleTags": 18,
+  "inlineStyleCount": 4,
+  "associations": [],
+  "summary": {
+    "sheetsAccessible": 18,
+    "sheetsInaccessible": 2,
+    "totalRulesScanned": 288,
+    "totalSinks": 0,
+    "totalSources": 2,
+    "totalAssociations": 0,
+    "totalCapped": false
+  },
+  "likelyFingerprinting": false,
+  "verdict": "likely not fingerprinting",
+  "claims": [],
+  "claimDetails": [],
+  "riskScore": 0,
+  "riskLevel": "none"
+}

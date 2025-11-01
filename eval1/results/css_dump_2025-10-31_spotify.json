@@ -1,0 +1,2929 @@
+{
+  "page": "https://open.spotify.com/",
+  "timestamp": 1761884716565,
+  "sheets": [
+    {
+      "href": "(inline <style>)",
+      "rules": 2,
+      "rulesList": [
+        {
+          "type": "CSSLayerBlockRule",
+          "selector": "",
+          "cssText": "@layer {\n  [data-react-aria-pressable] { touch-action: pan-x pan-y pinch-zoom; }\n}",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "[data-react-aria-pressable]",
+          "cssText": "[data-react-aria-pressable] { touch-action: pan-x pan-y pinch-zoom; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 0,
+      "rulesList": []
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 149,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".kMPYEq",
+          "cssText": ".kMPYEq { box-sizing: border-box; -webkit-tap-highlight-color: transparent; margin-block: 0px; font-size: 1rem; font-weight: 700; font-family: var(--encore-body-font-stack,var(--fallback-fonts,sans-serif)); color: inherit; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gxaBVX",
+          "cssText": ".gxaBVX { box-sizing: border-box; -webkit-tap-highlight-color: transparent; margin-block: 0px; font-size: 1rem; font-weight: 400; font-family: var(--encore-body-font-stack,var(--fallback-fonts,sans-serif)); padding-block-end: 8px; color: inherit; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ddIxQM",
+          "cssText": ".ddIxQM { box-sizing: border-box; -webkit-tap-highlight-color: transparent; margin-block: 0px; font-size: 0.875rem; font-weight: 400; font-family: var(--encore-body-font-stack,var(--fallback-fonts,sans-serif)); color: inherit; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gBYjgG",
+          "cssText": ".gBYjgG { box-sizing: border-box; -webkit-tap-highlight-color: transparent; margin-block: 0px; font-size: 0.6875rem; font-weight: 400; font-family: var(--encore-body-font-stack,var(--fallback-fonts,sans-serif)); color: inherit; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".fVqYHJ",
+          "cssText": ".fVqYHJ { position: absolute; inset-block-start: 0px; inset-inline-start: 0px; display: inline-block; background-color: var(--background-base,#ffffff); padding-block: var(--encore-spacing-base,16px) 24px; padding-inline: var(--encore-spacing-base,16px); text-decoration: none; z-index: 9999; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".fVqYHJ:not(:focus)",
+          "cssText": ".fVqYHJ:not(:focus) { border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".cbaWGI",
+          "cssText": ".cbaWGI { box-sizing: border-box; -webkit-tap-highlight-color: transparent; color: var(--text-base,#000000); border-color: var(--essential-base,#000000); overflow-wrap: break-word; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".cbaWGI::after",
+          "cssText": ".cbaWGI::after { display: block; pointer-events: none; transition: border-color var(--productive-exit); box-sizing: border-box; bottom: -6px; border-bottom-width: 3px; border-bottom-style: solid; width: 100%; content: \"\"; position: relative; border-color: inherit; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".jjpOuK",
+          "cssText": ".jjpOuK { display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eFGzcP",
+          "cssText": ".eFGzcP { outline: none; text-decoration: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSSupportsRule",
+          "selector": "",
+          "cssText": "@supports (overflow-wrap:anywhere) {\n  .eFGzcP { overflow-wrap: anywhere; }\n}",
+          "urls": [],
+          "group": "(overflow-wrap:anywhere)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@supports",
+              "keyword": "supports(generic)",
+              "semanticGroup": "engine feature",
+              "claim": "generic supports probe",
+              "excerpt": "(overflow-wrap:anywhere)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "overflow-wrap",
+                "anywhere"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eFGzcP",
+          "cssText": ".eFGzcP { overflow-wrap: anywhere; }",
+          "urls": [],
+          "group": "(overflow-wrap:anywhere)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@supports",
+              "keyword": "supports(generic)",
+              "semanticGroup": "engine feature",
+              "claim": "generic supports probe",
+              "excerpt": "(overflow-wrap:anywhere)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "overflow-wrap",
+                "anywhere"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSSupportsRule",
+          "selector": "",
+          "cssText": "@supports not (overflow-wrap:anywhere) {\n  .eFGzcP { word-break: break-word; }\n}",
+          "urls": [],
+          "group": "not (overflow-wrap:anywhere)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@supports",
+              "keyword": "supports(generic)",
+              "semanticGroup": "engine feature",
+              "claim": "generic supports probe",
+              "excerpt": "not (overflow-wrap:anywhere)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "not",
+                "overflow-wrap",
+                "anywhere"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eFGzcP",
+          "cssText": ".eFGzcP { word-break: break-word; }",
+          "urls": [],
+          "group": "not (overflow-wrap:anywhere)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@supports",
+              "keyword": "supports(generic)",
+              "semanticGroup": "engine feature",
+              "claim": "generic supports probe",
+              "excerpt": "not (overflow-wrap:anywhere)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "not",
+                "overflow-wrap",
+                "anywhere"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".bJSfgC button, .bJSfgC a, .bJSfgC [role=\"button\"], .bJSfgC [role=\"link\"]",
+          "cssText": ".bJSfgC button, .bJSfgC a, .bJSfgC [role=\"button\"], .bJSfgC [role=\"link\"] { position: relative; z-index: 1; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".TJKQw",
+          "cssText": ".TJKQw { grid-column-end: -1; gap: var(--encore-spacing-tighter,12px); -webkit-box-align: center; align-items: center; display: flex; -webkit-box-pack: justify; justify-content: space-between; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".jwUvtM",
+          "cssText": ".jwUvtM { display: flex; flex-direction: column; gap: 2px; align-items: flex-start; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".jpzxju",
+          "cssText": ".jpzxju { flex-shrink: 0; align-self: stretch; display: flex; -webkit-box-align: center; align-items: center; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".efnFkI",
+          "cssText": ".efnFkI { display: grid; gap: var(--encore-spacing-tighter-2,8px) var(--encore-spacing-tighter,12px); grid-template-columns: 1fr; grid-auto-rows: auto 1fr auto; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".LlNsd",
+          "cssText": ".LlNsd { box-sizing: border-box; -webkit-tap-highlight-color: transparent; background-color: transparent; border: 0px; border-radius: var(--encore-button-corner-radius,9999px); cursor: pointer; text-align: center; text-decoration: none; touch-action: manipulation; transition-duration: var(--shortest-3); transition-timing-function: var(--productive); user-select: none; vertical-align: middle; will-change: transform; color: var(--text-subdued,#656565); min-inline-size: 0px; min-block-size: var(--encore-control-size-base,48px); padding-block: var(--encore-spacing-tighter,12px); padding-inline: var(--encore-spacing-tighter,12px); display: inline-flex; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; transition-property: color, transform; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".LlNsd:hover",
+          "cssText": ".LlNsd:hover { transition-duration: var(--shortest-1); color: var(--text-base,#000000); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (prefers-reduced-motion: no-preference) {\n  .LlNsd:hover { transform: scale(1.04); }\n}",
+          "urls": [],
+          "group": "(prefers-reduced-motion: no-preference)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-reduced-motion",
+              "semanticGroup": "user preference",
+              "claim": "reduced motion preference",
+              "excerpt": "(prefers-reduced-motion: no-preference)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-reduced-motion",
+                "no-preference"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".LlNsd:hover",
+          "cssText": ".LlNsd:hover { transform: scale(1.04); }",
+          "urls": [],
+          "group": "(prefers-reduced-motion: no-preference)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-reduced-motion",
+              "semanticGroup": "user preference",
+              "claim": "reduced motion preference",
+              "excerpt": "(prefers-reduced-motion: no-preference)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-reduced-motion",
+                "no-preference"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".LlNsd:active",
+          "cssText": ".LlNsd:active { opacity: 0.7; transform: scale(1); color: var(--text-subdued,#656565); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".LlNsd::after",
+          "cssText": ".LlNsd::after { inline-size: 24px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".LlNsd:disabled, .LlNsd[aria-disabled=\"true\"]",
+          "cssText": ".LlNsd:disabled, .LlNsd[aria-disabled=\"true\"] { cursor: not-allowed; opacity: 0.3; transform: scale(1); color: var(--text-subdued,#656565); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".imSSKJ",
+          "cssText": ".imSSKJ { box-sizing: border-box; -webkit-tap-highlight-color: transparent; background-color: transparent; border: 0px; border-radius: var(--encore-button-corner-radius,9999px); cursor: pointer; text-align: center; text-decoration: none; touch-action: manipulation; transition-duration: var(--shortest-3); transition-timing-function: var(--productive); user-select: none; vertical-align: middle; will-change: transform; color: var(--text-subdued,#656565); min-inline-size: 0px; min-block-size: var(--encore-control-size-base,48px); padding-block: var(--encore-spacing-tighter,12px); padding-inline: 0px; display: inline-flex; gap: var(--encore-spacing-tighter-2); -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; transition-property: color, transform; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".imSSKJ:hover",
+          "cssText": ".imSSKJ:hover { transition-duration: var(--shortest-1); color: var(--text-base,#000000); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (prefers-reduced-motion: no-preference) {\n  .imSSKJ:hover { transform: scale(1.04); }\n}",
+          "urls": [],
+          "group": "(prefers-reduced-motion: no-preference)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-reduced-motion",
+              "semanticGroup": "user preference",
+              "claim": "reduced motion preference",
+              "excerpt": "(prefers-reduced-motion: no-preference)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-reduced-motion",
+                "no-preference"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".imSSKJ:hover",
+          "cssText": ".imSSKJ:hover { transform: scale(1.04); }",
+          "urls": [],
+          "group": "(prefers-reduced-motion: no-preference)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-reduced-motion",
+              "semanticGroup": "user preference",
+              "claim": "reduced motion preference",
+              "excerpt": "(prefers-reduced-motion: no-preference)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-reduced-motion",
+                "no-preference"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".imSSKJ:active",
+          "cssText": ".imSSKJ:active { opacity: 0.7; transform: scale(1); color: var(--text-subdued,#656565); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".imSSKJ::after",
+          "cssText": ".imSSKJ::after { inline-size: 24px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".imSSKJ:disabled, .imSSKJ[aria-disabled=\"true\"]",
+          "cssText": ".imSSKJ:disabled, .imSSKJ[aria-disabled=\"true\"] { cursor: not-allowed; opacity: 0.3; transform: scale(1); color: var(--text-subdued,#656565); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".iBjBCb",
+          "cssText": ".iBjBCb { box-sizing: border-box; -webkit-tap-highlight-color: transparent; background-color: transparent; border: 0px; border-radius: var(--encore-button-corner-radius,9999px); cursor: pointer; text-align: center; text-decoration: none; touch-action: manipulation; transition-duration: var(--shortest-3); transition-timing-function: var(--productive); user-select: none; vertical-align: middle; will-change: transform; color: var(--text-subdued,#656565); min-inline-size: 0px; padding: 0px; display: inline-flex; gap: var(--encore-spacing-tighter-2); -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; transition-property: color, transform; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".iBjBCb:hover",
+          "cssText": ".iBjBCb:hover { transition-duration: var(--shortest-1); color: var(--text-base,#000000); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (prefers-reduced-motion: no-preference) {\n  .iBjBCb:hover { transform: scale(1.04); }\n}",
+          "urls": [],
+          "group": "(prefers-reduced-motion: no-preference)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-reduced-motion",
+              "semanticGroup": "user preference",
+              "claim": "reduced motion preference",
+              "excerpt": "(prefers-reduced-motion: no-preference)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-reduced-motion",
+                "no-preference"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".iBjBCb:hover",
+          "cssText": ".iBjBCb:hover { transform: scale(1.04); }",
+          "urls": [],
+          "group": "(prefers-reduced-motion: no-preference)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-reduced-motion",
+              "semanticGroup": "user preference",
+              "claim": "reduced motion preference",
+              "excerpt": "(prefers-reduced-motion: no-preference)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-reduced-motion",
+                "no-preference"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".iBjBCb:active",
+          "cssText": ".iBjBCb:active { opacity: 0.7; transform: scale(1); color: var(--text-subdued,#656565); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".iBjBCb::after",
+          "cssText": ".iBjBCb::after { inline-size: 24px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".iBjBCb:disabled, .iBjBCb[aria-disabled=\"true\"]",
+          "cssText": ".iBjBCb:disabled, .iBjBCb[aria-disabled=\"true\"] { cursor: not-allowed; opacity: 0.3; transform: scale(1); color: var(--text-subdued,#656565); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".enYihQ",
+          "cssText": ".enYihQ { box-sizing: border-box; -webkit-tap-highlight-color: transparent; background-color: transparent; border: 0px; border-radius: var(--encore-button-corner-radius,9999px); cursor: pointer; text-align: center; text-decoration: none; touch-action: manipulation; transition-duration: var(--shortest-3); transition-timing-function: var(--productive); user-select: none; vertical-align: middle; will-change: transform; color: var(--text-subdued,#656565); min-inline-size: 0px; min-block-size: var(--encore-control-size-base,48px); padding-block: var(--encore-spacing-tighter-2,8px); padding-inline: 0px; display: inline-flex; gap: var(--encore-spacing-tighter-2); -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; transition-property: color, transform; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".enYihQ:hover",
+          "cssText": ".enYihQ:hover { transition-duration: var(--shortest-1); color: var(--text-base,#000000); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (prefers-reduced-motion: no-preference) {\n  .enYihQ:hover { transform: scale(1.04); }\n}",
+          "urls": [],
+          "group": "(prefers-reduced-motion: no-preference)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-reduced-motion",
+              "semanticGroup": "user preference",
+              "claim": "reduced motion preference",
+              "excerpt": "(prefers-reduced-motion: no-preference)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-reduced-motion",
+                "no-preference"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".enYihQ:hover",
+          "cssText": ".enYihQ:hover { transform: scale(1.04); }",
+          "urls": [],
+          "group": "(prefers-reduced-motion: no-preference)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-reduced-motion",
+              "semanticGroup": "user preference",
+              "claim": "reduced motion preference",
+              "excerpt": "(prefers-reduced-motion: no-preference)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-reduced-motion",
+                "no-preference"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".enYihQ:active",
+          "cssText": ".enYihQ:active { opacity: 0.7; transform: scale(1); color: var(--text-subdued,#656565); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".enYihQ::after",
+          "cssText": ".enYihQ::after { inline-size: 100%; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".enYihQ:disabled, .enYihQ[aria-disabled=\"true\"]",
+          "cssText": ".enYihQ:disabled, .enYihQ[aria-disabled=\"true\"] { cursor: not-allowed; opacity: 0.3; transform: scale(1); color: var(--text-subdued,#656565); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dzIYeQ",
+          "cssText": ".dzIYeQ { box-sizing: border-box; -webkit-tap-highlight-color: transparent; background-color: transparent; border: 0px; border-radius: var(--encore-button-corner-radius,9999px); cursor: pointer; text-align: center; text-decoration: none; touch-action: manipulation; transition-duration: var(--shortest-3); transition-timing-function: var(--productive); user-select: none; vertical-align: middle; will-change: transform; color: var(--text-subdued,#656565); min-inline-size: 0px; min-block-size: var(--encore-control-size-smaller,32px); display: inline-flex; gap: var(--encore-spacing-tighter-2); -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; transition-property: color, transform; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dzIYeQ:hover",
+          "cssText": ".dzIYeQ:hover { transition-duration: var(--shortest-1); color: var(--text-base,#000000); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (prefers-reduced-motion: no-preference) {\n  .dzIYeQ:hover { transform: scale(1.04); }\n}",
+          "urls": [],
+          "group": "(prefers-reduced-motion: no-preference)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-reduced-motion",
+              "semanticGroup": "user preference",
+              "claim": "reduced motion preference",
+              "excerpt": "(prefers-reduced-motion: no-preference)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-reduced-motion",
+                "no-preference"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dzIYeQ:hover",
+          "cssText": ".dzIYeQ:hover { transform: scale(1.04); }",
+          "urls": [],
+          "group": "(prefers-reduced-motion: no-preference)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-reduced-motion",
+              "semanticGroup": "user preference",
+              "claim": "reduced motion preference",
+              "excerpt": "(prefers-reduced-motion: no-preference)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-reduced-motion",
+                "no-preference"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dzIYeQ:active",
+          "cssText": ".dzIYeQ:active { opacity: 0.7; transform: scale(1); color: var(--text-subdued,#656565); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dzIYeQ::after",
+          "cssText": ".dzIYeQ::after { inline-size: calc(100% - (var(--encore-spacing-tighter) + var(--encore-spacing-base))); inset-inline-start: var(--encore-spacing-tighter); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dzIYeQ:disabled, .dzIYeQ[aria-disabled=\"true\"]",
+          "cssText": ".dzIYeQ:disabled, .dzIYeQ[aria-disabled=\"true\"] { cursor: not-allowed; opacity: 0.3; transform: scale(1); color: var(--text-subdued,#656565); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".cOUXAp",
+          "cssText": ".cOUXAp { box-sizing: border-box; -webkit-tap-highlight-color: transparent; background-color: transparent; border: 0px; border-radius: var(--encore-button-corner-radius,9999px); cursor: pointer; text-align: center; text-decoration: none; touch-action: manipulation; transition-duration: var(--shortest-3); transition-timing-function: var(--productive); user-select: none; vertical-align: middle; will-change: transform; color: var(--text-subdued,#656565); min-inline-size: 0px; min-block-size: var(--encore-control-size-smaller,32px); padding-block: var(--encore-spacing-tighter-4,4px); padding-inline: var(--encore-spacing-base,16px); display: inline-flex; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; transition-property: color, transform; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".cOUXAp:hover",
+          "cssText": ".cOUXAp:hover { transition-duration: var(--shortest-1); color: var(--text-base,#000000); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (prefers-reduced-motion: no-preference) {\n  .cOUXAp:hover { transform: scale(1.04); }\n}",
+          "urls": [],
+          "group": "(prefers-reduced-motion: no-preference)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-reduced-motion",
+              "semanticGroup": "user preference",
+              "claim": "reduced motion preference",
+              "excerpt": "(prefers-reduced-motion: no-preference)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-reduced-motion",
+                "no-preference"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".cOUXAp:hover",
+          "cssText": ".cOUXAp:hover { transform: scale(1.04); }",
+          "urls": [],
+          "group": "(prefers-reduced-motion: no-preference)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-reduced-motion",
+              "semanticGroup": "user preference",
+              "claim": "reduced motion preference",
+              "excerpt": "(prefers-reduced-motion: no-preference)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-reduced-motion",
+                "no-preference"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".cOUXAp:active",
+          "cssText": ".cOUXAp:active { opacity: 0.7; transform: scale(1); color: var(--text-subdued,#656565); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".cOUXAp::after",
+          "cssText": ".cOUXAp::after { inline-size: calc(100% - (var(--encore-spacing-base) * 2)); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".cOUXAp:disabled, .cOUXAp[aria-disabled=\"true\"]",
+          "cssText": ".cOUXAp:disabled, .cOUXAp[aria-disabled=\"true\"] { cursor: not-allowed; opacity: 0.3; transform: scale(1); color: var(--text-subdued,#656565); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".fprjoI",
+          "cssText": ".fprjoI { box-sizing: border-box; -webkit-tap-highlight-color: transparent; background-color: transparent; border: 0px; border-radius: var(--encore-button-corner-radius,9999px); cursor: pointer; text-align: center; text-decoration: none; touch-action: manipulation; transition-duration: var(--shortest-3); transition-timing-function: var(--productive); user-select: none; vertical-align: middle; will-change: transform; color: var(--text-subdued,#656565); min-inline-size: 0px; min-block-size: var(--encore-control-size-smaller,32px); padding-block: var(--encore-spacing-tighter-2,8px); padding-inline: var(--encore-spacing-tighter-2,8px); display: inline-flex; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; transition-property: color, transform; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".fprjoI:hover",
+          "cssText": ".fprjoI:hover { transition-duration: var(--shortest-1); color: var(--text-base,#000000); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (prefers-reduced-motion: no-preference) {\n  .fprjoI:hover { transform: scale(1.04); }\n}",
+          "urls": [],
+          "group": "(prefers-reduced-motion: no-preference)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-reduced-motion",
+              "semanticGroup": "user preference",
+              "claim": "reduced motion preference",
+              "excerpt": "(prefers-reduced-motion: no-preference)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-reduced-motion",
+                "no-preference"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".fprjoI:hover",
+          "cssText": ".fprjoI:hover { transform: scale(1.04); }",
+          "urls": [],
+          "group": "(prefers-reduced-motion: no-preference)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-reduced-motion",
+              "semanticGroup": "user preference",
+              "claim": "reduced motion preference",
+              "excerpt": "(prefers-reduced-motion: no-preference)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-reduced-motion",
+                "no-preference"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".fprjoI:active",
+          "cssText": ".fprjoI:active { opacity: 0.7; transform: scale(1); color: var(--text-subdued,#656565); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".fprjoI::after",
+          "cssText": ".fprjoI::after { inline-size: 16px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".fprjoI:disabled, .fprjoI[aria-disabled=\"true\"]",
+          "cssText": ".fprjoI:disabled, .fprjoI[aria-disabled=\"true\"] { cursor: not-allowed; opacity: 0.3; transform: scale(1); color: var(--text-subdued,#656565); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".iEnZvo",
+          "cssText": ".iEnZvo { box-sizing: border-box; -webkit-tap-highlight-color: transparent; background-color: transparent; border-radius: var(--encore-button-corner-radius,9999px); cursor: pointer; text-align: center; text-decoration: none; touch-action: manipulation; transition-duration: var(--shortest-3); transition-timing-function: var(--productive); user-select: none; vertical-align: middle; will-change: transform; border: 1px solid var(--essential-subdued,#818181); color: var(--text-base,#000000); min-inline-size: 0px; min-block-size: var(--encore-control-size-smaller,32px); display: inline-flex; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; transition-property: border-color, transform; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSSupportsRule",
+          "selector": "",
+          "cssText": "@supports (overflow-wrap:anywhere) {\n  .iEnZvo { overflow-wrap: anywhere; }\n}",
+          "urls": [],
+          "group": "(overflow-wrap:anywhere)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@supports",
+              "keyword": "supports(generic)",
+              "semanticGroup": "engine feature",
+              "claim": "generic supports probe",
+              "excerpt": "(overflow-wrap:anywhere)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "overflow-wrap",
+                "anywhere"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".iEnZvo",
+          "cssText": ".iEnZvo { overflow-wrap: anywhere; }",
+          "urls": [],
+          "group": "(overflow-wrap:anywhere)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@supports",
+              "keyword": "supports(generic)",
+              "semanticGroup": "engine feature",
+              "claim": "generic supports probe",
+              "excerpt": "(overflow-wrap:anywhere)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "overflow-wrap",
+                "anywhere"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSSupportsRule",
+          "selector": "",
+          "cssText": "@supports not (overflow-wrap:anywhere) {\n  .iEnZvo { word-break: break-word; }\n}",
+          "urls": [],
+          "group": "not (overflow-wrap:anywhere)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@supports",
+              "keyword": "supports(generic)",
+              "semanticGroup": "engine feature",
+              "claim": "generic supports probe",
+              "excerpt": "not (overflow-wrap:anywhere)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "not",
+                "overflow-wrap",
+                "anywhere"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".iEnZvo",
+          "cssText": ".iEnZvo { word-break: break-word; }",
+          "urls": [],
+          "group": "not (overflow-wrap:anywhere)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@supports",
+              "keyword": "supports(generic)",
+              "semanticGroup": "engine feature",
+              "claim": "generic supports probe",
+              "excerpt": "not (overflow-wrap:anywhere)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "not",
+                "overflow-wrap",
+                "anywhere"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".iEnZvo:hover",
+          "cssText": ".iEnZvo:hover { transition-duration: var(--shortest-1); border: 1px solid var(--essential-base,#000000); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (prefers-reduced-motion: no-preference) {\n  .iEnZvo:hover { transform: scale(1.04); }\n}",
+          "urls": [],
+          "group": "(prefers-reduced-motion: no-preference)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-reduced-motion",
+              "semanticGroup": "user preference",
+              "claim": "reduced motion preference",
+              "excerpt": "(prefers-reduced-motion: no-preference)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-reduced-motion",
+                "no-preference"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".iEnZvo:hover",
+          "cssText": ".iEnZvo:hover { transform: scale(1.04); }",
+          "urls": [],
+          "group": "(prefers-reduced-motion: no-preference)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-reduced-motion",
+              "semanticGroup": "user preference",
+              "claim": "reduced motion preference",
+              "excerpt": "(prefers-reduced-motion: no-preference)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-reduced-motion",
+                "no-preference"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".iEnZvo:active",
+          "cssText": ".iEnZvo:active { opacity: 0.7; transform: scale(1); border: 1px solid var(--essential-subdued,#818181); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".iEnZvo:disabled, .iEnZvo[aria-disabled=\"true\"]",
+          "cssText": ".iEnZvo:disabled, .iEnZvo[aria-disabled=\"true\"] { cursor: not-allowed; opacity: 0.3; transform: scale(1); border-color: var(--essential-subdued,#818181); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nboVZ",
+          "cssText": ".nboVZ { box-sizing: border-box; -webkit-tap-highlight-color: transparent; padding-inline: 32px 0px; margin-block: 0px; overflow-wrap: break-word; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".sVzSB",
+          "cssText": ".sVzSB { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSSupportsRule",
+          "selector": "",
+          "cssText": "@supports (overflow-wrap:anywhere) {\n  .kNtRLK { overflow-wrap: anywhere; }\n}",
+          "urls": [],
+          "group": "(overflow-wrap:anywhere)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@supports",
+              "keyword": "supports(generic)",
+              "semanticGroup": "engine feature",
+              "claim": "generic supports probe",
+              "excerpt": "(overflow-wrap:anywhere)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "overflow-wrap",
+                "anywhere"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".kNtRLK",
+          "cssText": ".kNtRLK { overflow-wrap: anywhere; }",
+          "urls": [],
+          "group": "(overflow-wrap:anywhere)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@supports",
+              "keyword": "supports(generic)",
+              "semanticGroup": "engine feature",
+              "claim": "generic supports probe",
+              "excerpt": "(overflow-wrap:anywhere)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "overflow-wrap",
+                "anywhere"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSSupportsRule",
+          "selector": "",
+          "cssText": "@supports not (overflow-wrap:anywhere) {\n  .kNtRLK { word-break: break-word; }\n}",
+          "urls": [],
+          "group": "not (overflow-wrap:anywhere)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@supports",
+              "keyword": "supports(generic)",
+              "semanticGroup": "engine feature",
+              "claim": "generic supports probe",
+              "excerpt": "not (overflow-wrap:anywhere)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "not",
+                "overflow-wrap",
+                "anywhere"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".kNtRLK",
+          "cssText": ".kNtRLK { word-break: break-word; }",
+          "urls": [],
+          "group": "not (overflow-wrap:anywhere)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@supports",
+              "keyword": "supports(generic)",
+              "semanticGroup": "engine feature",
+              "claim": "generic supports probe",
+              "excerpt": "not (overflow-wrap:anywhere)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "not",
+                "overflow-wrap",
+                "anywhere"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".RBShQ",
+          "cssText": ".RBShQ { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eznGBk",
+          "cssText": ".eznGBk { outline: none; text-decoration: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSSupportsRule",
+          "selector": "",
+          "cssText": "@supports (overflow-wrap:anywhere) {\n  .eznGBk { overflow-wrap: anywhere; }\n}",
+          "urls": [],
+          "group": "(overflow-wrap:anywhere)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@supports",
+              "keyword": "supports(generic)",
+              "semanticGroup": "engine feature",
+              "claim": "generic supports probe",
+              "excerpt": "(overflow-wrap:anywhere)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "overflow-wrap",
+                "anywhere"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eznGBk",
+          "cssText": ".eznGBk { overflow-wrap: anywhere; }",
+          "urls": [],
+          "group": "(overflow-wrap:anywhere)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@supports",
+              "keyword": "supports(generic)",
+              "semanticGroup": "engine feature",
+              "claim": "generic supports probe",
+              "excerpt": "(overflow-wrap:anywhere)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "overflow-wrap",
+                "anywhere"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSSupportsRule",
+          "selector": "",
+          "cssText": "@supports not (overflow-wrap:anywhere) {\n  .eznGBk { word-break: break-word; }\n}",
+          "urls": [],
+          "group": "not (overflow-wrap:anywhere)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@supports",
+              "keyword": "supports(generic)",
+              "semanticGroup": "engine feature",
+              "claim": "generic supports probe",
+              "excerpt": "not (overflow-wrap:anywhere)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "not",
+                "overflow-wrap",
+                "anywhere"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eznGBk",
+          "cssText": ".eznGBk { word-break: break-word; }",
+          "urls": [],
+          "group": "not (overflow-wrap:anywhere)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@supports",
+              "keyword": "supports(generic)",
+              "semanticGroup": "engine feature",
+              "claim": "generic supports probe",
+              "excerpt": "not (overflow-wrap:anywhere)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "not",
+                "overflow-wrap",
+                "anywhere"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".MWEhk button, .MWEhk a, .MWEhk [role=\"button\"], .MWEhk [role=\"link\"]",
+          "cssText": ".MWEhk button, .MWEhk a, .MWEhk [role=\"button\"], .MWEhk [role=\"link\"] { position: relative; z-index: 1; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".kLALqL",
+          "cssText": ".kLALqL { column-gap: var(--encore-spacing-tighter,12px); -webkit-box-align: center; align-items: center; display: flex; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".yMCdi",
+          "cssText": ".yMCdi { display: flex; flex-direction: column; gap: 4px; flex-basis: 100%; align-items: flex-start; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".faRaKi",
+          "cssText": ".faRaKi { display: inline-flex; flex-direction: column; row-gap: var(--encore-spacing-tighter-2,8px); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eWZOJQ",
+          "cssText": ".eWZOJQ { position: absolute; z-index: 0; inset: 0px; cursor: pointer; background-color: transparent; border: none; width: 100%; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eWZOJQ:focus",
+          "cssText": ".eWZOJQ:focus { outline: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gPhSUm",
+          "cssText": ".gPhSUm { box-sizing: border-box; -webkit-tap-highlight-color: transparent; border: 0px; border-block-start: 1px solid var(--decorative-subdued,#dedede); margin-block: var(--encore-spacing-looser,24px); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ibchEK",
+          "cssText": ".ibchEK { padding-inline-start: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".fzcUDM",
+          "cssText": ".fzcUDM { margin-bottom: 32px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".fzcUDM p",
+          "cssText": ".fzcUDM p { color: rgb(255, 255, 255); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (min-width: 768px) {\n  .fzcUDM { width: 40%; margin-right: 24px; }\n  [dir=\"rtl\"] .sc-fHjqPf { margin-right: 0px; margin-left: 24px; }\n}",
+          "urls": [],
+          "group": "(min-width: 768px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 768px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "768px",
+                "768",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".fzcUDM",
+          "cssText": ".fzcUDM { width: 40%; margin-right: 24px; }",
+          "urls": [],
+          "group": "(min-width: 768px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 768px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "768px",
+                "768",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "[dir=\"rtl\"] .sc-fHjqPf",
+          "cssText": "[dir=\"rtl\"] .sc-fHjqPf { margin-right: 0px; margin-left: 24px; }",
+          "urls": [],
+          "group": "(min-width: 768px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 768px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "768px",
+                "768",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (min-width: 992px) {\n  .fzcUDM { width: 20%; }\n}",
+          "urls": [],
+          "group": "(min-width: 992px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 992px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "992px",
+                "992",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".fzcUDM",
+          "cssText": ".fzcUDM { width: 20%; }",
+          "urls": [],
+          "group": "(min-width: 992px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 992px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "992px",
+                "992",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dEMXNG",
+          "cssText": ".dEMXNG { margin: 8px 0px; width: fit-content; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dEMXNG span:hover",
+          "cssText": ".dEMXNG span:hover { color: rgb(255, 255, 255); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ekjVst",
+          "cssText": ".ekjVst { margin-bottom: 8px !important; text-decoration: none !important; line-height: inherit !important; border: none !important; padding: 0px !important; color: var(--text-subdued,#656565) !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ekjVst:hover",
+          "cssText": ".ekjVst:hover { }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "[dir=\"rtl\"] .sc-bXCLTC",
+          "cssText": "[dir=\"rtl\"] .sc-bXCLTC { margin-right: 0px; margin-left: 16px !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".iCKNKM",
+          "cssText": ".iCKNKM { margin-right: 16px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "[dir=\"rtl\"] .sc-jsJBEP",
+          "cssText": "[dir=\"rtl\"] .sc-jsJBEP { margin-right: 0px !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".iLJbxB",
+          "cssText": ".iLJbxB { display: flex; flex-wrap: wrap; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".jgJZhT",
+          "cssText": ".jgJZhT { flex: 0 0 auto; display: flex; flex-flow: row; -webkit-box-align: end; align-items: end; color: var(--text-subdued,#656565); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".leFkJA",
+          "cssText": ".leFkJA { padding-right: 16px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "[dir=\"rtl\"] .sc-kOPcWz",
+          "cssText": "[dir=\"rtl\"] .sc-kOPcWz { padding-right: 0px; padding-left: 16px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".iUHXuf",
+          "cssText": ".iUHXuf { box-sizing: border-box; -webkit-tap-highlight-color: transparent; cursor: inherit; display: inline-flex; -webkit-box-align: center; align-items: center; color: var(--text-subdued,#656565); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".iUHXuf:hover",
+          "cssText": ".iUHXuf:hover { color: var(--text-base,#000000); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".iUHXuf:active",
+          "cssText": ".iUHXuf:active { opacity: 0.7; transform: scale(1); color: var(--text-subdued,#656565); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".iUHXuf:disabled, .iUHXuf[aria-disabled=\"true\"]",
+          "cssText": ".iUHXuf:disabled, .iUHXuf[aria-disabled=\"true\"] { cursor: not-allowed; opacity: 0.3; transform: scale(1); color: var(--text-subdued,#656565); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".kOQsuv",
+          "cssText": ".kOQsuv { box-sizing: border-box; -webkit-tap-highlight-color: transparent; cursor: inherit; display: inline-flex; -webkit-box-align: center; align-items: center; color: var(--text-base,#000000); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".kOQsuv:hover",
+          "cssText": ".kOQsuv:hover { color: var(--text-base,#000000); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".kOQsuv:active",
+          "cssText": ".kOQsuv:active { opacity: 0.7; transform: scale(1); color: var(--text-subdued,#656565); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".kOQsuv:disabled, .kOQsuv[aria-disabled=\"true\"]",
+          "cssText": ".kOQsuv:disabled, .kOQsuv[aria-disabled=\"true\"] { cursor: not-allowed; opacity: 0.3; transform: scale(1); color: var(--text-base,#000000); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ieMOQX",
+          "cssText": ".ieMOQX { height: 40px; width: 40px; border-radius: 50%; display: inline-flex; -webkit-box-pack: center; justify-content: center; -webkit-box-align: center; align-items: center; background-color: rgb(41, 41, 41); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ieMOQX:hover",
+          "cssText": ".ieMOQX:hover { background-color: rgb(114, 114, 114); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".hzPNiy",
+          "cssText": ".hzPNiy { margin-bottom: 40px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gbrRSO",
+          "cssText": ".gbrRSO { display: inline; padding-right: 16px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gbrRSO:last-of-type",
+          "cssText": ".gbrRSO:last-of-type { padding-right: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "[dir=\"rtl\"] .sc-dCFHLb",
+          "cssText": "[dir=\"rtl\"] .sc-dCFHLb { padding-right: 0px; padding-left: 16px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "[dir=\"rtl\"] .sc-dCFHLb:last-of-type",
+          "cssText": "[dir=\"rtl\"] .sc-dCFHLb:last-of-type { padding-left: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".jikcNA",
+          "cssText": ".jikcNA { display: flex; color: var(--text-subdued,#656565); padding: var(--encore-spacing-base) 0; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".jikcNA a",
+          "cssText": ".jikcNA a { color: var(--text-subdued,#656565); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".jikcNA a:hover",
+          "cssText": ".jikcNA a:hover { color: rgb(255, 255, 255); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".esBjsh",
+          "cssText": ".esBjsh { background-color: rgb(18, 18, 18); padding: 8px 16px 40px; width: 100%; box-sizing: border-box; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (min-width: 992px) {\n  .esBjsh { padding-left: 32px; padding-right: 32px; }\n}",
+          "urls": [],
+          "group": "(min-width: 992px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 992px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "992px",
+                "992",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".esBjsh",
+          "cssText": ".esBjsh { padding-left: 32px; padding-right: 32px; }",
+          "urls": [],
+          "group": "(min-width: 992px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 992px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "992px",
+                "992",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".jJzFav",
+          "cssText": ".jJzFav { display: flex; flex-direction: column; margin-top: 32px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (min-width: 992px) {\n  .jJzFav { -webkit-box-pack: justify; justify-content: space-between; flex-direction: row; }\n}",
+          "urls": [],
+          "group": "(min-width: 992px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 992px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "992px",
+                "992",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".jJzFav",
+          "cssText": ".jJzFav { -webkit-box-pack: justify; justify-content: space-between; flex-direction: row; }",
+          "urls": [],
+          "group": "(min-width: 992px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 992px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "992px",
+                "992",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ifWcoO",
+          "cssText": ".ifWcoO { display: flex; flex-flow: column wrap; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (min-width: 768px) {\n  .ifWcoO { flex-direction: row; }\n}",
+          "urls": [],
+          "group": "(min-width: 768px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 768px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "768px",
+                "768",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ifWcoO",
+          "cssText": ".ifWcoO { flex-direction: row; }",
+          "urls": [],
+          "group": "(min-width: 768px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 768px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "768px",
+                "768",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (min-width: 992px) {\n  .ifWcoO { flex: 1 1 50%; padding-bottom: 0px; }\n}",
+          "urls": [],
+          "group": "(min-width: 992px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 992px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "992px",
+                "992",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ifWcoO",
+          "cssText": ".ifWcoO { flex: 1 1 50%; padding-bottom: 0px; }",
+          "urls": [],
+          "group": "(min-width: 992px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 992px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "992px",
+                "992",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".csQCMv",
+          "cssText": ".csQCMv { border-color: rgba(255, 255, 255, 0.1); margin-block-start: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ckXpPy",
+          "cssText": ".ckXpPy { display: flex; flex-flow: column wrap; -webkit-box-pack: justify; justify-content: space-between; padding-top: 16px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (min-width: 992px) {\n  .ckXpPy { flex-flow: row; -webkit-box-align: start; align-items: start; }\n}",
+          "urls": [],
+          "group": "(min-width: 992px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 992px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "992px",
+                "992",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ckXpPy",
+          "cssText": ".ckXpPy { flex-flow: row; -webkit-box-align: start; align-items: start; }",
+          "urls": [],
+          "group": "(min-width: 992px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 992px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "992px",
+                "992",
+                "width"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "href": "https://open-exp.spotifycdn.com/cdn/build/web-player/web-player.b84f14d4.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 1,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".grecaptcha-badge",
+          "cssText": ".grecaptcha-badge { display: none !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 35,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".go1475592160",
+          "cssText": ".go1475592160 { height: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".go1671063245",
+          "cssText": ".go1671063245 { height: auto; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".go1888806478",
+          "cssText": ".go1888806478 { display: flex; flex-wrap: wrap; flex-grow: 1; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (min-width: 600px) {\n  .go1888806478 { flex-grow: initial; min-width: 288px; }\n}",
+          "urls": [],
+          "group": "(min-width: 600px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 600px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "600px",
+                "600",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".go1888806478",
+          "cssText": ".go1888806478 { flex-grow: initial; min-width: 288px; }",
+          "urls": [],
+          "group": "(min-width: 600px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 600px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "600px",
+                "600",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".go167266335",
+          "cssText": ".go167266335 { background-color: rgb(49, 49, 49); font-size: 0.875rem; line-height: 1.43; letter-spacing: 0.01071em; color: rgb(255, 255, 255); align-items: center; padding: 6px 16px; border-radius: 4px; box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 5px -1px, rgba(0, 0, 0, 0.14) 0px 6px 10px 0px, rgba(0, 0, 0, 0.12) 0px 1px 18px 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".go3162094071",
+          "cssText": ".go3162094071 { padding-left: 20px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".go3844575157",
+          "cssText": ".go3844575157 { background-color: rgb(49, 49, 49); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".go1725278324",
+          "cssText": ".go1725278324 { background-color: rgb(67, 160, 71); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".go3651055292",
+          "cssText": ".go3651055292 { background-color: rgb(211, 47, 47); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".go4215275574",
+          "cssText": ".go4215275574 { background-color: rgb(255, 152, 0); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".go1930647212",
+          "cssText": ".go1930647212 { background-color: rgb(33, 150, 243); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".go946087465",
+          "cssText": ".go946087465 { display: flex; align-items: center; padding: 8px 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".go703367398",
+          "cssText": ".go703367398 { display: flex; align-items: center; margin-left: auto; padding-left: 16px; margin-right: -8px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".go3963613292",
+          "cssText": ".go3963613292 { width: 100%; position: relative; transform: translateX(0px); inset: 0px; min-width: 288px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".go1141946668",
+          "cssText": ".go1141946668 { box-sizing: border-box; display: flex; max-height: 100%; position: fixed; z-index: 1400; height: auto; width: auto; transition: top 300ms, right 300ms, bottom 300ms, left 300ms, max-width 300ms; pointer-events: none; max-width: calc(100% - 40px); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".go1141946668 .notistack-CollapseWrapper",
+          "cssText": ".go1141946668 .notistack-CollapseWrapper { padding: 6px 0px; transition: padding 300ms; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (max-width: 599.95px) {\n  .go1141946668 { width: 100%; max-width: calc(100% - 32px); }\n}",
+          "urls": [],
+          "group": "(max-width: 599.95px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 599.95px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "599.95px",
+                "599.95",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".go1141946668",
+          "cssText": ".go1141946668 { width: 100%; max-width: calc(100% - 32px); }",
+          "urls": [],
+          "group": "(max-width: 599.95px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 599.95px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "599.95px",
+                "599.95",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".go3868796639 .notistack-CollapseWrapper",
+          "cssText": ".go3868796639 .notistack-CollapseWrapper { padding: 2px 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".go3118922589",
+          "cssText": ".go3118922589 { top: 14px; flex-direction: column; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".go1453831412",
+          "cssText": ".go1453831412 { bottom: 14px; flex-direction: column-reverse; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".go4027089540",
+          "cssText": ".go4027089540 { left: 20px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (min-width: 600px) {\n  .go4027089540 { align-items: flex-start; }\n}",
+          "urls": [],
+          "group": "(min-width: 600px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 600px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "600px",
+                "600",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".go4027089540",
+          "cssText": ".go4027089540 { align-items: flex-start; }",
+          "urls": [],
+          "group": "(min-width: 600px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 600px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "600px",
+                "600",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (max-width: 599.95px) {\n  .go4027089540 { left: 16px; }\n}",
+          "urls": [],
+          "group": "(max-width: 599.95px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 599.95px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "599.95px",
+                "599.95",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".go4027089540",
+          "cssText": ".go4027089540 { left: 16px; }",
+          "urls": [],
+          "group": "(max-width: 599.95px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 599.95px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "599.95px",
+                "599.95",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".go2989568495",
+          "cssText": ".go2989568495 { right: 20px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (min-width: 600px) {\n  .go2989568495 { align-items: flex-end; }\n}",
+          "urls": [],
+          "group": "(min-width: 600px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 600px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "600px",
+                "600",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".go2989568495",
+          "cssText": ".go2989568495 { align-items: flex-end; }",
+          "urls": [],
+          "group": "(min-width: 600px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 600px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "600px",
+                "600",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (max-width: 599.95px) {\n  .go2989568495 { right: 16px; }\n}",
+          "urls": [],
+          "group": "(max-width: 599.95px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 599.95px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "599.95px",
+                "599.95",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".go2989568495",
+          "cssText": ".go2989568495 { right: 16px; }",
+          "urls": [],
+          "group": "(max-width: 599.95px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 599.95px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "599.95px",
+                "599.95",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".go4034260886",
+          "cssText": ".go4034260886 { left: 50%; transform: translateX(-50%); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (min-width: 600px) {\n  .go4034260886 { align-items: center; }\n}",
+          "urls": [],
+          "group": "(min-width: 600px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 600px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "600px",
+                "600",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".go4034260886",
+          "cssText": ".go4034260886 { align-items: center; }",
+          "urls": [],
+          "group": "(min-width: 600px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 600px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "600px",
+                "600",
+                "width"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "href": "https://open-exp.spotifycdn.com/cdn/build/web-player/dwp-feedback-bar.2f1f7eb4.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://open-exp.spotifycdn.com/cdn/build/web-player/xpui-routes-your-library-x.7203c19e.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://open-exp.spotifycdn.com/cdn/build/web-player/1804.5fab78b2.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://open-exp.spotifycdn.com/cdn/build/web-player/dwp-now-playing-bar.88eac62f.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://open-exp.spotifycdn.com/cdn/build/web-player/dwp-top-bar.2d1e7227.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://open-exp.spotifycdn.com/cdn/build/web-player/dwp-home-header.2d1e7227.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://open-exp.spotifycdn.com/cdn/build/web-player/6256.77c9cf76.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://open-exp.spotifycdn.com/cdn/build/web-player/dwp-home-chips-row.721a7a28.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://open-exp.spotifycdn.com/cdn/build/web-player/dwp-video-player.a92a1bf1.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://open-exp.spotifycdn.com/cdn/build/web-player/dwp-panel-section.a9a4fbc8.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://open-exp.spotifycdn.com/cdn/build/web-player/xpui-root-dialogs.35050fb2.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://open-exp.spotifycdn.com/cdn/build/web-player/dwp-watch-feed-view-container.39b09463.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://open-exp.spotifycdn.com/cdn/build/web-player/listening-stats-modal.8c1b8d24.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    }
+  ],
+  "inaccessible": [
+    "https://open-exp.spotifycdn.com/cdn/build/web-player/web-player.b84f14d4.css",
+    "https://open-exp.spotifycdn.com/cdn/build/web-player/dwp-feedback-bar.2f1f7eb4.css",
+    "https://open-exp.spotifycdn.com/cdn/build/web-player/xpui-routes-your-library-x.7203c19e.css",
+    "https://open-exp.spotifycdn.com/cdn/build/web-player/1804.5fab78b2.css",
+    "https://open-exp.spotifycdn.com/cdn/build/web-player/dwp-now-playing-bar.88eac62f.css",
+    "https://open-exp.spotifycdn.com/cdn/build/web-player/dwp-top-bar.2d1e7227.css",
+    "https://open-exp.spotifycdn.com/cdn/build/web-player/dwp-home-header.2d1e7227.css",
+    "https://open-exp.spotifycdn.com/cdn/build/web-player/6256.77c9cf76.css",
+    "https://open-exp.spotifycdn.com/cdn/build/web-player/dwp-home-chips-row.721a7a28.css",
+    "https://open-exp.spotifycdn.com/cdn/build/web-player/dwp-video-player.a92a1bf1.css",
+    "https://open-exp.spotifycdn.com/cdn/build/web-player/dwp-panel-section.a9a4fbc8.css",
+    "https://open-exp.spotifycdn.com/cdn/build/web-player/xpui-root-dialogs.35050fb2.css",
+    "https://open-exp.spotifycdn.com/cdn/build/web-player/dwp-watch-feed-view-container.39b09463.css",
+    "https://open-exp.spotifycdn.com/cdn/build/web-player/listening-stats-modal.8c1b8d24.css"
+  ],
+  "styleTags": 5,
+  "inlineStyleCount": 319,
+  "associations": [],
+  "summary": {
+    "sheetsAccessible": 5,
+    "sheetsInaccessible": 14,
+    "totalRulesScanned": 187,
+    "totalSinks": 0,
+    "totalSources": 30,
+    "totalAssociations": 0,
+    "totalCapped": false
+  },
+  "likelyFingerprinting": false,
+  "verdict": "likely not fingerprinting",
+  "claims": [],
+  "claimDetails": [],
+  "riskScore": 0,
+  "riskLevel": "none"
+}

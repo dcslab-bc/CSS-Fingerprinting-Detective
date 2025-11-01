@@ -1,0 +1,1583 @@
+{
+  "page": "https://nginx.org/",
+  "timestamp": 1761885145005,
+  "sheets": [
+    {
+      "href": "https://nginx.org/css/style_en.css",
+      "rules": 96,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": "body",
+          "cssText": "body { background: white; color: black; font-family: sans-serif; line-height: 1.4em; text-align: center; margin: 0px; padding: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#banner",
+          "cssText": "#banner { background: black; color: rgb(242, 242, 242); line-height: 1.2em; padding: 0.3em 1em; box-shadow: black 0px 5px 10px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#banner a",
+          "cssText": "#banner a { color: rgb(0, 177, 64); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#main",
+          "cssText": "#main { text-align: left; margin: 0px auto; min-width: 32em; max-width: 66em; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#menu",
+          "cssText": "#menu { float: right; width: 13em; padding: 0px; border-left: 2px solid rgb(221, 221, 221); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nav ul",
+          "cssText": ".nav ul { margin: 0px; padding: 20px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nav h1",
+          "cssText": ".nav h1 { padding: 0px 20px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nav ul li",
+          "cssText": ".nav ul li { list-style-type: none; padding: 0px; margin: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#content",
+          "cssText": "#content { margin-right: 13.5em; padding: 0px 2.5em 0px 1.5em; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "h1",
+          "cssText": "h1 { display: block; font-size: 3em; text-align: left; margin: 0.5rem 0px 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "h1 img",
+          "cssText": "h1 img { width: 100%; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "h2",
+          "cssText": "h2 { font-size: 2rem; line-height: 2.25rem; margin: 1rem 0px 0.5rem; overflow-wrap: break-word; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "h4",
+          "cssText": "h4 { font-size: 1.5rem; margin: 2rem 0px 0.5rem; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "center h4",
+          "cssText": "center h4 { text-align: left !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "h5",
+          "cssText": "h5 { font-size: 1.25rem; text-align: center; margin: 0.25rem 0px 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "p",
+          "cssText": "p { text-align: justify; margin-bottom: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "table.news p",
+          "cssText": "table.news p { margin-top: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "table.news td",
+          "cssText": "table.news td { vertical-align: baseline; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "table.news .date",
+          "cssText": "table.news .date { text-align: right; padding: 0.75rem 0.5rem 0px 0px; white-space: nowrap; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "table.donors td",
+          "cssText": "table.donors td { vertical-align: baseline; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "table.donors li",
+          "cssText": "table.donors li { text-align: left; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dropbtn",
+          "cssText": ".dropbtn { background-color: rgb(128, 128, 128); color: white; padding: 0.3rem; font-size: 1rem; border: 1px solid rgb(96, 96, 96); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dropdown",
+          "cssText": ".dropdown { position: relative; display: inline-block; padding-bottom: 0.5em; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dropdown-content",
+          "cssText": ".dropdown-content { display: none; position: absolute; background-color: rgb(240, 240, 240); min-width: 160px; box-shadow: rgb(144, 144, 144) 0px 8px 12px 0px; z-index: 1; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dropdown-content a",
+          "cssText": ".dropdown-content a { padding: 0.33em; text-decoration: none; display: block; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dropdown-content a:hover",
+          "cssText": ".dropdown-content a:hover { background-color: rgb(160, 160, 160); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dropdown:hover .dropdown-content",
+          "cssText": ".dropdown:hover .dropdown-content { display: block; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dropdown:hover .dropbtn",
+          "cssText": ".dropdown:hover .dropbtn { background-color: rgb(144, 144, 144); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "div.directive",
+          "cssText": "div.directive { background: rgb(242, 242, 242); line-height: 1em; margin: 1em 0px 1em -1em; padding: 0.7em 0.7em 0.7em 1em; border-top: 2px solid rgb(221, 221, 221); width: 100%; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "div.directive th",
+          "cssText": "div.directive th { padding-left: 0px; padding-right: 0.5em; vertical-align: baseline; text-align: left; font-weight: normal; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "div.directive td",
+          "cssText": "div.directive td { vertical-align: baseline; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "div.directive pre",
+          "cssText": "div.directive pre { padding: 0px; margin: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "div.directive code",
+          "cssText": "div.directive code { border: none; background: none !important; padding: 0px !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "div.directive p",
+          "cssText": "div.directive p { margin: 0.5em 0px 0px 0.1em; font-size: 0.8em; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "a.notrans",
+          "cssText": "a.notrans { color: rgb(128, 128, 128); text-decoration: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "span.initial",
+          "cssText": "span.initial { font-size: 200%; float: left; padding-right: 10pt; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "ul, ol",
+          "cssText": "ul, ol { margin: 0.5em 0px 1em 1em; padding: 0px 0.5em; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "ol",
+          "cssText": "ol { list-style-position: inside; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "li",
+          "cssText": "li { padding: 0.5em 0px 0px 1px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".compact li",
+          "cssText": ".compact li { padding-top: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "dl",
+          "cssText": "dl { margin: 0.5em 0px 1em; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "dt",
+          "cssText": "dt { font-size: 0.9rem; margin: 1em 0px 0px !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".compact dt",
+          "cssText": ".compact dt { margin-bottom: 0.2em; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "dd",
+          "cssText": "dd { margin: 0.25rem 0px 1.5rem 1rem; padding-left: 1px; text-align: justify; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "td.list",
+          "cssText": "td.list { background: rgb(242, 242, 242); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "blockquote",
+          "cssText": "blockquote { margin: 0.5rem 0px 0px; padding: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "li blockquote, dd blockquote",
+          "cssText": "li blockquote, dd blockquote { margin: 0.7em 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "blockquote.note",
+          "cssText": "blockquote.note { padding: 0.5rem; border: 1px dotted rgb(153, 153, 153); line-height: 1.2em; text-align: justify; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "pre",
+          "cssText": "pre { border: 0px; display: block; margin: 1em 0px; padding: 0.6em 1em; overflow-x: auto; line-height: 1.05rem; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "code, .legacy",
+          "cssText": "code, .legacy { font-size: 100%; padding: 3px 7px; overflow-x: scroll; background: rgb(238, 238, 238); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "pre code",
+          "cssText": "pre code { background: none; padding: 0px; border-radius: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "blockquote pre",
+          "cssText": "blockquote pre { margin: 0px; border: 1px solid rgb(221, 221, 221); background-color: rgb(248, 248, 248) !important; color: rgb(34, 34, 34) !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "blockquote.terminal pre",
+          "cssText": "blockquote.terminal pre { background-color: rgb(68, 68, 68) !important; color: rgb(255, 255, 255) !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "blockquote.example",
+          "cssText": "blockquote.example { line-height: 1em; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "sup",
+          "cssText": "sup { font-size: 50%; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".video",
+          "cssText": ".video { position: relative; padding-bottom: 56.25%; overflow: hidden; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".video iframe, .video object, .video embed",
+          "cssText": ".video iframe, .video object, .video embed { position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media screen and (max-width: 750px) {\n  #main { padding: 20px; min-width: inherit; }\n  #main #content { padding: 0px; border: none; width: 100% !important; }\n  #banner-content { max-width: 70vw; }\n  #menu { text-align: left; }\n  :root { --white: #f9f9f9; --black: #000; --gray: #85888C; --green: #b6d7a8; color-scheme: light dark; }\n  .nav { width: 15rem; height: 100%; max-height: 0px; position: fixed; top: 50px; right: 0px; border-left: 1px solid rgb(144, 144, 144); background-color: var(--white); overflow: hidden; transition: 0.5s ease-in-out; }\n  .nav ul { margin: 0px; padding: 20px; }\n  .nav h1 { padding: 0px 20px; }\n  .nav ul li { list-style-type: none; padding: 0px; margin: 0px; }\n  .hamb { cursor: pointer; float: right; position: absolute; top: 0px; right: 0.25em; width: 3.5em; padding-top: 1.5em; z-index: 1100; }\n  .hamb-line { background: var(--green); display: block; position: relative; height: 0.3em; width: 2.75em; border-radius: 3px; }\n  .hamb-line::before, .hamb-line::after { background: var(--green); content: \"\"; display: block; height: 100%; position: absolute; transition: 0.2s ease-in-out; width: 100%; border-radius: 3px; }\n  .hamb-line::before { top: 10px; }\n  .hamb-line::after { top: -10px; }\n  .side-menu { display: none; }\n  .side-menu:checked ~ .nav { max-height: 100%; top: 50px; }\n  .side-menu:checked ~ .hamb .hamb-line { background: transparent; }\n  .side-menu:checked ~ .hamb .hamb-line::before { transform: rotate(-45deg); top: 0px; }\n  .side-menu:checked ~ .hamb .hamb-line::after { transform: rotate(45deg); top: 0px; }\n  code { white-space: pre-line; }...",
+          "urls": [],
+          "group": "screen and (max-width: 750px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "screen and (max-width: 750px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "750px",
+                "750",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#main",
+          "cssText": "#main { padding: 20px; min-width: inherit; }",
+          "urls": [],
+          "group": "screen and (max-width: 750px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "screen and (max-width: 750px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "750px",
+                "750",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#main #content",
+          "cssText": "#main #content { padding: 0px; border: none; width: 100% !important; }",
+          "urls": [],
+          "group": "screen and (max-width: 750px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "screen and (max-width: 750px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "750px",
+                "750",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#banner-content",
+          "cssText": "#banner-content { max-width: 70vw; }",
+          "urls": [],
+          "group": "screen and (max-width: 750px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "screen and (max-width: 750px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "750px",
+                "750",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#menu",
+          "cssText": "#menu { text-align: left; }",
+          "urls": [],
+          "group": "screen and (max-width: 750px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "screen and (max-width: 750px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "750px",
+                "750",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ":root",
+          "cssText": ":root { --white: #f9f9f9; --black: #000; --gray: #85888C; --green: #b6d7a8; color-scheme: light dark; }",
+          "urls": [],
+          "group": "screen and (max-width: 750px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "screen and (max-width: 750px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "750px",
+                "750",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nav",
+          "cssText": ".nav { width: 15rem; height: 100%; max-height: 0px; position: fixed; top: 50px; right: 0px; border-left: 1px solid rgb(144, 144, 144); background-color: var(--white); overflow: hidden; transition: 0.5s ease-in-out; }",
+          "urls": [],
+          "group": "screen and (max-width: 750px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "screen and (max-width: 750px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "750px",
+                "750",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nav ul",
+          "cssText": ".nav ul { margin: 0px; padding: 20px; }",
+          "urls": [],
+          "group": "screen and (max-width: 750px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "screen and (max-width: 750px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "750px",
+                "750",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nav h1",
+          "cssText": ".nav h1 { padding: 0px 20px; }",
+          "urls": [],
+          "group": "screen and (max-width: 750px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "screen and (max-width: 750px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "750px",
+                "750",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nav ul li",
+          "cssText": ".nav ul li { list-style-type: none; padding: 0px; margin: 0px; }",
+          "urls": [],
+          "group": "screen and (max-width: 750px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "screen and (max-width: 750px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "750px",
+                "750",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".hamb",
+          "cssText": ".hamb { cursor: pointer; float: right; position: absolute; top: 0px; right: 0.25em; width: 3.5em; padding-top: 1.5em; z-index: 1100; }",
+          "urls": [],
+          "group": "screen and (max-width: 750px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "screen and (max-width: 750px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "750px",
+                "750",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".hamb-line",
+          "cssText": ".hamb-line { background: var(--green); display: block; position: relative; height: 0.3em; width: 2.75em; border-radius: 3px; }",
+          "urls": [],
+          "group": "screen and (max-width: 750px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "screen and (max-width: 750px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "750px",
+                "750",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".hamb-line::before, .hamb-line::after",
+          "cssText": ".hamb-line::before, .hamb-line::after { background: var(--green); content: \"\"; display: block; height: 100%; position: absolute; transition: 0.2s ease-in-out; width: 100%; border-radius: 3px; }",
+          "urls": [],
+          "group": "screen and (max-width: 750px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "screen and (max-width: 750px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "750px",
+                "750",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".hamb-line::before",
+          "cssText": ".hamb-line::before { top: 10px; }",
+          "urls": [],
+          "group": "screen and (max-width: 750px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "screen and (max-width: 750px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "750px",
+                "750",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".hamb-line::after",
+          "cssText": ".hamb-line::after { top: -10px; }",
+          "urls": [],
+          "group": "screen and (max-width: 750px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "screen and (max-width: 750px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "750px",
+                "750",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".side-menu",
+          "cssText": ".side-menu { display: none; }",
+          "urls": [],
+          "group": "screen and (max-width: 750px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "screen and (max-width: 750px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "750px",
+                "750",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".side-menu:checked ~ .nav",
+          "cssText": ".side-menu:checked ~ .nav { max-height: 100%; top: 50px; }",
+          "urls": [],
+          "group": "screen and (max-width: 750px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "screen and (max-width: 750px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "750px",
+                "750",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".side-menu:checked ~ .hamb .hamb-line",
+          "cssText": ".side-menu:checked ~ .hamb .hamb-line { background: transparent; }",
+          "urls": [],
+          "group": "screen and (max-width: 750px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "screen and (max-width: 750px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "750px",
+                "750",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".side-menu:checked ~ .hamb .hamb-line::before",
+          "cssText": ".side-menu:checked ~ .hamb .hamb-line::before { transform: rotate(-45deg); top: 0px; }",
+          "urls": [],
+          "group": "screen and (max-width: 750px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "screen and (max-width: 750px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "750px",
+                "750",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".side-menu:checked ~ .hamb .hamb-line::after",
+          "cssText": ".side-menu:checked ~ .hamb .hamb-line::after { transform: rotate(45deg); top: 0px; }",
+          "urls": [],
+          "group": "screen and (max-width: 750px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "screen and (max-width: 750px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "750px",
+                "750",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "code",
+          "cssText": "code { white-space: pre-line; }",
+          "urls": [],
+          "group": "screen and (max-width: 750px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "screen and (max-width: 750px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "750px",
+                "750",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media screen and (min-width: 750px) {\n  .side-menu, .hamb-line { display: none; }\n}",
+          "urls": [],
+          "group": "screen and (min-width: 750px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "screen and (min-width: 750px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "750px",
+                "750",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".side-menu, .hamb-line",
+          "cssText": ".side-menu, .hamb-line { display: none; }",
+          "urls": [],
+          "group": "screen and (min-width: 750px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "screen and (min-width: 750px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "750px",
+                "750",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (prefers-color-scheme: dark) {\n  body { background-color: rgb(28, 38, 45); color: rgb(238, 238, 238); }\n  h1, h2, h3, h4, h5, h6, p { color: rgb(238, 238, 238); }\n  a { color: rgb(85, 164, 241); text-decoration: underline; }\n  a:visited { color: rgb(139, 121, 192) !important; }\n  .nav { background: var(--black); }\n  #menu a { color: rgb(85, 164, 241); }\n  blockquote pre { border: 1px solid rgb(19, 34, 53); color: rgb(221, 221, 221) !important; background: rgb(15, 27, 41) !important; }\n  div.directive { background: rgb(12, 22, 34) !important; border-top: 2px solid rgb(32, 60, 94) !important; }\n  code { background: rgb(12, 22, 34); color: rgb(221, 221, 221) !important; }\n  .lightimage { display: none !important; }\n  .darkimageWrapper, .darkimage { display: block !important; }\n  .dropbtn { background-color: rgb(32, 32, 32); }\n  .dropdown-content { background-color: rgb(64, 64, 64); box-shadow: rgb(16, 16, 16) 0px 8px 12px 0px; }\n  .dropdown-content a:hover { background-color: rgb(36, 36, 36); }\n  .dropdown:hover .dropbtn { background-color: rgb(32, 32, 32); }\n}",
+          "urls": [],
+          "group": "(prefers-color-scheme: dark)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-color-scheme",
+              "semanticGroup": "user preference",
+              "claim": "color scheme (light/dark)",
+              "excerpt": "(prefers-color-scheme: dark)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-color-scheme",
+                "dark"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "body",
+          "cssText": "body { background-color: rgb(28, 38, 45); color: rgb(238, 238, 238); }",
+          "urls": [],
+          "group": "(prefers-color-scheme: dark)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-color-scheme",
+              "semanticGroup": "user preference",
+              "claim": "color scheme (light/dark)",
+              "excerpt": "(prefers-color-scheme: dark)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-color-scheme",
+                "dark"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "h1, h2, h3, h4, h5, h6, p",
+          "cssText": "h1, h2, h3, h4, h5, h6, p { color: rgb(238, 238, 238); }",
+          "urls": [],
+          "group": "(prefers-color-scheme: dark)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-color-scheme",
+              "semanticGroup": "user preference",
+              "claim": "color scheme (light/dark)",
+              "excerpt": "(prefers-color-scheme: dark)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-color-scheme",
+                "dark"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "a",
+          "cssText": "a { color: rgb(85, 164, 241); text-decoration: underline; }",
+          "urls": [],
+          "group": "(prefers-color-scheme: dark)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-color-scheme",
+              "semanticGroup": "user preference",
+              "claim": "color scheme (light/dark)",
+              "excerpt": "(prefers-color-scheme: dark)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-color-scheme",
+                "dark"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "a:visited",
+          "cssText": "a:visited { color: rgb(139, 121, 192) !important; }",
+          "urls": [],
+          "group": "(prefers-color-scheme: dark)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-color-scheme",
+              "semanticGroup": "user preference",
+              "claim": "color scheme (light/dark)",
+              "excerpt": "(prefers-color-scheme: dark)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-color-scheme",
+                "dark"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nav",
+          "cssText": ".nav { background: var(--black); }",
+          "urls": [],
+          "group": "(prefers-color-scheme: dark)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-color-scheme",
+              "semanticGroup": "user preference",
+              "claim": "color scheme (light/dark)",
+              "excerpt": "(prefers-color-scheme: dark)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-color-scheme",
+                "dark"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#menu a",
+          "cssText": "#menu a { color: rgb(85, 164, 241); }",
+          "urls": [],
+          "group": "(prefers-color-scheme: dark)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-color-scheme",
+              "semanticGroup": "user preference",
+              "claim": "color scheme (light/dark)",
+              "excerpt": "(prefers-color-scheme: dark)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-color-scheme",
+                "dark"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "blockquote pre",
+          "cssText": "blockquote pre { border: 1px solid rgb(19, 34, 53); color: rgb(221, 221, 221) !important; background: rgb(15, 27, 41) !important; }",
+          "urls": [],
+          "group": "(prefers-color-scheme: dark)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-color-scheme",
+              "semanticGroup": "user preference",
+              "claim": "color scheme (light/dark)",
+              "excerpt": "(prefers-color-scheme: dark)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-color-scheme",
+                "dark"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "div.directive",
+          "cssText": "div.directive { background: rgb(12, 22, 34) !important; border-top: 2px solid rgb(32, 60, 94) !important; }",
+          "urls": [],
+          "group": "(prefers-color-scheme: dark)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-color-scheme",
+              "semanticGroup": "user preference",
+              "claim": "color scheme (light/dark)",
+              "excerpt": "(prefers-color-scheme: dark)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-color-scheme",
+                "dark"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "code",
+          "cssText": "code { background: rgb(12, 22, 34); color: rgb(221, 221, 221) !important; }",
+          "urls": [],
+          "group": "(prefers-color-scheme: dark)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-color-scheme",
+              "semanticGroup": "user preference",
+              "claim": "color scheme (light/dark)",
+              "excerpt": "(prefers-color-scheme: dark)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-color-scheme",
+                "dark"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".lightimage",
+          "cssText": ".lightimage { display: none !important; }",
+          "urls": [],
+          "group": "(prefers-color-scheme: dark)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-color-scheme",
+              "semanticGroup": "user preference",
+              "claim": "color scheme (light/dark)",
+              "excerpt": "(prefers-color-scheme: dark)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-color-scheme",
+                "dark"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".darkimageWrapper, .darkimage",
+          "cssText": ".darkimageWrapper, .darkimage { display: block !important; }",
+          "urls": [],
+          "group": "(prefers-color-scheme: dark)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-color-scheme",
+              "semanticGroup": "user preference",
+              "claim": "color scheme (light/dark)",
+              "excerpt": "(prefers-color-scheme: dark)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-color-scheme",
+                "dark"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dropbtn",
+          "cssText": ".dropbtn { background-color: rgb(32, 32, 32); }",
+          "urls": [],
+          "group": "(prefers-color-scheme: dark)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-color-scheme",
+              "semanticGroup": "user preference",
+              "claim": "color scheme (light/dark)",
+              "excerpt": "(prefers-color-scheme: dark)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-color-scheme",
+                "dark"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dropdown-content",
+          "cssText": ".dropdown-content { background-color: rgb(64, 64, 64); box-shadow: rgb(16, 16, 16) 0px 8px 12px 0px; }",
+          "urls": [],
+          "group": "(prefers-color-scheme: dark)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-color-scheme",
+              "semanticGroup": "user preference",
+              "claim": "color scheme (light/dark)",
+              "excerpt": "(prefers-color-scheme: dark)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-color-scheme",
+                "dark"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dropdown-content a:hover",
+          "cssText": ".dropdown-content a:hover { background-color: rgb(36, 36, 36); }",
+          "urls": [],
+          "group": "(prefers-color-scheme: dark)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-color-scheme",
+              "semanticGroup": "user preference",
+              "claim": "color scheme (light/dark)",
+              "excerpt": "(prefers-color-scheme: dark)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-color-scheme",
+                "dark"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dropdown:hover .dropbtn",
+          "cssText": ".dropdown:hover .dropbtn { background-color: rgb(32, 32, 32); }",
+          "urls": [],
+          "group": "(prefers-color-scheme: dark)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "prefers-color-scheme",
+              "semanticGroup": "user preference",
+              "claim": "color scheme (light/dark)",
+              "excerpt": "(prefers-color-scheme: dark)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "prefers-color-scheme",
+                "dark"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "inaccessible": [],
+  "styleTags": 0,
+  "inlineStyleCount": 3,
+  "associations": [],
+  "summary": {
+    "sheetsAccessible": 1,
+    "sheetsInaccessible": 0,
+    "totalRulesScanned": 96,
+    "totalSinks": 0,
+    "totalSources": 3,
+    "totalAssociations": 0,
+    "totalCapped": false
+  },
+  "likelyFingerprinting": false,
+  "verdict": "likely not fingerprinting",
+  "claims": [],
+  "claimDetails": [],
+  "riskScore": 0,
+  "riskLevel": "none"
+}

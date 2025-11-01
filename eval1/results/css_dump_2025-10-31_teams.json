@@ -1,0 +1,2624 @@
+{
+  "page": "https://teams.live.com/free",
+  "timestamp": 1761884555227,
+  "sheets": [
+    {
+      "href": "(inline <style>)",
+      "rules": 173,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ":root",
+          "cssText": ":root { --gather-layout-inner-max-width: 2000px; --gather-layout-header-height: 6rem; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "*, ::after, ::before",
+          "cssText": "*, ::after, ::before { -webkit-font-smoothing: antialiased; border: 0px; box-sizing: border-box; font-size: inherit; font-family: inherit; line-height: inherit; outline-offset: 2px; text-wrap: pretty; margin: 0px; padding: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "html",
+          "cssText": "html { cursor: default; font-size: 8px; overflow: hidden auto; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "body",
+          "cssText": "body { color: rgb(36, 36, 36); background-color: rgb(255, 255, 255); font-family: \"Segoe UI\", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; font-size: 2rem; line-height: 1.4; overflow-x: hidden; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "h1",
+          "cssText": "h1 { font-size: 4rem; font-style: normal; font-weight: 600; line-height: 1.25; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "h2",
+          "cssText": "h2 { font-size: 2.5rem; font-weight: 600; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "button",
+          "cssText": "button { appearance: none; background-color: transparent; cursor: pointer; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "code",
+          "cssText": "code { font-family: monospace; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "[hidden]",
+          "cssText": "[hidden] { display: none !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "a:not([class])",
+          "cssText": "a:not([class]) { color: rgb(91, 95, 199); text-decoration: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "a:not([class]):hover, a:not([class]):focus-visible",
+          "cssText": "a:not([class]):hover, a:not([class]):focus-visible { text-decoration: underline; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-modal",
+          "cssText": ".gather-modal { background-color: rgb(255, 255, 255); border-color: rgb(221, 221, 221); border-radius: 1rem; border-style: solid; border-width: 1px; box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 2rem 0px; padding: 3rem; margin: auto; width: 400px; max-width: calc(100% - 4rem); max-height: calc(100% - 4rem); overflow-y: auto; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-modal::backdrop",
+          "cssText": ".gather-modal::backdrop { background-color: rgba(0, 0, 0, 0.5); transition-duration: 0.25s; transition-property: background-color; position: fixed; width: 100%; height: 100lvh; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSSupportsRule",
+          "selector": "",
+          "cssText": "@supports (position-anchor: --var) {\n  @media (min-width: 700px) {\n  .gather-modal[style*=\"position-anchor\"] { right: unset; bottom: unset; margin: 0px; position: absolute; top: calc(1rem + anchor(bottom)); left: anchor(left); }\n}\n}",
+          "urls": [],
+          "group": "(position-anchor: --var)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@supports",
+              "keyword": "supports(generic)",
+              "semanticGroup": "engine feature",
+              "claim": "generic supports probe",
+              "excerpt": "(position-anchor: --var)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "position-anchor",
+                "--var"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (min-width: 700px) {\n  .gather-modal[style*=\"position-anchor\"] { right: unset; bottom: unset; margin: 0px; position: absolute; top: calc(1rem + anchor(bottom)); left: anchor(left); }\n}",
+          "urls": [],
+          "group": "(position-anchor: --var)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 700px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "700px",
+                "700",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@supports",
+              "keyword": "supports(generic)",
+              "semanticGroup": "engine feature",
+              "claim": "generic supports probe",
+              "excerpt": "(position-anchor: --var)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "position-anchor",
+                "--var"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-modal[style*=\"position-anchor\"]",
+          "cssText": ".gather-modal[style*=\"position-anchor\"] { right: unset; bottom: unset; margin: 0px; position: absolute; top: calc(1rem + anchor(bottom)); left: anchor(left); }",
+          "urls": [],
+          "group": "(min-width: 700px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@supports",
+              "keyword": "supports(generic)",
+              "semanticGroup": "engine feature",
+              "claim": "generic supports probe",
+              "excerpt": "(position-anchor: --var)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "position-anchor",
+                "--var"
+              ]
+            },
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 700px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "700px",
+                "700",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-modal__form",
+          "cssText": ".gather-modal__form { display: grid; grid-template-columns: 1fr auto; grid-template-rows: auto 1fr; gap: 2rem; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-modal__title",
+          "cssText": ".gather-modal__title { grid-area: 1 / 1 / 1 / 2; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-modal__close",
+          "cssText": ".gather-modal__close { border-radius: 50%; line-height: 1; width: 3rem; height: 3rem; overflow: hidden; position: relative; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-modal__close::after, .gather-modal__close::before",
+          "cssText": ".gather-modal__close::after, .gather-modal__close::before { content: \"\"; background-color: rgb(0, 0, 0); border-radius: 2px; width: 1px; height: 80%; position: absolute; top: 50%; left: 50%; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-modal__close::before",
+          "cssText": ".gather-modal__close::before { transform: translate(-50%, -50%) rotate(-45deg); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-modal__close::after",
+          "cssText": ".gather-modal__close::after { transform: translate(-50%, -50%) rotate(45deg); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-modal__close:hover::before, .gather-modal__close:hover::after",
+          "cssText": ".gather-modal__close:hover::before, .gather-modal__close:hover::after { background-color: rgb(91, 95, 199); width: 2px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-modal__content",
+          "cssText": ".gather-modal__content { display: flex; flex-direction: column; gap: 2rem; grid-area: 2 / 1 / 2 / 3; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-modal__content:has(input:invalid) .gather-button",
+          "cssText": ".gather-modal__content:has(input:invalid) .gather-button { color: rgb(189, 189, 189); background-color: rgb(240, 240, 240); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-layout",
+          "cssText": ".gather-layout { background-image: linear-gradient(to right bottom, rgb(255, 238, 255), rgb(255, 255, 255), rgb(255, 238, 255)); display: flex; flex-direction: column; min-height: 100dvh; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-layout__header",
+          "cssText": ".gather-layout__header { backdrop-filter: blur(30px); background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.4)); padding-left: 2rem; padding-right: 2rem; width: 100%; z-index: 2; position: fixed; top: 0px; left: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-layout__header__inner",
+          "cssText": ".gather-layout__header__inner { display: flex; align-items: center; gap: 1rem; margin-left: auto; margin-right: auto; max-width: var(--gather-layout-inner-max-width); height: var(--gather-layout-header-height); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-layout__header[data-is-scrolled=\"false\"] [data-show-when-scrolled=\"true\"]",
+          "cssText": ".gather-layout__header[data-is-scrolled=\"false\"] [data-show-when-scrolled=\"true\"] { display: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (max-width: 699.9px) {\n  .gather-layout__header[data-is-scrolled=\"true\"] [data-show-when-scrolled=\"false\"] { display: none; }\n}",
+          "urls": [],
+          "group": "(max-width: 699.9px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 699.9px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "699.9px",
+                "699.9",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-layout__header[data-is-scrolled=\"true\"] [data-show-when-scrolled=\"false\"]",
+          "cssText": ".gather-layout__header[data-is-scrolled=\"true\"] [data-show-when-scrolled=\"false\"] { display: none; }",
+          "urls": [],
+          "group": "(max-width: 699.9px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 699.9px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "699.9px",
+                "699.9",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-layout__header__title",
+          "cssText": ".gather-layout__header__title { display: flex; align-items: center; gap: 1rem; font-weight: 600; margin-right: auto; color: inherit; text-decoration: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-layout__header__title__image",
+          "cssText": ".gather-layout__header__title__image { width: 3rem; height: 3rem; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-layout__main",
+          "cssText": ".gather-layout__main { padding-left: 2rem; padding-right: 2rem; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (min-width: 1050px) {\n  .gather-layout__main { padding-left: 4rem; padding-right: 4rem; }\n}",
+          "urls": [],
+          "group": "(min-width: 1050px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 1050px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1050px",
+                "1050",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-layout__main",
+          "cssText": ".gather-layout__main { padding-left: 4rem; padding-right: 4rem; }",
+          "urls": [],
+          "group": "(min-width: 1050px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 1050px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1050px",
+                "1050",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-layout__main__inner",
+          "cssText": ".gather-layout__main__inner { display: flex; flex-direction: column; gap: 6rem; margin-left: auto; margin-right: auto; max-width: var(--gather-layout-inner-max-width); width: 100%; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-layout__footer",
+          "cssText": ".gather-layout__footer { display: flex; flex-direction: column; gap: 3rem; font-size: 1.75rem; font-weight: 400; padding: 8rem 2rem 2rem; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-layout__footer__top",
+          "cssText": ".gather-layout__footer__top { display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-layout__footer__bottom",
+          "cssText": ".gather-layout__footer__bottom { display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (min-width: 1024px) {\n  .gather-layout__footer__bottom { column-gap: 8rem; justify-content: center; }\n}",
+          "urls": [],
+          "group": "(min-width: 1024px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 1024px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1024px",
+                "1024",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-layout__footer__bottom",
+          "cssText": ".gather-layout__footer__bottom { column-gap: 8rem; justify-content: center; }",
+          "urls": [],
+          "group": "(min-width: 1024px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 1024px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1024px",
+                "1024",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-layout__footer__bottom a",
+          "cssText": ".gather-layout__footer__bottom a { display: inline-flex; align-items: center; gap: 1rem; color: inherit; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-hero",
+          "cssText": ".gather-hero { margin-left: -2rem; margin-right: -2rem; position: relative; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-hero__media",
+          "cssText": ".gather-hero__media { margin-bottom: 2rem; position: relative; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-hero__media__inner",
+          "cssText": ".gather-hero__media__inner { background-color: rgb(208, 209, 224); height: 300px; overflow: hidden; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-hero__media__inner::after",
+          "cssText": ".gather-hero__media__inner::after { content: \"\"; position: absolute; inset: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-hero__media__inner__video",
+          "cssText": ".gather-hero__media__inner__video { object-fit: cover; width: 100%; height: 100%; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-hero__content",
+          "cssText": ".gather-hero__content { display: flex; flex-direction: column; justify-content: center; gap: 4rem; padding-left: 2rem; padding-right: 2rem; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-hero__content__text",
+          "cssText": ".gather-hero__content__text { display: flex; flex-direction: column; align-self: start; gap: 1rem; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-hero__content__text p",
+          "cssText": ".gather-hero__content__text p { font-size: 3rem; font-weight: 300; line-height: normal; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (min-width: 700px) {\n  .gather-hero__media { margin-bottom: 0px; }\n  .gather-hero__media__inner { height: 630px; }\n  .gather-hero__media__inner__video { object-position: 50% 45%; transform: translateX(-38%); width: 160%; position: relative; left: 50%; }\n  .gather-hero__content { padding-top: var(--gather-layout-header-height); padding-left: 8rem; padding-right: 0px; position: absolute; inset: 0px; }\n}",
+          "urls": [],
+          "group": "(min-width: 700px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 700px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "700px",
+                "700",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-hero__media",
+          "cssText": ".gather-hero__media { margin-bottom: 0px; }",
+          "urls": [],
+          "group": "(min-width: 700px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 700px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "700px",
+                "700",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-hero__media__inner",
+          "cssText": ".gather-hero__media__inner { height: 630px; }",
+          "urls": [],
+          "group": "(min-width: 700px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 700px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "700px",
+                "700",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-hero__media__inner__video",
+          "cssText": ".gather-hero__media__inner__video { object-position: 50% 45%; transform: translateX(-38%); width: 160%; position: relative; left: 50%; }",
+          "urls": [],
+          "group": "(min-width: 700px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 700px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "700px",
+                "700",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-hero__content",
+          "cssText": ".gather-hero__content { padding-top: var(--gather-layout-header-height); padding-left: 8rem; padding-right: 0px; position: absolute; inset: 0px; }",
+          "urls": [],
+          "group": "(min-width: 700px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 700px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "700px",
+                "700",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (min-width: 700px) and (max-width: 1049.9px) {\n  .gather-hero__content__text { background-image: linear-gradient(to right, rgba(215, 216, 229, 0.8), rgb(215, 216, 229)); border-radius: 1rem; padding: 2rem 3rem; }\n}",
+          "urls": [],
+          "group": "(min-width: 700px) and (max-width: 1049.9px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 700px) and (max-width: 1049.9px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "700px",
+                "max-width",
+                "1049.9px",
+                "700",
+                "1049.9",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-hero__content__text",
+          "cssText": ".gather-hero__content__text { background-image: linear-gradient(to right, rgba(215, 216, 229, 0.8), rgb(215, 216, 229)); border-radius: 1rem; padding: 2rem 3rem; }",
+          "urls": [],
+          "group": "(min-width: 700px) and (max-width: 1049.9px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 700px) and (max-width: 1049.9px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "700px",
+                "max-width",
+                "1049.9px",
+                "700",
+                "1049.9",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (min-width: 1050px) {\n  .gather-hero { margin-left: -4rem; margin-right: -4rem; }\n  .gather-hero__content__text { max-width: 45%; }\n  .gather-hero__content__text h1, .gather-hero__content__text p { text-wrap: balance; }\n}",
+          "urls": [],
+          "group": "(min-width: 1050px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 1050px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1050px",
+                "1050",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-hero",
+          "cssText": ".gather-hero { margin-left: -4rem; margin-right: -4rem; }",
+          "urls": [],
+          "group": "(min-width: 1050px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 1050px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1050px",
+                "1050",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-hero__content__text",
+          "cssText": ".gather-hero__content__text { max-width: 45%; }",
+          "urls": [],
+          "group": "(min-width: 1050px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 1050px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1050px",
+                "1050",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-hero__content__text h1, .gather-hero__content__text p",
+          "cssText": ".gather-hero__content__text h1, .gather-hero__content__text p { text-wrap: balance; }",
+          "urls": [],
+          "group": "(min-width: 1050px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 1050px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1050px",
+                "1050",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (min-width: 2000px) {\n  .gather-hero__media__inner { border-bottom-left-radius: 2rem; border-bottom-right-radius: 2rem; }\n}",
+          "urls": [],
+          "group": "(min-width: 2000px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 2000px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "2000px",
+                "2000",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-hero__media__inner",
+          "cssText": ".gather-hero__media__inner { border-bottom-left-radius: 2rem; border-bottom-right-radius: 2rem; }",
+          "urls": [],
+          "group": "(min-width: 2000px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 2000px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "2000px",
+                "2000",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-video-button",
+          "cssText": ".gather-video-button { display: none; align-items: center; justify-content: center; background-color: rgb(255, 255, 255); border-color: rgb(209, 209, 209); border-radius: 50%; border-style: solid; border-width: 2px; width: 6rem; height: 6rem; transition-duration: 0.25s; transition-property: filter; z-index: 1; position: absolute; bottom: 2rem; right: 2rem; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-video-button:hover",
+          "cssText": ".gather-video-button:hover { background-color: rgb(245, 245, 245); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (min-width: 700px) {\n  .gather-video-button { bottom: 4rem; right: 4rem; }\n}",
+          "urls": [],
+          "group": "(min-width: 700px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 700px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "700px",
+                "700",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-video-button",
+          "cssText": ".gather-video-button { bottom: 4rem; right: 4rem; }",
+          "urls": [],
+          "group": "(min-width: 700px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 700px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "700px",
+                "700",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-hero:has(video[data-is-loaded=\"true\"]) .gather-video-button",
+          "cssText": ".gather-hero:has(video[data-is-loaded=\"true\"]) .gather-video-button { display: flex; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-hero:has(video[data-is-playing=\"true\"]) .gather-video-button__play, .gather-hero:has(video[data-is-playing=\"false\"]) .gather-video-button__pause",
+          "cssText": ".gather-hero:has(video[data-is-playing=\"true\"]) .gather-video-button__play, .gather-hero:has(video[data-is-playing=\"false\"]) .gather-video-button__pause { display: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-bento-grid",
+          "cssText": ".gather-bento-grid { display: grid; gap: 2rem; font-size: 2.5rem; font-weight: 350; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (min-width: 700px) {\n  .gather-bento-grid { grid-template-columns: repeat(2, 1fr); }\n}",
+          "urls": [],
+          "group": "(min-width: 700px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 700px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "700px",
+                "700",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-bento-grid",
+          "cssText": ".gather-bento-grid { grid-template-columns: repeat(2, 1fr); }",
+          "urls": [],
+          "group": "(min-width: 700px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 700px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "700px",
+                "700",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (min-width: 1024px) {\n  .gather-bento-grid { grid-template-columns: repeat(4, 1fr); }\n}",
+          "urls": [],
+          "group": "(min-width: 1024px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 1024px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1024px",
+                "1024",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-bento-grid",
+          "cssText": ".gather-bento-grid { grid-template-columns: repeat(4, 1fr); }",
+          "urls": [],
+          "group": "(min-width: 1024px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 1024px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1024px",
+                "1024",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-bento-grid__item",
+          "cssText": ".gather-bento-grid__item { display: flex; flex-direction: column; gap: 2rem; background-color: rgb(255, 255, 255); background-position: center bottom; background-size: cover; border-color: rgb(240, 240, 240); border-radius: 2rem; border-style: solid; border-width: 1px; padding: 4rem; overflow: hidden; transition-duration: 0.25s; transition-property: border-color, box-shadow; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-icon-with-heading__text",
+          "cssText": ".gather-icon-with-heading__text { display: flex; flex-direction: column; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (max-width: 699.9px) {\n  .gather-bento-grid__item--align-bottom { background-image: none !important; }\n}",
+          "urls": [],
+          "group": "(max-width: 699.9px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 699.9px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "699.9px",
+                "699.9",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-bento-grid__item--align-bottom",
+          "cssText": ".gather-bento-grid__item--align-bottom { background-image: none !important; }",
+          "urls": [],
+          "group": "(max-width: 699.9px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 699.9px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "699.9px",
+                "699.9",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (min-width: 700px) {\n  .gather-bento-grid__item--align-bottom { padding-bottom: 0px; }\n}",
+          "urls": [],
+          "group": "(min-width: 700px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 700px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "700px",
+                "700",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-bento-grid__item--align-bottom",
+          "cssText": ".gather-bento-grid__item--align-bottom { padding-bottom: 0px; }",
+          "urls": [],
+          "group": "(min-width: 700px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 700px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "700px",
+                "700",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (max-width: 699.9px) {\n  .skype-redirect-bento-grid__item--align-bottom { background-image: none !important; }\n}",
+          "urls": [],
+          "group": "(max-width: 699.9px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 699.9px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "699.9px",
+                "699.9",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".skype-redirect-bento-grid__item--align-bottom",
+          "cssText": ".skype-redirect-bento-grid__item--align-bottom { background-image: none !important; }",
+          "urls": [],
+          "group": "(max-width: 699.9px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 699.9px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "699.9px",
+                "699.9",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (min-width: 1024px) {\n  .gather-bento-grid__item--large { grid-column: span 2; }\n}",
+          "urls": [],
+          "group": "(min-width: 1024px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 1024px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1024px",
+                "1024",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-bento-grid__item--large",
+          "cssText": ".gather-bento-grid__item--large { grid-column: span 2; }",
+          "urls": [],
+          "group": "(min-width: 1024px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 1024px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1024px",
+                "1024",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-bento-grid__item h3 + p",
+          "cssText": ".gather-bento-grid__item h3 + p { margin-top: -2rem; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-bento-grid__item:has(.gather-bento-image):hover",
+          "cssText": ".gather-bento-grid__item:has(.gather-bento-image):hover { box-shadow: rgba(211, 205, 255, 0.4) 1px 1px 3rem 0px; position: relative; z-index: 1; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-bento-grid__item:hover .gather-bento-image",
+          "cssText": ".gather-bento-grid__item:hover .gather-bento-image { transform: scale(1.05); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-bento-grid__item p:has(.gather-bento-image)",
+          "cssText": ".gather-bento-grid__item p:has(.gather-bento-image) { flex: 1 1 0%; display: flex; align-items: center; justify-content: center; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-bento-grid__item--align-bottom p:has(.gather-bento-image)",
+          "cssText": ".gather-bento-grid__item--align-bottom p:has(.gather-bento-image) { align-items: end; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-icon-circle",
+          "cssText": ".gather-icon-circle { background-color: rgb(246, 246, 246); border-color: transparent; border-radius: 50%; border-style: solid; border-width: 1px; display: flex; align-items: center; justify-content: center; width: 64px; height: 64px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-icon-circle--light",
+          "cssText": ".gather-icon-circle--light { background-color: rgb(255, 255, 255); border-color: rgb(209, 209, 209); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-icon-circle > svg",
+          "cssText": ".gather-icon-circle > svg { width: 32px; height: 32px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-icon-with-heading",
+          "cssText": ".gather-icon-with-heading { display: grid; align-items: center; gap: 2rem; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-icon-with-heading small",
+          "cssText": ".gather-icon-with-heading small { display: block; font-weight: normal; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-bento-grid__item--large .gather-icon-with-heading",
+          "cssText": ".gather-bento-grid__item--large .gather-icon-with-heading { grid-template-columns: auto 1fr; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (max-width: 699.9px) {\n  .gather-icon-with-heading { grid-template-columns: auto 1fr; }\n}",
+          "urls": [],
+          "group": "(max-width: 699.9px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 699.9px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "699.9px",
+                "699.9",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-icon-with-heading",
+          "cssText": ".gather-icon-with-heading { grid-template-columns: auto 1fr; }",
+          "urls": [],
+          "group": "(max-width: 699.9px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 699.9px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "699.9px",
+                "699.9",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-bento-image",
+          "cssText": ".gather-bento-image { display: block; width: 80%; height: auto; transition-duration: 0.4s; transition-property: transform; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-button",
+          "cssText": ".gather-button { display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); border-color: rgb(209, 209, 209); border-radius: 999px; border-style: solid; border-width: 1px; font-weight: 600; text-align: start; text-decoration: none; padding: 0.75rem 1.75rem; transition-duration: 0.25s; transition-property: color, background-color, border-color; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-button:hover",
+          "cssText": ".gather-button:hover { background-color: rgb(245, 245, 245); border-color: rgb(199, 199, 199); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-button--small",
+          "cssText": ".gather-button--small { font-size: 1.75rem; padding: 0.25rem 1.5rem; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-button--large",
+          "cssText": ".gather-button--large { gap: 1rem; line-height: 3.5rem; padding: 2rem 2.5rem; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-button--primary",
+          "cssText": ".gather-button--primary { color: rgb(255, 255, 255); background-color: rgb(91, 95, 199); border-color: transparent; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-button--primary:hover",
+          "cssText": ".gather-button--primary:hover { background-color: rgb(79, 82, 178); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-button--secondary",
+          "cssText": ".gather-button--secondary { color: rgb(91, 95, 199); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-button--wide",
+          "cssText": ".gather-button--wide { text-align: center; width: 100%; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-button-group",
+          "cssText": ".gather-button-group { display: flex; flex-direction: column; gap: 2rem; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-button-group > span > .gather-button",
+          "cssText": ".gather-button-group > span > .gather-button { width: 100%; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (min-width: 700px) {\n  .gather-button-group { flex-direction: row; }\n}",
+          "urls": [],
+          "group": "(min-width: 700px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 700px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "700px",
+                "700",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-button-group",
+          "cssText": ".gather-button-group { flex-direction: row; }",
+          "urls": [],
+          "group": "(min-width: 700px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 700px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "700px",
+                "700",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-focus-trap",
+          "cssText": ".gather-focus-trap { opacity: 0; overflow: hidden; width: 0px; height: 0px; position: fixed; top: 0px; left: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-input-label",
+          "cssText": ".gather-input-label { display: inline-block; margin-bottom: 0.5rem; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-input-label__required",
+          "cssText": ".gather-input-label__required { text-decoration: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-input-wrap",
+          "cssText": ".gather-input-wrap { display: block; position: relative; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-input-wrap::after",
+          "cssText": ".gather-input-wrap::after { content: \"\"; border-bottom: 2px solid rgb(91, 95, 199); border-bottom-left-radius: 4px; border-bottom-right-radius: 4px; height: 4px; transition-duration: 0.05s; transition-property: transform; transform: scaleX(0); position: absolute; left: 0px; right: 0px; bottom: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-input-wrap:focus-within::after",
+          "cssText": ".gather-input-wrap:focus-within::after { transform: scaleX(1); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-input",
+          "cssText": ".gather-input { appearance: none; background-color: rgb(255, 255, 255); display: block; outline: 0px; border-color: rgb(209, 209, 209) rgb(209, 209, 209) rgb(118, 118, 118); border-radius: 0.5rem; border-style: solid; border-width: 1px; padding: 0.625rem 1rem 0.875rem; width: 100%; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-input::placeholder",
+          "cssText": ".gather-input::placeholder { color: rgb(112, 112, 112); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (max-width: 699.9px) {\n  .gather-hide-when-media-mobile { display: none !important; }\n}",
+          "urls": [],
+          "group": "(max-width: 699.9px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 699.9px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "699.9px",
+                "699.9",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-hide-when-media-mobile",
+          "cssText": ".gather-hide-when-media-mobile { display: none !important; }",
+          "urls": [],
+          "group": "(max-width: 699.9px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 699.9px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "699.9px",
+                "699.9",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (min-width: 700px) {\n  .gather-hide-when-media-desktop { display: none !important; }\n}",
+          "urls": [],
+          "group": "(min-width: 700px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 700px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "700px",
+                "700",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-hide-when-media-desktop",
+          "cssText": ".gather-hide-when-media-desktop { display: none !important; }",
+          "urls": [],
+          "group": "(min-width: 700px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 700px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "700px",
+                "700",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "html:not([data-entry-source]) [class*=\"gather-entry-source-\"]",
+          "cssText": "html:not([data-entry-source]) [class*=\"gather-entry-source-\"] { display: none !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "html[data-entry-source=\"skype\"] .gather-entry-source-not-skype, html:not([data-entry-source=\"skype\"]) .gather-entry-source-skype",
+          "cssText": "html[data-entry-source=\"skype\"] .gather-entry-source-not-skype, html:not([data-entry-source=\"skype\"]) .gather-entry-source-skype { display: none !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "html[data-entry-source=\"default\"] .gather-entry-source-not-default, html:not([data-entry-source=\"default\"]) .gather-entry-source-default",
+          "cssText": "html[data-entry-source=\"default\"] .gather-entry-source-not-default, html:not([data-entry-source=\"default\"]) .gather-entry-source-default { display: none !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "html:not([data-device-type]) [class*=\"gather-device-type-\"]",
+          "cssText": "html:not([data-device-type]) [class*=\"gather-device-type-\"] { display: none !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "html[data-device-type=\"android\"] .gather-device-type-not-android, html:not([data-device-type=\"android\"]) .gather-device-type-android",
+          "cssText": "html[data-device-type=\"android\"] .gather-device-type-not-android, html:not([data-device-type=\"android\"]) .gather-device-type-android { display: none !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "html[data-device-type=\"desktop\"] .gather-device-type-not-desktop, html:not([data-device-type=\"desktop\"]) .gather-device-type-desktop",
+          "cssText": "html[data-device-type=\"desktop\"] .gather-device-type-not-desktop, html:not([data-device-type=\"desktop\"]) .gather-device-type-desktop { display: none !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "html[data-device-type=\"ios\"] .gather-device-type-not-ios, html:not([data-device-type=\"ios\"]) .gather-device-type-ios",
+          "cssText": "html[data-device-type=\"ios\"] .gather-device-type-not-ios, html:not([data-device-type=\"ios\"]) .gather-device-type-ios { display: none !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "[data-experiment-output]",
+          "cssText": "[data-experiment-output] { opacity: 0; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "[data-experiment-loaded=\"true\"]",
+          "cssText": "[data-experiment-loaded=\"true\"] { opacity: 1; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "[data-experiment-output]:empty",
+          "cssText": "[data-experiment-output]:empty { display: none !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#wcpConsentBannerCtrl",
+          "cssText": "#wcpConsentBannerCtrl { display: grid !important; gap: 4rem !important; background-color: rgb(255, 255, 255) !important; border-color: rgb(240, 240, 240) !important; border-style: solid !important; border-width: 1px !important; border-top-left-radius: 2rem !important; border-top-right-radius: 2rem !important; padding: 3rem !important; max-width: var(--gather-layout-inner-max-width) !important; transform: translateX(-50%) !important; position: fixed !important; bottom: 0px !important; left: 50% !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (min-width: 700px) {\n  .gather-cookie-banner:not(:empty) { padding-top: 150px; }\n  #wcpConsentBannerCtrl { grid-template-columns: 1fr auto !important; }\n}",
+          "urls": [],
+          "group": "(min-width: 700px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 700px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "700px",
+                "700",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-cookie-banner:not(:empty)",
+          "cssText": ".gather-cookie-banner:not(:empty) { padding-top: 150px; }",
+          "urls": [],
+          "group": "(min-width: 700px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 700px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "700px",
+                "700",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#wcpConsentBannerCtrl",
+          "cssText": "#wcpConsentBannerCtrl { grid-template-columns: 1fr auto !important; }",
+          "urls": [],
+          "group": "(min-width: 700px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 700px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "700px",
+                "700",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#wcpConsentBannerCtrl *",
+          "cssText": "#wcpConsentBannerCtrl * { font-size: 1.5rem !important; line-height: 1.333 !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#wcpConsentBannerCtrl > div",
+          "cssText": "#wcpConsentBannerCtrl > div { margin: 0px !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#wcpConsentBannerCtrl span:has(svg)",
+          "cssText": "#wcpConsentBannerCtrl span:has(svg) { display: none !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#wcpConsentBannerCtrl div:has(> p)",
+          "cssText": "#wcpConsentBannerCtrl div:has(> p) { display: grid !important; align-items: center !important; padding: 0px !important; width: auto !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#wcpConsentBannerCtrl p",
+          "cssText": "#wcpConsentBannerCtrl p { display: flex !important; flex-wrap: wrap !important; gap: 2rem !important; color: rgb(66, 66, 66) !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#wcpConsentBannerCtrl a, #wcpCookiePreferenceCtrl a",
+          "cssText": "#wcpConsentBannerCtrl a, #wcpCookiePreferenceCtrl a { color: rgb(79, 82, 178) !important; text-decoration: none !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#wcpConsentBannerCtrl a:hover, #wcpCookiePreferenceCtrl a:hover",
+          "cssText": "#wcpConsentBannerCtrl a:hover, #wcpCookiePreferenceCtrl a:hover { text-decoration: underline !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#wcpConsentBannerCtrl div:has(> button)",
+          "cssText": "#wcpConsentBannerCtrl div:has(> button) { align-self: start !important; display: grid !important; grid-template-columns: repeat(3, auto) !important; gap: 2rem !important; padding: 0px !important; width: auto !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (max-width: 699.9px) {\n  #wcpConsentBannerCtrl div:has(> button) { grid-template-columns: repeat(2, 1fr) !important; grid-template-rows: repeat(2, auto) !important; width: 100% !important; }\n  #wcpConsentBannerCtrl button:nth-of-type(1) { grid-area: 1 / 1 / 2 / 2 !important; }\n  #wcpConsentBannerCtrl button:nth-of-type(2) { grid-area: 1 / 2 / 2 / 3 !important; }\n  #wcpConsentBannerCtrl button:nth-of-type(3) { grid-area: 2 / 1 / 3 / 3 !important; }\n}",
+          "urls": [],
+          "group": "(max-width: 699.9px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 699.9px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "699.9px",
+                "699.9",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#wcpConsentBannerCtrl div:has(> button)",
+          "cssText": "#wcpConsentBannerCtrl div:has(> button) { grid-template-columns: repeat(2, 1fr) !important; grid-template-rows: repeat(2, auto) !important; width: 100% !important; }",
+          "urls": [],
+          "group": "(max-width: 699.9px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 699.9px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "699.9px",
+                "699.9",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#wcpConsentBannerCtrl button:nth-of-type(1)",
+          "cssText": "#wcpConsentBannerCtrl button:nth-of-type(1) { grid-area: 1 / 1 / 2 / 2 !important; }",
+          "urls": [],
+          "group": "(max-width: 699.9px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 699.9px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "699.9px",
+                "699.9",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#wcpConsentBannerCtrl button:nth-of-type(2)",
+          "cssText": "#wcpConsentBannerCtrl button:nth-of-type(2) { grid-area: 1 / 2 / 2 / 3 !important; }",
+          "urls": [],
+          "group": "(max-width: 699.9px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 699.9px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "699.9px",
+                "699.9",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#wcpConsentBannerCtrl button:nth-of-type(3)",
+          "cssText": "#wcpConsentBannerCtrl button:nth-of-type(3) { grid-area: 2 / 1 / 3 / 3 !important; }",
+          "urls": [],
+          "group": "(max-width: 699.9px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 699.9px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "699.9px",
+                "699.9",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#wcpConsentBannerCtrl button, #wcpCookiePreferenceCtrl button:not([tabindex])",
+          "cssText": "#wcpConsentBannerCtrl button, #wcpCookiePreferenceCtrl button:not([tabindex]) { display: inline-flex !important; align-items: center !important; justify-content: center !important; gap: 0.5rem !important; color: rgb(0, 0, 0) !important; background-color: rgb(255, 255, 255) !important; border-color: rgb(209, 209, 209) !important; border-radius: 999px !important; border-style: solid !important; border-width: 1px !important; box-shadow: none !important; font-weight: 600 !important; text-align: start !important; text-decoration: none !important; min-width: 0px !important; padding: 0.75rem 1.75rem !important; transition-duration: 0.25s !important; transition-property: color, background-color, border-color !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#wcpConsentBannerCtrl button:hover, #wcpCookiePreferenceCtrl button:not([tabindex]):not(:disabled):hover",
+          "cssText": "#wcpConsentBannerCtrl button:hover, #wcpCookiePreferenceCtrl button:not([tabindex]):not(:disabled):hover { background-color: rgb(245, 245, 245) !important; border-color: rgb(199, 199, 199) !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#wcpCookiePreferenceCtrl",
+          "cssText": "#wcpCookiePreferenceCtrl { background-color: rgba(0, 0, 0, 0.5) !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#wcpCookiePreferenceCtrl *",
+          "cssText": "#wcpCookiePreferenceCtrl * { margin: 0px !important; padding: 0px !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#wcpCookiePreferenceCtrl [aria-modal=\"true\"]",
+          "cssText": "#wcpCookiePreferenceCtrl [aria-modal=\"true\"] { background-color: rgb(255, 255, 255) !important; border-color: rgb(221, 221, 221) !important; border-radius: 1rem !important; border-style: solid !important; border-width: 1px !important; box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 2rem 0px !important; width: calc(100% - 4rem) !important; height: calc(100% - 4rem) !important; max-width: 640px !important; max-height: 640px !important; transform: translate(-50%, -50%) !important; position: fixed !important; top: 50% !important; left: 50% !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#wcpCookiePreferenceCtrl [aria-modal=\"true\"] > button",
+          "cssText": "#wcpCookiePreferenceCtrl [aria-modal=\"true\"] > button { color: transparent !important; background-color: transparent !important; border-radius: 50% !important; float: none !important; font-size: 0px !important; line-height: 1 !important; overflow: hidden !important; width: 3rem !important; height: 3rem !important; position: absolute !important; top: 2rem !important; right: 2rem !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#wcpCookiePreferenceCtrl [aria-modal=\"true\"] > button::after, #wcpCookiePreferenceCtrl [aria-modal=\"true\"] > button::before",
+          "cssText": "#wcpCookiePreferenceCtrl [aria-modal=\"true\"] > button::after, #wcpCookiePreferenceCtrl [aria-modal=\"true\"] > button::before { content: \"\" !important; background-color: rgb(0, 0, 0) !important; border-radius: 2px !important; width: 1px !important; height: 80% !important; position: absolute !important; top: 50% !important; left: 50% !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#wcpCookiePreferenceCtrl [aria-modal=\"true\"] > button::before",
+          "cssText": "#wcpCookiePreferenceCtrl [aria-modal=\"true\"] > button::before { transform: translate(-50%, -50%) rotate(-45deg) !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#wcpCookiePreferenceCtrl [aria-modal=\"true\"] > button::after",
+          "cssText": "#wcpCookiePreferenceCtrl [aria-modal=\"true\"] > button::after { transform: translate(-50%, -50%) rotate(45deg) !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#wcpCookiePreferenceCtrl [aria-modal=\"true\"] > button:hover::before, #wcpCookiePreferenceCtrl [aria-modal=\"true\"] > button:hover::after",
+          "cssText": "#wcpCookiePreferenceCtrl [aria-modal=\"true\"] > button:hover::before, #wcpCookiePreferenceCtrl [aria-modal=\"true\"] > button:hover::after { background-color: rgb(91, 95, 199) !important; width: 2px !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#wcpCookiePreferenceCtrl [role=\"document\"]",
+          "cssText": "#wcpCookiePreferenceCtrl [role=\"document\"] { display: grid !important; grid-template-rows: auto 1fr auto !important; gap: 3rem !important; padding: 3rem !important; height: 100% !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#wcpCookiePreferenceCtrl form",
+          "cssText": "#wcpCookiePreferenceCtrl form { margin-left: -3rem !important; margin-right: -3rem !important; padding: 0.5rem 3rem !important; overflow: hidden auto !important; height: auto !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#wcpCookiePreferenceCtrl form, #wcpCookiePreferenceCtrl form dl, #wcpCookiePreferenceCtrl form dt, #wcpCookiePreferenceCtrl form dt > *",
+          "cssText": "#wcpCookiePreferenceCtrl form, #wcpCookiePreferenceCtrl form dl, #wcpCookiePreferenceCtrl form dt, #wcpCookiePreferenceCtrl form dt > * { display: flex !important; flex-direction: column !important; gap: 2rem !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#wcpCookiePreferenceCtrl form + div:has(> button)",
+          "cssText": "#wcpCookiePreferenceCtrl form + div:has(> button) { display: grid !important; grid-template-columns: repeat(2, 1fr) !important; gap: 2rem !important; margin: 0px !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#wcpCookiePreferenceCtrl form + div > button",
+          "cssText": "#wcpCookiePreferenceCtrl form + div > button { float: none !important; width: auto !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#wcpCookiePreferenceCtrl form + div > button:disabled",
+          "cssText": "#wcpCookiePreferenceCtrl form + div > button:disabled { opacity: 0.5 !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#wcpCookiePreferenceCtrl form + div > button:nth-of-type(1)",
+          "cssText": "#wcpCookiePreferenceCtrl form + div > button:nth-of-type(1) { color: rgb(255, 255, 255) !important; background-color: rgb(79, 82, 178) !important; border-color: transparent !important; order: 1 !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#wcpCookiePreferenceCtrl form + div > button:nth-of-type(1):not([disabled]):hover",
+          "cssText": "#wcpCookiePreferenceCtrl form + div > button:nth-of-type(1):not([disabled]):hover { background-color: rgb(91, 95, 199) !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#wcpCookiePreferenceCtrl div:has(> div > input[type=\"radio\"])",
+          "cssText": "#wcpCookiePreferenceCtrl div:has(> div > input[type=\"radio\"]) { display: flex !important; gap: 2rem !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#wcpCookiePreferenceCtrl div:has(> input[type=\"radio\"])",
+          "cssText": "#wcpCookiePreferenceCtrl div:has(> input[type=\"radio\"]) { display: flex !important; gap: 1rem !important; position: static !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#wcpCookiePreferenceCtrl input[type=\"radio\"]",
+          "cssText": "#wcpCookiePreferenceCtrl input[type=\"radio\"] { appearance: auto !important; accent-color: rgb(79, 82, 178) !important; position: static !important; width: auto !important; height: auto !important; min-width: 2.5rem !important; min-height: 2.5rem !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#wcpCookiePreferenceCtrl label::after, #wcpCookiePreferenceCtrl label::before",
+          "cssText": "#wcpCookiePreferenceCtrl label::after, #wcpCookiePreferenceCtrl label::before { display: none !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".gather-hero-placeholder-img",
+          "cssText": ".gather-hero-placeholder-img { width: 100%; height: 100%; object-fit: cover; display: block; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    }
+  ],
+  "inaccessible": [],
+  "styleTags": 1,
+  "inlineStyleCount": 8,
+  "associations": [],
+  "summary": {
+    "sheetsAccessible": 1,
+    "sheetsInaccessible": 0,
+    "totalRulesScanned": 173,
+    "totalSinks": 0,
+    "totalSources": 22,
+    "totalAssociations": 0,
+    "totalCapped": false
+  },
+  "likelyFingerprinting": false,
+  "verdict": "likely not fingerprinting",
+  "claims": [],
+  "claimDetails": [],
+  "riskScore": 0,
+  "riskLevel": "none"
+}

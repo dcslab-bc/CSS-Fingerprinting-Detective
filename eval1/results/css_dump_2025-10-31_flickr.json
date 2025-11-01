@@ -1,0 +1,2748 @@
+{
+  "page": "https://flickr.com/",
+  "timestamp": 1761886154966,
+  "sheets": [
+    {
+      "href": "(inline <style>)",
+      "rules": 6,
+      "rulesList": [
+        {
+          "type": "CSSFontFaceRule",
+          "selector": "",
+          "cssText": "@font-face { font-family: \"Source Sans Pro\"; src: url(\"https://consent.trustarc.com/get?name=SourceSansPro-Regular.ttf\") format(\"truetype\"), url(\"https://consent.trustarc.com/get?name=SourceSansPro-Regular.woff\") format(\"woff\"), url(\"https://consent.trustarc.com/get?name=SourceSansPro-Regular.otf\") format(\"opentype\"); }",
+          "urls": [
+            "https://consent.trustarc.com/get?name=sourcesanspro-regular.ttf",
+            "https://consent.trustarc.com/get?name=sourcesanspro-regular.woff",
+            "https://consent.trustarc.com/get?name=sourcesanspro-regular.otf"
+          ],
+          "group": "",
+          "sources": [],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "https://consent.trustarc.com/get?name=sourcesanspro-regular.ttf",
+                "https://consent.trustarc.com/get?name=sourcesanspro-regular.woff",
+                "https://consent.trustarc.com/get?name=sourcesanspro-regular.otf"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".truste_cursor_pointer",
+          "cssText": ".truste_cursor_pointer { cursor: pointer; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".truste_border_none",
+          "cssText": ".truste_border_none { border: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".truste_accessible_link",
+          "cssText": ".truste_accessible_link { font-family: \"Source Sans Pro\", sans-serif; color: rgb(29, 78, 216); font-size: 14px; font-weight: 600; text-decoration: underline; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".truste_accessible_link:hover",
+          "cssText": ".truste_accessible_link:hover { color: rgb(29, 78, 216); text-decoration: none !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".truste_accessible_link:focus-visible",
+          "cssText": ".truste_accessible_link:focus-visible { outline: none; border-radius: 4px; box-shadow: rgb(255, 255, 255) 0px 0px 0px 1px, rgb(54, 153, 241) 0px 0px 0px 4px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 1,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ta-display-none",
+          "cssText": ".ta-display-none { display: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 1,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".wf-force-outline-none[tabindex=\"-1\"]:focus",
+          "cssText": ".wf-force-outline-none[tabindex=\"-1\"]:focus { outline: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "https://combo.staticflickr.com/66a031f9fc343c5e42d965ca/css/the-revenge-of-flickr-2345678e483294783.shared.ede5eb974.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://fonts.googleapis.com/css?family=Ubuntu:300,300italic,400,400italic,500,500italic,700,700italic",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 28,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".light-mode-image",
+          "cssText": ".light-mode-image { display: block !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dark-mode-image",
+          "cssText": ".dark-mode-image { display: none !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "html.dark-mode .light-mode-image",
+          "cssText": "html.dark-mode .light-mode-image { display: none !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "html.dark-mode .dark-mode-image",
+          "cssText": "html.dark-mode .dark-mode-image { display: block !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".light-mode-logo",
+          "cssText": ".light-mode-logo { display: block !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dark-mode-logo",
+          "cssText": ".dark-mode-logo { display: none !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "html.dark-mode .light-mode-logo",
+          "cssText": "html.dark-mode .light-mode-logo { display: none !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "html.dark-mode .dark-mode-logo",
+          "cssText": "html.dark-mode .dark-mode-logo { display: block !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".light-mode-stats",
+          "cssText": ".light-mode-stats { display: block !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dark-mode-stats",
+          "cssText": ".dark-mode-stats { display: none !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "html.dark-mode .light-mode-stats",
+          "cssText": "html.dark-mode .light-mode-stats { display: none !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "html.dark-mode .dark-mode-stats",
+          "cssText": "html.dark-mode .dark-mode-stats { display: block !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".light-mode-gplay",
+          "cssText": ".light-mode-gplay { display: block !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dark-mode-gplay",
+          "cssText": ".dark-mode-gplay { display: none !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "html.dark-mode .light-mode-gplay",
+          "cssText": "html.dark-mode .light-mode-gplay { display: none !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "html.dark-mode .dark-mode-gplay",
+          "cssText": "html.dark-mode .dark-mode-gplay { display: block !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".light-mode-appstore",
+          "cssText": ".light-mode-appstore { display: block !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".dark-mode-appstore",
+          "cssText": ".dark-mode-appstore { display: none !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "html.dark-mode .light-mode-appstore",
+          "cssText": "html.dark-mode .light-mode-appstore { display: none !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "html.dark-mode .dark-mode-appstore",
+          "cssText": "html.dark-mode .dark-mode-appstore { display: block !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".icon-height-large.dark",
+          "cssText": ".icon-height-large.dark { filter: invert(); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "html.dark-mode .icon-height-large.dark",
+          "cssText": "html.dark-mode .icon-height-large.dark { filter: invert(0%); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".icon-height-xlarge.dark",
+          "cssText": ".icon-height-xlarge.dark { filter: invert(); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "html.dark-mode .icon-height-xlarge.dark",
+          "cssText": "html.dark-mode .icon-height-xlarge.dark { filter: invert(0%); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".search-button",
+          "cssText": ".search-button { background-image: url(\"https://combo.staticflickr.com/66a031f9fc343c5e42d965ca/671163fe35b975b11c73d541_arrow-large.svg\"); }",
+          "urls": [
+            "https://combo.staticflickr.com/66a031f9fc343c5e42d965ca/671163fe35b975b11c73d541_arrow-large.svg"
+          ],
+          "group": "",
+          "sources": [],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "https://combo.staticflickr.com/66a031f9fc343c5e42d965ca/671163fe35b975b11c73d541_arrow-large.svg"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "html.dark-mode .search-button",
+          "cssText": "html.dark-mode .search-button { background-image: url(\"https://combo.staticflickr.com/66a031f9fc343c5e42d965ca/6719c4869b4d2c8142b26c71_large-arrow-dark.svg\") !important; }",
+          "urls": [
+            "https://combo.staticflickr.com/66a031f9fc343c5e42d965ca/6719c4869b4d2c8142b26c71_large-arrow-dark.svg"
+          ],
+          "group": "",
+          "sources": [],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "https://combo.staticflickr.com/66a031f9fc343c5e42d965ca/6719c4869b4d2c8142b26c71_large-arrow-dark.svg"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".close-search",
+          "cssText": ".close-search { background-image: url(\"https://combo.staticflickr.com/66a031f9fc343c5e42d965ca/67226ee1d168a9575864ffed_close-arrow-light.svg\"); }",
+          "urls": [
+            "https://combo.staticflickr.com/66a031f9fc343c5e42d965ca/67226ee1d168a9575864ffed_close-arrow-light.svg"
+          ],
+          "group": "",
+          "sources": [],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "https://combo.staticflickr.com/66a031f9fc343c5e42d965ca/67226ee1d168a9575864ffed_close-arrow-light.svg"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "html.dark-mode .close-search",
+          "cssText": "html.dark-mode .close-search { background-image: url(\"https://combo.staticflickr.com/66a031f9fc343c5e42d965ca/67226717e3ab3f45ec90a73d_close.svg\") !important; }",
+          "urls": [
+            "https://combo.staticflickr.com/66a031f9fc343c5e42d965ca/67226717e3ab3f45ec90a73d_close.svg"
+          ],
+          "group": "",
+          "sources": [],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "https://combo.staticflickr.com/66a031f9fc343c5e42d965ca/67226717e3ab3f45ec90a73d_close.svg"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 32,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": "#consent_blackbar",
+          "cssText": "#consent_blackbar { display: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#consent_blackbar.active",
+          "cssText": "#consent_blackbar.active { display: block; position: fixed; bottom: 0px; z-index: 1; right: 0px; left: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#truste-consent-track",
+          "cssText": "#truste-consent-track { text-align: left; font-size: 14px; line-height: 1.3em; margin: 0px; max-width: none; z-index: initial !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (max-width: 700px) {\n  #truste-consent-track { text-align: left; }\n  #truste-consent-track .banner-details-container { margin: 30px 5px 0px; }\n  #truste-consent-track .banner-details-container .description-group { }\n  #truste-consent-track .banner-details-container .description-group .trustarc-banner-body { margin-top: 10px; line-height: 1.3em; }\n}",
+          "urls": [],
+          "group": "(max-width: 700px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 700px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "700px",
+                "700",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#truste-consent-track",
+          "cssText": "#truste-consent-track { text-align: left; }",
+          "urls": [],
+          "group": "(max-width: 700px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 700px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "700px",
+                "700",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#truste-consent-track .banner-details-container",
+          "cssText": "#truste-consent-track .banner-details-container { margin: 30px 5px 0px; }",
+          "urls": [],
+          "group": "(max-width: 700px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 700px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "700px",
+                "700",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#truste-consent-track .banner-details-container .description-group",
+          "cssText": "#truste-consent-track .banner-details-container .description-group { }",
+          "urls": [],
+          "group": "(max-width: 700px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 700px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "700px",
+                "700",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#truste-consent-track .banner-details-container .description-group .trustarc-banner-body",
+          "cssText": "#truste-consent-track .banner-details-container .description-group .trustarc-banner-body { margin-top: 10px; line-height: 1.3em; }",
+          "urls": [],
+          "group": "(max-width: 700px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 700px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "700px",
+                "700",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#truste-consent-content #truste-consent-button, #truste-consent-content #truste-ccpa-optout",
+          "cssText": "#truste-consent-content #truste-consent-button, #truste-consent-content #truste-ccpa-optout { border: 1px solid rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 14px; font-weight: 400; margin: 0px 0px 5px 10px; text-align: center; display: flex; justify-content: center; align-items: center; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#truste-consent-content #truste-ccpa-optout",
+          "cssText": "#truste-consent-content #truste-ccpa-optout { margin-right: 10px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#truste-consent-content .truste-messageColumn, #truste-consent-content #truste-ccpa-status",
+          "cssText": "#truste-consent-content .truste-messageColumn, #truste-consent-content #truste-ccpa-status { margin-left: 10px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-banner-container #truste-consent-buttons",
+          "cssText": ".trustarc-banner-container #truste-consent-buttons { max-width: 250px; max-height: 450px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-banner-container #truste-consent-buttons .trustarc-butt",
+          "cssText": ".trustarc-banner-container #truste-consent-buttons .trustarc-butt { border: 1px solid rgb(255, 255, 255); color: rgb(255, 255, 255); font-size: 14px; font-weight: 400; padding: 6px 16px; margin-top: 10px; width: 100%; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-banner-container #truste-consent-buttons .trustarc-butt:hover",
+          "cssText": ".trustarc-banner-container #truste-consent-buttons .trustarc-butt:hover { background-color: transparent; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-banner-container #truste-consent-buttons #truste-consent-button, .trustarc-banner-container #truste-consent-buttons #truste-consent-required, .trustarc-banner-container #truste-consent-buttons #truste-show-consent",
+          "cssText": ".trustarc-banner-container #truste-consent-buttons #truste-consent-button, .trustarc-banner-container #truste-consent-buttons #truste-consent-required, .trustarc-banner-container #truste-consent-buttons #truste-show-consent { box-sizing: initial; padding: initial; border: 1px solid rgb(255, 255, 255); background-color: initial; width: 100%; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (max-width: 700px) {\n  .trustarc-banner-container #truste-consent-buttons { max-width: none; }\n}",
+          "urls": [],
+          "group": "(max-width: 700px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 700px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "700px",
+                "700",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-banner-container #truste-consent-buttons",
+          "cssText": ".trustarc-banner-container #truste-consent-buttons { max-width: none; }",
+          "urls": [],
+          "group": "(max-width: 700px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 700px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "700px",
+                "700",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (max-width: 700px) {\n  .trustarc-banner-container { max-height: 80vh; overflow-x: auto; display: block; }\n}",
+          "urls": [],
+          "group": "(max-width: 700px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 700px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "700px",
+                "700",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-banner-container",
+          "cssText": ".trustarc-banner-container { max-height: 80vh; overflow-x: auto; display: block; }",
+          "urls": [],
+          "group": "(max-width: 700px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 700px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "700px",
+                "700",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".truste-buttonsColumn, .trustarc-consent-buttons",
+          "cssText": ".truste-buttonsColumn, .trustarc-consent-buttons { display: flex; align-items: center; flex-flow: wrap; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (max-width: 700px) {\n  .truste-buttonsColumn, .trustarc-consent-buttons { margin: 10px 0px; flex-wrap: wrap; }\n}",
+          "urls": [],
+          "group": "(max-width: 700px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 700px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "700px",
+                "700",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".truste-buttonsColumn, .trustarc-consent-buttons",
+          "cssText": ".truste-buttonsColumn, .trustarc-consent-buttons { margin: 10px 0px; flex-wrap: wrap; }",
+          "urls": [],
+          "group": "(max-width: 700px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 700px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "700px",
+                "700",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".banner-details-container p, .banner-details-container div",
+          "cssText": ".banner-details-container p, .banner-details-container div { font-size: 14px; line-height: 1.3em; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".banner-details-container span",
+          "cssText": ".banner-details-container span { font-size: 18px; line-height: 1.3em; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-banner-wrapper .trustarc-banner-footer",
+          "cssText": ".trustarc-banner-wrapper .trustarc-banner-footer { height: 70px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-banner-left",
+          "cssText": ".trustarc-banner-left { padding-bottom: 40px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-banner-right",
+          "cssText": ".trustarc-banner-right { padding-bottom: 40px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".standard-banner-container",
+          "cssText": ".standard-banner-container { position: fixed; bottom: 0px; left: 0px; right: 0px; z-index: 99999; background-color: rgb(153, 153, 153); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".standard-banner-content",
+          "cssText": ".standard-banner-content { display: flex; align-items: center; justify-content: center; margin-left: auto; margin-right: auto; max-width: 80%; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".standard-banner-close-button",
+          "cssText": ".standard-banner-close-button { font-size: 35px; cursor: pointer; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".cookie-policy-link",
+          "cssText": ".cookie-policy-link { color: rgb(255, 255, 255); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".standard-banner-message-text",
+          "cssText": ".standard-banner-message-text { color: rgb(255, 255, 255); line-height: 24px; font-size: 16px; font-family: \"Proxima Nova\", sans-serif; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 0,
+      "rulesList": []
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 3,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": "html[lang=\"ko\"] h1, html[lang=\"zh\"] h1, html[lang=\"vi\"] h1, html[lang=\"de\"] h1, html[lang=\"ko\"] .heading-style-h2, html[lang=\"zh\"] .heading-style-h2, html[lang=\"vi\"] .heading-style-h2, html[lang=\"de\"] .heading-style-h2, html[lang=\"ko\"] h2, html[lang=\"zh\"] h2, html[lang=\"vi\"] h2, html[lang=\"de\"] h2, html[lang=\"ko\"] .heading-style-h1, html[lang=\"zh\"] .heading-style-h1, html[lang=\"vi\"] .heading-style-h1, html[lang=\"de\"] .heading-style-h1",
+          "cssText": "html[lang=\"ko\"] h1, html[lang=\"zh\"] h1, html[lang=\"vi\"] h1, html[lang=\"de\"] h1, html[lang=\"ko\"] .heading-style-h2, html[lang=\"zh\"] .heading-style-h2, html[lang=\"vi\"] .heading-style-h2, html[lang=\"de\"] .heading-style-h2, html[lang=\"ko\"] h2, html[lang=\"zh\"] h2, html[lang=\"vi\"] h2, html[lang=\"de\"] h2, html[lang=\"ko\"] .heading-style-h1, html[lang=\"zh\"] .heading-style-h1, html[lang=\"vi\"] .heading-style-h1, html[lang=\"de\"] .heading-style-h1 { line-height: 0.95; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "html[lang=\"es\"] .star",
+          "cssText": "html[lang=\"es\"] .star { top: 4.5rem; right: 8.75rem; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "html[lang=\"pt\"] h1, html[lang=\"pt\"] h2, html[lang=\"pt\"] heading-style-h1, html[lang=\"pt\"] heading-style-h2",
+          "cssText": "html[lang=\"pt\"] h1, html[lang=\"pt\"] h2, html[lang=\"pt\"] heading-style-h1, html[lang=\"pt\"] heading-style-h2 { line-height: 0.85; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "https://cdn.weglot.com/weglot.min.css?v=11",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 1,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".wg-default, .wg-default .country-selector",
+          "cssText": ".wg-default, .wg-default .country-selector { position: fixed; bottom: 0px; right: 20px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 20,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".weglot_switcher.skewed",
+          "cssText": ".weglot_switcher.skewed { position: relative; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".weglot_switcher.skewed.closed",
+          "cssText": ".weglot_switcher.skewed.closed { background-color: rgb(45, 45, 45); border-radius: 5px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".weglot_switcher.skewed.closed .language-list",
+          "cssText": ".weglot_switcher.skewed.closed .language-list { opacity: 0; pointer-events: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".weglot_switcher.skewed .wg-switcher-watermark",
+          "cssText": ".weglot_switcher.skewed .wg-switcher-watermark { background-color: rgb(45, 45, 45); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".weglot_switcher.skewed .wg-switcher-watermark a",
+          "cssText": ".weglot_switcher.skewed .wg-switcher-watermark a { color: rgb(255, 255, 255); font-size: 12px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".weglot_switcher.skewed .wg-switcher-watermark a:hover",
+          "cssText": ".weglot_switcher.skewed .wg-switcher-watermark a:hover { color: rgb(9, 103, 231); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".weglot_switcher.skewed.closed.wg-left.wg-up .language-list",
+          "cssText": ".weglot_switcher.skewed.closed.wg-left.wg-up .language-list { transform: skew(10deg); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".weglot_switcher.skewed.closed.wg-right.wg-down .language-list",
+          "cssText": ".weglot_switcher.skewed.closed.wg-right.wg-down .language-list { transform: skew(10deg); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".weglot_switcher.skewed.closed.wg-right.wg-up .language-list",
+          "cssText": ".weglot_switcher.skewed.closed.wg-right.wg-up .language-list { transform: skew(-10deg); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".weglot_switcher.skewed.closed.wg-left.wg-down .language-list",
+          "cssText": ".weglot_switcher.skewed.closed.wg-left.wg-down .language-list { transform: skew(-10deg); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".weglot_switcher.skewed .language-list",
+          "cssText": ".weglot_switcher.skewed .language-list { position: absolute; opacity: 0.99; border-radius: 5px; transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out; background-color: rgb(45, 45, 45); display: flex; justify-content: center; width: max-content; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".weglot_switcher.skewed.wg-up .language-list",
+          "cssText": ".weglot_switcher.skewed.wg-up .language-list { bottom: 0px; top: auto; flex-direction: column-reverse; transform-origin: 0% 100%; padding-bottom: 40px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".weglot_switcher.skewed.wg-down .language-list",
+          "cssText": ".weglot_switcher.skewed.wg-down .language-list { bottom: auto; top: 0px; flex-direction: column; transform-origin: 100% 0%; padding-top: 40px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".weglot_switcher.skewed .active-language",
+          "cssText": ".weglot_switcher.skewed .active-language { z-index: 2147483646; position: relative; opacity: 1; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".weglot_switcher.skewed .language-option",
+          "cssText": ".weglot_switcher.skewed .language-option { display: flex; align-items: center; cursor: pointer; font-family: system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", sans-serif; font-size: 14px; height: 40px; padding: 0px 15px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".weglot_switcher.skewed .language-option a",
+          "cssText": ".weglot_switcher.skewed .language-option a { outline: none; font-weight: 700; text-decoration: none; display: flex; gap: 10px; align-items: center; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".weglot_switcher.skewed .language-option a img",
+          "cssText": ".weglot_switcher.skewed .language-option a img { overflow-clip-margin: content-box; overflow: clip; vertical-align: middle; object-fit: cover; display: inline-block; border: 0px; width: 20px; height: 16px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "html[lang=\"ko\"] h1, html[lang=\"zh\"] h1, html[lang=\"vi\"] h1, html[lang=\"de\"] h1, html[lang=\"ko\"] .heading-style-h2, html[lang=\"zh\"] .heading-style-h2, html[lang=\"vi\"] .heading-style-h2, html[lang=\"de\"] .heading-style-h2, html[lang=\"ko\"] h2, html[lang=\"zh\"] h2, html[lang=\"vi\"] h2, html[lang=\"de\"] h2, html[lang=\"ko\"] .heading-style-h1, html[lang=\"zh\"] .heading-style-h1, html[lang=\"vi\"] .heading-style-h1, html[lang=\"de\"] .heading-style-h1",
+          "cssText": "html[lang=\"ko\"] h1, html[lang=\"zh\"] h1, html[lang=\"vi\"] h1, html[lang=\"de\"] h1, html[lang=\"ko\"] .heading-style-h2, html[lang=\"zh\"] .heading-style-h2, html[lang=\"vi\"] .heading-style-h2, html[lang=\"de\"] .heading-style-h2, html[lang=\"ko\"] h2, html[lang=\"zh\"] h2, html[lang=\"vi\"] h2, html[lang=\"de\"] h2, html[lang=\"ko\"] .heading-style-h1, html[lang=\"zh\"] .heading-style-h1, html[lang=\"vi\"] .heading-style-h1, html[lang=\"de\"] .heading-style-h1 { line-height: 0.95; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "html[lang=\"es\"] .star",
+          "cssText": "html[lang=\"es\"] .star { top: 4.5rem; right: 8.75rem; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "html[lang=\"pt\"] h1, html[lang=\"pt\"] h2, html[lang=\"pt\"] heading-style-h1, html[lang=\"pt\"] heading-style-h2",
+          "cssText": "html[lang=\"pt\"] h1, html[lang=\"pt\"] h2, html[lang=\"pt\"] heading-style-h1, html[lang=\"pt\"] heading-style-h2 { line-height: 0.85; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 1,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ta-display-block#truste-consent-track",
+          "cssText": ".ta-display-block#truste-consent-track { display: block; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 14,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": "html",
+          "cssText": "html { font-size: 1.125rem !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media screen and (max-width: 1920px) {\n  html { font-size: calc(0.5rem + 0.833333vw) !important; }\n}",
+          "urls": [],
+          "group": "screen and (max-width: 1920px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "screen and (max-width: 1920px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "1920px",
+                "1920",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "html",
+          "cssText": "html { font-size: calc(0.5rem + 0.833333vw) !important; }",
+          "urls": [],
+          "group": "screen and (max-width: 1920px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "screen and (max-width: 1920px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "1920px",
+                "1920",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media screen and (max-width: 1440px) {\n  html { font-size: 1.125rem; }\n}",
+          "urls": [],
+          "group": "screen and (max-width: 1440px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "screen and (max-width: 1440px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "1440px",
+                "1440",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "html",
+          "cssText": "html { font-size: 1.125rem; }",
+          "urls": [],
+          "group": "screen and (max-width: 1440px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "screen and (max-width: 1440px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "1440px",
+                "1440",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media screen and (max-width: 1280px) {\n  html { font-size: calc(0.0177336rem + 1.38408vw) !important; }\n}",
+          "urls": [],
+          "group": "screen and (max-width: 1280px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "screen and (max-width: 1280px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "1280px",
+                "1280",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "html",
+          "cssText": "html { font-size: calc(0.0177336rem + 1.38408vw) !important; }",
+          "urls": [],
+          "group": "screen and (max-width: 1280px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "screen and (max-width: 1280px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "1280px",
+                "1280",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media screen and (max-width: 991px) {\n  html { font-size: calc(0.139013rem + 1.79372vw) !important; }\n}",
+          "urls": [],
+          "group": "screen and (max-width: 991px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "screen and (max-width: 991px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "991px",
+                "991",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "html",
+          "cssText": "html { font-size: calc(0.139013rem + 1.79372vw) !important; }",
+          "urls": [],
+          "group": "screen and (max-width: 991px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "screen and (max-width: 991px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "991px",
+                "991",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media screen and (max-width: 767px) {\n  html { font-size: calc(0.37846rem + 2.07612vw) !important; }\n}",
+          "urls": [],
+          "group": "screen and (max-width: 767px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "screen and (max-width: 767px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "767px",
+                "767",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "html",
+          "cssText": "html { font-size: calc(0.37846rem + 2.07612vw) !important; }",
+          "urls": [],
+          "group": "screen and (max-width: 767px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "screen and (max-width: 767px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "767px",
+                "767",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media screen and (max-width: 479px) {\n  html { font-size: calc(0.371855rem + 2.51572vw) !important; }\n}",
+          "urls": [],
+          "group": "screen and (max-width: 479px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "screen and (max-width: 479px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "479px",
+                "479",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "html",
+          "cssText": "html { font-size: calc(0.371855rem + 2.51572vw) !important; }",
+          "urls": [],
+          "group": "screen and (max-width: 479px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "screen and (max-width: 479px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "479px",
+                "479",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "h1",
+          "cssText": "h1 { white-space: normal !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 6,
+      "rulesList": [
+        {
+          "type": "CSSKeyframesRule",
+          "selector": "",
+          "cssText": "@keyframes scroll { \n  0% { transform: translateX(0px); }\n  100% { transform: translateX(calc(-100% - 1rem)); }\n}",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSKeyframeRule",
+          "selector": "",
+          "cssText": "0% { transform: translateX(0px); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSKeyframeRule",
+          "selector": "",
+          "cssText": "100% { transform: translateX(calc(-100% - 1rem)); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".marquee:hover > .scroll",
+          "cssText": ".marquee:hover > .scroll { animation-play-state: paused; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".scroll",
+          "cssText": ".scroll { animation: 45s linear 0s infinite normal none running scroll; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".scroll-2",
+          "cssText": ".scroll-2 { animation: 8s linear 0s infinite normal none running scroll; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 3,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ta-hide",
+          "cssText": ".ta-hide { transition: opacity 300ms ease-in, visibility ease-in 300ms; visibility: hidden !important; opacity: 0 !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ta-display-hide",
+          "cssText": ".ta-display-hide { display: none !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".ta-show",
+          "cssText": ".ta-show { visibility: visible !important; opacity: 1 !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 57,
+      "rulesList": [
+        {
+          "type": "CSSFontFaceRule",
+          "selector": "",
+          "cssText": "@font-face { font-family: Proxima_Nova_Regular; src: url(\"https://consent.trustarc.com/get?name=proxima-nova-regular.woff\") format(\"woff\"); font-weight: normal; }",
+          "urls": [
+            "https://consent.trustarc.com/get?name=proxima-nova-regular.woff"
+          ],
+          "group": "",
+          "sources": [],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "https://consent.trustarc.com/get?name=proxima-nova-regular.woff"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSFontFaceRule",
+          "selector": "",
+          "cssText": "@font-face { font-family: Proxima_Nova_Bold; src: url(\"https://consent.trustarc.com/get?name=proxima-nova-bold.woff\") format(\"woff\"); font-weight: bold; }",
+          "urls": [
+            "https://consent.trustarc.com/get?name=proxima-nova-bold.woff"
+          ],
+          "group": "",
+          "sources": [],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "https://consent.trustarc.com/get?name=proxima-nova-bold.woff"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-banner-content",
+          "cssText": ".trustarc-banner-content { display: flex; -webkit-box-pack: justify; justify-content: space-between; position: relative; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-banner-wrapper",
+          "cssText": ".trustarc-banner-wrapper { max-width: 1408px; margin: 2px auto; box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 4px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-banner-header > span",
+          "cssText": ".trustarc-banner-header > span { font-weight: bolder; text-transform: uppercase; font-family: Proxima_Nova_Bold; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-banner-container",
+          "cssText": ".trustarc-banner-container { display: flex; width: 100%; color: rgb(255, 255, 255); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".description-group",
+          "cssText": ".description-group { display: flex; width: 100%; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-banner-wrapper",
+          "cssText": ".trustarc-banner-wrapper { position: relative; line-height: normal; font-size: 100%; text-size-adjust: 100%; text-rendering: optimizelegibility; -webkit-font-smoothing: antialiased; text-shadow: rgba(0, 0, 0, 0.01) 0px 0px 1px; font-variant-ligatures: none; width: 100%; display: block; box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 4px; overflow: hidden; font-family: Proxima_Nova_Regular, sans-serif; background-color: rgb(151, 158, 162); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-banner-wrapper *",
+          "cssText": ".trustarc-banner-wrapper * { box-sizing: content-box; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-client-logo",
+          "cssText": ".trustarc-client-logo { padding: 30px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-client-logo img",
+          "cssText": ".trustarc-client-logo img { object-fit: contain; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-consent-buttons",
+          "cssText": ".trustarc-consent-buttons { padding: 30px; max-width: 150px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-consent-buttons > div",
+          "cssText": ".trustarc-consent-buttons > div { max-width: 260px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-body-text, .trustarc-warning-text",
+          "cssText": ".trustarc-body-text, .trustarc-warning-text { font-size: 11px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-banner-body",
+          "cssText": ".trustarc-banner-body { max-width: 100%; width: 100%; font-size: 11px; line-height: 14px; padding-top: 16px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-secondary-btn, .trustarc-primary-btn, .trustarc-acceptall-btn, .trustarc-declineall-btn",
+          "cssText": ".trustarc-secondary-btn, .trustarc-primary-btn, .trustarc-acceptall-btn, .trustarc-declineall-btn { padding: unset; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-primary-btn:hover, .trustarc-secondary-btn:hover, .trustarc-acceptall-btn:hover, .trustarc-declineall-btn:hover",
+          "cssText": ".trustarc-primary-btn:hover, .trustarc-secondary-btn:hover, .trustarc-acceptall-btn:hover, .trustarc-declineall-btn:hover { opacity: 0.8; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-banner-details",
+          "cssText": ".trustarc-banner-details { -webkit-box-flex: 1; flex-grow: 1; width: 100%; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-info-show",
+          "cssText": ".trustarc-info-show { color: rgb(255, 255, 255); font-size: 16px; background-color: rgb(10, 123, 233); -webkit-box-pack: justify; justify-content: space-between; display: flex; transition: opacity 400ms; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-info-hide",
+          "cssText": ".trustarc-info-hide { opacity: 0; display: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-info-img",
+          "cssText": ".trustarc-info-img { align-self: center; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-banner-footer",
+          "cssText": ".trustarc-banner-footer { background-color: rgb(247, 247, 247); height: 40px; font-size: 10px; border: none; width: 100%; display: flex; -webkit-box-pack: justify; justify-content: space-between; bottom: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".banner-details-container",
+          "cssText": ".banner-details-container { margin: 30px 30px 10px; width: 100%; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-banner-right",
+          "cssText": ".trustarc-banner-right { place-self: center flex-end; padding-right: 20px; position: relative; display: flex; box-sizing: unset; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-banner-left",
+          "cssText": ".trustarc-banner-left { color: rgb(0, 97, 228); cursor: pointer; align-self: center; margin-left: 20px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-banner-logo",
+          "cssText": ".trustarc-banner-logo { height: 136px; max-width: 136px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-btn-disabled",
+          "cssText": ".trustarc-btn-disabled { opacity: 0.6; cursor: default; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-btn-disabled:hover",
+          "cssText": ".trustarc-btn-disabled:hover { opacity: 0.6; cursor: default; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-banner-header",
+          "cssText": ".trustarc-banner-header { font-size: 18px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-banner-header span",
+          "cssText": ".trustarc-banner-header span { font-family: Proxima_Nova_Bold, sans-serif; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-agree-btn, .trustarc-declineall-btn, .trustarc-manage-btn",
+          "cssText": ".trustarc-agree-btn, .trustarc-declineall-btn, .trustarc-manage-btn { margin-top: 10px; min-height: 32px; width: 136px; font-size: 12px; border: 1px solid rgb(255, 255, 255); padding: 0px; background-color: transparent; border-radius: 2px; cursor: pointer; color: rgb(255, 255, 255); font-family: Proxima_Nova_Regular; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".partners-container",
+          "cssText": ".partners-container { padding-left: 24px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".iab-link",
+          "cssText": ".iab-link { color: rgb(255, 255, 255); text-decoration: underline; cursor: pointer; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media only screen and (min-width: 640px) and (max-width: 1024px) {\n  .trustarc-agree-btn, .trustarc-declineall-btn, .trustarc-manage-btn { width: 114px; }\n  .trustarc-banner-header { color: rgb(255, 255, 255); font-size: 14px; }\n}",
+          "urls": [],
+          "group": "only screen and (min-width: 640px) and (max-width: 1024px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "only screen and (min-width: 640px) and (max-width: 1024px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "640px",
+                "max-width",
+                "1024px",
+                "640",
+                "1024",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-agree-btn, .trustarc-declineall-btn, .trustarc-manage-btn",
+          "cssText": ".trustarc-agree-btn, .trustarc-declineall-btn, .trustarc-manage-btn { width: 114px; }",
+          "urls": [],
+          "group": "only screen and (min-width: 640px) and (max-width: 1024px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "only screen and (min-width: 640px) and (max-width: 1024px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "640px",
+                "max-width",
+                "1024px",
+                "640",
+                "1024",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-banner-header",
+          "cssText": ".trustarc-banner-header { color: rgb(255, 255, 255); font-size: 14px; }",
+          "urls": [],
+          "group": "only screen and (min-width: 640px) and (max-width: 1024px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "only screen and (min-width: 640px) and (max-width: 1024px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "640px",
+                "max-width",
+                "1024px",
+                "640",
+                "1024",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media only screen and (min-width: 1px) and (max-width: 768px) {\n  .trustarc-banner-logo { height: 64px; width: 64px; }\n  .trustarc-manage-btn, .trustarc-agree-btn, .trustarc-declineall-btn { font-size: 12px; }\n  .trustarc-client-logo { padding: 16px 10px; }\n}",
+          "urls": [],
+          "group": "only screen and (min-width: 1px) and (max-width: 768px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "only screen and (min-width: 1px) and (max-width: 768px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1px",
+                "max-width",
+                "768px",
+                "1",
+                "768",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-banner-logo",
+          "cssText": ".trustarc-banner-logo { height: 64px; width: 64px; }",
+          "urls": [],
+          "group": "only screen and (min-width: 1px) and (max-width: 768px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "only screen and (min-width: 1px) and (max-width: 768px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1px",
+                "max-width",
+                "768px",
+                "1",
+                "768",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-manage-btn, .trustarc-agree-btn, .trustarc-declineall-btn",
+          "cssText": ".trustarc-manage-btn, .trustarc-agree-btn, .trustarc-declineall-btn { font-size: 12px; }",
+          "urls": [],
+          "group": "only screen and (min-width: 1px) and (max-width: 768px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "only screen and (min-width: 1px) and (max-width: 768px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1px",
+                "max-width",
+                "768px",
+                "1",
+                "768",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-client-logo",
+          "cssText": ".trustarc-client-logo { padding: 16px 10px; }",
+          "urls": [],
+          "group": "only screen and (min-width: 1px) and (max-width: 768px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "only screen and (min-width: 1px) and (max-width: 768px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1px",
+                "max-width",
+                "768px",
+                "1",
+                "768",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media only screen and (min-width: 1px) and (max-width: 640px) {\n  .trustarc-banner-container { -webkit-box-orient: vertical; -webkit-box-direction: normal; flex-direction: column; display: flex; }\n  .trustarc-banner-header { padding-top: 0px !important; }\n  .trustarc-banner-content { flex-wrap: wrap; }\n  .trustarc-banner-details { padding: 5px; max-width: 512px; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; flex-direction: row; }\n  .trustarc-consent-buttons { max-width: 100%; padding: 8px 10px; text-align: center; min-height: 38px; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: reverse; flex-direction: row-reverse; margin: 0px 5px; }\n  .trustarc-manage-btn, .trustarc-agree-btn, .trustarc-declineall-btn { font-size: 12px; margin: 5px; width: 100%; }\n  .banner-details-container { display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; flex-direction: row; width: auto; }\n  .description-group { display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; flex-direction: column; }\n  .trustarc-banner-body { padding-top: 0px; }\n  .trustarc-banner-header { color: rgb(255, 255, 255); padding-top: 16px; padding-bottom: 8px; font-size: 14px; }\n}",
+          "urls": [],
+          "group": "only screen and (min-width: 1px) and (max-width: 640px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "only screen and (min-width: 1px) and (max-width: 640px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1px",
+                "max-width",
+                "640px",
+                "1",
+                "640",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-banner-container",
+          "cssText": ".trustarc-banner-container { -webkit-box-orient: vertical; -webkit-box-direction: normal; flex-direction: column; display: flex; }",
+          "urls": [],
+          "group": "only screen and (min-width: 1px) and (max-width: 640px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "only screen and (min-width: 1px) and (max-width: 640px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1px",
+                "max-width",
+                "640px",
+                "1",
+                "640",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-banner-header",
+          "cssText": ".trustarc-banner-header { padding-top: 0px !important; }",
+          "urls": [],
+          "group": "only screen and (min-width: 1px) and (max-width: 640px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "only screen and (min-width: 1px) and (max-width: 640px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1px",
+                "max-width",
+                "640px",
+                "1",
+                "640",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-banner-content",
+          "cssText": ".trustarc-banner-content { flex-wrap: wrap; }",
+          "urls": [],
+          "group": "only screen and (min-width: 1px) and (max-width: 640px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "only screen and (min-width: 1px) and (max-width: 640px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1px",
+                "max-width",
+                "640px",
+                "1",
+                "640",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-banner-details",
+          "cssText": ".trustarc-banner-details { padding: 5px; max-width: 512px; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; flex-direction: row; }",
+          "urls": [],
+          "group": "only screen and (min-width: 1px) and (max-width: 640px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "only screen and (min-width: 1px) and (max-width: 640px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1px",
+                "max-width",
+                "640px",
+                "1",
+                "640",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-consent-buttons",
+          "cssText": ".trustarc-consent-buttons { max-width: 100%; padding: 8px 10px; text-align: center; min-height: 38px; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: reverse; flex-direction: row-reverse; margin: 0px 5px; }",
+          "urls": [],
+          "group": "only screen and (min-width: 1px) and (max-width: 640px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "only screen and (min-width: 1px) and (max-width: 640px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1px",
+                "max-width",
+                "640px",
+                "1",
+                "640",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-manage-btn, .trustarc-agree-btn, .trustarc-declineall-btn",
+          "cssText": ".trustarc-manage-btn, .trustarc-agree-btn, .trustarc-declineall-btn { font-size: 12px; margin: 5px; width: 100%; }",
+          "urls": [],
+          "group": "only screen and (min-width: 1px) and (max-width: 640px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "only screen and (min-width: 1px) and (max-width: 640px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1px",
+                "max-width",
+                "640px",
+                "1",
+                "640",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".banner-details-container",
+          "cssText": ".banner-details-container { display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; flex-direction: row; width: auto; }",
+          "urls": [],
+          "group": "only screen and (min-width: 1px) and (max-width: 640px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "only screen and (min-width: 1px) and (max-width: 640px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1px",
+                "max-width",
+                "640px",
+                "1",
+                "640",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".description-group",
+          "cssText": ".description-group { display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; flex-direction: column; }",
+          "urls": [],
+          "group": "only screen and (min-width: 1px) and (max-width: 640px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "only screen and (min-width: 1px) and (max-width: 640px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1px",
+                "max-width",
+                "640px",
+                "1",
+                "640",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-banner-body",
+          "cssText": ".trustarc-banner-body { padding-top: 0px; }",
+          "urls": [],
+          "group": "only screen and (min-width: 1px) and (max-width: 640px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "only screen and (min-width: 1px) and (max-width: 640px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1px",
+                "max-width",
+                "640px",
+                "1",
+                "640",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-banner-header",
+          "cssText": ".trustarc-banner-header { color: rgb(255, 255, 255); padding-top: 16px; padding-bottom: 8px; font-size: 14px; }",
+          "urls": [],
+          "group": "only screen and (min-width: 1px) and (max-width: 640px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "only screen and (min-width: 1px) and (max-width: 640px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1px",
+                "max-width",
+                "640px",
+                "1",
+                "640",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media only screen and (min-width: 1px) and (max-width: 425px) {\n  .trustarc-consent-buttons { max-width: 100%; padding: 8px 10px; text-align: center; min-height: 38px; display: flex; margin: 0px 5px; }\n  .banner-details-container { margin: 10px 10px 0px; }\n}",
+          "urls": [],
+          "group": "only screen and (min-width: 1px) and (max-width: 425px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "only screen and (min-width: 1px) and (max-width: 425px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1px",
+                "max-width",
+                "425px",
+                "1",
+                "425",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-consent-buttons",
+          "cssText": ".trustarc-consent-buttons { max-width: 100%; padding: 8px 10px; text-align: center; min-height: 38px; display: flex; margin: 0px 5px; }",
+          "urls": [],
+          "group": "only screen and (min-width: 1px) and (max-width: 425px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "only screen and (min-width: 1px) and (max-width: 425px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1px",
+                "max-width",
+                "425px",
+                "1",
+                "425",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".banner-details-container",
+          "cssText": ".banner-details-container { margin: 10px 10px 0px; }",
+          "urls": [],
+          "group": "only screen and (min-width: 1px) and (max-width: 425px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "only screen and (min-width: 1px) and (max-width: 425px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1px",
+                "max-width",
+                "425px",
+                "1",
+                "425",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media only screen and (min-width: 1px) and (max-width: 320px) {\n  .trustarc-consent-buttons { max-width: 100%; padding: 8px 10px; text-align: center; min-height: 38px; flex-wrap: wrap; display: flex; margin: 0px 5px; }\n  .trustarc-manage-btn, .trustarc-agree-btn, .trustarc-declineall-btn { -webkit-box-flex: 1; flex: 1 0 40%; }\n}",
+          "urls": [],
+          "group": "only screen and (min-width: 1px) and (max-width: 320px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "only screen and (min-width: 1px) and (max-width: 320px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1px",
+                "max-width",
+                "320px",
+                "1",
+                "320",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-consent-buttons",
+          "cssText": ".trustarc-consent-buttons { max-width: 100%; padding: 8px 10px; text-align: center; min-height: 38px; flex-wrap: wrap; display: flex; margin: 0px 5px; }",
+          "urls": [],
+          "group": "only screen and (min-width: 1px) and (max-width: 320px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "only screen and (min-width: 1px) and (max-width: 320px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1px",
+                "max-width",
+                "320px",
+                "1",
+                "320",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".trustarc-manage-btn, .trustarc-agree-btn, .trustarc-declineall-btn",
+          "cssText": ".trustarc-manage-btn, .trustarc-agree-btn, .trustarc-declineall-btn { -webkit-box-flex: 1; flex: 1 0 40%; }",
+          "urls": [],
+          "group": "only screen and (min-width: 1px) and (max-width: 320px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "only screen and (min-width: 1px) and (max-width: 320px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1px",
+                "max-width",
+                "320px",
+                "1",
+                "320",
+                "width"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "inaccessible": [
+    "https://combo.staticflickr.com/66a031f9fc343c5e42d965ca/css/the-revenge-of-flickr-2345678e483294783.shared.ede5eb974.css",
+    "https://fonts.googleapis.com/css?family=Ubuntu:300,300italic,400,400italic,500,500italic,700,700italic",
+    "https://cdn.weglot.com/weglot.min.css?v=11"
+  ],
+  "styleTags": 14,
+  "inlineStyleCount": 41,
+  "associations": [],
+  "summary": {
+    "sheetsAccessible": 14,
+    "sheetsInaccessible": 3,
+    "totalRulesScanned": 173,
+    "totalSinks": 7,
+    "totalSources": 15,
+    "totalAssociations": 0,
+    "totalCapped": false
+  },
+  "likelyFingerprinting": false,
+  "verdict": "likely not fingerprinting",
+  "claims": [],
+  "claimDetails": [],
+  "riskScore": 0,
+  "riskLevel": "none"
+}

@@ -1,0 +1,3273 @@
+{
+  "page": "https://bitly.com/",
+  "timestamp": 1761884818116,
+  "sheets": [
+    {
+      "href": "https://mkt-static.bitly.com/static/1761593096/pages/wp-content/cache/fvm/min/1761327395-cssc740199c1ed564d3382d78124a43efc6e91803f7569b4e32c25e4ad09ea9d.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://mkt-static.bitly.com/static/1761593096/pages/wp-content/cache/fvm/min/1761327395-css337e01d07b518e0011a27ab5fcd78659fd47d29e32e5a77b83e13628dc6c4.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 1,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": "img:is([off-sizes=\"auto\" i], [sizes^=\"auto,\" i])",
+          "cssText": "img:is([off-sizes=\"auto\" i], [sizes^=\"auto,\" i]) { contain-intrinsic-size: 3000px 1500px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 2,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".wp-block-button__link",
+          "cssText": ".wp-block-button__link { color: rgb(255, 255, 255); background-color: rgb(50, 55, 60); border-radius: 9999px; box-shadow: none; text-decoration: none; padding: calc(0.667em + 2px) calc(1.333em + 2px); font-size: 1.125em; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".wp-block-file__button",
+          "cssText": ".wp-block-file__button { background: rgb(50, 55, 60); color: rgb(255, 255, 255); text-decoration: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 3,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".safe-svg-cover",
+          "cssText": ".safe-svg-cover { text-align: center; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".safe-svg-cover .safe-svg-inside",
+          "cssText": ".safe-svg-cover .safe-svg-inside { display: inline-block; max-width: 100%; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".safe-svg-cover svg",
+          "cssText": ".safe-svg-cover svg { fill: currentcolor; height: 100%; max-height: 100%; max-width: 100%; width: 100%; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 8,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": "body.page-id-13057 .off-canvas-wrapper",
+          "cssText": "body.page-id-13057 .off-canvas-wrapper { opacity: 0; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "body.page-loaded.page-id-13057 .off-canvas-wrapper",
+          "cssText": "body.page-loaded.page-id-13057 .off-canvas-wrapper { opacity: 1; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".redesign-2024 section.pricing-tables.pricing-redesign .is-year .plan-column.core .plan-cta a",
+          "cssText": ".redesign-2024 section.pricing-tables.pricing-redesign .is-year .plan-column.core .plan-cta a { transition: all; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (min-width: 1024px) {\n  .redesign-2024 section.pricing-tables.pricing-redesign .is-year .plan-column.core .plan-cta { padding-bottom: 3px; }\n}",
+          "urls": [],
+          "group": "(min-width: 1024px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 1024px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1024px",
+                "1024",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".redesign-2024 section.pricing-tables.pricing-redesign .is-year .plan-column.core .plan-cta",
+          "cssText": ".redesign-2024 section.pricing-tables.pricing-redesign .is-year .plan-column.core .plan-cta { padding-bottom: 3px; }",
+          "urls": [],
+          "group": "(min-width: 1024px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 1024px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1024px",
+                "1024",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (max-width: 1023px) {\n  .pricing-tables.pricing-redesign .plan-column .plan-price .savings-text:empty { display: none; }\n}",
+          "urls": [],
+          "group": "(max-width: 1023px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 1023px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "1023px",
+                "1023",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".pricing-tables.pricing-redesign .plan-column .plan-price .savings-text:empty",
+          "cssText": ".pricing-tables.pricing-redesign .plan-column .plan-price .savings-text:empty { display: none; }",
+          "urls": [],
+          "group": "(max-width: 1023px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 1023px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "1023px",
+                "1023",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".opt-variation1 .call-out-ads",
+          "cssText": ".opt-variation1 .call-out-ads { visibility: hidden; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 19,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".free-hook-container",
+          "cssText": ".free-hook-container { display: none !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".f-revert .free-hook-container",
+          "cssText": ".f-revert .free-hook-container { display: none !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".f-revert section.free-hook-block",
+          "cssText": ".f-revert section.free-hook-block { display: block !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (min-width: 1100px) {\n  .page-home-redesign-2024-current .redesign-2024 section.free-hook-block { padding-bottom: 242.5px; }\n}",
+          "urls": [],
+          "group": "(min-width: 1100px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 1100px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1100px",
+                "1100",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".page-home-redesign-2024-current .redesign-2024 section.free-hook-block",
+          "cssText": ".page-home-redesign-2024-current .redesign-2024 section.free-hook-block { padding-bottom: 242.5px; }",
+          "urls": [],
+          "group": "(min-width: 1100px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 1100px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1100px",
+                "1100",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (max-width: 1023px) {\n  .page-home-redesign-2024-current .redesign-2024 section.free-hook-block { padding-bottom: 340px; }\n}",
+          "urls": [],
+          "group": "(max-width: 1023px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 1023px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "1023px",
+                "1023",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".page-home-redesign-2024-current .redesign-2024 section.free-hook-block",
+          "cssText": ".page-home-redesign-2024-current .redesign-2024 section.free-hook-block { padding-bottom: 340px; }",
+          "urls": [],
+          "group": "(max-width: 1023px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 1023px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "1023px",
+                "1023",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (max-width: 639px) {\n  .page-home-redesign-2024-current .redesign-2024 section.free-hook-block { padding-bottom: 340px; }\n}",
+          "urls": [],
+          "group": "(max-width: 639px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 639px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "639px",
+                "639",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".page-home-redesign-2024-current .redesign-2024 section.free-hook-block",
+          "cssText": ".page-home-redesign-2024-current .redesign-2024 section.free-hook-block { padding-bottom: 340px; }",
+          "urls": [],
+          "group": "(max-width: 639px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 639px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "639px",
+                "639",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (max-width: 767px) {\n  .page-home-redesign-2024-current .redesign-2024 section.free-hook-block.rounded-smooth .block-footer ul li { padding: 0px 0px 10px; }\n}",
+          "urls": [],
+          "group": "(max-width: 767px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 767px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "767px",
+                "767",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".page-home-redesign-2024-current .redesign-2024 section.free-hook-block.rounded-smooth .block-footer ul li",
+          "cssText": ".page-home-redesign-2024-current .redesign-2024 section.free-hook-block.rounded-smooth .block-footer ul li { padding: 0px 0px 10px; }",
+          "urls": [],
+          "group": "(max-width: 767px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 767px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "767px",
+                "767",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".free-hook-container",
+          "cssText": ".free-hook-container { margin-top: 83px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".free-hook-container:not(.product-hero)",
+          "cssText": ".free-hook-container:not(.product-hero) { position: relative; z-index: 1; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".free-hook-container.product-hero",
+          "cssText": ".free-hook-container.product-hero { padding: 37px 0px 8%; background-color: rgb(3, 31, 57); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".negative-margin-top",
+          "cssText": ".negative-margin-top { margin-top: -64px; position: relative; z-index: 1; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (max-width: 599px) {\n  .free-hook-container.product-hero { padding: 56px 0px 12%; }\n}",
+          "urls": [],
+          "group": "(max-width: 599px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 599px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "599px",
+                "599",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".free-hook-container.product-hero",
+          "cssText": ".free-hook-container.product-hero { padding: 56px 0px 12%; }",
+          "urls": [],
+          "group": "(max-width: 599px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 599px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "599px",
+                "599",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (min-width: 768px) {\n  .negative-margin-top { margin-top: -80px; }\n}",
+          "urls": [],
+          "group": "(min-width: 768px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 768px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "768px",
+                "768",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".negative-margin-top",
+          "cssText": ".negative-margin-top { margin-top: -80px; }",
+          "urls": [],
+          "group": "(min-width: 768px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 768px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "768px",
+                "768",
+                "width"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 15,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".mega-menu__container-inner",
+          "cssText": ".mega-menu__container-inner { width: 100dvw; height: 70dvh; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nav-wrap-mobile",
+          "cssText": ".nav-wrap-mobile { position: fixed; bottom: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".mega-menu__container-inner",
+          "cssText": ".mega-menu__container-inner { width: 100dvw; height: 70dvh; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media screen and (max-width: 1023px) {\n  .top-bar .top-bar-right .nav-wrap.open { height: 100dvh; }\n}",
+          "urls": [],
+          "group": "screen and (max-width: 1023px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "screen and (max-width: 1023px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "1023px",
+                "1023",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".top-bar .top-bar-right .nav-wrap.open",
+          "cssText": ".top-bar .top-bar-right .nav-wrap.open { height: 100dvh; }",
+          "urls": [],
+          "group": "screen and (max-width: 1023px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "screen and (max-width: 1023px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "1023px",
+                "1023",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media screen and (max-width: 767px) {\n  #sidemenu::after { bottom: calc(70px + -100dvh); }\n  #sidemenu .menu-item:nth-child(1), #sidemenu .menu-item:nth-child(2) { bottom: calc(160px + -100dvh); }\n  #sidemenu .menu-item:nth-child(2) { bottom: calc(106px + -100dvh); }\n}",
+          "urls": [],
+          "group": "screen and (max-width: 767px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "screen and (max-width: 767px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "767px",
+                "767",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#sidemenu::after",
+          "cssText": "#sidemenu::after { bottom: calc(70px + -100dvh); }",
+          "urls": [],
+          "group": "screen and (max-width: 767px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "screen and (max-width: 767px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "767px",
+                "767",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#sidemenu .menu-item:nth-child(1), #sidemenu .menu-item:nth-child(2)",
+          "cssText": "#sidemenu .menu-item:nth-child(1), #sidemenu .menu-item:nth-child(2) { bottom: calc(160px + -100dvh); }",
+          "urls": [],
+          "group": "screen and (max-width: 767px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "screen and (max-width: 767px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "767px",
+                "767",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#sidemenu .menu-item:nth-child(2)",
+          "cssText": "#sidemenu .menu-item:nth-child(2) { bottom: calc(106px + -100dvh); }",
+          "urls": [],
+          "group": "screen and (max-width: 767px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "screen and (max-width: 767px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "767px",
+                "767",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (max-width: 1023px) {\n  body .nav-lang-switcher { bottom: calc(85px + -100dvh); padding: 0px 15px; transform: translate(3px, 0px); }\n}",
+          "urls": [],
+          "group": "(max-width: 1023px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 1023px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "1023px",
+                "1023",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "body .nav-lang-switcher",
+          "cssText": "body .nav-lang-switcher { bottom: calc(85px + -100dvh); padding: 0px 15px; transform: translate(3px, 0px); }",
+          "urls": [],
+          "group": "(max-width: 1023px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 1023px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "1023px",
+                "1023",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (max-width: 767px) {\n  .nav-lang-switcher + #sidemenu .menu-item:nth-child(1), .nav-lang-switcher + #sidemenu .menu-item:nth-child(2) { bottom: calc(190px + -100dvh); }\n  .nav-lang-switcher + #sidemenu .menu-item:nth-child(2) { bottom: calc(140px + -100dvh); }\n  .nav-lang-switcher + #sidemenu::after { height: 170px; }\n}",
+          "urls": [],
+          "group": "(max-width: 767px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 767px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "767px",
+                "767",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nav-lang-switcher + #sidemenu .menu-item:nth-child(1), .nav-lang-switcher + #sidemenu .menu-item:nth-child(2)",
+          "cssText": ".nav-lang-switcher + #sidemenu .menu-item:nth-child(1), .nav-lang-switcher + #sidemenu .menu-item:nth-child(2) { bottom: calc(190px + -100dvh); }",
+          "urls": [],
+          "group": "(max-width: 767px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 767px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "767px",
+                "767",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nav-lang-switcher + #sidemenu .menu-item:nth-child(2)",
+          "cssText": ".nav-lang-switcher + #sidemenu .menu-item:nth-child(2) { bottom: calc(140px + -100dvh); }",
+          "urls": [],
+          "group": "(max-width: 767px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 767px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "767px",
+                "767",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nav-lang-switcher + #sidemenu::after",
+          "cssText": ".nav-lang-switcher + #sidemenu::after { height: 170px; }",
+          "urls": [],
+          "group": "(max-width: 767px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 767px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "767px",
+                "767",
+                "width"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 42,
+      "rulesList": [
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (max-height: 400px) {\n  #sidemenu { position: static !important; bottom: unset !important; z-index: 1 !important; }\n  #sidemenu > li { margin-bottom: 10px !important; }\n  .nav-lang-switcher + #sidemenu::after { display: none; }\n  .nav-lang-switcher + #sidemenu .menu-item:nth-child(2) { bottom: unset !important; }\n  .nav-lang-switcher { position: static !important; bottom: unset !important; z-index: 1 !important; }\n  .nav-lang-switcher + #sidemenu .menu-item:nth-child(1), .nav-lang-switcher + #sidemenu .menu-item:nth-child(2) { position: relative; bottom: unset !important; }\n  body.menu-open { overflow: visible !important; }\n  .mega-menu { overflow: scroll !important; }\n  .top-bar .top-bar-right .nav-wrap.open { height: auto !important; overflow: scroll !important; }\n}",
+          "urls": [],
+          "group": "(max-height: 400px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "height",
+              "semanticGroup": "geometry",
+              "claim": "viewport height",
+              "excerpt": "(max-height: 400px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-height",
+                "400px",
+                "400",
+                "height"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#sidemenu",
+          "cssText": "#sidemenu { position: static !important; bottom: unset !important; z-index: 1 !important; }",
+          "urls": [],
+          "group": "(max-height: 400px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "height",
+              "semanticGroup": "geometry",
+              "claim": "viewport height",
+              "excerpt": "(max-height: 400px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-height",
+                "400px",
+                "400",
+                "height"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#sidemenu > li",
+          "cssText": "#sidemenu > li { margin-bottom: 10px !important; }",
+          "urls": [],
+          "group": "(max-height: 400px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "height",
+              "semanticGroup": "geometry",
+              "claim": "viewport height",
+              "excerpt": "(max-height: 400px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-height",
+                "400px",
+                "400",
+                "height"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nav-lang-switcher + #sidemenu::after",
+          "cssText": ".nav-lang-switcher + #sidemenu::after { display: none; }",
+          "urls": [],
+          "group": "(max-height: 400px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "height",
+              "semanticGroup": "geometry",
+              "claim": "viewport height",
+              "excerpt": "(max-height: 400px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-height",
+                "400px",
+                "400",
+                "height"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nav-lang-switcher + #sidemenu .menu-item:nth-child(2)",
+          "cssText": ".nav-lang-switcher + #sidemenu .menu-item:nth-child(2) { bottom: unset !important; }",
+          "urls": [],
+          "group": "(max-height: 400px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "height",
+              "semanticGroup": "geometry",
+              "claim": "viewport height",
+              "excerpt": "(max-height: 400px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-height",
+                "400px",
+                "400",
+                "height"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nav-lang-switcher",
+          "cssText": ".nav-lang-switcher { position: static !important; bottom: unset !important; z-index: 1 !important; }",
+          "urls": [],
+          "group": "(max-height: 400px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "height",
+              "semanticGroup": "geometry",
+              "claim": "viewport height",
+              "excerpt": "(max-height: 400px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-height",
+                "400px",
+                "400",
+                "height"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".nav-lang-switcher + #sidemenu .menu-item:nth-child(1), .nav-lang-switcher + #sidemenu .menu-item:nth-child(2)",
+          "cssText": ".nav-lang-switcher + #sidemenu .menu-item:nth-child(1), .nav-lang-switcher + #sidemenu .menu-item:nth-child(2) { position: relative; bottom: unset !important; }",
+          "urls": [],
+          "group": "(max-height: 400px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "height",
+              "semanticGroup": "geometry",
+              "claim": "viewport height",
+              "excerpt": "(max-height: 400px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-height",
+                "400px",
+                "400",
+                "height"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "body.menu-open",
+          "cssText": "body.menu-open { overflow: visible !important; }",
+          "urls": [],
+          "group": "(max-height: 400px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "height",
+              "semanticGroup": "geometry",
+              "claim": "viewport height",
+              "excerpt": "(max-height: 400px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-height",
+                "400px",
+                "400",
+                "height"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".mega-menu",
+          "cssText": ".mega-menu { overflow: scroll !important; }",
+          "urls": [],
+          "group": "(max-height: 400px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "height",
+              "semanticGroup": "geometry",
+              "claim": "viewport height",
+              "excerpt": "(max-height: 400px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-height",
+                "400px",
+                "400",
+                "height"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".top-bar .top-bar-right .nav-wrap.open",
+          "cssText": ".top-bar .top-bar-right .nav-wrap.open { height: auto !important; overflow: scroll !important; }",
+          "urls": [],
+          "group": "(max-height: 400px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "height",
+              "semanticGroup": "geometry",
+              "claim": "viewport height",
+              "excerpt": "(max-height: 400px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-height",
+                "400px",
+                "400",
+                "height"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "body .button-light:focus, body .button-secondary:focus, body .button-primary:focus, body.page .fsBody .fsForm .fsSubmit .fsSubmitButton:focus",
+          "cssText": "body .button-light:focus, body .button-secondary:focus, body .button-primary:focus, body.page .fsBody .fsForm .fsSubmit .fsSubmitButton:focus { outline: rgb(0, 88, 221) solid 2px !important; outline-offset: 2px !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".home .announcements",
+          "cssText": ".home .announcements { display: block; padding: 10px 15px; background-color: rgb(206, 218, 250); height: 42px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (max-width: 1023px) {\n  .home .announcements { height: auto; }\n}",
+          "urls": [],
+          "group": "(max-width: 1023px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 1023px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "1023px",
+                "1023",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".home .announcements",
+          "cssText": ".home .announcements { height: auto; }",
+          "urls": [],
+          "group": "(max-width: 1023px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 1023px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "1023px",
+                "1023",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "body .off-canvas-wrapper",
+          "cssText": "body .off-canvas-wrapper { opacity: 1 !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "body #pricing",
+          "cssText": "body #pricing { opacity: 1; transition-delay: 0ms; transition-duration: 0ms; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "body.page-id-10589",
+          "cssText": "body.page-id-10589 { opacity: 0; transition: 500ms; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "body.page-id-10589.page-loaded",
+          "cssText": "body.page-id-10589.page-loaded { opacity: 1; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "body #onetrust-consent-sdk, body .uwy",
+          "cssText": "body #onetrust-consent-sdk, body .uwy { display: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "body.page-loaded #onetrust-consent-sdk, body.page-loaded .uwy",
+          "cssText": "body.page-loaded #onetrust-consent-sdk, body.page-loaded .uwy { display: block; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (max-width: 639px) {\n  .off body #onetrust-banner-sdk { top: 85%; }\n  body #onetrust-banner-sdk h2#onetrust-policy-title { font-size: 16px; }\n  body #onetrust-banner-sdk #onetrust-policy-text { font-size: 14px; line-height: 1.25; }\n}",
+          "urls": [],
+          "group": "(max-width: 639px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 639px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "639px",
+                "639",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".off body #onetrust-banner-sdk",
+          "cssText": ".off body #onetrust-banner-sdk { top: 85%; }",
+          "urls": [],
+          "group": "(max-width: 639px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 639px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "639px",
+                "639",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "body #onetrust-banner-sdk h2#onetrust-policy-title",
+          "cssText": "body #onetrust-banner-sdk h2#onetrust-policy-title { font-size: 16px; }",
+          "urls": [],
+          "group": "(max-width: 639px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 639px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "639px",
+                "639",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "body #onetrust-banner-sdk #onetrust-policy-text",
+          "cssText": "body #onetrust-banner-sdk #onetrust-policy-text { font-size: 14px; line-height: 1.25; }",
+          "urls": [],
+          "group": "(max-width: 639px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 639px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "639px",
+                "639",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (min-width: 1024px) {\n  .home header:not(.is-stuck) .top-bar .top-bar-right > a { color: rgb(255, 253, 248) !important; }\n  .home header:not(.is-stuck) #sidemenu.menu .menu-item a { color: rgb(255, 253, 248); border-radius: 8px; }\n}",
+          "urls": [],
+          "group": "(min-width: 1024px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 1024px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1024px",
+                "1024",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".home header:not(.is-stuck) .top-bar .top-bar-right > a",
+          "cssText": ".home header:not(.is-stuck) .top-bar .top-bar-right > a { color: rgb(255, 253, 248) !important; }",
+          "urls": [],
+          "group": "(min-width: 1024px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 1024px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1024px",
+                "1024",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".home header:not(.is-stuck) #sidemenu.menu .menu-item a",
+          "cssText": ".home header:not(.is-stuck) #sidemenu.menu .menu-item a { color: rgb(255, 253, 248); border-radius: 8px; }",
+          "urls": [],
+          "group": "(min-width: 1024px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 1024px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1024px",
+                "1024",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "body .header .top-bar-right",
+          "cssText": "body .header .top-bar-right { opacity: 1 !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "body.page-loaded .header .top-bar-right",
+          "cssText": "body.page-loaded .header .top-bar-right { opacity: 1 !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "body .top-bar .top-bar-right .nav-wrap",
+          "cssText": "body .top-bar .top-bar-right .nav-wrap { opacity: 1 !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (max-width: 1023px) {\n  * { transition: none !important; }\n}",
+          "urls": [],
+          "group": "(max-width: 1023px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 1023px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "1023px",
+                "1023",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "*",
+          "cssText": "* { transition: none !important; }",
+          "urls": [],
+          "group": "(max-width: 1023px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 1023px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "1023px",
+                "1023",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".page-id-13057 .pricing-tables.pricing-redesign .plan-column:not(.growth) .plan-name, .page-id-13057 .free-plan-box.enterprise-redesign h3.card-plan-name",
+          "cssText": ".page-id-13057 .pricing-tables.pricing-redesign .plan-column:not(.growth) .plan-name, .page-id-13057 .free-plan-box.enterprise-redesign h3.card-plan-name { background-color: rgb(3, 31, 57); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".pricing-tables.pricing-redesign .is-year .plan-column.core .plan-name",
+          "cssText": ".pricing-tables.pricing-redesign .is-year .plan-column.core .plan-name { background-color: rgb(214, 210, 201); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".plan-names td[data-plan^=\"–\"], .row-cta td[data-plan^=\"–\"]",
+          "cssText": ".plan-names td[data-plan^=\"–\"], .row-cta td[data-plan^=\"–\"] { visibility: hidden; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "section.comparison-tables table tr > td span.tip",
+          "cssText": "section.comparison-tables table tr > td span.tip { display: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "section.comparison-tables table tr > td img.fi-info:hover + span.tip",
+          "cssText": "section.comparison-tables table tr > td img.fi-info:hover + span.tip { display: inline-block; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".redesign-2024 section.pricing-tables.pricing-redesign .plan-toggle .switch .yearly, .redesign-2024 section.pricing-tables.pricing-redesign .plan-toggle .switch b:first-child, .redesign-2024 section.pricing-redesign .plan-toggle .switch .yearly, .redesign-2024 section.pricing-redesign .plan-toggle .switch b:first-child, .custom-redesign-2024 section.pricing-tables.pricing-redesign .plan-toggle .switch .yearly, .custom-redesign-2024 section.pricing-tables.pricing-redesign .plan-toggle .switch b:first-child, .custom-redesign-2024 section.pricing-redesign .plan-toggle .switch .yearly, .custom-redesign-2024 section.pricing-redesign .plan-toggle .switch b:first-child",
+          "cssText": ".redesign-2024 section.pricing-tables.pricing-redesign .plan-toggle .switch .yearly, .redesign-2024 section.pricing-tables.pricing-redesign .plan-toggle .switch b:first-child, .redesign-2024 section.pricing-redesign .plan-toggle .switch .yearly, .redesign-2024 section.pricing-redesign .plan-toggle .switch b:first-child, .custom-redesign-2024 section.pricing-tables.pricing-redesign .plan-toggle .switch .yearly, .custom-redesign-2024 section.pricing-tables.pricing-redesign .plan-toggle .switch b:first-child, .custom-redesign-2024 section.pricing-redesign .plan-toggle .switch .yearly, .custom-redesign-2024 section.pricing-redesign .plan-toggle .switch b:first-child { color: rgb(0, 0, 0); filter: invert(1); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".redesign-2024 section.pricing-tables.pricing-redesign .plan-toggle .switch.is-year-top .monthly, .redesign-2024 section.pricing-redesign .plan-toggle .switch.is-year-top .monthly, .custom-redesign-2024 section.pricing-tables.pricing-redesign .plan-toggle .switch.is-year-top .monthly, .custom-redesign-2024 section.pricing-redesign .plan-toggle .switch.is-year-top .monthly",
+          "cssText": ".redesign-2024 section.pricing-tables.pricing-redesign .plan-toggle .switch.is-year-top .monthly, .redesign-2024 section.pricing-redesign .plan-toggle .switch.is-year-top .monthly, .custom-redesign-2024 section.pricing-tables.pricing-redesign .plan-toggle .switch.is-year-top .monthly, .custom-redesign-2024 section.pricing-redesign .plan-toggle .switch.is-year-top .monthly { color: rgb(0, 0, 0); filter: invert(1); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".redesign-2024 section.pricing-tables.pricing-redesign .plan-toggle .switch.is-year-top .yearly, .redesign-2024 section.pricing-redesign .plan-toggle .switch.is-year-top .yearly, .custom-redesign-2024 section.pricing-tables.pricing-redesign .plan-toggle .switch.is-year-top .yearly, .custom-redesign-2024 section.pricing-redesign .plan-toggle .switch.is-year-top .yearly",
+          "cssText": ".redesign-2024 section.pricing-tables.pricing-redesign .plan-toggle .switch.is-year-top .yearly, .redesign-2024 section.pricing-redesign .plan-toggle .switch.is-year-top .yearly, .custom-redesign-2024 section.pricing-tables.pricing-redesign .plan-toggle .switch.is-year-top .yearly, .custom-redesign-2024 section.pricing-redesign .plan-toggle .switch.is-year-top .yearly { filter: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".redesign-2024 section.pricing-tables.pricing-redesign .plan-toggle .switch .monthly, .redesign-2024 section.pricing-tables.pricing-redesign .plan-toggle .switch b:last-child, .redesign-2024 section.pricing-redesign .plan-toggle .switch .monthly, .redesign-2024 section.pricing-redesign .plan-toggle .switch b:last-child, .custom-redesign-2024 section.pricing-tables.pricing-redesign .plan-toggle .switch .monthly, .custom-redesign-2024 section.pricing-tables.pricing-redesign .plan-toggle .switch b:last-child, .custom-redesign-2024 section.pricing-redesign .plan-toggle .switch .monthly, .custom-redesign-2024 section.pricing-redesign .plan-toggle .switch b:last-child",
+          "cssText": ".redesign-2024 section.pricing-tables.pricing-redesign .plan-toggle .switch .monthly, .redesign-2024 section.pricing-tables.pricing-redesign .plan-toggle .switch b:last-child, .redesign-2024 section.pricing-redesign .plan-toggle .switch .monthly, .redesign-2024 section.pricing-redesign .plan-toggle .switch b:last-child, .custom-redesign-2024 section.pricing-tables.pricing-redesign .plan-toggle .switch .monthly, .custom-redesign-2024 section.pricing-tables.pricing-redesign .plan-toggle .switch b:last-child, .custom-redesign-2024 section.pricing-redesign .plan-toggle .switch .monthly, .custom-redesign-2024 section.pricing-redesign .plan-toggle .switch b:last-child { filter: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".switch-paddle .show-for-sr",
+          "cssText": ".switch-paddle .show-for-sr { visibility: hidden; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 20,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": "footer.footer-redesign .footer-divider",
+          "cssText": "footer.footer-redesign .footer-divider { background-color: rgb(36, 66, 93); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "footer.footer-redesign",
+          "cssText": "footer.footer-redesign { padding-bottom: 100px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (max-width: 1400px) {\n  footer.footer-redesign { padding-bottom: 150px; }\n}",
+          "urls": [],
+          "group": "(max-width: 1400px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 1400px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "1400px",
+                "1400",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "footer.footer-redesign",
+          "cssText": "footer.footer-redesign { padding-bottom: 150px; }",
+          "urls": [],
+          "group": "(max-width: 1400px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 1400px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "1400px",
+                "1400",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (max-width: 1131px) {\n  footer.footer-redesign { padding-bottom: 220px; }\n}",
+          "urls": [],
+          "group": "(max-width: 1131px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 1131px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "1131px",
+                "1131",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "footer.footer-redesign",
+          "cssText": "footer.footer-redesign { padding-bottom: 220px; }",
+          "urls": [],
+          "group": "(max-width: 1131px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 1131px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "1131px",
+                "1131",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".redesign-2024 section.accordion-block.v2.redesign .accordion-title > div",
+          "cssText": ".redesign-2024 section.accordion-block.v2.redesign .accordion-title > div { max-width: 780px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "section.accordion-block.v2 .accordion-title",
+          "cssText": "section.accordion-block.v2 .accordion-title { display: flex; align-items: baseline; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (min-width: 1024px) {\n  [lang=\"en-US\"] .pricing-tables.pricing-redesign.five-plans-landing .is-year .plan-column.core .plan-description.specs > p { margin-top: -3px; }\n}",
+          "urls": [],
+          "group": "(min-width: 1024px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 1024px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1024px",
+                "1024",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "[lang=\"en-US\"] .pricing-tables.pricing-redesign.five-plans-landing .is-year .plan-column.core .plan-description.specs > p",
+          "cssText": "[lang=\"en-US\"] .pricing-tables.pricing-redesign.five-plans-landing .is-year .plan-column.core .plan-description.specs > p { margin-top: -3px; }",
+          "urls": [],
+          "group": "(min-width: 1024px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 1024px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1024px",
+                "1024",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".pricing-tables.pricing-redesign.five-plans-landing .is-year .plan-column.core .plan-name",
+          "cssText": ".pricing-tables.pricing-redesign.five-plans-landing .is-year .plan-column.core .plan-name { background-color: transparent; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (min-width: 599px) {\n  .redesign-2024 .block-of-cards-redesign-2 .cell .card .card-section .inner-wrap .card-title, .custom-redesign-2024 .block-of-cards-redesign-2 .cell .card .card-section .inner-wrap .card-title { font-size: 63px; line-height: 63px; }\n}",
+          "urls": [],
+          "group": "(min-width: 599px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 599px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "599px",
+                "599",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".redesign-2024 .block-of-cards-redesign-2 .cell .card .card-section .inner-wrap .card-title, .custom-redesign-2024 .block-of-cards-redesign-2 .cell .card .card-section .inner-wrap .card-title",
+          "cssText": ".redesign-2024 .block-of-cards-redesign-2 .cell .card .card-section .inner-wrap .card-title, .custom-redesign-2024 .block-of-cards-redesign-2 .cell .card .card-section .inner-wrap .card-title { font-size: 63px; line-height: 63px; }",
+          "urls": [],
+          "group": "(min-width: 599px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 599px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "599px",
+                "599",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (min-width: 1100px) {\n  .redesign-2024 .block-of-cards-redesign-2 .cell .card .card-section .inner-wrap .card-title, .custom-redesign-2024 .block-of-cards-redesign-2 .cell .card .card-section .inner-wrap .card-title { font-size: 70px; line-height: 70px; }\n}",
+          "urls": [],
+          "group": "(min-width: 1100px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 1100px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1100px",
+                "1100",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".redesign-2024 .block-of-cards-redesign-2 .cell .card .card-section .inner-wrap .card-title, .custom-redesign-2024 .block-of-cards-redesign-2 .cell .card .card-section .inner-wrap .card-title",
+          "cssText": ".redesign-2024 .block-of-cards-redesign-2 .cell .card .card-section .inner-wrap .card-title, .custom-redesign-2024 .block-of-cards-redesign-2 .cell .card .card-section .inner-wrap .card-title { font-size: 70px; line-height: 70px; }",
+          "urls": [],
+          "group": "(min-width: 1100px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 1100px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1100px",
+                "1100",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (min-width: 600px) {\n  .redesign-2024 .block-of-cards-redesign-2 .cell .card .card-section .inner-wrap .card-description, .custom-redesign-2024 .block-of-cards-redesign-2 .cell .card .card-section .inner-wrap .card-description { font-size: 22px; line-height: 1.25; }\n}",
+          "urls": [],
+          "group": "(min-width: 600px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 600px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "600px",
+                "600",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".redesign-2024 .block-of-cards-redesign-2 .cell .card .card-section .inner-wrap .card-description, .custom-redesign-2024 .block-of-cards-redesign-2 .cell .card .card-section .inner-wrap .card-description",
+          "cssText": ".redesign-2024 .block-of-cards-redesign-2 .cell .card .card-section .inner-wrap .card-description, .custom-redesign-2024 .block-of-cards-redesign-2 .cell .card .card-section .inner-wrap .card-description { font-size: 22px; line-height: 1.25; }",
+          "urls": [],
+          "group": "(min-width: 600px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 600px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "600px",
+                "600",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".press-img a",
+          "cssText": ".press-img a { display: block; aspect-ratio: 1024 / 537; overflow: hidden; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (max-width: 1023px) {\n  section.resources.press-releases .press-list .press-img a { aspect-ratio: unset; margin-top: 40px; }\n}",
+          "urls": [],
+          "group": "(max-width: 1023px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 1023px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "1023px",
+                "1023",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "section.resources.press-releases .press-list .press-img a",
+          "cssText": "section.resources.press-releases .press-list .press-img a { aspect-ratio: unset; margin-top: 40px; }",
+          "urls": [],
+          "group": "(max-width: 1023px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 1023px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "1023px",
+                "1023",
+                "width"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 1,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".bottom-cta",
+          "cssText": ".bottom-cta { display: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 1,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".sticky-container",
+          "cssText": ".sticky-container { height: 0px !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "https://cdn.userway.org/styles/2025-10-28-13-04-58/widget_base.css?v=1761656698068",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 5,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".redesign-2024 section.free-hook-block input[type=\"one-time-code\"]",
+          "cssText": ".redesign-2024 section.free-hook-block input[type=\"one-time-code\"] { background-color: transparent; font-family: \"Bitly Display\"; color: rgb(3, 31, 57); border: 1px solid rgb(211, 212, 215); border-radius: 8px; padding: 16px 20px; font-size: 20px; line-height: 24px; height: auto; margin-top: 8px; margin-bottom: 0px; box-shadow: none; width: 100%; transition: box-shadow 0.5s, border-color 0.25s ease-in-out, -webkit-box-shadow 0.5s; outline: none !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".redesign-2024 section.free-hook-block input[type=\"one-time-code\"]:hover",
+          "cssText": ".redesign-2024 section.free-hook-block input[type=\"one-time-code\"]:hover { background-color: rgb(247, 244, 238); border-color: rgb(108, 105, 101); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".redesign-2024 section.free-hook-block input[type=\"one-time-code\"]:focus",
+          "cssText": ".redesign-2024 section.free-hook-block input[type=\"one-time-code\"]:focus { background-color: rgb(255, 253, 248); box-shadow: rgb(0, 88, 221) 0px 0px 0px 2px inset; border-color: rgb(0, 88, 221) !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".page-redesign .redesign-2024 section.free-hook-block",
+          "cssText": ".page-redesign .redesign-2024 section.free-hook-block { background-image: url(\"https://mkt-static.bitly.com/static/1761593096/pages/wp-content/themes/JointsWP-CSS-master/assets/images/stars.svg\"); background-position: center top; background-repeat: no-repeat; background-size: contain; }",
+          "urls": [
+            "https://mkt-static.bitly.com/static/1761593096/pages/wp-content/themes/jointswp-css-master/assets/images/stars.svg"
+          ],
+          "group": "",
+          "sources": [],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "https://mkt-static.bitly.com/static/1761593096/pages/wp-content/themes/jointswp-css-master/assets/images/stars.svg"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".page-redesign .redesign-2024 section.free-hook-block .block-intro",
+          "cssText": ".page-redesign .redesign-2024 section.free-hook-block .block-intro { background-image: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 2,
+      "rulesList": [
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (max-height: 515px) {\n  .pcta, .pcta.pcta-loaded { display: none !important; }\n}",
+          "urls": [],
+          "group": "(max-height: 515px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "height",
+              "semanticGroup": "geometry",
+              "claim": "viewport height",
+              "excerpt": "(max-height: 515px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-height",
+                "515px",
+                "515",
+                "height"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".pcta, .pcta.pcta-loaded",
+          "cssText": ".pcta, .pcta.pcta-loaded { display: none !important; }",
+          "urls": [],
+          "group": "(max-height: 515px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "height",
+              "semanticGroup": "geometry",
+              "claim": "viewport height",
+              "excerpt": "(max-height: 515px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-height",
+                "515px",
+                "515",
+                "height"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 2,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": "body.home .pctacontent",
+          "cssText": "body.home .pctacontent { opacity: 0; transition: 0.3s; pointer-events: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "body.home.is-hooked .pctacontent",
+          "cssText": "body.home.is-hooked .pctacontent { opacity: 1; pointer-events: auto; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 35,
+      "rulesList": [
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (hover: hover) {\n  body.modal-open .off-canvas-wrapper { filter: blur(6px); }\n}",
+          "urls": [],
+          "group": "(hover: hover)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "hover",
+              "semanticGroup": "input capability",
+              "claim": "hover capability",
+              "excerpt": "(hover: hover)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "hover"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "body.modal-open .off-canvas-wrapper",
+          "cssText": "body.modal-open .off-canvas-wrapper { filter: blur(6px); }",
+          "urls": [],
+          "group": "(hover: hover)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "hover",
+              "semanticGroup": "input capability",
+              "claim": "hover capability",
+              "excerpt": "(hover: hover)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "hover"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (hover: none) {\n  .modal-window__content, .modal-window { display: none !important; opacity: 0 !important; pointer-events: none !important; }\n  [inert] { interactivity: auto !important; }\n  body .off-canvas-wrapper { filter: none !important; }\n}",
+          "urls": [],
+          "group": "(hover: none)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "hover",
+              "semanticGroup": "input capability",
+              "claim": "hover capability",
+              "excerpt": "(hover: none)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "hover",
+                "none"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".modal-window__content, .modal-window",
+          "cssText": ".modal-window__content, .modal-window { display: none !important; opacity: 0 !important; pointer-events: none !important; }",
+          "urls": [],
+          "group": "(hover: none)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "hover",
+              "semanticGroup": "input capability",
+              "claim": "hover capability",
+              "excerpt": "(hover: none)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "hover",
+                "none"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "[inert]",
+          "cssText": "[inert] { interactivity: auto !important; }",
+          "urls": [],
+          "group": "(hover: none)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "hover",
+              "semanticGroup": "input capability",
+              "claim": "hover capability",
+              "excerpt": "(hover: none)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "hover",
+                "none"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "body .off-canvas-wrapper",
+          "cssText": "body .off-canvas-wrapper { filter: none !important; }",
+          "urls": [],
+          "group": "(hover: none)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "hover",
+              "semanticGroup": "input capability",
+              "claim": "hover capability",
+              "excerpt": "(hover: none)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "hover",
+                "none"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "body.org [inert]",
+          "cssText": "body.org [inert] { interactivity: auto !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "body.no-scroll",
+          "cssText": "body.no-scroll { overflow-y: scroll; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".modal-window__close, .modal-window__close:hover, .modal-window__close:focus",
+          "cssText": ".modal-window__close, .modal-window__close:hover, .modal-window__close:focus { background-image: url(\"https://mkt-static.bitly.com/static/1761593096/pages/wp-content/uploads/2025/08/close.svg\"); background-size: 100%; background-repeat: no-repeat; background-color: transparent; position: absolute; right: 40px; top: 25px; }",
+          "urls": [
+            "https://mkt-static.bitly.com/static/1761593096/pages/wp-content/uploads/2025/08/close.svg"
+          ],
+          "group": "",
+          "sources": [],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "https://mkt-static.bitly.com/static/1761593096/pages/wp-content/uploads/2025/08/close.svg"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".modal-window__close.-image::after",
+          "cssText": ".modal-window__close.-image::after { content: \" \"; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".modal-window__wrapper.has-overlay",
+          "cssText": ".modal-window__wrapper.has-overlay { background-color: rgba(214, 210, 201, 0.7); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".modal-window__content",
+          "cssText": ".modal-window__content { left: 50%; top: 50%; overflow: hidden; width: 90%; transform: translate(-50%, -50%); max-width: 800px; outline: none; border-radius: 36px; border: 1px solid rgb(146, 144, 138); background: rgb(255, 253, 248); padding: 0px; box-shadow: rgba(146, 144, 138, 0.25) 0px 4px 16px 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (max-height: 530px) {\n  .modal-window__content { height: 100%; overflow: scroll; }\n}",
+          "urls": [],
+          "group": "(max-height: 530px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "height",
+              "semanticGroup": "geometry",
+              "claim": "viewport height",
+              "excerpt": "(max-height: 530px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-height",
+                "530px",
+                "530",
+                "height"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".modal-window__content",
+          "cssText": ".modal-window__content { height: 100%; overflow: scroll; }",
+          "urls": [],
+          "group": "(max-height: 530px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "height",
+              "semanticGroup": "geometry",
+              "claim": "viewport height",
+              "excerpt": "(max-height: 530px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-height",
+                "530px",
+                "530",
+                "height"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".exit-modal",
+          "cssText": ".exit-modal { padding: 16px 0px; background-color: rgb(255, 253, 248); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".exit-modal .modal-text img.modal-image",
+          "cssText": ".exit-modal .modal-text img.modal-image { margin-bottom: 8px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (max-width: 639px) {\n  .exit-modal .modal-text { padding-left: 6px; padding-right: 6px; }\n}",
+          "urls": [],
+          "group": "(max-width: 639px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 639px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "639px",
+                "639",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".exit-modal .modal-text",
+          "cssText": ".exit-modal .modal-text { padding-left: 6px; padding-right: 6px; }",
+          "urls": [],
+          "group": "(max-width: 639px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 639px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "639px",
+                "639",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".exit-modal .preheading",
+          "cssText": ".exit-modal .preheading { color: rgb(119, 117, 112); margin: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".exit-modal p.p-1",
+          "cssText": ".exit-modal p.p-1 { font-size: 18px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".exit-modal ul",
+          "cssText": ".exit-modal ul { margin: 0px; padding: 0px 0px 0px 15px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".exit-modal li",
+          "cssText": ".exit-modal li { color: rgb(3, 31, 57); line-height: 20px; margin-bottom: 12px; position: relative; letter-spacing: 0.5px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".exit-modal li strong",
+          "cssText": ".exit-modal li strong { color: rgb(3, 31, 57); font-weight: 600; font-family: \"Bitly Display Regular\", \"Helvetica Neue\", Helvetica, Arial, sans-serif; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".exit-modal li img",
+          "cssText": ".exit-modal li img { position: absolute; left: 0px; top: 50%; transform: translateY(-50%); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".exit-modal .modal-side-img img",
+          "cssText": ".exit-modal .modal-side-img img { border-radius: 24px; background-color: rgb(238, 234, 227); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".exit-modal .btn",
+          "cssText": ".exit-modal .btn { margin: 12px 0px 6px; font-size: 18px; height: 40px; border-radius: 8px; padding-top: 8px; padding-bottom: 8px; font-weight: 500; line-height: 20px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (max-width: 639px) {\n  .exit-modal .btn { display: block; }\n}",
+          "urls": [],
+          "group": "(max-width: 639px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 639px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "639px",
+                "639",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".exit-modal .btn",
+          "cssText": ".exit-modal .btn { display: block; }",
+          "urls": [],
+          "group": "(max-width: 639px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(max-width: 639px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "max-width",
+                "639px",
+                "639",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".exit-modal .p-small",
+          "cssText": ".exit-modal .p-small { color: rgb(119, 117, 112); font-size: 12px; line-height: 1; margin: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".exit-modal .p-small img",
+          "cssText": ".exit-modal .p-small img { vertical-align: text-bottom; margin-right: 2px; margin-top: 1px; margin-bottom: -2px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".modal-window__close",
+          "cssText": ".modal-window__close { background-image: url(\"https://mkt-static.bitly.com/static/1761593096/pages/wp-content/uploads/2025/08/close.svg\"); background-size: 100%; background-repeat: no-repeat; }",
+          "urls": [
+            "https://mkt-static.bitly.com/static/1761593096/pages/wp-content/uploads/2025/08/close.svg"
+          ],
+          "group": "",
+          "sources": [],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "https://mkt-static.bitly.com/static/1761593096/pages/wp-content/uploads/2025/08/close.svg"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".exit-modal .preheading",
+          "cssText": ".exit-modal .preheading { font-size: 18px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".exit-modal h4",
+          "cssText": ".exit-modal h4 { padding-top: 10px; padding-bottom: 4px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".exit-modal ul",
+          "cssText": ".exit-modal ul { padding-left: 32px; padding-bottom: 4px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".exit-modal li",
+          "cssText": ".exit-modal li { letter-spacing: 0.1px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 7,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".announcements p",
+          "cssText": ".announcements p { display: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "html[lang=\"en-US\"] .announcements p.show-for-en",
+          "cssText": "html[lang=\"en-US\"] .announcements p.show-for-en { display: block !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "html[lang=\"de-DE\"] .announcements p.show-for-de",
+          "cssText": "html[lang=\"de-DE\"] .announcements p.show-for-de { display: block !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "html[lang=\"fr-Fr\"] .announcements p.show-for-fr",
+          "cssText": "html[lang=\"fr-Fr\"] .announcements p.show-for-fr { display: block !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "html[lang=\"es-ES\"] .announcements p.show-for-es",
+          "cssText": "html[lang=\"es-ES\"] .announcements p.show-for-es { display: block !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "html[lang=\"it-IT\"] .announcements p.show-for-it",
+          "cssText": "html[lang=\"it-IT\"] .announcements p.show-for-it { display: block !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".page-template-landing-pages-promo .page-bottom.widget.widget_icl_lang_sel_widget",
+          "cssText": ".page-template-landing-pages-promo .page-bottom.widget.widget_icl_lang_sel_widget { display: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 1,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".pricing-tables.version-v2 .plan-column.free .plan-name::after",
+          "cssText": ".pricing-tables.version-v2 .plan-column.free .plan-name::after { content: \"With ads\"; color: rgb(255, 255, 255); background-color: rgb(3, 31, 57); display: inline-block; padding: 0px 5px; border-radius: 3px; font-size: 10px; margin-left: 10px; text-transform: none; font-weight: 400; vertical-align: top; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 13,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": "section.background-no-repeat",
+          "cssText": "section.background-no-repeat { background-position: center 10%; background-repeat: no-repeat; background-size: 60%; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".free-hook-block",
+          "cssText": ".free-hook-block { margin-top: 83px; padding-top: 5.3vw; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (min-width: 1100px) {\n  .redesign-2024 section.free-hook-block { padding-bottom: 142.5px; }\n}",
+          "urls": [],
+          "group": "(min-width: 1100px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 1100px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1100px",
+                "1100",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".redesign-2024 section.free-hook-block",
+          "cssText": ".redesign-2024 section.free-hook-block { padding-bottom: 142.5px; }",
+          "urls": [],
+          "group": "(min-width: 1100px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 1100px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "1100px",
+                "1100",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".redesign-2024 section.free-hook-block .block-intro",
+          "cssText": ".redesign-2024 section.free-hook-block .block-intro { padding-bottom: 36px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".redesign-2024 section.free-hook-block .block-intro .h2, .redesign-2024 section.free-hook-block .block-intro .p0",
+          "cssText": ".redesign-2024 section.free-hook-block .block-intro .h2, .redesign-2024 section.free-hook-block .block-intro .p0 { color: rgb(255, 253, 248); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".redesign-2024 .cards-block .block-intro .preheading",
+          "cssText": ".redesign-2024 .cards-block .block-intro .preheading { color: rgb(119, 117, 112); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".cards-block .btn-group",
+          "cssText": ".cards-block .btn-group { display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 16px 24px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (min-width: 560px) {\n  .cards-block .btn-group { flex-direction: row; }\n}",
+          "urls": [],
+          "group": "(min-width: 560px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 560px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "560px",
+                "560",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".cards-block .btn-group",
+          "cssText": ".cards-block .btn-group { flex-direction: row; }",
+          "urls": [],
+          "group": "(min-width: 560px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 560px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "560px",
+                "560",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSMediaRule",
+          "selector": "",
+          "cssText": "@media (min-width: 768px) {\n  section.text-content.gallery-row { padding-bottom: 3em; }\n  .redesign-2024 .cards-block .block-intro .preheading { font-size: 20px; }\n}",
+          "urls": [],
+          "group": "(min-width: 768px)",
+          "sources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 768px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "768px",
+                "768",
+                "width"
+              ]
+            }
+          ],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "section.text-content.gallery-row",
+          "cssText": "section.text-content.gallery-row { padding-bottom: 3em; }",
+          "urls": [],
+          "group": "(min-width: 768px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 768px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "768px",
+                "768",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".redesign-2024 .cards-block .block-intro .preheading",
+          "cssText": ".redesign-2024 .cards-block .block-intro .preheading { font-size: 20px; }",
+          "urls": [],
+          "group": "(min-width: 768px)",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": [
+            {
+              "reason": "keyword_match",
+              "category": "@media",
+              "keyword": "width",
+              "semanticGroup": "geometry",
+              "claim": "viewport width",
+              "excerpt": "(min-width: 768px)",
+              "requiresEcho": true,
+              "echoTokens": [
+                "min-width",
+                "768px",
+                "768",
+                "width"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "inaccessible": [
+    "https://mkt-static.bitly.com/static/1761593096/pages/wp-content/cache/fvm/min/1761327395-cssc740199c1ed564d3382d78124a43efc6e91803f7569b4e32c25e4ad09ea9d.css",
+    "https://mkt-static.bitly.com/static/1761593096/pages/wp-content/cache/fvm/min/1761327395-css337e01d07b518e0011a27ab5fcd78659fd47d29e32e5a77b83e13628dc6c4.css",
+    "https://cdn.userway.org/styles/2025-10-28-13-04-58/widget_base.css?v=1761656698068"
+  ],
+  "styleTags": 17,
+  "inlineStyleCount": 76,
+  "associations": [],
+  "summary": {
+    "sheetsAccessible": 17,
+    "sheetsInaccessible": 3,
+    "totalRulesScanned": 177,
+    "totalSinks": 3,
+    "totalSources": 33,
+    "totalAssociations": 0,
+    "totalCapped": false
+  },
+  "likelyFingerprinting": false,
+  "verdict": "likely not fingerprinting",
+  "claims": [],
+  "claimDetails": [],
+  "riskScore": 0,
+  "riskLevel": "none"
+}

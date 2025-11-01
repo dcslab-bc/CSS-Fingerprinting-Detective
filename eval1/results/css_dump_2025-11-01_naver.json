@@ -1,0 +1,38 @@
+{
+  "page": "https://www.naver.com/",
+  "timestamp": 1761996435233,
+  "sheets": [
+    {
+      "href": "https://ssl.pstatic.net/sstatic/search/pc/css/sp_autocomplete_251001.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://pm.pstatic.net/resources/css/main.02758667.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    }
+  ],
+  "inaccessible": [
+    "https://ssl.pstatic.net/sstatic/search/pc/css/sp_autocomplete_251001.css",
+    "https://pm.pstatic.net/resources/css/main.02758667.css"
+  ],
+  "styleTags": 0,
+  "inlineStyleCount": 56,
+  "associations": [],
+  "summary": {
+    "sheetsAccessible": 0,
+    "sheetsInaccessible": 2,
+    "totalRulesScanned": 0,
+    "totalSinks": 0,
+    "totalSources": 0,
+    "totalAssociations": 0,
+    "totalCapped": false
+  },
+  "likelyFingerprinting": false,
+  "verdict": "likely not fingerprinting",
+  "claims": [],
+  "claimDetails": [],
+  "riskScore": 0,
+  "riskLevel": "none"
+}

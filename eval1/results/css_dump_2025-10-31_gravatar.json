@@ -1,0 +1,113 @@
+{
+  "page": "https://gravatar.com/",
+  "timestamp": 1761885686645,
+  "sheets": [
+    {
+      "href": "(inline <style>)",
+      "rules": 3,
+      "rulesList": [
+        {
+          "type": "CSSFontFaceRule",
+          "selector": "",
+          "cssText": "@font-face { font-family: \"Roboto Mono\"; font-style: normal; font-weight: 400; font-display: swap; src: url(\"/fonts/L0xTDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vrtSM1J-gEPT5Ese6hmHSh0me8iUI0.woff2\"); }",
+          "urls": [
+            "/fonts/l0xtdf4xlvmf-bfr8bxmihjhg45mwggefl0_3vrtsm1j-gept5ese6hmhsh0me8iui0.woff2"
+          ],
+          "group": "",
+          "sources": [],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "/fonts/l0xtdf4xlvmf-bfr8bxmihjhg45mwggefl0_3vrtsm1j-gept5ese6hmhsh0me8iui0.woff2"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSFontFaceRule",
+          "selector": "",
+          "cssText": "@font-face { font-family: Inter; font-style: normal; font-weight: 900; font-display: swap; src: url(\"/fonts/Inter.ttf\") format(\"truetype\"); }",
+          "urls": [
+            "/fonts/inter.ttf"
+          ],
+          "group": "",
+          "sources": [],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "/fonts/inter.ttf"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSFontFaceRule",
+          "selector": "",
+          "cssText": "@font-face { font-family: \"Varela Round\"; font-style: normal; font-weight: 400; font-display: swap; src: url(\"/fonts/w8gdH283Tvk__Lua32TysjIfp8uPLdshZg.woff2\") format(\"woff2\"), url(\"/fonts/w8gdH283Tvk__Lua32TysjIvoA.ttf\") format(\"truetype\"); }",
+          "urls": [
+            "/fonts/w8gdh283tvk__lua32tysjifp8upldshzg.woff2",
+            "/fonts/w8gdh283tvk__lua32tysjivoa.ttf"
+          ],
+          "group": "",
+          "sources": [],
+          "sinks": [
+            {
+              "reason": "url_sink",
+              "urls": [
+                "/fonts/w8gdh283tvk__lua32tysjifp8upldshzg.woff2",
+                "/fonts/w8gdh283tvk__lua32tysjivoa.ttf"
+              ]
+            }
+          ],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "https://s.gravatar.com/css/landing-page/landing-page.css?ver=49bfa7c6f9d5f6e34f72",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 1,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": "#ccpa-donotsell",
+          "cssText": "#ccpa-donotsell { display: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    }
+  ],
+  "inaccessible": [
+    "https://s.gravatar.com/css/landing-page/landing-page.css?ver=49bfa7c6f9d5f6e34f72"
+  ],
+  "styleTags": 2,
+  "inlineStyleCount": 6,
+  "associations": [],
+  "summary": {
+    "sheetsAccessible": 2,
+    "sheetsInaccessible": 1,
+    "totalRulesScanned": 4,
+    "totalSinks": 3,
+    "totalSources": 0,
+    "totalAssociations": 0,
+    "totalCapped": false
+  },
+  "likelyFingerprinting": false,
+  "verdict": "likely not fingerprinting",
+  "claims": [],
+  "claimDetails": [],
+  "riskScore": 0,
+  "riskLevel": "none"
+}

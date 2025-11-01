@@ -1,0 +1,838 @@
+{
+  "page": "https://vimeo.com/",
+  "timestamp": 1761884631179,
+  "sheets": [
+    {
+      "href": "https://f.vimeocdn.com/cms/_next/static/css/90d811d497b4eaad.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://f.vimeocdn.com/cms/_next/static/css/efc6d7ac74b805c3.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://f.vimeocdn.com/cms/_next/static/css/ae34698ad98c79d0.css",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "https://fonts.googleapis.com/css2?family=Fragment+Mono&display=swap",
+      "rules": "inaccessible",
+      "rulesList": []
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 24,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": "*, ::before, ::after",
+          "cssText": "*, ::before, ::after { box-sizing: inherit; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "html",
+          "cssText": "html { box-sizing: border-box; color: rgb(35, 49, 59); text-size-adjust: 100%; font-size: 16px; -webkit-font-smoothing: antialiased; font-variant-numeric: lining-nums; font-feature-settings: \"lnum\"; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "#root",
+          "cssText": "#root { min-height: calc(-100px + 100vh); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "body, form",
+          "cssText": "body, form { margin: 0px; padding: 0px; overscroll-behavior-y: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "button, input",
+          "cssText": "button, input { font-family: var(--font-ABCRepro),var(--font-InterTight),sans-serif; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "blockquote, button, dl, dd, h1, h2, h3, h4, h5, h6, figure, p, pre",
+          "cssText": "blockquote, button, dl, dd, h1, h2, h3, h4, h5, h6, figure, p, pre { margin: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "h1, h2, h3, h4, h5, h6",
+          "cssText": "h1, h2, h3, h4, h5, h6 { font-weight: 500; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "h1",
+          "cssText": "h1 { letter-spacing: -0.06em; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "h2, h3, h4, h5",
+          "cssText": "h2, h3, h4, h5 { letter-spacing: -0.05em; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "h6",
+          "cssText": "h6 { letter-spacing: -0.04em; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "p:first-child, p",
+          "cssText": "p:first-child, p { margin-top: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "img",
+          "cssText": "img { border: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "fieldset, legend",
+          "cssText": "fieldset, legend { margin: 0px; padding: 0px; border: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "acronym",
+          "cssText": "acronym { cursor: help; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "time",
+          "cssText": "time { cursor: default; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "em",
+          "cssText": "em { font-style: italic; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "sup",
+          "cssText": "sup { vertical-align: top; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".show",
+          "cssText": ".show { display: flex; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".show_block",
+          "cssText": ".show_block { display: block; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".rotate_arrow",
+          "cssText": ".rotate_arrow { transform: rotate(-180deg); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "[tabindex=\"-1\"]:focus",
+          "cssText": "[tabindex=\"-1\"]:focus { outline: none !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "ol, ul",
+          "cssText": "ol, ul { list-style-type: none; margin: 0px; padding: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "a",
+          "cssText": "a { color: inherit; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "body.no-scroll",
+          "cssText": "body.no-scroll { overflow: hidden; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 13,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": ".rfm-marquee-container",
+          "cssText": ".rfm-marquee-container { overflow-x: hidden; display: flex; flex-direction: row; position: relative; width: var(--width); transform: var(--transform); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".rfm-marquee-container:hover div",
+          "cssText": ".rfm-marquee-container:hover div { animation-play-state: var(--pause-on-hover); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".rfm-marquee-container:active div",
+          "cssText": ".rfm-marquee-container:active div { animation-play-state: var(--pause-on-click); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".rfm-overlay",
+          "cssText": ".rfm-overlay { position: absolute; width: 100%; height: 100%; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".rfm-overlay::before, .rfm-overlay::after",
+          "cssText": ".rfm-overlay::before, .rfm-overlay::after { background: linear-gradient(to right, var(--gradient-color), rgba(255, 255, 255, 0)); content: \"\"; height: 100%; position: absolute; width: var(--gradient-width); z-index: 2; pointer-events: none; touch-action: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".rfm-overlay::after",
+          "cssText": ".rfm-overlay::after { right: 0px; top: 0px; transform: rotateZ(180deg); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".rfm-overlay::before",
+          "cssText": ".rfm-overlay::before { left: 0px; top: 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".rfm-marquee",
+          "cssText": ".rfm-marquee { flex: 0 0 auto; min-width: var(--min-width); z-index: 1; display: flex; flex-direction: row; align-items: center; animation-duration: ; animation-timing-function: ; animation-iteration-count: ; animation-fill-mode: ; animation-name: ; animation-timeline: ; animation-range-start: ; animation-range-end: ; animation-play-state: var(--play); animation-delay: var(--delay); animation-direction: var(--direction); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSKeyframesRule",
+          "selector": "",
+          "cssText": "@keyframes scroll { \n  0% { transform: translateX(0%); }\n  100% { transform: translateX(-100%); }\n}",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSKeyframeRule",
+          "selector": "",
+          "cssText": "0% { transform: translateX(0%); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSKeyframeRule",
+          "selector": "",
+          "cssText": "100% { transform: translateX(-100%); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".rfm-initial-child-container",
+          "cssText": ".rfm-initial-child-container { flex: 0 0 auto; display: flex; min-width: auto; flex-direction: row; align-items: center; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".rfm-child",
+          "cssText": ".rfm-child { transform: var(--transform); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    },
+    {
+      "href": "(inline <style>)",
+      "rules": 40,
+      "rulesList": [
+        {
+          "type": "CSSStyleRule",
+          "selector": "div.eapps-widget",
+          "cssText": "div.eapps-widget { position: relative; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": "div.eapps-widget.eapps-widget-show-toolbar::before",
+          "cssText": "div.eapps-widget.eapps-widget-show-toolbar::before { position: absolute; content: \"\"; display: block; inset: 0px; pointer-events: none; border: 1px solid transparent; transition: border 0.3s; z-index: 1; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eapps-widget-toolbar",
+          "cssText": ".eapps-widget-toolbar { position: absolute; top: -32px; left: 0px; right: 0px; display: block; z-index: 99999; padding-bottom: 4px; transition: 0.3s; pointer-events: none; opacity: 0; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eapps-widget:hover .eapps-widget-toolbar",
+          "cssText": ".eapps-widget:hover .eapps-widget-toolbar { opacity: 1; pointer-events: auto; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eapps-widget-toolbar a",
+          "cssText": ".eapps-widget-toolbar a { text-decoration: none; box-shadow: none !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eapps-widget-toolbar-panel",
+          "cssText": ".eapps-widget-toolbar-panel { border-radius: 6px; background-color: rgb(34, 34, 34); color: rgb(255, 255, 255); display: inline-flex; align-items: center; top: 0px; position: relative; transition: 0.3s; opacity: 0; overflow: hidden; backface-visibility: hidden; box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px; height: 28px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eapps-widget:hover .eapps-widget-toolbar-panel",
+          "cssText": ".eapps-widget:hover .eapps-widget-toolbar-panel { opacity: 1; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eapps-widget-toolbar-panel-wrapper",
+          "cssText": ".eapps-widget-toolbar-panel-wrapper { width: 100%; position: relative; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eapps-widget-toolbar-panel-only-you",
+          "cssText": ".eapps-widget-toolbar-panel-only-you { position: absolute; top: -24px; font-size: 11px; line-height: 14px; color: rgb(156, 156, 156); padding: 5px 4px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eapps-widget-toolbar-panel-logo",
+          "cssText": ".eapps-widget-toolbar-panel-logo { width: 28px; height: 28px; border-right: 1px solid rgba(255, 255, 255, 0.2); display: flex; align-items: center; justify-content: center; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eapps-widget-toolbar-panel-logo svg",
+          "cssText": ".eapps-widget-toolbar-panel-logo svg { display: block; width: 15px; height: 15px; fill: rgb(249, 50, 98); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eapps-widget-toolbar-panel-edit",
+          "cssText": ".eapps-widget-toolbar-panel-edit { font-size: 12px; font-weight: 400; line-height: 14px; display: inline-flex; align-items: center; padding: 9px; border-right: 1px solid rgba(255, 255, 255, 0.2); color: rgb(255, 255, 255); text-decoration: none; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eapps-widget-toolbar-panel-edit-icon",
+          "cssText": ".eapps-widget-toolbar-panel-edit-icon { width: 14px; height: 14px; margin-right: 8px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eapps-widget-toolbar-panel-edit-icon svg",
+          "cssText": ".eapps-widget-toolbar-panel-edit-icon svg { display: block; width: 100%; height: 100%; fill: rgb(255, 255, 255); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eapps-widget-toolbar-panel-views",
+          "cssText": ".eapps-widget-toolbar-panel-views { display: inline-flex; justify-content: center; align-items: center; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eapps-widget-toolbar-panel-views-label",
+          "cssText": ".eapps-widget-toolbar-panel-views-label { font-size: 12px; font-weight: 400; line-height: 14px; margin-left: 8px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eapps-widget-toolbar-panel-views-bar",
+          "cssText": ".eapps-widget-toolbar-panel-views-bar { display: inline-flex; width: 70px; height: 3px; border-radius: 2px; margin-left: 8px; background-color: rgba(255, 255, 255, 0.3); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eapps-widget-toolbar-panel-views-bar-inner",
+          "cssText": ".eapps-widget-toolbar-panel-views-bar-inner { border-radius: 2px; background-color: rgb(74, 213, 4); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eapps-widget-toolbar-panel-views-green .eapps-widget-toolbar-panel-views-bar-inner",
+          "cssText": ".eapps-widget-toolbar-panel-views-green .eapps-widget-toolbar-panel-views-bar-inner { background-color: rgb(74, 213, 4); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eapps-widget-toolbar-panel-views-red .eapps-widget-toolbar-panel-views-bar-inner",
+          "cssText": ".eapps-widget-toolbar-panel-views-red .eapps-widget-toolbar-panel-views-bar-inner { background-color: rgb(255, 71, 52); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eapps-widget-toolbar-panel-views-orange .eapps-widget-toolbar-panel-views-bar-inner",
+          "cssText": ".eapps-widget-toolbar-panel-views-orange .eapps-widget-toolbar-panel-views-bar-inner { background-color: rgb(255, 180, 0); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eapps-widget-toolbar-panel-views-percent",
+          "cssText": ".eapps-widget-toolbar-panel-views-percent { display: inline-flex; margin-left: 8px; margin-right: 8px; font-size: 12px; font-weight: 400; line-height: 14px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eapps-widget-toolbar-panel-views-get-more",
+          "cssText": ".eapps-widget-toolbar-panel-views-get-more { padding: 9px 16px; background-color: rgb(249, 50, 98); color: rgb(255, 255, 255); font-size: 12px; font-weight: 400; border-radius: 0px 6px 6px 0px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eapps-widget-toolbar-panel-share",
+          "cssText": ".eapps-widget-toolbar-panel-share { position: absolute; top: 0px; display: inline-block; margin-left: 8px; width: 83px; height: 28px; padding-bottom: 4px; box-sizing: content-box !important; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eapps-widget-toolbar-panel-share:hover .eapps-widget-toolbar-panel-share-block",
+          "cssText": ".eapps-widget-toolbar-panel-share:hover .eapps-widget-toolbar-panel-share-block { opacity: 1; pointer-events: all; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eapps-widget-toolbar-panel-share-button",
+          "cssText": ".eapps-widget-toolbar-panel-share-button { padding: 0px 18px; height: 28px; background-color: rgb(28, 145, 255); color: rgb(255, 255, 255); font-size: 12px; font-weight: 400; border-radius: 6px; position: absolute; top: 0px; display: flex; flex-direction: row; cursor: default; align-items: center; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eapps-widget-toolbar-panel-share-button svg",
+          "cssText": ".eapps-widget-toolbar-panel-share-button svg { display: inline-block; margin-right: 6px; fill: rgb(255, 255, 255); position: relative; top: -1px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eapps-widget-toolbar-panel-share-block",
+          "cssText": ".eapps-widget-toolbar-panel-share-block { position: absolute; background: rgb(255, 255, 255); border: 1px solid rgba(18, 18, 18, 0.1); border-radius: 10px; width: 209px; top: 32px; transform: translateX(-63px); opacity: 0; pointer-events: none; transition: 0.3s; box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 6px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eapps-widget-toolbar-panel-share-block:hover",
+          "cssText": ".eapps-widget-toolbar-panel-share-block:hover { opacity: 1; pointer-events: all; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eapps-widget-toolbar-panel-share-block-text",
+          "cssText": ".eapps-widget-toolbar-panel-share-block-text { color: rgb(17, 17, 17); font-size: 15px; font-weight: 400; padding: 12px 0px; text-align: center; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eapps-widget-toolbar-panel-share-block-text-icon",
+          "cssText": ".eapps-widget-toolbar-panel-share-block-text-icon { padding-bottom: 4px; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eapps-widget-toolbar-panel-share-block-actions",
+          "cssText": ".eapps-widget-toolbar-panel-share-block-actions { display: flex; flex-direction: row; border-top: 1px solid rgba(18, 18, 18, 0.1); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eapps-widget-toolbar-panel-share-block-actions-item",
+          "cssText": ".eapps-widget-toolbar-panel-share-block-actions-item { width: 33.3333%; display: flex; justify-content: center; align-items: center; height: 39px; transition: 0.3s; background-color: transparent; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eapps-widget-toolbar-panel-share-block-actions-item:hover",
+          "cssText": ".eapps-widget-toolbar-panel-share-block-actions-item:hover { background-color: rgb(250, 250, 250); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eapps-widget-toolbar-panel-share-block-actions-item a",
+          "cssText": ".eapps-widget-toolbar-panel-share-block-actions-item a { width: 100%; height: 100%; display: flex; justify-content: center; align-items: center; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eapps-widget-toolbar-panel-share-block-actions-item-icon",
+          "cssText": ".eapps-widget-toolbar-panel-share-block-actions-item-icon { width: 16px; height: 16px; display: block; }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eapps-widget-toolbar-panel-share-block-actions-item-facebook .eapps-widget-toolbar-panel-share-block-actions-item-icon",
+          "cssText": ".eapps-widget-toolbar-panel-share-block-actions-item-facebook .eapps-widget-toolbar-panel-share-block-actions-item-icon { fill: rgb(60, 90, 155); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eapps-widget-toolbar-panel-share-block-actions-item-twitter .eapps-widget-toolbar-panel-share-block-actions-item-icon",
+          "cssText": ".eapps-widget-toolbar-panel-share-block-actions-item-twitter .eapps-widget-toolbar-panel-share-block-actions-item-icon { fill: rgb(26, 178, 232); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eapps-widget-toolbar-panel-share-block-actions-item-google .eapps-widget-toolbar-panel-share-block-actions-item-icon",
+          "cssText": ".eapps-widget-toolbar-panel-share-block-actions-item-google .eapps-widget-toolbar-panel-share-block-actions-item-icon { fill: rgb(221, 75, 57); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        },
+        {
+          "type": "CSSStyleRule",
+          "selector": ".eapps-widget-toolbar-panel-share-block-actions-item:not(:last-child)",
+          "cssText": ".eapps-widget-toolbar-panel-share-block-actions-item:not(:last-child) { border-right: 1px solid rgba(18, 18, 18, 0.1); }",
+          "urls": [],
+          "group": "",
+          "sources": [],
+          "sinks": [],
+          "inheritedSources": []
+        }
+      ]
+    }
+  ],
+  "inaccessible": [
+    "https://f.vimeocdn.com/cms/_next/static/css/90d811d497b4eaad.css",
+    "https://f.vimeocdn.com/cms/_next/static/css/efc6d7ac74b805c3.css",
+    "https://f.vimeocdn.com/cms/_next/static/css/ae34698ad98c79d0.css",
+    "https://fonts.googleapis.com/css2?family=Fragment+Mono&display=swap"
+  ],
+  "styleTags": 3,
+  "inlineStyleCount": 306,
+  "associations": [],
+  "summary": {
+    "sheetsAccessible": 3,
+    "sheetsInaccessible": 4,
+    "totalRulesScanned": 77,
+    "totalSinks": 0,
+    "totalSources": 0,
+    "totalAssociations": 0,
+    "totalCapped": false
+  },
+  "likelyFingerprinting": false,
+  "verdict": "likely not fingerprinting",
+  "claims": [],
+  "claimDetails": [],
+  "riskScore": 0,
+  "riskLevel": "none"
+}

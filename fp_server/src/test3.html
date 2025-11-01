@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Simple Site</title>
+<style>
+.box {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border: 1px #AAA dashed;
+  font-family: MyFont;
+}
+
+/* Check dark mode preference */
+@media (prefers-color-scheme: dark) {
+  #d1 {
+    background-image: url('verify_dark.jpg');
+  }
+  #d1::before {
+    content: "dark";
+    position: absolute;
+    top: 70%;
+    left: 10%;
+  }
+}
+
+/* Check touch-based device (e.g. mobile) */
+@media (hover: none) and (pointer: coarse) {
+  #d2 {
+    position: relative;
+    background-image: url('verify_touch.jpg');
+  }
+  #d2::before {
+    content: "touch";
+    position: absolute;
+    top: 70%;
+    left: 10%;
+  }
+}
+
+/* Check display's width/height ratio */
+@media screen and (orientation: portrait) {
+  #d3 {
+    position: relative;
+    background-image: url('verify_portrait.jpg');
+  }
+  #d3::before {
+    content: "portrait";
+    position: absolute;
+    top: 70%;
+    left: 10%;
+  }
+}
+
+/* Check screen's resolution */
+@media screen and (min-resolution: 192dpi) {
+  #d4 {
+    position: relative;
+    background-image: url('verify_high_resolution.jpg');
+  }
+  #d4::before {
+    content: "high res";
+    position: absolute;
+    top: 70%;
+    left: 10%;
+  }
+}
+
+/* Check app's execution environment */
+@media (display-mode: browser) {
+  #d5 {
+    position: relative;
+    background-image: url('verify_browser.jpg');
+  }
+  #d5::before {
+    content: "browser";
+    position: absolute;
+    top: 70%;
+    left: 10%;
+  }
+}
+@media (display-mode: standalone) {
+  #d5 {
+    position: relative;
+    background-image: url('verify_standalone.jpg');
+  }
+  #d5::before {
+    content: "standalone";
+    position: absolute;
+    top: 70%;
+    left: 10%;
+  }
+}
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+}
+
+@supports (-webkit-appearance: none) {
+  #d6 {
+    position: relative;
+    background-image: url('verify_webkit.jpg');
+  }
+  #d6::before {
+    content: "webkit";
+    position: absolute;
+    top: 70%;
+    left: 10%;
+  }
+}
+
+@media (update: slow) {
+  #d8 {
+    position: relative;
+    background-image: url('verify_slow_display.jpg');
+  }
+  #d8::before {
+    content: "slow";
+    position: absolute;
+    top: 70%;
+    left: 10%;
+  }
+}
+
+/* Check screen's width */
+/* width: less than 800px */
+@media screen and (max-width: 799px) {
+  #d10 {
+    position: relative;
+    background-image: url('verify_width_799.jpg');
+  }
+  #d10::before {
+    content: "w:799px";
+    position: absolute;
+    top: 70%;
+    left: 10%;
+  }
+}
+
+/* width: 808px ~ 1023px */
+@media screen and (min-width: 800px) and (max-width: 1023px) {
+  #d10 {
+    position: relative;
+    background-image: url('verify_width_800.jpg');
+  }
+  #d10::before {
+    content: "w:800px";
+    position: absolute;
+    top: 70%;
+    left: 10%;
+  }
+}
+
+/* width: 1024px ~ 1279px */
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  #d10 {
+    position: relative;
+    background-image: url('verify_width_1024.jpg');
+  }
+  #d10::before {
+    content: "w:1024px";
+    position: absolute;
+    top: 70%;
+    left: 10%;
+  }
+}
+
+/* width: 1280px ~ 1439px */
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+  #d10 {
+    position: relative;
+    background-image: url('verify_width_1280.jpg');
+  }
+  #d10::before {
+    content: "w:1280px";
+    position: absolute;
+    top: 70%;
+    left: 10%;
+  }
+}
+
+/* width: 1440px ~ 1599px */
+@media screen and (min-width: 1440px) and (max-width: 1599px) {
+  #d10 {
+    position: relative;
+    background-image: url('verify_width_1440.jpg');
+  }
+  #d10::before {
+    content: "w:1440px";
+    position: absolute;
+    top: 70%;
+    left: 10%;
+  }
+}
+
+/* width: 1600px ~ 1919px */
+@media screen and (min-width: 1600px) and (max-width: 1919px) {
+  #d10 {
+    position: relative;
+    background-image: url('verify_width_1600.jpg');
+  }
+  #d10::before {
+    content: "w:1600px";
+    position: absolute;
+    top: 70%;
+    left: 10%;
+  }
+}
+
+/* width: 1920px ~ 2559px */
+@media screen and (min-width: 1920px) and (max-width: 2559px) {
+  #d10 {
+    position: relative;
+    background-image: url('verify_width_1920.jpg');
+  }
+  #d10::before {
+    content: "w:1920px";
+    position: absolute;
+    top: 70%;
+    left: 10%;
+  }
+}
+
+/* width: 2560px ~ 3839px */
+@media screen and (min-width: 2560px) and (max-width: 3839px) {
+  #d10 {
+    position: relative;
+    background-image: url('verify_width_2560.jpg');
+  }
+  #d10::before {
+    content: "w:2560px";
+    position: absolute;
+    top: 70%;
+    left: 10%;
+  }
+}
+
+/* width: more than 3840px */
+@media screen and (min-width: 3840px) {
+  #d10 {
+    background-image: url('verify_width_3840.jpg');
+  }
+  #d10::before {
+    content: "w:3840px";
+    position: absolute;
+    top: 70%;
+    left: 10%;
+  }
+}
+
+</style>
+</head>
+<body>
+<div id="d1" class="box">1</div>
+<div id="d2" class="box">2</div>
+<div id="d3" class="box">3</div>
+<div id="d4" class="box">4</div>
+<div id="d5" class="box">5</div>
+<div id="d6" class="box">6</div>
+<div id="d7" class="box">7</div>
+<div id="d8" class="box">8</div>
+<div id="d9" class="box">9</div>
+<div id="d10" class="box">10</div>
+</body>
+</html>
